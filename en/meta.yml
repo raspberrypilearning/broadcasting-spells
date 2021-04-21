@@ -1,11 +1,22 @@
-title: broadcasting-spells
+title: Broadcasting spells
 hero_image: images/banner.png
-description: broadcasting-spells description
+description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
 version: 4
 listed: false
 copyedit: false
-last_tested: "2021-04-21"
+last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Choosing your wand
+  - title: The shrinking spell
+  - title: The growing spell
+  - title: Toad transformation
+  - title: Add another character
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your project
   - title: What next?
