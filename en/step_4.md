@@ -25,7 +25,7 @@ Add a script to the **Wizard** sprite to grow:
 
 ```blocks3
 when I receive [grow v]
-change size by [10] / positive numbers increase the size
+change size by [10] // positive numbers increase the size
 ```
 --- /task ---
 

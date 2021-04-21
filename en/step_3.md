@@ -60,7 +60,7 @@ Add code to the Wizard sprite to shrink when it recieves a 'shrink' message:
 
 ```blocks3
 when I receive [shrink v]
-change size by [-10] / negative numbers decrease the size
+change size by [-10] // negative numbers decrease the size
 ```
 --- /task ---
 
