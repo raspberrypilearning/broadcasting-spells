@@ -90,7 +90,7 @@ play sound [toad v] until done
 
 --- /task ---
 
-The oppsite of a 'toad' spell is an 'untoad' spell.
+The opposite of a 'toad' spell is an 'untoad' spell.
 
 --- task ---
 Add a script to the **untoad** button sprite to broadcast the 'untoad' message:
@@ -105,7 +105,44 @@ broadcast [untoad v]
 
 --- task ---
 
+Add a new script to 'untoad' the Wizard sprite:
 
+![](images/wizard-icon.png)
+
+```blocks3  
+when I receive [toad v]
+switch costume to [Wizard-toad-a v]
+```
+
+--- /task ---
+
+--- task ---
+
+Select the **Wand** sprite and switch to the 'Sounds' tab.
+
+Duplicate the 'toad' sound and rename it to 'untoad'. 
+
+'Reverse' the 'untoad' sound so that it plays backwards.
+
+![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+
+--- /task ---
+
+--- task ---
+
+Add a script to the **Wand** sprite to play the 'untoad' sound:
+
+![](images/wand-icon.png)
+
+```blocks3  
+when I receive [untoad v]
+play sound [untoad v] until done
+```
+--- /task ---
+
+--- task ---
+
+**Test:** Try the 'toad' and 'untoad' spells and try 'shrink' and 'grow' when the Wizard is in toad form.
 
 --- /task ---
 
