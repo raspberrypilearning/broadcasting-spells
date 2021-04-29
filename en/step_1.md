@@ -1,14 +1,14 @@
 ## Introduction
 Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Broadcasting messages**</span> is like shouting out a message to everyone in a game. In the game Marco Polo, one person closes their eyes and counts to ten then shouts 'Marco'. The other players then shout 'Polo'. The one who shouted 'Marco' keeps their eyes closed and tries to catch one of the others, they can shout 'Marco' again to get more 'Polo' responses. The story is that the famous explorer Marco Polo once got separated from his family and they called 'Marco' and he responded with 'Polo'.
-</p>
-
 You will:
 + Click on buttons to `broadcast`{:class="block3events"} messages to other sprites
 + Get multiple sprites to respond when they `receive`{:class="block3events"} the same message
 + Use the `Sound`{:class="block3sound"} editor to reverse sounds
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Broadcasting messages**</span> is like shouting out a message to everyone in a game. In the game Marco Polo, one person closes their eyes and counts to ten then shouts 'Marco'. The other players then shout 'Polo'. The one who shouted 'Marco' keeps their eyes closed and tries to catch one of the others, they can shout 'Marco' again to get more 'Polo' responses. The story is that the famous explorer Marco Polo once got separated from his family and they called 'Marco' and he responded with 'Polo'.
+</p>
 
 --- no-print ---
 --- task ---
