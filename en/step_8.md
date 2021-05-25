@@ -32,7 +32,7 @@ You could agree more spells with a friend and both add them to your character. M
 title: Completed project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
 
 --- /collapse ---
 

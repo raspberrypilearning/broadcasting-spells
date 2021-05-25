@@ -1,13 +1,23 @@
 ## Add another character
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Get a sprite of your choice to respond to the spells. You will need to create a toad costume for the sprite and add code to change on the spell broadcast messages.
+</div>
+<div>
+![The Stage showing a second toad transformation.](images/mertoad.png){:width="300px"}
+</div>
+</div>
+
 
 --- task ---
 Duplicate the **Wizard** sprite. 
 
 ![](images/duplicate-wizard.png)
 
-Delete the 'Wizard-a' and 'Wizard-toad-a' costumes from the new sprite and add a costume of your choice.
+Delete the 'Wizard-a' and 'Wizard-toad-a' costumes. You will be left with a 'toad' costume.
+
+Add a costume of your choice to the **new sprite**. 
 
 We chose the **Batter**:
 
@@ -15,7 +25,7 @@ We chose the **Batter**:
 
 You might want to change the direction the sprite is pointing in. 
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to 'left-right' in the Sprite properties pane or using a code block.
+**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right` in the Sprite properties pane or using a code block.
 
 --- /task ---
 
@@ -23,7 +33,7 @@ You might want to change the direction the sprite is pointing in.
 
 To keep the character's feet in the same place when they grow and shrink you will need to reposition the costume above the crosshair.
 
-First use the Select (arrow) tool to draw a rectangle around the costume and then Group it. Then drag your character above the crosshair.
+First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
 
 ![](images/character2-crosshair.png)
 
@@ -68,14 +78,19 @@ Our Batter toad looks like this:
 --- /task ---
 
 --- task ---
-Switch to the 'Code' tab for your new sprite.
+Switch to the **Code** tab for your new sprite.
 
-You will need to make sure you switch to the correct costumes.
+Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
+
+You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
 
 --- /task ---
 
 --- task ---
 **Test:** Click on the spell buttons and both characters should respond to the spell broadcasts.
+
+**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+
 --- /task ---
 
 --- save ---
