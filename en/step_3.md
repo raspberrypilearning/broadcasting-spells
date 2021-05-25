@@ -16,9 +16,9 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the 'shrink' button you want the Wizard sprite to shrink. 
+When you click on the shrink button you want the **Wizard** sprite to shrink. 
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the Wizard knows that the shrink spell has been cast.
+The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Wizard** sprite knows that the shrink spell has been cast.
 
 --- task ---
 
@@ -50,11 +50,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the button, Scratch will broadcast the 'shrink' message. But nothing will happen until you get the Wizard to do something when it recieves the message.
+Now when you click on the button, Scratch will broadcast the 'shrink' message. But nothing will happen until you get the **Wizard** sprite to do something when it recieves the message.
 
 --- task ---
 
-Add code to the Wizard sprite to shrink when it recieves a 'shrink' message:
+Add code to the **Wizard** sprite to shrink when it recieves a 'shrink' message:
 
 ![](images/wizard-icon.png)
 
@@ -67,6 +67,8 @@ change size by [-10] // negative numbers decrease the size
 --- task ---
 
 **Test:** Click on the shrink button to shrink the Wizard. Do this as many times as you like.
+
+**Debug:** If your Wizard grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
 
 --- /task ---
 
@@ -82,7 +84,7 @@ set size to [100] %
 ```
 --- /task ---
 
-Messages are broadcast to all sprites. The wand can play a sound when it receives the 'shrink' message.
+Messages are `broadcast`{:class="block3events"} to all sprites. When the **Wand** `receives`{:class="block3events"} the 'shrink' message it should play a sound.
 
 --- task ---
 
