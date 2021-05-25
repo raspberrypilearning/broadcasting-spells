@@ -5,31 +5,41 @@
 In this step, you will set the scene and choose your wand and get it ready for magic.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/choose-your-wand.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/){:target="_blank"}. Scratch will open in another browser tab.
+Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
 
-[[[working-offline]]]
+--- collapse ---
+
+---
+title: Working offline
+---
+
+You will need to download the [Broadcasting spells starter project](https://rpf.io/p/en/broadcasting-spells-go){:target="_blank"} and open it using the offline editor.
+
+For information about how to set up Scratch for offline use, visit our [Getting started with Scratch](https://projects.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"} guide.
+
+--- /collapse ---
 
 --- /task ---
 
 --- task ---
 
-You should see the Witch House backdrop with Wizard and button sprites:
+You should see the **Witch House** backdrop with **Wizard** and button sprites:
 
 ![Broadcasting starter project showing Stage and sprites.](images/broadcasting-starter.png)
 
 --- /task ---
 
-Every good Wizard needs a wand.
+To perform magic you need a wand.
 
 --- task ---
 
-Click 'Choose a Sprite' and type 'wand' into the search box: 
+Click **Choose a Sprite** and type `wand` into the search box: 
 
 ![Choose a sprite icon.](images/choose-a-sprite.png)
 
@@ -41,14 +51,14 @@ Click 'Choose a Sprite' and type 'wand' into the search box:
 
 --- task ---
 
-Add code to make the Wand sprite follow the mouse pointer and stay in front of the buttons:
+Add code to make the **Wand** sprite follow the mouse pointer and stay in front of the buttons:
 
 ![](images/wand-sprite-icon.png)
 
 ```blocks3
 when flag clicked
 forever
-go to (mouse-pointer v)
+go to (mouse-pointer v) //change from 'random position'     
 go to [front v] layer // in front of the buttons
 end
 ```
@@ -58,31 +68,29 @@ end
 
 **Test:** Click on the green flag to run your project, the wand will follow your mouse pointer. 
 
-At the moment the wand doesn't look like you are holding it and is too small. 
-
 --- /task ---
+
+At the moment the wand doesn't look like you are holding it and it is too small. 
 
 --- task ---
 
-Got to the Sprite pane and change the **Size** property to '200' to make the wand bigger:
+Go to the Sprite pane and change the **Size** property to `200` to make the wand bigger:
 
 ![The Sprite pane with the Size property highlighted with value 200.](images/size-property.png)
 
 --- /task ---
 
-To be able to click on the buttons you need to move the 'centre' of the sprite costume so that it doesn't get in the way of the mouse cursor (or your finger on a tablet).
-
 --- task ---
 
-Open the Wand costume in the Paint editor.
+Click on the **Costumes** tab to open the Wand costume in the Paint editor.
 
-Click on the 'Select' (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume. 
+Click on the **Select** (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume. 
 
 ![Wand costumes grouped.](images/the-select-tool.png)
 
 ![Wand costumes grouped.](images/grouped-costumes.png)
 
-Then click on 'Group' to combine the wand parts.
+Then click on the **Group** icon to combine the wand parts.
 
 ![Wand costumes grouped.](images/group-icon.png)
 
@@ -90,11 +98,19 @@ Then click on 'Group' to combine the wand parts.
 
 --- task ---
 
-Move the Wand so that it's tip is just away from the centre. 
+Use the 'rotate' handle on the wand to position the wand at an angle.   
 
-Use the 'rotate' handle on the wand to position the wand at an angle.
+![Wand costumes rotated.](images/rotated-wands.png)
 
-<mark>Check whether wand costumes are grouped</mark>
+**Tip:** If you can't see the rotate handle, click the '-' button at the bottom of the Paint editor to zoom out.
+
+--- /task ---
+
+To be able to click on the buttons you need to move the 'centre' of the sprite costume so that it doesn't get in the way of the mouse cursor (or your finger on a tablet).
+
+--- task ---
+
+Move the Wand so that its tip is just away from the centre. 
 
 ![Wand costumes correctly positioned.](images/positioned-wands.png)
 
