@@ -4,6 +4,8 @@ How will you expand your magical world? You could:
 + Add more characters
 + Add more spells - you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply graphic effects or turn them upside down.
 
+![A project with three sprites with added new pixelate and upside down spells.](images/upgrade-step.png)
+
 Why not swap characters with a friend using the Scratch backpack or by downloading the sprite to a shared area. 
 
 [[[scratch-backpack]]]

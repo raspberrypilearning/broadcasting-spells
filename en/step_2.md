@@ -19,9 +19,9 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 title: Working offline
 ---
 
-You will need to download the [Broadcasting spells starter project](https://rpf.io/p/en/broadcasting-spells-go){:target="_blank"} and open it using the offline editor.
+Download the [Broadcasting spells starter project](https://rpf.io/p/en/broadcasting-spells-go){:target="_blank"} and open it using the offline editor.
 
-For information about how to set up Scratch for offline use, visit our [Getting started with Scratch](https://projects.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"} guide.
+Visit [Getting started with Scratch](https://projects.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"} for more information on working offline.
 
 --- /collapse ---
 
@@ -106,7 +106,7 @@ Use the 'rotate' handle on the wand to position the wand at an angle.
 
 --- /task ---
 
-To be able to click on the buttons you need to move the 'centre' of the sprite costume so that it doesn't get in the way of the mouse cursor (or your finger on a tablet).
+The **Wand** costume gets in the way of the mouse cursor when you try to click the buttons.
 
 --- task ---
 
@@ -126,7 +126,7 @@ If you are signed in to your Scratch account, click on the green Remix button. T
 
 ![The Remix button.](images/remix-button.png)
 
-You can change the title of your project into the project title box at the top of the screen.
+You can change the title of your project.
 
 ![The project title box.](images/project-name.png)
 

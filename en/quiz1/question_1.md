@@ -14,7 +14,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-You wrote scripts to broadcast a message when a button is clicked. 
+You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked. 
 
 ![](images/button-icon.png)
 
@@ -62,7 +62,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broad`ast{:class="block3events"} block.
+Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
 
  --- /feedback ---
 
