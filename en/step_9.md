@@ -11,9 +11,8 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 --- no-print ---
 
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed//?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
-
+--- /no
 

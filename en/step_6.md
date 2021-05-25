@@ -71,8 +71,7 @@ You can either:
 **Tip:** You can group all the objects in a costume by selecting them (with the Select tool or <kbd>
 Ctrl-a</kbd>) and then clicking 'Group'.
 
-Our Batter toad looks like this:
-
+Our Batter toad looks like
 ![](images/batter-toad.png)
 
 --- /task ---
