@@ -14,5 +14,5 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/521688740/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no
+--- /no-print ---
 
