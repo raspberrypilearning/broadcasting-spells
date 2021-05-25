@@ -1,6 +1,13 @@
 ## The shrinking spell
 
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Now you will get the Wizard to shrink when you click on the shrink button.
+</div>
+<div>
+![](images/shrinking-wizard.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
@@ -74,7 +81,7 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-Add a script to set the Wizard to normal size when the green flag is clicked:
+Add a script to set the **Wizard** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
 
 ![](images/wizard-icon.png)
 
@@ -84,15 +91,15 @@ set size to [100] %
 ```
 --- /task ---
 
-Messages are `broadcast`{:class="block3events"} to all sprites. When the **Wand** `receives`{:class="block3events"} the 'shrink' message it should play a sound.
+Messages are `broadcast`{:class="block3events"} to all sprites. When the **Wand** `receives`{:class="block3events"} the 'shrink' message it should `play a sound `{:class="block3sound"}.
 
 --- task ---
 
-Click on the Wand sprite and then the 'Sounds' tab.
+Click on the **Wand** sprite and then the **Sounds** tab.
 
-Add the 'Slide whistle' sound.
+Add the **Slide whistle** sound.
 
-Rename the sound to 'shrink' so it is easy to find.
+Rename the sound to `shrink` so it is easy to find.
 
 ![](images/wand-icon.png)
 
@@ -115,8 +122,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project and set the Wizard to 100% size. Click on the 'shrink' button to hear the sound and see the Wizard shrink.
+**Test:** Click on the green flag to run your project. Click on the 'shrink' button to hear the sound and see the Wizard shrink.
 
 --- /task ---
+
+The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message and both the **Wizard** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
 
 --- save ---

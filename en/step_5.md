@@ -1,6 +1,13 @@
 ## Toad transformation
 
-Now for another spell. This time you're going to cast a transformation spell by broadcasting a 'toad' message that turns the Wizard into a toad!
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Now for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Wizard** sprite into a toad!
+</div>
+<div>
+![](images/toad-transformation.png){:width="300px"}
+</div>
+</div>
 
 --- task ---
 
@@ -16,19 +23,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the Wizard sprite and click on the 'Costumes' tab. 
+Select the Wizard sprite and click on the **Costumes** tab. 
 
-Add the 'Wizard-toad-a' costume.
+To transform the **Wizard** sprite into a toad you will use `wizard-a` and `Wizard-toad-a` costumes. 
 
-![The Choose a Costume icon from the Costumes tab.](images/add-costume-icon.png)
-
-![The list of Costumes showing the Wizard sprite now has a second costume.](images/toad-costume-added.png)
+![The list of Costumes showing the Wizard sprite a second costume.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Wizard is in human form when you run your project:
+Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Wizard is in human form when you run your project:
 
 ![](images/wizard-icon.png)
 
@@ -55,20 +60,11 @@ switch costume to [Wizard-toad-a v]
 
 --- task ---
 
-**Test:** Test your project, you can now cast a spell to turn the **Wizard** sprite into a toad then click on the green flag again to turn the **Wizard** sprite back into a human.
-
-![The Stage showing the Wizard in Wizard-toad-a costume.](images/wizard-as-toad.png)
-
---- /task ---
-
---- task ---
-
 Add the 'croak' sound to the **Wand** sprite.
 
 Rename the sound to 'toad':
 
 ![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
-
 
 --- /task ---
 
@@ -86,14 +82,16 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the Wizard into a toad, with a sound effect, when you click the 'toad' button. 
+**Test:** Test that you can turn the Wizard into a toad, with a sound effect, when you click the 'toad' button. Click on the green flag again to turn the **Wizard** sprite back into a human.
+
+![The Stage showing the Wizard in Wizard-toad-a costume.](images/wizard-as-toad.png)
 
 --- /task ---
 
 The opposite of a 'toad' spell is an 'untoad' spell.
 
 --- task ---
-Add a script to the **untoad** button sprite to broadcast the 'untoad' message:
+Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad' message:
 
 ![](images/untoad-sprite.png)
 
@@ -105,7 +103,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to 'untoad' the Wizard sprite:
+Add a new script to 'untoad' the **Wizard** sprite:
 
 ![](images/wizard-icon.png)
 
@@ -118,11 +116,11 @@ switch costume to [Wizard-toad-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the 'Sounds' tab.
+Select the **Wand** sprite and switch to the **Sounds** tab.
 
-Duplicate the 'toad' sound and rename it to 'untoad'. 
+**Duplicate** the 'toad' sound and rename it to 'untoad'. 
 
-'Reverse' the 'untoad' sound so that it plays backwards.
+Click on the **Reverse** icon so that the 'untoad' sound plays backwards.
 
 ![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
 
