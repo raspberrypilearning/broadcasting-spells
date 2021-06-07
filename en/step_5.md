@@ -23,7 +23,7 @@ broadcast [toad v]
 
 --- task ---
 
-Select the Wizard sprite and click on the **Costumes** tab. 
+Select the **Wizard** sprite and click on the **Costumes** tab. 
 
 To transform the **Wizard** sprite into a toad you will use `wizard-a` and `Wizard-toad-a` costumes. 
 
@@ -64,6 +64,8 @@ Add the 'croak' sound to the **Wand** sprite.
 
 Rename the sound to 'toad':
 
+![](images/wand-sprite-icon.png)
+
 ![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
 
 --- /task ---
@@ -72,7 +74,7 @@ Rename the sound to 'toad':
 
 Add a script to the **Wand** sprite to play the 'toad' sound when the toad spell is cast:
 
-![](images/wand-sprite.png)
+![](images/wand-sprite-icon.png)
 
 ```blocks3  
 when I receive [toad v]
@@ -82,7 +84,7 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the Wizard into a toad, with a sound effect, when you click the 'toad' button. Click on the green flag again to turn the **Wizard** sprite back into a human.
+**Test:** Test that you can turn the **Wizard** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Wizard** sprite back into a human.
 
 ![The Stage showing the Wizard in Wizard-toad-a costume.](images/wizard-as-toad.png)
 
@@ -93,7 +95,7 @@ The opposite of a 'toad' spell is an 'untoad' spell.
 --- task ---
 Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad' message:
 
-![](images/untoad-sprite.png)
+![](images/untoad-icon.png)
 
 ```blocks3 
 when this sprite clicked
@@ -108,8 +110,8 @@ Add a new script to 'untoad' the **Wizard** sprite:
 ![](images/wizard-icon.png)
 
 ```blocks3  
-when I receive [toad v]
-switch costume to [Wizard-toad-a v]
+when I receive [untoad v]
+switch costume to [wizard-a v]
 ```
 
 --- /task ---
@@ -122,6 +124,8 @@ Select the **Wand** sprite and switch to the **Sounds** tab.
 
 Click on the **Reverse** icon so that the 'untoad' sound plays backwards.
 
+![](images/wand-sprite-icon.png)
+
 ![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
 
 --- /task ---
@@ -130,7 +134,7 @@ Click on the **Reverse** icon so that the 'untoad' sound plays backwards.
 
 Add a script to the **Wand** sprite to play the 'untoad' sound:
 
-![](images/wand-icon.png)
+![](images/wand-sprite-icon.png)
 
 ```blocks3  
 when I receive [untoad v]
