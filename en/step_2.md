@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene and choose your wand and get it ready for magic.
+In this step, you will set the scene, choose your wand and get it ready for magic.
 </div>
 <div>
 ![](images/choose-your-wand.png){:width="300px"}
