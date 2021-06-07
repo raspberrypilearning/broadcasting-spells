@@ -35,14 +35,14 @@ Add a `broadcast`{:class="block3events"} block:
 
 ```blocks3
 when this sprite clicked
-+ broadcast (message v)
++ broadcast (message1 v)
 ```
 
 --- /task ---
 
 --- task ---
 
-Click on 'message' and choose 'New message'. Name the new message 'shrink'.
+Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
 
 ![New message dialog with shrink entered.](images/new-message.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the button, Scratch will broadcast the 'shrink' message. But nothing will happen until you get the **Wizard** sprite to do something when it recieves the message.
+Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink` message but nothing will happen yet.
 
 --- task ---
 
-Add code to the **Wizard** sprite to shrink when it recieves a 'shrink' message:
+Add code to the **Wizard** sprite to shrink when it recieves a `shrink` message:
 
 ![](images/wizard-icon.png)
 
@@ -73,9 +73,9 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the shrink button to shrink the Wizard. Do this as many times as you like.
+**Test:** Click on the **shrink** button to shrink the **Wizard** sprite. Do this as many times as you like.
 
-**Debug:** If your Wizard grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**Debug:** If your **Wizard** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
 
 --- /task ---
 
@@ -91,7 +91,7 @@ set size to [100] %
 ```
 --- /task ---
 
-Messages are `broadcast`{:class="block3events"} to all sprites. When the **Wand** `receives`{:class="block3events"} the 'shrink' message it should `play a sound `{:class="block3sound"}.
+Messages are `broadcast`{:class="block3events"} to all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink` message it should `play a sound `{:class="block3sound"}.
 
 --- task ---
 
@@ -101,7 +101,7 @@ Add the **Slide whistle** sound.
 
 Rename the sound to `shrink` so it is easy to find.
 
-![](images/wand-icon.png)
+![](images/wand-sprite-icon.png)
 
 ![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
 
@@ -111,7 +111,7 @@ Rename the sound to `shrink` so it is easy to find.
 
 Add a script to play the sound:
 
-![](images/wand-icon.png)
+![](images/wand-sprite-icon.png)
 
 ```blocks3
 when I receive [shrink v]
@@ -122,10 +122,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the 'shrink' button to hear the sound and see the Wizard shrink.
+**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Wizard** shrink.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message and both the **Wizard** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Wizard** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
 
 --- save ---
