@@ -13,7 +13,7 @@ You also need a growing spell to return the **Wizard** sprite to normal size - o
 
 --- task ---
 
-Add a script to the **grow** button sprite to broadcast the 'grow' message:
+Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow` message:
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get he **Wizard** sprite to grow:
+Add a script to get the **Wizard** sprite to grow:
 
 ![](images/wizard-icon.png)
 
@@ -75,7 +75,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the shrink and grow spell buttons to cast the spells as many times as you like.
+**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
 
 --- /task ---
 
