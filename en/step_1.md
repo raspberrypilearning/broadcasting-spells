@@ -7,7 +7,7 @@ You will:
 + Use the `Sound`{:class="block3sound"} editor to reverse sounds
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Broadcasting messages**</span> is like shouting out a message to everyone in a game. In the game Marco Polo, one person closes their eyes and counts to ten then shouts 'Marco'. The other players then shout 'Polo' so the first player can use their listening skills to try and find them. 
+<span style="color: #0faeb0">**Broadcasting** and **receiving** messages is like  call and response pattern in music. Someone calls and others respond when they hear the call.</span> 
 </p>
 
 --- no-print ---

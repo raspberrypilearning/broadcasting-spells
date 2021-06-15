@@ -29,9 +29,9 @@ You might want to change the direction the sprite is pointing in.
 
 --- /task ---
 
---- task ---
+When you grow or shrink a sprite, you want the feet to stay in the same place.
 
-To keep the character's feet in the same place when they grow and shrink you will need to reposition the costume above the crosshair.
+--- task ---
 
 First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
 
@@ -57,14 +57,13 @@ If the toad costume is facing the opposite way to the main costume you can use '
 
 --- /task ---
 
-Now you need to make the toad look like the character. This could be just a small detail like a splash of a colour or a shared accessory.
+Now you need to make the toad look like the character. 
 
 --- task ---
 
-You can either:
-+ Copy items from the sprite costume and paste them onto the toad costume, or
-+ Add an accessory (such as a hat or sunglasses) as another costume and then copy and paste it to the character and toad costumes, or
-+ Use the paint editor to add features to the toad to match the character.
+You could add a small detail like a splash of colour, or copy and paste sunglasses or a hat in the paint editor.
+
+**Tip:** You can add any costume to your character sprite to copy and paste from it. 
 
 ![](images/editing-options.png)
 
