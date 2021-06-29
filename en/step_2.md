@@ -27,6 +27,10 @@ Visit [Getting started with Scratch](https://projects.raspberrypi.org/en/project
 
 --- /task ---
 
+Welcome to the Witch House, you will be programming the Witch's wand to cast magic spells. 
+
+![An image of the witch player character.](images/witch.png)
+
 --- task ---
 
 You should see the **Witch House** backdrop with **Wizard** and button sprites:
@@ -51,7 +55,7 @@ Click **Choose a Sprite** and type `wand` into the search box:
 
 --- task ---
 
-Add code to make the **Wand** sprite follow the mouse pointer and stay in front of the buttons:
+Add code to make the **Wand** sprite follow the `mouse pointer`{:class="block3motion"} and stay in `front`{:class="block3looks"} of the buttons:
 
 ![](images/wand-sprite-icon.png)
 

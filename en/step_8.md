@@ -2,6 +2,7 @@
 
 How will you expand your magical world? You could:
 + Add more characters
++ Add different sound and graphics effects to the wand.
 + Add more spells - you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply graphic effects or turn them upside down.
 
 ![A project with three sprites with added new pixelate and upside down spells.](images/upgrade-step.png)
