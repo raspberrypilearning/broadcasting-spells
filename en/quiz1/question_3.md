@@ -4,11 +4,12 @@
 legend: Question 3 of 3
 ---
 
-You used the 'Slide whistle' sound as a shrink sound: 
+You renamed the 'Slide whistle' sound to create a 'shrink' sound:
 
 ![](images/just-shrink.png)
 
-Then you duplicated that sound and reversed it so you also had a grow sound. Which project shows the correct results?
+You duplicated the 'shrink' sound and reversed it to make a 'grow' sound. Which answer shows the correct grow sound?
+
 
 --- choices ---
 
@@ -22,23 +23,13 @@ Then you duplicated that sound and reversed it so you also had a grow sound. Whi
 
  --- /feedback ---
 
-- ( )
-
-![](images/just-grow.png)
-
- --- feedback ---
-
- Oh dear, this project reversed the shrink sound instead of duplicating it first to create a grow sound.
-
- --- /feedback ---
-
 - (x) 
 
 ![](images/grow-shrink-reversed.png)
 
  --- feedback ---
 
- Yes, this project has two different sound waves for shrink and grow.
+ Yes, you can see that the sound has been reversed by the shape of the soundwave.
 
  --- /feedback ---
 
