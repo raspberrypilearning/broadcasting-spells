@@ -91,7 +91,7 @@ set size to [100] %
 ```
 --- /task ---
 
-Messages are `broadcast`{:class="block3events"} to all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink` message it should `play a sound `{:class="block3sound"}.
+When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink` message it should `play a sound `{:class="block3sound"}.
 
 --- task ---
 

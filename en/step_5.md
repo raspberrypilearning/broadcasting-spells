@@ -2,7 +2,9 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! Maybe she's going on an adventure where being a toad will be more useful.
+Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+
+Maybe she's going on an adventure where being a toad will be more useful.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}

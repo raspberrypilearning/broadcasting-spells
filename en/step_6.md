@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite and add code to change on the spell broadcast messages.
+Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite and add code so the costume changes when the spell messages are broadcast.
 </div>
 <div>
 ![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
@@ -84,7 +84,7 @@ You might also want to change the start `size`{:class="block3looks"} of the spri
 --- /task ---
 
 --- task ---
-**Test:** Click on the spell buttons and both characters should respond to the spell broadcasts.
+**Test:** Click on the spell buttons - both characters should respond to the spell broadcasts.
 
 **Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
 
