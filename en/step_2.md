@@ -25,6 +25,8 @@ Visit [Getting started with Scratch](https://projects.raspberrypi.org/en/project
 
 --- /collapse --- 
 
+--- /task ---
+
 --- task ---
 You should see a fairy in the woodland. 
 
