@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a growing spell to return the **Wizard** sprite to normal size - or make a massive Wizard!
+You also need a growing spell to return the **Fairy** sprite to normal size - or make a massive Fairy!
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
@@ -26,9 +26,9 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Wizard** sprite to grow:
+Add a script to get the **Fairy** sprite to grow:
 
-![](images/wizard-icon.png)
+![](images/fairy-icon.png)
 
 ```blocks3
 when I receive [grow v]

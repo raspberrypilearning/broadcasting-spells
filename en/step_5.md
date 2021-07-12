@@ -2,7 +2,9 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Wizard** sprite into a toad!
+Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+
+Maybe she's going on an adventure where being a toad will be more useful.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -23,37 +25,37 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Wizard** sprite and click on the **Costumes** tab. 
+Select the **Fairy** sprite and click on the **Costumes** tab. 
 
-To transform the **Wizard** sprite into a toad you will use `wizard-a` and `Wizard-toad-a` costumes. 
+To transform the **Fairy** sprite into a toad you will use `Fairy-a` and `Fairy-toad-a` costumes. 
 
-![The list of Costumes showing the Wizard sprite a second costume.](images/toad-costume-added.png)
+![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Wizard is in human form when you run your project:
+Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
 
-![](images/wizard-icon.png)
+![](images/fairy-icon.png)
 
 ```blocks3
 when flag clicked
 set size to [100] %
-+ switch costume to [wizard-a v]
++ switch costume to [Fairy-a v]
 ```
 
 --- /task ---
 
 --- task ---
 
-Add a new script to the **Wizard** sprite to turn into a toad:
+Add a new script to the **Fairy** sprite to turn into a toad:
 
-![](images/wizard-icon.png)
+![](images/fairy-icon.png)
 
 ```blocks3  
 when I receive [toad v]
-switch costume to [Wizard-toad-a v]
+switch costume to [Fairy-toad-a v]
 ```
 
 --- /task ---
@@ -84,9 +86,9 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Wizard** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Wizard** sprite back into a human.
+**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
 
-![The Stage showing the Wizard in Wizard-toad-a costume.](images/wizard-as-toad.png)
+![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
 
 --- /task ---
 
@@ -105,13 +107,13 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to 'untoad' the **Wizard** sprite:
+Add a new script to 'untoad' the **Fairy** sprite:
 
-![](images/wizard-icon.png)
+![](images/fairy-icon.png)
 
 ```blocks3  
 when I receive [untoad v]
-switch costume to [wizard-a v]
+switch costume to [Fairy-a v]
 ```
 
 --- /task ---
@@ -144,7 +146,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the 'toad' and 'untoad' spells and try 'shrink' and 'grow' when the Wizard is in toad form.
+**Test:** Try the 'toad' and 'untoad' spells and try 'shrink' and 'grow' when the Fairy is in toad form.
 
 --- /task ---
 
