@@ -1,4 +1,4 @@
-## The shrinking spell
+## The shrink spell
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
