@@ -146,7 +146,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the 'toad' and 'untoad' spells and try 'shrink' and 'grow' when the Fairy is in toad form.
+**Test:** Try the 'toad' and 'untoad' spells, and try 'shrink' and 'grow' when the Fairy is in toad form.
 
 --- /task ---
 
