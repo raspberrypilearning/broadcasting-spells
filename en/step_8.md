@@ -2,12 +2,12 @@
 
 How will you expand your magical world? You could:
 + Add more characters
-+ Add different sound and graphics effects to the wand.
-+ Add more spells - you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply graphic effects or turn them upside down.
++ Add different sound and visual effects to the wand.
++ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
 
 ![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
 
-Why not swap characters with a friend using the Scratch backpack or by downloading the sprite to a shared area. 
+Why not swap characters with a friend? Use the Scratch backpack or download the sprite to a shared area. 
 
 [[[scratch-backpack]]]
 
@@ -27,7 +27,7 @@ To load a sprite into a project, choose the 'Upload a Sprite' option from the 'C
 
 --- /collapse ---
 
-You could agree more spells with a friend and both add them to your character. Make sure you both use exactly the same name for the messages you broadcast.
+Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
 
 --- collapse ---
 
