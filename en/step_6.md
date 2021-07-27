@@ -62,7 +62,7 @@ Now you need to make the toad look like the character. Combining two costumes in
 
 You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
 
-**Tip:** You can add any costume to your character sprite to copy and paste from it. 
+**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
 
 ![](images/editing-options.png)
 
