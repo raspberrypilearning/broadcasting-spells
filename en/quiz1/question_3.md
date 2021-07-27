@@ -4,7 +4,7 @@
 legend: Question 3 of 3
 ---
 
-You renamed the 'Slide whistle' sound to create a 'shrink' sound:
+You renamed the 'Slide Whistle' sound to create a 'shrink' sound:
 
 ![](images/just-shrink.png)
 
@@ -19,7 +19,7 @@ You duplicated the 'shrink' sound and reversed it to make a 'grow' sound. Which 
 
  --- feedback ---
 
- No, this project has a copy of the shrink sound but the soundwave is the same, it hasn't been reversed to create a grow sound.
+ No, this project has a copy of the shrink sound, but the soundwave is the same. the soundwave hasn't been reversed to create a grow sound.
 
  --- /feedback ---
 
