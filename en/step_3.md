@@ -11,7 +11,7 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the stage. 
+Click on the **shrink** sprite in the Sprite list below the Stage. 
 
 Add a `when this sprite clicked`{:class="block3events"} block:
 
@@ -23,7 +23,7 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button you want the **Fairy** sprite to shrink. 
+When you click on the shrink button, you want the **Fairy** sprite to shrink. 
 
 The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
 
@@ -91,13 +91,13 @@ set size to [100] %
 ```
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink` message it should `play a sound `{:class="block3sound"}.
+When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink` message it should `play a sound`{:class="block3sound"}.
 
 --- task ---
 
 Click on the **Wand** sprite and then the **Sounds** tab.
 
-Add the **Slide whistle** sound.
+Add the **Slide Whistle** sound.
 
 Rename the sound to `shrink` so it is easy to find.
 
