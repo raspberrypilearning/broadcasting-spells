@@ -1,8 +1,8 @@
-## Choosing your wand
+## Choose your wand
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and get it ready for magic.
+In this step, you will set the scene, choose your wand and get ready for magic.
 </div>
 <div>
 ![](images/choose-your-wand.png){:width="300px"}
@@ -19,7 +19,7 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 title: Working offline
 ---
 
-Download the [Broadcasting spells starter project](https://rpf.io/p/en/broadcasting-spells-go){:target="_blank"} and open it using the offline editor.
+Download the [Broadcasting spells starter project](https://rpf.io/p/en/broadcasting-spells-go){:target="_blank"} and open the project using the offline editor.
 
 Visit [Getting started with Scratch](https://projects.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"} for more information on working offline.
 
@@ -28,13 +28,13 @@ Visit [Getting started with Scratch](https://projects.raspberrypi.org/en/project
 --- /task ---
 
 --- task ---
-You should see a fairy in the woodland. 
+You should see a fairy in a woodland. 
 
 ![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
 
 --- /task ---
 
-Casting spells needs a wand.
+You need a wand to cast a spell.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
@@ -69,11 +69,11 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to run your project, the wand will follow your mouse pointer. 
+**Test:** Click on the green flag to run your project. The wand will follow your mouse pointer. 
 
 --- /task ---
 
-At the moment the wand doesn't look like you are holding it and it is too small. 
+Let’s make the wand bigger and tilted, like you’re really using it. 
 
 --- task ---
 
@@ -113,7 +113,7 @@ The **Wand** costume gets in the way of the mouse cursor when you try to click t
 
 --- task ---
 
-Move the Wand so that its tip is just away from the centre. 
+Move the wand so that its tip is just away from the centre. 
 
 ![Wand costumes correctly positioned.](images/positioned-wands.png)
 
