@@ -16,7 +16,7 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 --- collapse ---
 
 ---
-title: Working offline
+title: Work offline
 ---
 
 Download the [Broadcasting spells starter project](https://rpf.io/p/en/broadcasting-spells-go){:target="_blank"} and open the project using the offline editor.
@@ -73,7 +73,7 @@ end
 
 --- /task ---
 
-Let’s make the wand bigger and tilted, like you’re really using it. 
+Make the wand bigger and tilted, like you’re really using it. 
 
 --- task ---
 
