@@ -7,7 +7,7 @@ How will you expand your magical world? You could:
 
 ![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
 
-Why not swap characters with a friend? Use the Scratch backpack or download the sprite to a shared area. 
+Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
 
 [[[scratch-backpack]]]
 
