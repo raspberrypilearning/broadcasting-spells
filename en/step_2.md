@@ -2,7 +2,12 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and get ready for magic.
+In this step, you will set the scene, choose your wand and create your own computer-generated magic.
+  
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
+</p>
+  
 </div>
 <div>
 ![](images/choose-your-wand.png){:width="300px"}
@@ -35,10 +40,6 @@ You should see a fairy in a woodland.
 --- /task ---
 
 You need a wand to cast a spell.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
-</p>
 
 --- task ---
 
