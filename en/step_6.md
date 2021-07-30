@@ -14,7 +14,7 @@ Duplicate the **Fairy** sprite.
 
 ![](images/duplicate-fairy.png)
 
-Delete the 'Fairy-a' and 'Fairy-toad-a' costumes. You will be left with a 'toad' costume.
+Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
 
 Add a costume of your choice to the **new sprite**. 
 
@@ -24,7 +24,7 @@ We chose the **Batter**:
 
 You might want to change the direction the sprite is pointing in. 
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right` in the Sprite properties pane or using a code block.
+**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
 
 --- /task ---
 
@@ -40,9 +40,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the 'toad' costume.
+Click on the **toad** costume.
 
-Rename the costume to match your sprite, we used 'Batter-toad-a'.
+Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 ![](images/batter-toad-a-added.png)
 
@@ -66,7 +66,7 @@ You could add a small detail, like a splash of colour, or copy and paste sunglas
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the Select tool or <kbd>
+**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd>
 Ctrl-a</kbd>) and then click **Group**.
 
 Our Batter toad looks like:
