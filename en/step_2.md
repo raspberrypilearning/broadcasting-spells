@@ -102,11 +102,11 @@ Then click on the **Group** icon to combine the wand parts.
 
 --- task ---
 
-Use the 'rotate' handle on the wand to position the wand at an angle.   
+Use the **Rotate handle** tool on the wand to position the wand at an angle.   
 
 ![Wand costumes rotated.](images/rotated-wands.png)
 
-**Tip:** If you can't see the rotate handle, click the '-' button at the bottom of the Paint editor to zoom out.
+**Tip:** If you can't see the **Rotate handle**, click the **Zoom out** (-) tool at the bottom of the Paint editor to zoom out.
 
 --- /task ---
 
