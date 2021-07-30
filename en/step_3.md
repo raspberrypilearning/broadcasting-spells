@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink` message but nothing will happen yet.
+Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink` message:
+Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
 
 ![](images/fairy-icon.png)
 
@@ -91,7 +91,7 @@ set size to [100] %
 ```
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink` message it should `play a sound`{:class="block3sound"}.
+When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
 
 --- task ---
 
