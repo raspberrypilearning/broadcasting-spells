@@ -30,7 +30,7 @@ change size by [10]
 
 --- choices ---
 
-- ( ) Whichever sprite receives the message first.
+- ( ) Whichever sprite receives the message first
 
  --- feedback ---
 
@@ -38,7 +38,7 @@ change size by [10]
 
  --- /feedback ---
 
-- (x) Both the Ripley and Robot sprites.
+- (x) Both the Ripley and Robot sprites
 
  --- feedback ---
 
@@ -46,7 +46,7 @@ change size by [10]
 
  --- /feedback ---
 
-- ( ) Neither of the sprites.
+- ( ) Neither of the sprites
 
  --- feedback ---
 
