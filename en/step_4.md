@@ -13,7 +13,7 @@ You also need a grow spell to return the **Fairy** sprite to normal size or to m
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow` message:
+Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
 
 ![](images/grow-icon.png)
 
@@ -46,13 +46,13 @@ You can reverse the 'shrink' sound to make a 'grow' sound!
 
 Select the **Wand** sprite and click on the **Sounds** tab.
 
-Right-click (or tap and hold) the 'shrink' sound and choose 'duplicate'. 
+Right-click (or tap and hold) the **shrink** sound and choose **duplicate**. 
 
 ![](images/wand-icon.png)
 
 ![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
 
-Name the copy 'grow'.
+Name the copy `grow`.
 
 Click on the **Reverse** icon to make the sound play backwards.
 
@@ -62,7 +62,7 @@ Click on the **Reverse** icon to make the sound play backwards.
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the 'grow' sound when the 'grow' message is received:
+Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
 
 ![](images/wand-icon.png)
 
