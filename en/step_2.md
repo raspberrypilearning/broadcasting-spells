@@ -18,17 +18,7 @@ In this step, you will set the scene, choose your wand and create your own compu
 
 Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
 
---- collapse ---
-
----
-title: Work offline
----
-
-Download the [Broadcasting spells starter project](https://rpf.io/p/en/broadcasting-spells-go){:target="_blank"} and open the project using the offline editor.
-
-Visit [Getting started with Scratch](https://projects.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"} for more information on working offline.
-
---- /collapse --- 
+[[[working-offline]]]
 
 --- /task ---
 
