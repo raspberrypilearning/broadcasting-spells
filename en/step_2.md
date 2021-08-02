@@ -1,44 +1,35 @@
-## Choosing your wand
+## Choose your wand
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and get it ready for magic.
+In this step, you will set the scene, choose your wand and create your own computer-generated magic.
+  
 </div>
 <div>
 ![](images/choose-your-wand.png){:width="300px"}
 </div>
 </div>
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
+</p>
+  
 --- task ---
 
 Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
 
---- collapse ---
-
----
-title: Working offline
----
-
-Download the [Broadcasting spells starter project](https://rpf.io/p/en/broadcasting-spells-go){:target="_blank"} and open it using the offline editor.
-
-Visit [Getting started with Scratch](https://projects.raspberrypi.org/en/projects/getting-started-scratch/1){:target="_blank"} for more information on working offline.
-
---- /collapse --- 
+[[[working-offline]]]
 
 --- /task ---
 
 --- task ---
-You should see a fairy in the woodland. 
+You should see a fairy in a woodland. 
 
 ![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
 
 --- /task ---
 
-Casting spells needs a wand.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
-</p>
+You need a wand to cast a spell.
 
 --- task ---
 
@@ -69,11 +60,11 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to run your project, the wand will follow your mouse pointer. 
+**Test:** Click on the green flag to run your project. The wand will follow your mouse pointer. 
 
 --- /task ---
 
-At the moment the wand doesn't look like you are holding it and it is too small. 
+Make the wand bigger and tilted, like you’re really using it. 
 
 --- task ---
 
@@ -101,11 +92,11 @@ Then click on the **Group** icon to combine the wand parts.
 
 --- task ---
 
-Use the 'rotate' handle on the wand to position the wand at an angle.   
+Use the **Rotate** tool on the wand to position the wand at an angle.   
 
 ![Wand costumes rotated.](images/rotated-wands.png)
 
-**Tip:** If you can't see the rotate handle, click the '-' button at the bottom of the Paint editor to zoom out.
+**Tip:** If you can't see the **Rotate** tool, click the **Zoom out** (-) tool at the bottom of the Paint editor to zoom out.
 
 --- /task ---
 
@@ -113,7 +104,7 @@ The **Wand** costume gets in the way of the mouse cursor when you try to click t
 
 --- task ---
 
-Move the Wand so that its tip is just away from the centre. 
+Move the wand so that its tip is just away from the centre. 
 
 ![Wand costumes correctly positioned.](images/positioned-wands.png)
 

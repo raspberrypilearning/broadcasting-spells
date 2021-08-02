@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-In your project clicking on a button broadcast a message. Which sprite or sprites would change size when the grow button is clicked?
+In your project, clicking on a button broadcast a message. Which sprite or sprites would change size when the grow button is clicked?
 
 ![](images/grow-icon.png)
 
@@ -30,7 +30,7 @@ change size by [10]
 
 --- choices ---
 
-- ( ) Whichever sprite receives the message first.
+- ( ) Whichever sprite receives the message first
 
  --- feedback ---
 
@@ -38,15 +38,15 @@ change size by [10]
 
  --- /feedback ---
 
-- (x) Both the Ripley and Robot sprites.
+- (x) Both the Ripley and Robot sprites
 
  --- feedback ---
 
- Yes, when a message is `broadcast`{:class="block3events"} all sprites that have a `when I recieve`{:class="block3events"} block will react to the message.
+ Yes, when a message is `broadcast`{:class="block3events"}, all sprites that have a `when I receive`{:class="block3events"} block will react to the message.
 
  --- /feedback ---
 
-- ( ) Neither of the sprites.
+- ( ) Neither of the sprites
 
  --- feedback ---
 

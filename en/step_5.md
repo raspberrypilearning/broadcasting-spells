@@ -27,7 +27,7 @@ broadcast [toad v]
 
 Select the **Fairy** sprite and click on the **Costumes** tab. 
 
-To transform the **Fairy** sprite into a toad you will use `Fairy-a` and `Fairy-toad-a` costumes. 
+To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes. 
 
 ![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
 
@@ -62,9 +62,9 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the 'croak' sound to the **Wand** sprite.
+Add the **Croak** sound to the **Wand** sprite.
 
-Rename the sound to 'toad':
+Rename the sound to `toad`:
 
 ![](images/wand-sprite-icon.png)
 
@@ -74,7 +74,7 @@ Rename the sound to 'toad':
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the 'toad' sound when the toad spell is cast:
+Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
 
 ![](images/wand-sprite-icon.png)
 
@@ -95,7 +95,7 @@ play sound [toad v] until done
 The opposite of a 'toad' spell is an 'untoad' spell.
 
 --- task ---
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad' message:
+Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
 
 ![](images/untoad-icon.png)
 
@@ -107,7 +107,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to 'untoad' the **Fairy** sprite:
+Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
 
 ![](images/fairy-icon.png)
 
@@ -122,9 +122,9 @@ switch costume to [Fairy-a v]
 
 Select the **Wand** sprite and switch to the **Sounds** tab.
 
-**Duplicate** the 'toad' sound and rename it to 'untoad'. 
+**Duplicate** the **toad** sound and rename it to `untoad`. 
 
-Click on the **Reverse** icon so that the 'untoad' sound plays backwards.
+Click on the **Reverse** icon so that the **untoad** sound plays backwards.
 
 ![](images/wand-sprite-icon.png)
 
@@ -134,7 +134,7 @@ Click on the **Reverse** icon so that the 'untoad' sound plays backwards.
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the 'untoad' sound:
+Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
 
 ![](images/wand-sprite-icon.png)
 
@@ -146,7 +146,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the 'toad' and 'untoad' spells and try 'shrink' and 'grow' when the Fairy is in toad form.
+**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
 
 --- /task ---
 

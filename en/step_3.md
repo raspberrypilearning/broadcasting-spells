@@ -1,4 +1,4 @@
-## The shrinking spell
+## The shrink spell
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,7 +11,7 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the stage. 
+Click on the **shrink** sprite in the Sprite list below the Stage. 
 
 Add a `when this sprite clicked`{:class="block3events"} block:
 
@@ -23,7 +23,7 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button you want the **Fairy** sprite to shrink. 
+When you click on the shrink button, you want the **Fairy** sprite to shrink. 
 
 The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink` message but nothing will happen yet.
+Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink` message:
+Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
 
 ![](images/fairy-icon.png)
 
@@ -91,13 +91,13 @@ set size to [100] %
 ```
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink` message it should `play a sound `{:class="block3sound"}.
+When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
 
 --- task ---
 
 Click on the **Wand** sprite and then the **Sounds** tab.
 
-Add the **Slide whistle** sound.
+Add the **Slide Whistle** sound.
 
 Rename the sound to `shrink` so it is easy to find.
 

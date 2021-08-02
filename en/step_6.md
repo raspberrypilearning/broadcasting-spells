@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite and add code so the costume changes when the spell messages are broadcast.
+Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
 </div>
 <div>
 ![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
@@ -14,7 +14,7 @@ Duplicate the **Fairy** sprite.
 
 ![](images/duplicate-fairy.png)
 
-Delete the 'Fairy-a' and 'Fairy-toad-a' costumes. You will be left with a 'toad' costume.
+Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
 
 Add a costume of your choice to the **new sprite**. 
 
@@ -24,7 +24,7 @@ We chose the **Batter**:
 
 You might want to change the direction the sprite is pointing in. 
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right` in the Sprite properties pane or using a code block.
+**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
 
 --- /task ---
 
@@ -40,9 +40,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the 'toad' costume.
+Click on the **toad** costume.
 
-Rename the costume to match your sprite, we used 'Batter-toad-a'.
+Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 ![](images/batter-toad-a-added.png)
 
@@ -50,26 +50,26 @@ Rename the costume to match your sprite, we used 'Batter-toad-a'.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use 'Flip Horizontal'.
+If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash up'.
+Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
 
 --- task ---
 
-You could add a small detail like a splash of colour, or copy and paste sunglasses or a hat in the paint editor.
+You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
 
-**Tip:** You can add any costume to your character sprite to copy and paste from it. 
+**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume by selecting them (with the Select tool or <kbd>
-Ctrl-a</kbd>) and then clicking 'Group'.
+**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd>
+Ctrl-a</kbd>) and then click **Group**.
 
-Our Batter toad looks like
+Our Batter toad looks like:
 ![](images/batter-toad.png)
 
 --- /task ---
@@ -84,7 +84,7 @@ You might also want to change the start `size`{:class="block3looks"} of the spri
 --- /task ---
 
 --- task ---
-**Test:** Click on the spell buttons - both characters should respond to the spell broadcasts.
+**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
 
 **Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
 
