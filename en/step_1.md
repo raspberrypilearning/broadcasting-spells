@@ -8,12 +8,10 @@ You will:
 + Use the `Sound`{:class="block3sound"} blocks menu to reverse sounds
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Broadcasting**</span> and <span style="color: #0faeb0">**receiving**</span> messages is like a call and response pattern in music. Someone calls and others respond when they hear the call. 
+<span style="color: #0faeb0">**Broadcasting**</span> and <span style="color: #0faeb0">**receiving**</span> messages is like a call and response pattern in music.
+  "**P3T3 P3T3** is a traditional song from Ghana, West Africa. It is performed by one lead person who calls and a group that respond by repeating a key phrase when they hear the call." - **Kwame Bakoji-Hume, African Activities CIC**
   
-<audio controls autoplay muted><source src="images/Pete-Pete.mp3" type="audio/wav"></audio>
-  
-<span style="color: #0faeb0">**P3T3 P3T3**</span> is a traditional song from Ghana, West Africa. It is performed by one lead caller and a group that respond by repeating a key phrase.
-- <span style="color: #0faeb0">**Kwame Bakoji-Hume, African Activities CIC**</span>
+<audio controls autoplay muted><source src="images/Pete-Pete.mp3" type="audio/wav"></audio>  
 </p>
 
 --- no-print ---
