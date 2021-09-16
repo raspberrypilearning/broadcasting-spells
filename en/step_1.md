@@ -10,10 +10,10 @@ You will:
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Broadcasting**</span> and <span style="color: #0faeb0">**receiving**</span> messages is like a call and response pattern in music. Someone calls and others respond when they hear the call. 
   
-<audio controls autoplay muted><source src="images/Pete-Pete.m4a" type="audio/wav"></audio>
+<audio controls autoplay muted><source src="images/Pete-Pete.mp3" type="audio/wav"></audio>
   
-<span style="color: #0faeb0">P3T3 P3T3</span> is a traditional song from Ghana, West Africa. It is performed by one lead caller and a group that respond by repeating a key phrase.
-- <span style="color: #0faeb0">Kwame Bakoji-Hume, African Activities CIC</span>
+<span style="color: #0faeb0">**P3T3 P3T3**</span> is a traditional song from Ghana, West Africa. It is performed by one lead caller and a group that respond by repeating a key phrase.
+- <span style="color: #0faeb0">**Kwame Bakoji-Hume, African Activities CIC**</span>
 </p>
 
 --- no-print ---
