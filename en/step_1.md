@@ -13,7 +13,7 @@ You will:
 <br>
   "<span style="color: #0faeb0">P3T3 P3T3</span> is a traditional song from Ghana, West Africa. It is performed by one lead person who calls and a group that respond by repeating a key phrase when they hear the call." - <span style="color: #0faeb0">Kwame Bakoji-Hume, African Activities CIC</span>
   
-<audio><source src="images/Pete-Pete.mp3" type="audio/wav"></audio>  
+<audio controls><source src="images/Pete-Pete.mp3" type="audio/wav"></audio>  
 </p>
 
 --- no-print ---
