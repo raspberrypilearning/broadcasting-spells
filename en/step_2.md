@@ -104,7 +104,7 @@ The **Wand** costume gets in the way of the mouse cursor when you try to click t
 
 --- task ---
 
-Move the wand so that its tip is just away from the centre. 
+Move the wand so that its tip is just away from the crosshair in the centre. 
 
 ![Wand costumes correctly positioned.](images/positioned-wands.png)
 
