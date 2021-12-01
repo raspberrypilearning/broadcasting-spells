@@ -69,6 +69,7 @@ Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="b
 when I receive [shrink v]
 change size by [-10] // negative numbers decrease the size
 ```
+
 --- /task ---
 
 --- task ---
@@ -89,6 +90,7 @@ Add a script to set the **Fairy** sprite to normal size `when the green flag`{:c
 when flag clicked
 set size to [100] %
 ```
+
 --- /task ---
 
 When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
@@ -118,6 +120,7 @@ when I receive [shrink v]
 play sound [shrink v] until done
 
 ```
+
 --- /task ---
 
 --- task ---

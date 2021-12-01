@@ -34,6 +34,7 @@ Add a script to get the **Fairy** sprite to grow:
 when I receive [grow v]
 change size by [10] // positive numbers increase the size
 ```
+
 --- /task ---
 
 You can reverse the 'shrink' sound to make a 'grow' sound!
