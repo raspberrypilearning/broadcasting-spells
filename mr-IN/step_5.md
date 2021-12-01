@@ -96,7 +96,9 @@ play sound [toad v] until done
 
 The opposite of a 'toad' spell is an 'untoad' spell.
 
---- task --- Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+--- task ---
+
+Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
 
 ![](images/untoad-icon.png)
 
