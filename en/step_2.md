@@ -23,6 +23,7 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 --- /task ---
 
 --- task ---
+
 You should see a fairy in a woodland. 
 
 ![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
@@ -56,6 +57,7 @@ go to (mouse-pointer v) //change from 'random position'
 go to [front v] layer // in front of the buttons
 end
 ```
+
 --- /task ---
 
 --- task ---
@@ -111,7 +113,9 @@ Move the wand so that its tip is just away from the crosshair in the centre.
 --- /task ---
 
 --- task ---
+
 **Test:** Click the green flag and move the mouse around the Stage. The wand should follow.  
+
 --- /task ---
 
 --- task ---
