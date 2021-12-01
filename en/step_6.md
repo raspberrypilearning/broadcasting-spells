@@ -10,6 +10,7 @@ Get a sprite of your choice to respond to the spells. You will need to create a 
 </div>
 
 --- task ---
+
 Duplicate the **Fairy** sprite. 
 
 ![](images/duplicate-fairy.png)
@@ -75,6 +76,7 @@ Our Batter toad looks like:
 --- /task ---
 
 --- task ---
+
 Switch to the **Code** tab for your new sprite.
 
 Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
@@ -84,6 +86,7 @@ You might also want to change the start `size`{:class="block3looks"} of the spri
 --- /task ---
 
 --- task ---
+
 **Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
 
 **Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
