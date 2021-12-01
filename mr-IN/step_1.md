@@ -17,6 +17,7 @@ You will:
 </p>
 
 --- no-print --- --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -26,6 +27,11 @@ Use the magic wand to click on the buttons and cast spells. What does each spell
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
---- /task --- --- /no-print ---
 
---- print-only --- ![Completed project](images/showcase_static.png) --- /print-only ---
+--- /task--- --- /no-print ---
+
+--- print-only ---
+
+![Completed project](images/showcase_static.png)
+
+--- /print-only ---
