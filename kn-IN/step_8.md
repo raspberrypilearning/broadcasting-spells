@@ -12,7 +12,6 @@ Why not swap characters with a friend? First, swap project links with a friend t
 [[[scratch-backpack]]]
 
 --- collapse ---
-
 ---
 title: Download a sprite
 ---
@@ -30,7 +29,6 @@ To load a sprite into a project, choose the 'Upload a Sprite' option from the 'C
 Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
 
 --- collapse ---
-
 ---
 title: Completed project
 ---
