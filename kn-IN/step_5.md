@@ -21,6 +21,7 @@ Add a script to the **toad** button sprite to broadcast the 'toad' message:
 when this sprite clicked
 broadcast [toad v]
 ```
+
 --- /task ---
 
 --- task ---
@@ -82,6 +83,7 @@ Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sou
 when I receive [toad v]
 play sound [toad v] until done
 ```
+
 --- /task ---
 
 --- task ---
@@ -102,6 +104,7 @@ The opposite of a 'toad' spell is an 'untoad' spell.
 when this sprite clicked
 broadcast [untoad v]
 ```
+
 --- /task ---
 
 --- task ---
@@ -141,6 +144,7 @@ Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} s
 when I receive [untoad v]
 play sound [untoad v] until done
 ```
+
 --- /task ---
 
 --- task ---
