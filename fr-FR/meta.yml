@@ -1,7 +1,7 @@
 ---
-title: "Broadcasting spells"
+title: "Lancer des sorts"
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: Utiliser une baguette magique pour choisir des sorts et diffuser des messages de sorts pour transformer les sprites en crapauds et les faire grandir et rétrécir.
 version: 4
 listed: true
 copyedit: false
@@ -10,19 +10,19 @@ steps:
   - 
     title: Introduction
   - 
-    title: Choose your wand
+    title: Choisir ta baguette
   - 
-    title: The shrink spell
+    title: Le sort "rétrecir"
     completion: engaged
   - 
-    title: The grow spell
+    title: Le sort "grandir"
   - 
-    title: Toad transformation
+    title: Transformation de crapaud
   - 
-    title: Add another character
+    title: Ajouter un autre personnage
     completion: internal
   - 
-    title: Reflection
+    title: Réflexion
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: What next?
+    title: Et ensuite ?
