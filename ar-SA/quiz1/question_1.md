@@ -1,24 +1,24 @@
-## Reflection
+## تفكير
 
-Well done, you have created an app based on ideas from stories!
+أحسنت صنعًا ، لقد أنشأت تطبيقًا يعتمد على أفكار من القصص!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+لقد استخدمت `أحداث`{: class = "block3events"} ، `عنصر تحكم`{: class = "block3control"} ، `Motion`{: class = "block3motion"} ، `مظاهر`{: class = "block3looks"} و `كتل Sound`{: class = "block3sound"}!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+الآن ، حان وقت التفكير - التفكير جزء مهم من التعلم ، لأنه يساعد في إنشاء روابط جديدة في عقلك.
 
-Answer the three questions below to reflect on what you've learned.
+أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+بعد كل سؤال ، اضغط على إرسال. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
 
-Have fun!
+إستمتع!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+القائمة: السؤال 1 من 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+لقد كتبت نصوصًا لـ `بث`{: class = "block3events"} رسالة عند النقر فوق الزر.
 
 ![](images/button-icon.png)
 
@@ -27,7 +27,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+ما هو البرنامج النصي الذي يخفي كائنًا عند النقر فوق الزر؟
 
 --- choices ---
 
@@ -40,7 +40,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ لا ، هذه هي الرسالة الافتراضية في Scratch ، لكنها ليست الرسالة التي يرسلها الرمز.
 
  --- /feedback ---
 
@@ -53,7 +53,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ لا ، الرسالة التي تريد تلقيها لا تسمى "إخفاء".
 
  --- /feedback ---
 
@@ -66,7 +66,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+هذا صحيح. تحتاج الكتلة `عندما أتلقى`كتلة {: class = "block3events"} إلى استخدام نفس اسم الرسالة تمامًا مثل كتلة البث `{: class = "`"}.
 
  --- /feedback ---
 
@@ -79,7 +79,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ ليس تماما. يحتاج Scratch إلى أن يكون تهجئتك دقيقًا حقًا حتى تتطابق أسماء الرسائل. تحقق بعناية.
 
  --- /feedback ---
 
