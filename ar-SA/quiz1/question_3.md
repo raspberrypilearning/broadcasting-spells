@@ -1,14 +1,14 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: السؤال 3 من 3
 ---
 
-You renamed the **Slide Whistle** sound to create a **shrink** sound:
+لقد أعدتَ تسمية صوت **Slide Whistle** لتُنشئ صوت **التقليص**:
 
 ![](images/just-shrink.png)
 
-You duplicated the **shrink** sound and reversed it to make a **grow** sound. Which answer shows the correct grow sound?
+قمتَ بمضاعفة صوت **التقليص**، ثمّ عكسته لتُولِّدَ صوت **التكبير**. أيُّ إجابة تُشير إلى صوت التكبير الصحيح؟
 
 
 --- choices ---
@@ -19,7 +19,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- No, this project has a copy of the **shrink** sound, but the soundwave is the same. The soundwave hasn't been reversed to create a grow sound.
+ خطأ، هذا المشروع يحوي نسخة من صوت **التقليص**، لكنّ شكل موجة الصوت متشابه. شكل موجة الصوت لم يُعكَس لعمل صوت التكبير.
 
  --- /feedback ---
 
@@ -29,7 +29,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- Yes, you can see that the sound has been reversed by the shape of the soundwave.
+ إجابة صحيحة! تستطيع رؤية الصوت الّذي عُكِسَ، من خلال ملاحظة شكل موجة الصوت.
 
  --- /feedback ---
 
