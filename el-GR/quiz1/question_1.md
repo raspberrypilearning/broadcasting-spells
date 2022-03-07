@@ -1,24 +1,24 @@
-## Reflection
+## Αναστοχασμός
 
-Well done, you have created an app based on ideas from stories!
+Μπράβο, δημιούργησες μια εφαρμογή βασισμένη σε ιδέες από ιστορίες!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Κίνηση`{:class="block3motion"}, `Όψεις`{:class="block3looks"}, και `Ήχος`{:class="block3sound"}!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you've learned.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+Έγραψες scripts για να `μεταδώσεις`{class="block3events"} ένα μήνυμα όταν κάνεις κλικ σε ένα κουμπί.
 
 ![](images/button-icon.png)
 
@@ -27,7 +27,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+Ποιο script θα έκρυβε ένα αντικείμενο όταν πατηθεί το κουμπί;
 
 --- choices ---
 
@@ -40,7 +40,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ Όχι, αυτό είναι το προεπιλεγμένο μήνυμα στο Scratch, αλλά δεν είναι το μήνυμα που μεταδίδεται από τον κώδικα.
 
  --- /feedback ---
 
@@ -53,7 +53,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ Όχι, το μήνυμα που πρέπει να λάβεις δεν ονομάζεται "εξαφανίσου".
 
  --- /feedback ---
 
@@ -66,7 +66,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+Ναι, αυτό είναι σωστό. Το μπλοκ `όταν λάβω`{:class="block3events"} πρέπει να χρησιμοποιεί ακριβώς το ίδιο όνομα μηνύματος με το μπλοκ `μετάδωσε`{:class="block3events"}.
 
  --- /feedback ---
 
@@ -79,7 +79,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ Περίπου. Το Scratch χρειάζεται η ορθογραφία σου να είναι ακριβής, ώστε τα ονόματα των μηνυμάτων να ταιριάζουν. Έλεγξε προσεκτικά.
 
  --- /feedback ---
 
