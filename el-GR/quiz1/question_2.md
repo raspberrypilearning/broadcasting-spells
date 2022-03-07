@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-In your project, clicking on a button broadcast a message. Which sprite or sprites would change size when the grow button is clicked?
+Στο έργο σου, κάνοντας κλικ σε ένα κουμπί μεταδίδεται ένα μήνυμα. Ποιο αντικείμενο ή αντικείμενα θα άλλαζαν μέγεθος όταν κάνεις κλικ στο κουμπί αύξησης;
 
 ![](images/grow-icon.png)
 
@@ -30,27 +30,27 @@ change size by [10]
 
 --- choices ---
 
-- ( ) Whichever sprite receives the message first
+- ( ) Όποιο αντικείμενο λάβει πρώτο το μήνυμα
 
  --- feedback ---
 
- No, messages are seen by all sprites. More than one sprite can respond to the same message.
+ Όχι, τα μηνύματα λαμβάνονται από όλα τα αντικείμενα. Περισσότερα από ένα αντικείμενα μπορούν να ανταποκριθούν στο ίδιο μήνυμα.
 
  --- /feedback ---
 
-- (x) Both the Ripley and Robot sprites
+- (x) Και το αντικείμενο Ripley και το αντικείμενο Robot
 
  --- feedback ---
 
- Yes, when a message is `broadcast`{:class="block3events"}, all sprites that have a `when I receive`{:class="block3events"} block will react to the message.
+ Ναι, όταν ένα μήνυμα `μεταδίδεται`{:class="block3events"}, όλα τα αντικείμενα που έχουν μπλοκ `όταν λάβω`{:class="block3events"} θα αντιδράσουν στο μήνυμα.
 
  --- /feedback ---
 
-- ( ) Neither of the sprites
+- ( ) Κανένα από τα αντικείμενα
 
  --- feedback ---
 
- Have another look. The code does correctly `broadcast`{:class="block3events"} a message.
+ Ρίξε μια άλλη ματιά. Ο κώδικας `μεταδίδει`{:class="block3events"} σωστά ένα μήνυμα.
 
  --- /feedback ---
 
