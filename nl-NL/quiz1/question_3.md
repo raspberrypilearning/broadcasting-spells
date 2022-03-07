@@ -1,14 +1,14 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-You renamed the **Slide Whistle** sound to create a **shrink** sound:
+Je hebt het **Slide Whistle** geluid hernoemd om een **krimp** geluid te creëren:
 
 ![](images/just-shrink.png)
 
-You duplicated the **shrink** sound and reversed it to make a **grow** sound. Which answer shows the correct grow sound?
+Je dupliceerde het **krimp** geluid en draaide het om om een **groei** geluid te maken. Welk antwoord geeft het juiste groei geluid weer?
 
 
 --- choices ---
@@ -19,7 +19,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- No, this project has a copy of the **shrink** sound, but the soundwave is the same. The soundwave hasn't been reversed to create a grow sound.
+ Nee, dit project heeft een kopie van het **krimp** geluid, maar de geluidsgolf is hetzelfde. De geluidsgolf is niet omgekeerd om een groei geluid te creëren.
 
  --- /feedback ---
 
@@ -29,7 +29,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- Yes, you can see that the sound has been reversed by the shape of the soundwave.
+ Ja, je kunt zien dat het geluid is omgekeerd door de vorm van de geluidsgolf.
 
  --- /feedback ---
 
