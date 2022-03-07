@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+القائمة: السؤال 2 من 3
 ---
 
-In your project, clicking on a button broadcast a message. Which sprite or sprites would change size when the grow button is clicked?
+في مشروعك، يؤدي النقر فوق الزر إلى بث رسالة. ما هو الكائن أو الكائنات الّتي سيتغيّر حجمها عند النقر على زرّ التكبير؟
 
 ![](images/grow-icon.png)
 
@@ -30,27 +30,27 @@ change size by [10]
 
 --- choices ---
 
-- ( ) Whichever sprite receives the message first
+- () الكائن الذي سيتلقى الرسالة اولاً
 
  --- feedback ---
 
- No, messages are seen by all sprites. More than one sprite can respond to the same message.
+ خطأ، الرسائل تُرى من قِبَل كلا الكائنَين. يمكن لأكثر من كائن أن يستقبل نفس الرسالة.
 
  --- /feedback ---
 
-- (x) Both the Ripley and Robot sprites
+- (x) الكائنين كلاهما، Ripley وRobot
 
  --- feedback ---
 
- Yes, when a message is `broadcast`{:class="block3events"}, all sprites that have a `when I receive`{:class="block3events"} block will react to the message.
+ إجابة صحيحة! عندما تتمّ عمليّة `بثّ`{:class="block3events"} رسالة، كلّ الكائنات الّتي تملك المقطع البرمجيّ `عندما أتلقّى`{:class="block3events"} ستتفاعل مع الرسالة.
 
  --- /feedback ---
 
-- ( ) Neither of the sprites
+- () لن يتلقّى أيّ كائن الرسالة
 
  --- feedback ---
 
- Have another look. The code does correctly `broadcast`{:class="block3events"} a message.
+ حاول مجدّدًا. الكود البرمجيّ يؤدّي عمليّة `بثّ`{:class="block3events"} الرسالة بشكل سليم.
 
  --- /feedback ---
 
