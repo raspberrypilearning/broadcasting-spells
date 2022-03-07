@@ -1,14 +1,14 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: 3 में से तीसरा प्रश्न
 ---
 
-You renamed the **Slide Whistle** sound to create a **shrink** sound:
+आपने **shrink** ध्वनि बनाने के **Slide Whistle**ध्वनि का नाम बदल दिया:
 
 ![](images/just-shrink.png)
 
-You duplicated the **shrink** sound and reversed it to make a **grow** sound. Which answer shows the correct grow sound?
+आपने **shrink** ध्वनि को डुप्लिकेट किया **grow** ध्वनि बनाने के लिए इसे उलट दिया। कौन सा उत्तर सही grow ध्वनि दिखाता है?
 
 
 --- choices ---
@@ -19,7 +19,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- No, this project has a copy of the **shrink** sound, but the soundwave is the same. The soundwave hasn't been reversed to create a grow sound.
+ नहीं, इस प्रोजेक्ट में <**shrink** ध्वनि की एक प्रति है, लेकिन ध्वनि तरंग वही है। ध्वनि तरंग को बढ़ाने वाली ध्वनि बनाने के लिए उलट नहीं किया गया है।
 
  --- /feedback ---
 
@@ -29,7 +29,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- Yes, you can see that the sound has been reversed by the shape of the soundwave.
+ हां, आप ध्वनि तरंग के आकार से देख सकते हैं कि ध्वनि को उलट दिया गया है।
 
  --- /feedback ---
 
