@@ -1,28 +1,28 @@
 ---
-title: "Broadcasting spells"
+title: "Ξόρκια Μετάδοσης"
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: Χρησιμοποίησε ένα μαγικό ραβδί για να επιλέξεις ξόρκια και να μεταδώσεις μηνύματα με ξόρκια για να μετατρέψεις τα αντικείμενα σε βατράχους και να τα μεγαλώσεις και να τα συρρικνώσεις.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Choose your wand
+    title: Διάλεξε το ραβδί σου
   - 
-    title: The shrink spell
+    title: Το ξόρκι συρρίκνωσης
     completion: engaged
   - 
-    title: The grow spell
+    title: Το ξόρκι αύξησης
   - 
-    title: Toad transformation
+    title: Μεταμόρφωση σε βάτραχο
   - 
-    title: Add another character
+    title: Προσθήκη νέου χαρακτήρα
     completion: internal
   - 
-    title: Reflection
+    title: Αναστοχασμός
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: Αναβάθμιση του έργου σου
   - 
-    title: What next?
+    title: Και τώρα;
