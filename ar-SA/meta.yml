@@ -1,28 +1,28 @@
 ---
-title: "Broadcasting spells"
+title: "بث التعاويذ السحرية"
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: استخدم عصا سحرية لاختيار التعاويذ وبثها لتحويل الكائنات إلى ضفادع وجعلها تكبر وتصغر.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Choose your wand
+    title: اختر العصا الخاصة بك
   - 
-    title: The shrink spell
+    title: تعويذة التقليص
     completion: engaged
   - 
-    title: The grow spell
+    title: تعويذة التكبير
   - 
-    title: Toad transformation
+    title: تحوّل الضفدع
   - 
-    title: Add another character
+    title: أضف شخصية أخرى
     completion: internal
   - 
-    title: Reflection
+    title: تفكير
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: قم بترقية او تطوير مشروعك
   - 
-    title: What next?
+    title: ما التالي؟
