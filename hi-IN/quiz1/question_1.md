@@ -1,24 +1,24 @@
-## Reflection
+## सोचिए
 
-Well done, you have created an app based on ideas from stories!
+बहुत बढ़िया, आपने कहानियों के विचारों के आधार पर एक ऐप बनाया है!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+आपने `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, और `Sound`{:class="block3sound"} ब्लॉक का इस्तेमाल किया है!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+अब, अब उस पर विचार करने का समय है - विचार करना सीखने का एक महत्वपूर्ण हिस्सा है, क्योंकि यह आपके दिमाग को तेज़ करता है।
 
-Answer the three questions below to reflect on what you've learned.
+आपने जो सीखा है उस पर चिंतन करने के लिए नीचे दिए गए तीन प्रश्नों के उत्तर दें।
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+प्रत्येक प्रश्न के बाद, सबमिट करें दबाएं। यह आपको सही उत्तर की तरफ लेकर जाएगा। आप इस गतिविधि को जितनी बार चाहें उतनी बार कर सकते हैं।
 
-Have fun!
+आनंद लें!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: 3 में से पहला प्रश्न
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+आपने जब एक संदेश बटन पर क्लिक किया जाता है to `broadcast`{:class="block3events"} के लिए स्क्रिप्ट लिखी।
 
 ![](images/button-icon.png)
 
@@ -27,7 +27,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+बटन क्लिक करने पर कौन सी स्क्रिप्ट स्प्राइट को छुपाएगी?
 
 --- choices ---
 
@@ -40,7 +40,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ नहीं, यह Scratch में डिफ़ॉल्ट संदेश है, लेकिन यह कोड द्वारा भेजा जा रहा संदेश नहीं है।
 
  --- /feedback ---
 
@@ -53,7 +53,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ नहीं, आपको जो संदेश प्राप्त करने की आवश्यकता है उसे 'hide' नहीं कहा जाता है।
 
  --- /feedback ---
 
@@ -66,7 +66,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+हाँ, यह सही है। `when I receive`{:class="block3events"} ब्लॉक के समान संदेश नाम जैसा की `broadcast`{:class="block3events"} ब्लॉक का है का उपयोग करने की आवश्यकता होती है।
 
  --- /feedback ---
 
@@ -79,7 +79,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ लगभग Scratch को वास्तव में सटीक होने के लिए आपकी वर्तनी की आवश्यकता होती है ताकि संदेश के नाम मेल खा सकें। ध्यान से जांचें।
 
  --- /feedback ---
 
