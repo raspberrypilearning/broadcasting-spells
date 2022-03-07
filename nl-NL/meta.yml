@@ -1,28 +1,28 @@
 ---
-title: "Broadcasting spells"
+title: "Zend spreuken"
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: Gebruik een toverstaf om spreuken te kiezen en spreukberichten uit te zenden om sprites in padden te veranderen en ze te laten groeien en verkleinen.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Choose your wand
+    title: Kies je toverstaf
   - 
-    title: The shrink spell
+    title: De krimpspreuk
     completion: engaged
   - 
-    title: The grow spell
+    title: De groeispreuk
   - 
-    title: Toad transformation
+    title: Pad transformatie
   - 
-    title: Add another character
+    title: Voeg nog een personage toe
     completion: internal
   - 
-    title: Reflection
+    title: Reflectie
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
