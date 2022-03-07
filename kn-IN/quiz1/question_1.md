@@ -1,24 +1,24 @@
-## Reflection
+## ಪುನರ್ಮನನ
 
-Well done, you have created an app based on ideas from stories!
+ಭೇಷ್, ಕಥೆಗಳಲ್ಲಿನ ಆಲೋಚನೆಗಳನ್ನು ಆಧರಿಸಿ ನೀವು ಒಂದು ಆಪ್‌ ರಚಿಸಿದ್ದೀರಿ!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+ನೀವು `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, ಮತ್ತು `Sound`{:class="block3sound"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿದ್ದೀರಿ!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+ಈಗ ಪುನರ್ಮನನ ಮಾಡುವ ಸಮಯ — ಪುನರ್ಮನನ ಕಲಿಕೆಯ ಒಂದು ಮಹತ್ವದ ಭಾಗ, ಏಕೆಂದರೆ ಅದು ನಿಮ್ಮ ಮೆದುಳಿನಲ್ಲಿ ಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.
 
-Answer the three questions below to reflect on what you've learned.
+ನೀವು ಕಲಿತಿದ್ದನ್ನು ಪುನರ್ಮನನ ಮಾಡಲು ಈ ಕೆಳಗಿನ ಮೂರು ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿ.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+ಪ್ರತಿಯೊಂದು ಪ್ರಶ್ನೆಯ ನಂತರ, ಸಬ್ಮಿಟ್‌ ಒತ್ತಿ. ಸರಿಯಾದ ಉತ್ತರದ ಕಡೆಗೆ ನಿಮಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡಲಾಗುತ್ತದೆ. ಈ ಚಟುವಟಿಕೆಯನ್ನು ನೀವು ಎಷ್ಟು ಸಲ ಬೇಕಾದರೂ ಮಾಡಬಹುದು.
 
-Have fun!
+ಆನಂದಿಸಿ!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: ಪ್ರಶ್ನೆ 1 ರಲ್ಲಿ 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+ಬಟನ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ಸಂದೇಶವನ್ನು `broadcast`{:class="block3events"} ಮಾಡಲು ನೀವು ಬರಹ ಬರೆದಿದ್ದೀರಿ.
 
 ![](images/button-icon.png)
 
@@ -27,7 +27,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+ಬಟನ್‌ನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಯಾವ ಬರಹ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಮರೆಮಾಡುತ್ತದೆ?
 
 --- choices ---
 
@@ -40,7 +40,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ ಇಲ್ಲ, ಇದು Scratch ನಲ್ಲಿ ಪೂರ್ವನಿಯೋಜಿತ ಸಂದೇಶ, ಆದರೆ ಇದು ಕೋಡ್‌ನಿಂದ ಕಳುಹಿಸಲಾದ ಸಂದೇಶವಲ್ಲ.
 
  --- /feedback ---
 
@@ -53,7 +53,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ ಇಲ್ಲ, ನೀವು ಸ್ವೀಕರಿಸಬೇಕಾದ ಸಂದೇಶವನ್ನು 'hide' ಎಂದು ಕರೆಯುವುದಿಲ್ಲ.
 
  --- /feedback ---
 
@@ -66,7 +66,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+ಹೌದು, ಅದು ಸರಿಯಾಗಿದೆ. `when I receive`{:class="block3events"} ಬ್ಲಾಕ್‌ `broadcast`{:class="block3events"} ಬ್ಲಾಕ್‌ನಂತೆ ಅದೇ ಸಂದೇಶದ ಹೆಸರನ್ನು ಉಪಯೋಗಿಸಬೇಕು.
 
  --- /feedback ---
 
@@ -79,7 +79,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ ಹಾಗೆನಿಲ್ಲ. ಸಂದೇಶದ ಹೆಸರುಗಳು ಹೊಂದಿಕೆಯಾಗಲು Scratch ಗೆ ನಿಮ್ಮ ಸ್ಪೆಲ್ಲಿಂಗ್‌ಗಳು ಅತ್ಯಂತ ನಿಖರವಾಗಿರಬೇಕು. ಎಚ್ಚರಿಕೆಯಿಂದ ಪರಿಶೀಲಿಸಿ.
 
  --- /feedback ---
 
