@@ -1,24 +1,24 @@
-## Reflection
+## Reflectie
 
-Well done, you have created an app based on ideas from stories!
+Goed gedaan, je hebt een app gemaakt op basis van ideeën uit verhalen!
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+Je hebt `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Beweging`{:class="block3motion"}, `Uiterlijken`{:class="block3looks"} gebruikt, en `Geluid`{:class="block3sound"} blokken gebruikt!
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
 
-Answer the three questions below to reflect on what you've learned.
+Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+Je hebt scripts geschreven om met `zend signaal` {:class="block3events"} een bericht uit te zenden wanneer er op een knop wordt geklikt.
 
 ![](images/button-icon.png)
 
@@ -27,7 +27,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+Welk script zou een sprite verbergen wanneer op de knop wordt geklikt?
 
 --- choices ---
 
@@ -40,7 +40,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ Nee, dit is het standaardbericht in Scratch, maar het is niet het bericht dat door de code wordt verzonden.
 
  --- /feedback ---
 
@@ -53,7 +53,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ Nee, het bericht dat je moet ontvangen heet niet 'verdwijn'.
 
  --- /feedback ---
 
@@ -66,7 +66,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+Ja dat is goed. Het `wanneer ik signaal ontvang`{:class="block3events"}-blok, moet exact dezelfde berichtnaam gebruiken als het `zend signaal`{:class="block3events"}-blok.
 
  --- /feedback ---
 
@@ -79,7 +79,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ Niet helemaal. In Scratch moet jouw spelling zeer nauwkeurig zijn, zodat de berichtnamen overeenkomen. Controleer zorgvuldig.
 
  --- /feedback ---
 
