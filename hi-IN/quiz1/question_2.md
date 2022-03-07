@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: 3 में से दूसरा प्रश्न
 ---
 
-In your project, clicking on a button broadcast a message. Which sprite or sprites would change size when the grow button is clicked?
+आपके प्रोजेक्ट में, एक बटन पर क्लिक करने से एक संदेश प्रसारित होता है। Grow बटन पर क्लिक करने पर कौन से स्प्राइट या स्प्राइट्स का आकार बदल जाएगा?
 
 ![](images/grow-icon.png)
 
@@ -30,27 +30,27 @@ change size by [10]
 
 --- choices ---
 
-- ( ) Whichever sprite receives the message first
+- ( ) जो भी स्प्राइट पहले संदेश प्राप्त करता है
 
  --- feedback ---
 
- No, messages are seen by all sprites. More than one sprite can respond to the same message.
+ नहीं, संदेश सभी स्प्राइट्स द्वारा देखे जाते हैं। एक से अधिक स्प्राइट एक ही संदेश का उत्तर दे सकते हैं।
 
  --- /feedback ---
 
-- (x) Both the Ripley and Robot sprites
+- (x) दोनों Ripley और Robot स्प्राइट्स
 
  --- feedback ---
 
- Yes, when a message is `broadcast`{:class="block3events"}, all sprites that have a `when I receive`{:class="block3events"} block will react to the message.
+ हां, जब कोई संदेश `broadcast`{:class="block3events"} होता है, तो सभी स्प्राइट्स जिनमें `when I receive`{:class="block3events"} ब्लॉक है वह संदेश पर प्रतिक्रिया करेंगे।
 
  --- /feedback ---
 
-- ( ) Neither of the sprites
+- ( ) स्प्राइट्स में से कोई भी नहीं
 
  --- feedback ---
 
- Have another look. The code does correctly `broadcast`{:class="block3events"} a message.
+ एक और नज़र डालें। कोड सही ढंग से एक संदेश `broadcast`{:class="block3events"} करता है।
 
  --- /feedback ---
 
