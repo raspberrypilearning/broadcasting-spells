@@ -1,7 +1,7 @@
-change from 'random position'
+'random position' मधून बदला
 
-in front of the buttons
+बटनच्या समोर
 
-negative numbers decrease the size
+ऋण संख्या साईज कमी करतात
 
-positive numbers increase the size
+धन संख्या साईज वाढवतात
