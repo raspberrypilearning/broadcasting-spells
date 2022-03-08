@@ -1,10 +1,10 @@
-## What next?
+## Wat kun je verder nog doen?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly) project. In this project, you will make a Dragonfly that eats insects.
+Als je het [Meer Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)-pad volgt, kun je doorgaan naar het [Laat een libel groeien](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly)-project. In dit project maak je een libel die insecten eet.
 
 --- print-only ---
 
-![Dragonfly project](images/dragonfly-project.png)
+![Libel-project](images/dragonfly-project.png)
 
 --- /print-only ---
 
