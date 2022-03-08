@@ -1,39 +1,39 @@
-## Upgrade your project
+## ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+ನಿಮ್ಮ ಮಾಂತ್ರಿಕ ಜಗತ್ತನ್ನು ನೀವು ಹೇಗೆ ವಿಸ್ತರಿಸುತ್ತೀರಿ? ನೀವು:
++ ಇನ್ನಷ್ಟು ಪಾತ್ರಗಳನ್ನು ಸೇರಿಸಬಹುದು
++ ಮಾಂತ್ರಿಕ ದಂಡಕ್ಕೆ ಬೇರೆ ಬೇರೆ ಧ್ವನಿಗಳನ್ನು ಮತ್ತು ದೃಶ್ಯ ಪರಿಣಾಮಗಳನ್ನು ಸೇರಿಸಬಹದು.
++ ಇನ್ನಷ್ಟು ಮಂತ್ರಗಳನ್ನು ಸೇರಿಸಬಹುದು — ನೀವು `hide`{:class="block3looks"} ಮತ್ತು `show`{:class="block3looks"} ಗಳೊಂದಿಗೆ ಪಾತ್ರಗಳು ಮರೆಯಾಗುವಂತೆ ಮತ್ತು ಮತ್ತೆ ಕಾಣಿಸಿಕೊಳ್ಳುವಂತೆ ಮಾಡಬಹುದು, ದೃಶ್ಯ ಪರಿಣಾಮಗಳನ್ನು ಅನ್ವಯಿಸಬಹುದು ಅಥವಾ ಅವುಗಳನ್ನು ತಲೆಕೆಳಗಾಗಿ ತಿರುಗಿಸಬಹುದು.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![ನಾಲ್ಕು ಸ್ಪ್ರೈಟ್‌ಗಳುಳ್ಳ ಮತ್ತು ಹೊಸ ಪಿಕ್ಸೆಲೇಟ್‌ ಮಂತ್ರದ ಬಟನ್‌ಗಳನ್ನು ಸೇರಿಸಿದ ಪ್ರಾಜೆಕ್ಟ್.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+ನೀವು ಗೆಳೆಯರೊಂದಿಗೆ ಪಾತ್ರಗಳನ್ನು ಏಕೆ ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಬಾರದು? ಮೊದಲಿಗೆ, ಪರಸ್ಪರ ಒಬ್ಬರಿಗೊಬ್ಬರ ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ನೋಡಲು ಗೆಳೆಯನೊಂದಿಗೆ ಪ್ರಾಜೆಕ್ಟ್‌ ಲಿಂಕ್‌ ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಿ. ಅವರ ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ಸೇವ್‌ ಮಾಡಲು, ನಿಮ್ಮ Scratch backpack ಉಪಯೋಗಿಸಿ ಅಥವಾ ಹಂಚಿಕೊಂಡ ಪ್ರದೇಶಕ್ಕೆ ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಳ್ಳಿ. ನಂತರ ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಹಿಂತಿರುಗಿ ಮತ್ತು ಸೇವ್‌ ಮಾಡಿದ ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ಸೇರಿಸಿ.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+title: ಸ್ಪ್ರೈಟ್‌ನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+ನೀವು ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ಗೆ ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನಿಂದ ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಂಡು ಸೇವ್‌ ಮಾಡಬಹದು. Sprite ಲಿಸ್ಟ್‌ಲ್ಲಿ ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ರೈಟ್‌-ಕ್ಲಿಕ್‌ ಮಾಡಿ export ಆಯ್ದುಕೊಳ್ಳಿ.
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![ಸ್ಪ್ರೈಟ್ ಲಿಸ್ಟ್‌ನಲ್ಲಿ ಪಾಪ್ಅಪ್ ಮೆನು.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ಸ್ಪ್ರೈಟ್‌ ಲೋಡ್‌ ಮಾಡಲು, 'Choose a Sprite' ಮೆನುನಿಂದ 'Upload a Sprite' ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ.
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![Upload a Sprite ಆಯ್ಕೆ ತೋರಿಸುವ ವಿಸ್ತರಿತ Choose a Sprite ಮೆನು.](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+ನಿಮ್ಮ ಗೆಳೆಯನೊಂದಿಗೆ ಹೆಚ್ಚು ಮಂತ್ರಗಳನ್ನು ರಚಿಸಿ ಮತ್ತು ಅವುಗಳನ್ನುನಿಮ್ಮ ಪಾತ್ರಗಳಿಗೆ ಸೇರಿಸಿ. ಯಾವ ಮಂತ್ರಗಳನ್ನು ರಚಿಸಬೇಕೆಂದು ತೀರ್ಮಾನಿಸಿ. ನೀವು ಪ್ರಸಾರ ಮಾಡುವ ಸಂದೇಶಗಳಿಗೆ ನಿವಿಬ್ಬರೂ ನಿಖರವಾಗಿ ಒಂದೇ ಹೆಸರನ್ನು ಉಪಯೋಗಿಸುವದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 --- collapse ---
 ---
-title: Completed project
+title: ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+ನೀವು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್ ನೋಡಬಹುದು](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
 
 --- /collapse ---
 
