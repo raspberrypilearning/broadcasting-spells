@@ -1,8 +1,8 @@
-## Choose your wand
+## Choisir ta baguette
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and create your own computer-generated magic.
+Pendant cette étape, tu vas créer le décor. Choisis ta baguette magique et crée ta propre magie générée par ordinateur.
   
 </div>
 <div>
@@ -11,12 +11,12 @@ In this step, you will set the scene, choose your wand and create your own compu
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
+<span style="color: #0faeb0">**L'imagerie générée par ordinateur (CGI)**</span> peut être utilisée pour créer des effets spéciaux qui ne se produisent pas dans le monde réel. Créer un film ou une animation fantastique moderne implique beaucoup de codage et d'infographie.
 </p>
 
 --- task ---
 
-Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
+Ouvre le [projet de démarrage Lancer des sorts](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 [[[working-offline]]]
 
@@ -24,29 +24,29 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 
 --- task ---
 
-You should see a fairy in a woodland.
+Tu devrais voir une fée dans une forêt.
 
-![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
-
---- /task ---
-
-You need a wand to cast a spell.
-
---- task ---
-
-Click **Choose a Sprite** and type `wand` into the search box:
-
-![Choose a sprite icon.](images/choose-a-sprite.png)
-
-![Choice of Magic Wand and Wand.](images/wand-sprite-options.png)
-
-**Choose:** Add the wand you prefer to your project.
+![La scène montrant la scène de départ avec un sprite fée et des boutons.](images/starter-project.png)
 
 --- /task ---
 
+Tu as besoin d'une baguette magique pour jeter un sort.
+
 --- task ---
 
-Add code to make the **Wand** sprite follow the `mouse pointer`{:class="block3motion"} and stay in `front`{:class="block3looks"} of the buttons:
+Clique sur **Choisir un sprite** et tape `wand` dans le champ de recherche :
+
+![Choisis une icône sprite.](images/choose-a-sprite.png)
+
+![Choix de baguette magique et de la baguette.](images/wand-sprite-options.png)
+
+**Choisir :** Ajoute la baguette magique de ton choix à ton projet.
+
+--- /task ---
+
+--- task ---
+
+Ajoute du codage pour que le sprite **Baguette magique** suive le `pointeur de la souris`{:class="block3motion"} et reste `devant`{:class="block3looks"} les boutons :
 
 ![](images/wand-sprite-icon.png)
 
@@ -62,75 +62,75 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. The wand will follow your mouse pointer.
+**Test :** Clique sur le drapeau vert pour tester ton projet. La baguette magique suivra le pointeur de ta souris.
 
 --- /task ---
 
-Make the wand bigger and tilted, like you’re really using it.
+Rends la baguette magique plus grande et penchée, comme si tu l'utilisais vraiment.
 
 --- task ---
 
-Go to the Sprite pane and change the **Size** property to `200` to make the wand bigger:
+Va dans le volet sprite et change la propriété **Taille** en `200` pour agrandir la baguette magique :
 
-![The Sprite pane with the Size property highlighted with value 200.](images/size-property.png)
-
---- /task ---
-
---- task ---
-
-Click on the **Costumes** tab to open the Wand costume in the Paint editor.
-
-Click on the **Select** (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume.
-
-![Wand costumes grouped.](images/the-select-tool.png)
-
-![Wand costumes grouped.](images/grouped-costumes.png)
-
-Then click on the **Group** icon to combine the wand parts.
-
-![Wand costumes grouped.](images/group-icon.png)
+![Le volet sprite avec la propriété Taille mise en surbrillance avec la valeur 200.](images/size-property.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Rotate** tool on the wand to position the wand at an angle.
+Clique sur l'onglet **Costumes** pour ouvrir le costume de la baguette magique dans l'éditeur de peinture.
 
-![Wand costumes rotated.](images/rotated-wands.png)
+Clique sur l'outil **Sélectionner** (Flèche), puis dessine un rectangle entièrement autour de la baguette magique pour sélectionner toutes les parties du costume.
 
-**Tip:** If you can't see the **Rotate** tool, click the **Zoom out** (-) tool at the bottom of the Paint editor to zoom out.
+![Les costumes de baguette regroupés.](images/the-select-tool.png)
 
---- /task ---
+![Les costumes de baguette regroupés.](images/grouped-costumes.png)
 
-The **Wand** costume gets in the way of the mouse cursor when you try to click the buttons.
+Ensuite clique sur l'icône **Grouper** pour combiner les différentes parties de la baguette magique.
 
---- task ---
-
-Move the wand so that its tip is just away from the crosshair in the centre.
-
-![Wand costumes correctly positioned.](images/positioned-wands.png)
+![Les costumes de baguette regroupés.](images/group-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and move the mouse around the Stage. The wand should follow.
+Utilise l'outil **Rotation** sur la baguette magique pour positionner la baguette magique en oblique.
+
+![Les costumes de baguette tournés.](images/rotated-wands.png)
+
+**Astuce :** Si tu ne vois pas l'outil **Rotation**, clique sur l'outil **Zoom arrière** (-) en bas de l'éditeur de peinture pour effectuer un zoom arrière.
+
+--- /task ---
+
+Le costume **Baguette magique** gêne le curseur de la souris lorsque tu essaies de cliquer sur les boutons.
+
+--- task ---
+
+Déplace la baguette magique de manière à ce que son extrémité soit à l'écart du réticule qui se trouve au centre.
+
+![Les costumes de baguette correctement positionnés.](images/positioned-wands.png)
 
 --- /task ---
 
 --- task ---
 
-If you are signed in to your Scratch account, click on the green Remix button. This will save a copy of the project to your Scratch account.
+**Test :** Clique sur le drapeau vert et déplace la souris sur la scène. La baguette magique devrait suivre.
 
-![The Remix button.](images/remix-button.png)
+--- /task ---
 
-You can change the title of your project.
+--- task ---
 
-![The project title box.](images/project-name.png)
+Si tu es connecté à ton compte Scratch, clique sur le bouton vert Remix. Cela enregistrera une copie du projet sur ton compte Scratch.
 
-**Tip:** Give your projects helpful names so that you can easily find them when you have lots of projects.
+![Bouton Remix.](images/remix-button.png)
 
-If you do not have a Scratch account, you can click on **File** then **Save to your computer** to save a copy of the project.
+Tu peux modifier le titre de ton projet.
+
+![La zone de nom du projet.](images/project-name.png)
+
+**Astuce :** Donne à tes projets des noms utiles afin de pouvoir les retrouver facilement lorsque tu auras de nombreux projets.
+
+Si tu n'as pas de compte Scratch, tu peux cliquer sur **Fichier** puis **Enregistrer sur votre ordinateur** pour enregistrer une copie de ton projet.
 
 --- /task ---
 
