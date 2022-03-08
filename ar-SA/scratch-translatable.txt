@@ -1,19 +1,19 @@
-change from 'random position'
+غيّرها من "موضع عشوائي"
 
-in front of the buttons
+أمام الأزرار
 
-shrink
+تقليص
 
-negative numbers decrease the size
+الأرقام السالبة تقلل الحجم
 
-grow
+تكبير
 
-positive numbers increase the size
+الأرقام الموجبة تزيد من الحجم
 
-toad
+ضفدع
 
-untoad
+الشكل الأصلي
 
-invisible
+غير مرئى
 
-hide
+اخف
