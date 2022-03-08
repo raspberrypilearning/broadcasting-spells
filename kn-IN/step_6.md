@@ -1,39 +1,39 @@
-## Add another character
+## ಇನ್ನೊಂದು ಪಾತ್ರವನ್ನು ಸೇರಿಸಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+ಮಂತ್ರಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಲು ನಿಮ್ಮ ಆಯ್ಕೆಯ ಸ್ಪ್ರೈಟ್‌ನ್ನು ಪಡೆಯಿರಿ. ನೀವು ಸ್ಪ್ರೈಟ್‌ ಗೆ ನೆಲಗಪ್ಪೆಯ ಉಡುಪಿನ 'mash-up' ರಚಿಸಬೇಕಾಗುತ್ತದೆ, ಮತ್ತು, ಮಂತ್ರದ ಸಂದೇಶಗಳು ಪ್ರಸಾರವಾದಾಗ ಉಡುಪುಗಳು ಬದಲಾವಣೆಯಾಗಲು ಕೋಡ್‌ ಸೇರಿಸಿ.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![ಎರಡನೆಯ ನೆಲಗಪ್ಪೆ ರೂಪಾಂತರವನ್ನು ತೋರಿಸುತ್ತಿರುವ Stage.](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+**Fairy** ಸ್ಪ್ರೈಟ್‌ ನಕಲು ಮಾಡಿ.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+**Fairy-a** ಮತ್ತು **Fairy-toad-a** ಉಡುಪುಗಳನ್ನು ಅಳಿಸಿ. ನಿಮ್ಮ ಬಳಿ **toad** ಉಡುಪು ಉಳಿಯುತ್ತದೆ.
 
-Add a costume of your choice to the **new sprite**.
+**new sprite**ಗೆ ನಿಮ್ಮ ಆಯ್ಕೆಯ ಉಡುಪನ್ನು ಸೇರಿಸಿ.
 
-We chose the **Batter**:
+ನಾವು **Batter** ಆಯ್ದುಕೊಂಡಿದ್ದೇವೆ:
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+ಸ್ಪ್ರೈಟ್‌ ಸೂಚಿಸುತ್ತಿರುವ ದಿಕ್ಕನ್ನು ನೀವು ಬದಲಾಯಿಸಲು ಬಯಸಬಹುದು.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**ಸಲಹೆ:** ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ ತಲೆಕೆಳಗಾಗಿ ಹೋಗುತ್ತಿದ್ದರೆ ನೀವು ಅದರ `rotation-style`{:class="block3motion"} ನ್ನು `left-right`{:class="block3motion"} ಗೆ ಸ್ಪ್ರೈಟ್‌ ಗುಣಲಕ್ಷಣಗಳ ಫಲಕ ಅಥವಾ ಕೋಡ್‌ ಬ್ಲಾಕ್ ಉಪಯೋಗಿಸಿ ಬದಲಾಯಿಸಬಹುದು.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+ನೀವು ಸ್ಪ್ರೈಟ್‌ನ್ನು ಬೆಳೆಸಿದಾಗ ಅಥವಾ ಕುಗ್ಗಿಸಿದಾಗ, ನಿಮಗೆ ಅದರ ಪಾದಗಳು ಅದೇ ಜಾಗದಲ್ಲಿ ಇರಬೇಕು.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+ಮೊದಲಿಗೆ **Select** (ಬಾಣ) ಟೂಲ್‌ ಉಪಯೋಗಿಸಿ ಉಡುಪಿನ ಸುತ್ತ ಆಯತ ಚಿತ್ರಿಸಿ ಮತ್ತು ನಂತರ ಅದನ್ನು **Group** ಮಾಡಿ. ನಂತರ ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಕ್ರಾಸ್‌ಹೇರ್‌ ಮೇಲ್ಗಡೆ ಎಳೆಯಿರಿ.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+**toad** ಉಡುಪಿನ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+ನಿಮ್ಮ ಸ್ಪ್ರೈಟ್‌ಗೆ ಹೊಂದಿಸಲು ಉಡುಪನ್ನು ಮರುನಾಮಕರಣ ಮಾಡಿ, ನಾವು **Batter-toad-a** ಉಪಯೋಗಿಸಿದ್ದೇವೆ.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+ನೆಲಗಪ್ಪೆ ಉಡುಪು ಮುಖ್ಯ ಉಡುಪಿನ ವಿರುದ್ಧವಾಗಿ ಮುಖಮಾಡಿದ್ದರೆ ನೀವು **Flip Horizontal** ಉಪಯೋಗಿಸಬಹುದು.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+ನೀವು ಈಗ ನೆಲಗಪ್ಪೆಯು ಪಾತ್ರದ ಹಾಗೆ ಕಾಣುವಂತೆ ಮಾಡಬೇಕು. ಈ ರೀತಿಯಲ್ಲಿ ಎರಡು ಉಡುಪುಗಳನ್ನು ಸಂಯೋಜಿಸುವುದನ್ನು 'mash-up' ಎಂದು ಕರೆಯುತ್ತಾರೆ.
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+ನೀವು ಬಣ್ಣಗಳ ಎರಚುವಿಕೆ ಅಥವಾ ಸನ್‌ಗ್ಲಾಸ್‌ಗಳ ನಕಲುಮಾಡಿ ಅಂಟಿಸಿ ಅಥವಾ Paint ಎಡಿಟರ್‌ನಲ್ಲಿ ಟೋಪಿ ಇಂತಹ ಕೆಲವು ವಿವರಗಳನ್ನು ನೀವು ಸೇರಿಸಬಹುದು.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**ಸಲಹೆ:** ನೀವು ನಿಮ್ಮ ಪಾತ್ರದ ಸ್ಪ್ರೈಟ್‌ಗೆ ಯಾವುದಾದರೂ ಉಡುಪನ್ನು ಸೇರಿಸಬಹುದು. **Select** (ಬಾಣ) ಟೂಲ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ನಂತರ **Copy** ಅಥವಾ **Paste** ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**ಸಲಹೆ:** ನೀವು ಉಡುಪಿನಲ್ಲಿನ ಎಲ್ಲಾ ವಸ್ತುಗಳನ್ನೂ ಗುಂಪು ಮಾಡಬಹುದು. ಅವುಗಳನ್ನು (with the **Select** tool or <kbd> Ctrl-a</kbd>) ಯಿಂದ ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು ನಂತರ **Group** ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+ನಮ್ಮ Batter ನೆಲಗಪ್ಪೆ ಈ ರೀತಿ ಕಾಣುತ್ತದೆ: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+ಹೊಸ ಸ್ಪ್ರೈಟ್‌ಗೆ **Code** ಟ್ಯಾಬ್‌ ಬದಲಾಯಿಸಿ.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+ನಿಮ್ಮ ಹೊಸ ಸ್ಪ್ರೈಟ್‌ಗೆ ಸರಿಯಾದ ಉಡುಪುಗಳನ್ನು ಉಪಯೋಗಿಸಲು `switch costume`{:class="block3looks"} ಎಲ್ಲಾ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ.
+
+ನೀವು ಸ್ಪ್ರೈಟ್‌ನ `when green flag clicked`{:class="block3events"}ನ `size`{:class="block3looks"}ಪ್ರಾರಂಭವನ್ನು ಸಹ ಬದಲಾಯಿಸಲು ಬಯಸಬಹದು.
+
+--- /task ---
+
+--- task ---
+
+**ಪರೀಕ್ಷೆ:** ಮಂತ್ರಗಳ ಬಟನ್‌ಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ — ಮಂತ್ರದ ಪ್ರಸಾರಗಳಿಗೆ ಎರಡೂ ಪಾತ್ರಗಳೂ ಪ್ರತಿಕ್ರಿಯಿಸಬೇಕು.
+
+**ಡಿಬಗ್:** ನಿಮ್ಮ ಹೊಸ ಸ್ಪ್ರೈಟ್‌ನ ಉಡುಪನ್ನು `switch costume`{:class="block3looks"}ಬ್ಲಾಕ್‌ಗಳಲ್ಲಿ ಬದಲಾಯಿಸಿರುವುದನ್ನು ಪರಿಶೀಲಿಸಿ.
 
 --- /task ---
 
