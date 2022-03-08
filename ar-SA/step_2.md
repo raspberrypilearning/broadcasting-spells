@@ -1,8 +1,8 @@
-## Choose your wand
+## اختر العصا الخاصة بك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and create your own computer-generated magic.
+في هذه الخطوة ستقوم بإعداد المشهد، واختيار العصا الخاصّة بك، وإنشاء السحر الموُلَّد عن طريق الكمبيوتر الخاصّ بك.
   
 </div>
 <div>
@@ -11,12 +11,12 @@ In this step, you will set the scene, choose your wand and create your own compu
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
+<span style="color: #0faeb0">**الصور المُوَلَّدة عن طريق الحاسوب (CGI)**</span> يمكن أن تُستخدم لإنشاء تأثيرات خاصّة لا تحدث في العالم الواقعي. يتضمّن صنع فلم أو رسوم متحرّكة خياليّة تتضمّن العديد من الأكواد وفنون الكمبيوتر.
 </p>
 
 --- task ---
 
-Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
+افتح [مشروع البداية لبث تعاويذ سحرية](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 [[[working-offline]]]
 
@@ -24,29 +24,29 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 
 --- task ---
 
-You should see a fairy in a woodland.
+يجب أن ترى جنّيّة في الغابة.
 
-![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
-
---- /task ---
-
-You need a wand to cast a spell.
-
---- task ---
-
-Click **Choose a Sprite** and type `wand` into the search box:
-
-![Choose a sprite icon.](images/choose-a-sprite.png)
-
-![Choice of Magic Wand and Wand.](images/wand-sprite-options.png)
-
-**Choose:** Add the wand you prefer to your project.
+![المنصّة مظهرةً مشهد البداية، مع كائن الجنّيّة، والأزرار.](images/starter-project.png)
 
 --- /task ---
 
+أنت بحاجة إلى عصًا لإلقاء تعويذة.
+
 --- task ---
 
-Add code to make the **Wand** sprite follow the `mouse pointer`{:class="block3motion"} and stay in `front`{:class="block3looks"} of the buttons:
+انقر على **اختيار كائن**، ثمّ اكتب `wand` (عصا)، في مربّع البحث:
+
+![اختر أيقونة كائن.](images/choose-a-sprite.png)
+
+![اختيار العصا السحرية والعصا.](images/wand-sprite-options.png)
+
+**اختر** أضف العصا الّتي تفضّلها إلى مشروعك.
+
+--- /task ---
+
+--- task ---
+
+أضف مقطعًا برمجيًّا لجعل كائن **Wand** (العصا) يتبع `مؤشّر الماوس`{:class="block3motion"} ،وابقَ `أمام`{:class="block3looks"} الأزرار:
 
 ![](images/wand-sprite-icon.png)
 
@@ -62,75 +62,75 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. The wand will follow your mouse pointer.
+**اختبار** اضغط على العلم الأخضر لتشغيل المشروع. ستتبع العصا مؤشّر الماوس.
 
 --- /task ---
 
-Make the wand bigger and tilted, like you’re really using it.
+اجعل العصا أكبر ومائلة، كما لو أنّك تستخدمها حقًّا.
 
 --- task ---
 
-Go to the Sprite pane and change the **Size** property to `200` to make the wand bigger:
+انتقل إلى قائمة الكائنات وغيّر خاصّيّة **الحجم** إلى `200` لجعل العصا أكبر:
 
-![The Sprite pane with the Size property highlighted with value 200.](images/size-property.png)
-
---- /task ---
-
---- task ---
-
-Click on the **Costumes** tab to open the Wand costume in the Paint editor.
-
-Click on the **Select** (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume.
-
-![Wand costumes grouped.](images/the-select-tool.png)
-
-![Wand costumes grouped.](images/grouped-costumes.png)
-
-Then click on the **Group** icon to combine the wand parts.
-
-![Wand costumes grouped.](images/group-icon.png)
+![قائمة الكائنات، مع خاصّيّة الحجم المؤشَّرة بقيمة 200.](images/size-property.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Rotate** tool on the wand to position the wand at an angle.
+انقر على قسم **المظاهر** لفتح خواصّ العصا في محرّر الرسم.
 
-![Wand costumes rotated.](images/rotated-wands.png)
+اضغط على أداة **تحديد** (السهم)، ثمّ ارسم مستطيلًا حول العصا بأكملها، لتحديد كلّ أجزاء الشكل.
 
-**Tip:** If you can't see the **Rotate** tool, click the **Zoom out** (-) tool at the bottom of the Paint editor to zoom out.
+![ازياء العصا مجمعة.](images/the-select-tool.png)
 
---- /task ---
+![ازياء العصا مجمعة.](images/grouped-costumes.png)
 
-The **Wand** costume gets in the way of the mouse cursor when you try to click the buttons.
+ثمّ اضغط على أيقونة **تجميع** لدمج أجزاء العصا.
 
---- task ---
-
-Move the wand so that its tip is just away from the crosshair in the centre.
-
-![Wand costumes correctly positioned.](images/positioned-wands.png)
+![ازياء العصا مجمعة.](images/group-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and move the mouse around the Stage. The wand should follow.
+استعمل أداة **التدوير** على العصا، لجعل العصا مائلة.
+
+![ازياء العصا مجمعة.](images/rotated-wands.png)
+
+**تلميح:** إذا لم تستطع رؤية أداة **التدوير**، اضغط على أداة **التصغير** (-) الموجودة أسفل محرّر الرسم، لتصغير الشكل.
+
+--- /task ---
+
+شكل **Wand** (العصا) يقف في طريق مؤشّر الفأرة عندما تحاول النقر على الأزرار.
+
+--- task ---
+
+حرّك العصا بحيث يكون طرفها العلوي متطابقًا مع دائرة المركز الصغيرة.
+
+![الموقع الحالي لشكل العصا.](images/positioned-wands.png)
 
 --- /task ---
 
 --- task ---
 
-If you are signed in to your Scratch account, click on the green Remix button. This will save a copy of the project to your Scratch account.
+**اختبار** اضغط على العلم الأخضر وحرّك الماوس حول المنصّة. يجب أن تتّبع العصا حركة الماوس.
 
-![The Remix button.](images/remix-button.png)
+--- /task ---
 
-You can change the title of your project.
+--- task ---
 
-![The project title box.](images/project-name.png)
+إذا قمت بتسجيل الدخول إلى حساب Scratch الخاص بك، انقر على زر "مزج" الأخضر. سيؤدي هذا إلى حفظ نسخة من المشروع في حساب Scratch الخاص بك.
 
-**Tip:** Give your projects helpful names so that you can easily find them when you have lots of projects.
+![زرّ "مزج".](images/remix-button.png)
 
-If you do not have a Scratch account, you can click on **File** then **Save to your computer** to save a copy of the project.
+بوسعك تغيير العنوان الخاصّ بمشروعك.
+
+![مربّع عنوان المشروع.](images/project-name.png)
+
+**نصيحة:** أعطِ أسماء مفيدة لمشاريعك، بحيث يمكنك العثور عليها بسهولة عندما يكون لديك الكثير من المشاريع.
+
+إن لم يكن لديك حساب Scratch، يمكنك أن تضغط على **ملف**، ثمّ **الحفظ إلى حاسوبك**، لحفظ نسخة من المشروع.
 
 --- /task ---
 
