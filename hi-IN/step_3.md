@@ -1,8 +1,8 @@
-## The shrink spell
+## सिकुड़न मंत्र
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+अब जब आप सिकोड़ें बटन पर क्लिक करेंगे तो आपको Fairy सिकुड़ने लगेगी।
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+Stage के नीचे Sprite सूची में **shrink** स्प्राइट पर क्लिक करें।
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+`when this sprite clicked`{:class="block3events"} ब्लॉक जोड़ें:
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+जब आप सिकोड़ें बटन पर क्लिक करते हैं, तो आप चाहते हैं कि **Fairy** स्प्राइट सिकुड़ जाए।
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+**shrink** स्प्राइट को `broadcast`{:class="block3events"} एक `message`{:class="block3events"} करने की आवश्यकता है ताकि **Fairy** स्प्राइट को पता चले कि सिकुड़न मंत्र डाला गया है।
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+एक `broadcast`{:class="block3events"} ब्लॉक जोड़ें:
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+`message1`{:class="block3events"} पर क्लिक करें और 'New message' चुनें। नए संदेश को नाम दें < `shrink`।
 
-![New message dialog with shrink entered.](images/new-message.png)
+![सिकुड़ के साथ नया संदेश संवाद दर्ज किया गया।](images/new-message.png)
 
-Your code should look like this:
+आपका कोड इस प्रकार दिखना चाहिए:
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+अब जब आप **shrink** बटन पर क्लिक करते हैं, तो Scratch `प्रसारण`{:class="block3events"} `shrink`{:class="block3events"} संदेश प्रसारित करेगा, लेकिन अभी तक कुछ नहीं होगा।
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+**Fairy** स्प्राइट में कोड जोड़ें जब इसे एक `shrink`{:class="block3events"} संदेश प्राप्त हो तो यह सिकुड जाए:
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**परीक्षण:** **fairy** स्प्राइट को सिकोड़ने के लिए **shrink** बटन पर क्लिक करें। इसे आप जितनी बार चाहें उतनी बार करें।
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**डिबग:** यदि आपकी **Fairy** स्प्राइट सिकुड़ने के बजाय badhti है, तो एक ऋणात्मक संख्या `-10`बनाने के लिए संख्या `10` के आगे `-` जोड़ें।
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+`when the green flag`{:class="block3events"} क्लिक किया जाता है **Fairy** स्प्राइट को सामान्य आकार पर सेट करने के लिए एक स्क्रिप्ट जोड़ें:
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+जब संदेश `broadcast`{:class="block3events"} वे सभी स्प्राइट्स द्वारा प्राप्त किए जा सकते हैं। जब **Wand** `receives`{:class="block3events"} को `shrink`{:class="block3events"} संदेश प्राप्त होता है, तो इसे `play a sound`{:class="block3sound"} बजाना चाहिए।
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+**Wand** स्प्राइट और फिर **Sound** टैब पर क्लिक करें।
 
-Add the **Slide Whistle** sound.
+**Slide Whistle** ध्वनि जोड़ें।
 
-Rename the sound to `shrink` so it is easy to find.
+ध्वनि का नाम बदलकर `shrink` कर दें ताकि उसे ढूंढना आसान हो।
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![अतिरिक्त स्लाइड सीटी ध्वनि के साथ Sounds टैब का नाम बदलकर Sound गुण में सिकोड़ कर दिया गया है।](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+ध्वनि चलाने के लिए एक स्क्रिप्ट जोड़ें:
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**परीक्षण:** अपने प्रोजेक्ट को चलाने के लिए हरी झंडी पर क्लिक करें। ध्वनि सुनने के लिए **shrink** बटन पर क्लिक करें **Fairy** सिकुड़ते देखें।
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+**shrink** बटन `broadcast`{:class="block3events"} करती है एक `shrink`{:class="block3events"} संदेश। दोनों **Fairy** और **Wand** स्प्राइट ने संदेश `received`{:class="block3events"} किया और जवाब दिया।
 
 --- save ---
