@@ -1,10 +1,10 @@
-## Toad transformation
+## Μεταμόρφωση σε βάτραχο
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+Τώρα ήρθε η ώρα για ένα άλλο ξόρκι. Αυτή τη φορά θα κάνεις ένα ξόρκι μεταμόρφωσης μεταδίδοντας ένα μήνυμα `βάτραχος`{:class="block3events"} που μετατρέπει το αντικείμενο **Νεράιδα** σε βάτραχο! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+Πιθανόν να χρειαστεί να πάει σε μια περιπέτεια όπου το να είναι βάτραχος θα είναι πιο χρήσιμο.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+Πρόσθεσε ένα script στο αντικείμενο κουμπιού **βάτραχος** για να μεταδώσεις το μήνυμα "βάτραχος":
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+Επίλεξε το αντικείμενο **Νεράιδα** και κάνε κλικ στην καρτέλα **Ενδυμασίες**.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+Για να μετατρέψετε το αντικείμενο **Νεράιδα** σε βάτραχο, θα χρησιμοποιήσεις τις ενδυμασίες **Νεράιδα-α** και **Νεράιδα-βάτραχος-α**.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![Η λίστα με τις Ενδυμασίες που δείχνει ότι το αντικείμενο της Νεράιδας έχει μία δεύτερη ενδυμασία.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+Κάντε κλικ στην καρτέλα **Κώδικας** και πρόσθεσε ένα μπλοκ `άλλαξε ενδυμασία σε`{:class="block3looks"} στο τέλος του υπάρχοντος script `όταν γίνει κλικ στην πράσινη σημαία`{:class="block3events"}, ώστε η Νεράιδα να είναι σε ανθρώπινη μορφή όταν εκτελείς το έργο σου:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+Πρόσθεσε ένα νέο script στο αντικείμενο **Νεράιδα** για να μεταμορφωθεί σε βάτραχο:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+Πρόσθεσε τον ήχο **Croak** στο αντικείμενο **Ραβδί**.
 
-Rename the sound to `toad`:
+Μετονόμασε τον ήχο σε `βάτραχος`:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![Η καρτέλα Ήχοι με τον ήχο Croak στη λίστα.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+Πρόσθεσε ένα script στο αντικείμενο **Ραβδί** για να παίξεις τον ήχο `βάτραχος`{:class="block3sound"} όταν εκτελείται το ξόρκι του βάτραχου:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**Δοκιμή:** Δοκίμασε να μετατρέψεις την **Νεράιδα** σε βάτραχο, με ένα ηχητικό εφέ, όταν κάνεις κλικ στο κουμπί **βάτραχος**. Κάνε ξανά κλικ στην πράσινη σημαία για να μετατρέψεις το αντικείμενο **Νεράιδα** ξανά σε άνθρωπο.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![Η Σκηνή που δείχνει τη Νεράιδα με την ενδυμασία Νεράιδα-βάτραχος-α.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+Το αντίθετο από το ξόρκι «βάτραχος» είναι ένα ξόρκι «επαναφοράς».
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+Πρόσθεσε ένα script στο αντικείμενο κουμπιού **επαναφοράς** ώστε να `μεταδώσει`{:class="block3events"} το μήνυμα 'επαναφοράς'{:class="block3events"}:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+Πρόσθεσε ένα νέο script για να `επαναφέρεις`{:class="block3events"} το αντικείμενο **Νεράιδα**:
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+Επίλεξε το αντικείμενο **Ραβδί** και πήγαινε στην καρτέλα **Ήχοι**.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**Διπλασίασε** τον ήχο **βάτραχος** και μετονόμασέ τον σε `επαναφορά`.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+Κάνε κλικ στο εικονίδιο **Αντιστροφή** για να ακούσεις τον ήχο **επαναφοράς** να παίζει αντίστροφα.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![Η καρτέλα Ήχοι με τον ανεστραμμένο ήχο επαναφοράς στη λίστα.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+Πρόσθεσε ένα script στο αντικείμενο **Ραβδί** για να παίξεις τον ήχο `επαναφοράς`{:class="block3sound"}:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**Δοκιμή:** Δοκίμασε τα ξόρκια **βάτραχος** και **επαναφορά**, και δοκίμασε τα **συρρίκνωση** και **αύξηση** όταν η **Νεράιδα** είναι σε μορφή βατράχου.
 
 --- /task ---
 
