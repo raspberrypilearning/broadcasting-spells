@@ -1,28 +1,28 @@
 ---
-title: "Broadcasting spells"
+title: "ಮಂತ್ರಗಳನ್ನು ಪ್ರಸಾರಮಾಡುವುದು"
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: ಮಂತ್ರಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಮಾಂತ್ರಿಕ ದಂಡವನ್ನು ಉಪಯೋಗಿಸಿ ಮತ್ತು ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ನೆಲಗಪ್ಪೆಗಳಾಗಿ ಬದಲಾಯಿಸಲು ಮತ್ತು ಅವುಗಳನ್ನು ಬೆಳೆಸಲು ಹಾಗೂ ಕುಗ್ಗಿಸಲು ಮಂತ್ರದ ಸಂದೇಶಗಳನ್ನು ಪ್ರಸಾರ ಮಾಡುವುದು.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Choose your wand
+    title: ನಿಮ್ಮ ಮಾಂತ್ರಿಕ ದಂಡವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ
   - 
-    title: The shrink spell
+    title: ಕುಗ್ಗಿಸುವ ಮಂತ್ರ
     completion: engaged
   - 
-    title: The grow spell
+    title: ಬೆಳೆಸುವ ಮಂತ್ರ
   - 
-    title: Toad transformation
+    title: ನೆಲಗಪ್ಪೆಯ ರೂಪಾಂತರ
   - 
-    title: Add another character
+    title: ಇನ್ನೊಂದು ಪಾತ್ರವನ್ನು ಸೇರಿಸಿ
     completion: internal
   - 
-    title: Reflection
+    title: ಪುನರ್ಮನನ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
