@@ -1,39 +1,39 @@
-## Add another character
+## Voeg nog een personage toe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+Gebruik een sprite naar keuze om op de spreuken te reageren. Je moet een padden uiterlijk 'samenstellen' voor de sprite en code toevoegen zodat het uiterlijk verandert wanneer de spreuk-berichten worden uitgezonden.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![Het toneel toont een tweede pad transformatie.](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+Dupliceer de **Fairy** sprite.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+Verwijder de **Fairy-a** en **Fairy-toad-a** uiterlijken. Er blijft een **toad** uiterlijk over.
 
-Add a costume of your choice to the **new sprite**.
+Voeg een uiterlijk naar keuze toe aan de **nieuwe sprite**.
 
-We chose the **Batter**:
+We kozen voor een **Batter** (slagman):
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+Misschien wil je de richting waarin de sprite wijst veranderen.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**Tip:** Als je sprite ondersteboven gaat, kun je de `draaistijl`{:class="block3motion"} veranderen in `links-rechts`{:class="block3motion"} in het Sprite-eigenschappen venster of met een code-blok.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+Wanneer je een sprite laat groeien of krimpen, wil je dat de voeten op dezelfde plek blijven.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+Gebruik eerst het gereedschap **Selecteren** (pijl) om een rechthoek rond het uiterlijk te tekenen en **Groepeer** het vervolgens. Sleep vervolgens je personage boven het dradenkruis.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+Klik op het **toad** uiterlijk.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+Hernoem het uiterlijk zodat het overeenkomt met je sprite, we gebruikten **Batter-toad-a**.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+Als het padden-uiterlijk in de tegenovergestelde richting van het beginuiterlijk staat, kun je **links rechts omdraaien**gebruiken.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+Nu moet je de pad op het personage laten lijken. Het op deze manier combineren van twee kostuums wordt een 'mash-up' genoemd.
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+Je kunt een klein detail toevoegen, zoals een andere kleur, of een zonnebril of hoed kopiëren en plakken in de Teken-editor.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**Tip:** Je kunt elk uiterlijk aan je personage-sprite toevoegen. Gebruik het gereedschap **Selecteren** (pijltje) en klik vervolgens op **Kopie maken** of **Plakken**.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**Tip:** Je kunt alle objecten in een uiterlijk groeperen. Selecteer ze (met de tool **Selecteren** of <kbd> Ctrl-a</kbd>) en klik vervolgens op **Groeperen**.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+Onze slagman-pad ziet eruit als: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+Schakel over naar het tabblad **Code** voor je nieuwe sprite.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+Verander alle `verander uiterlijk naar`{:class="block3looks"} blokken om de juiste uiterlijken voor je nieuwe sprite te gebruiken.
+
+Misschien wil je ook de start `grootte`{:class="block3looks"} van de sprite wijzigen `wanneer op de groene vlag`{:class="block3events"} wordt geklikt.
+
+--- /task ---
+
+--- task ---
+
+**Test:** Klik op de spreuk knoppen — beide personages zouden moeten reageren op de spreuk-uitzendingen.
+
+**Debuggen:** Controleer of je de uiterlijken in de `verander uiterlijk naar`{:class="block3looks"} blokken voor je nieuwe sprite hebt gewijzigd.
 
 --- /task ---
 
