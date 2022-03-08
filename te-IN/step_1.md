@@ -1,27 +1,27 @@
-## Introduction
+## పరిచయం
 
-Make an app where you use a magic wand to turn sprites into toads, and grow and shrink them.
+Sprite లను చిరుకప్పలుగా మార్చడానికి మీరు మ్యాజిక్ మంత్రదండంని ఉపయోగించే యాప్‌ను రూపొందించండి మరియు వాటిని పెద్దగా చేయండి మరియు కుదించండి.
 
-You will:
-+ Create buttons that `broadcast`{:class="block3events"} messages to other sprites
-+ Get multiple sprites to respond when they `receive`{:class="block3events"} the same message
-+ Use the `Sound`{:class="block3sound"} blocks menu to reverse sounds
+మీరు:
++ ఇతర sprite లకు సందేశాలను`broadcast`{: class = "block3events"} చేసే బటన్లను సృష్టించండి
++ `receive`{:class="block3events"} సందేశాన్ని స్వీకరించినప్పుడు మరిన్ని sprite లు ప్రతిస్పందించేలా చూడండి
++ శబ్దాలను రివర్స్ చేయడానికి `Sound`{:class="block3sound"} బ్లాక్స్ మెనుని ఉపయోగించండి
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Broadcasting**</span> and <span style="color: #0faeb0">**receiving**</span> messages is like a call and response pattern in music.
+<span style="color: #0faeb0">**Broadcasting**</span> మరియు <span style="color: #0faeb0">**receiving**</span> సందేశాలు సంగీతంలో కాల్ మరియు రెస్పాన్స్ నమూనా లాంటివి.
 <br>
 <br>
-  "<span style="color: #0faeb0">P3T3 P3T3</span> is a traditional song from Ghana, West Africa. It is performed by one lead person who calls and a group that respond by repeating a key phrase when they hear the call." - <span style="color: #0faeb0">Kwame Bakoji-Hume, African Activities CIC</span>
+  "<span style="color: #0faeb0">P3T3 P3T3</span> అనేది పశ్చిమ ఆఫ్రికాలోని ఘనా నుండి వచ్చిన సాంప్రదాయ పాట. ఇది, ఒక ప్రధాన వ్యక్తి కాల్ చేయడం మరియు వారు కాల్ విన్నప్పుడు ఒక ముఖ్య వాక్యాన్ని పునరావృతం చేయడం ద్వారా ప్రతిస్పందించే సమూహం ద్వారా నిర్వహించబడుతుంది." - <span style="color: #0faeb0">Kwame Bakoji Hume, ఆఫ్రికన్ కార్యకలాపాలు CIC</span>
 
 <audio controls><source src="images/Pete-Pete.mp3" type="audio/wav"></audio>  
 </p>
 
 --- no-print --- --- task ---
 
-### Try it
+### ప్రయత్నించండి
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters?
+బటన్‌లపై క్లిక్ చేసి మంత్రాలు వేయడానికి మంత్రదండం ఉపయోగించండి. ప్రతి మంత్రం కారెక్టర్ లకు ఏమి చేస్తుంది?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
@@ -32,6 +32,6 @@ Use the magic wand to click on the buttons and cast spells. What does each spell
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![పూర్తయిన ప్రాజెక్ట్](images/showcase_static.png)
 
 --- /print-only ---
