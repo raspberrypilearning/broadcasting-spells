@@ -1,28 +1,28 @@
 ---
-title: "Broadcasting spells"
+title: "బ్రాడ్ కాష్టింగ్ స్పెల్స్"
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: Sprite లను చిరుకప్పలుగా మార్చడానికి మరియు వాటిని పెంచడానికి మరియు కుదించడానికి మాజిక్ ను ఎంచుకోవడానికి మరియు స్పెల్ సందేశాలను ప్రసారం చేయడానికి మంత్రదండం ఉపయోగించండి.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: పరిచయం
   - 
-    title: Choose your wand
+    title: మీ మంత్రదండం ఎంచుకోండి
   - 
-    title: The shrink spell
+    title: Shrink స్పెల్
     completion: engaged
   - 
-    title: The grow spell
+    title: Grow స్పెల్
   - 
-    title: Toad transformation
+    title: చిరుకప్ప రూపాంతరం
   - 
-    title: Add another character
+    title: మరొక కారెక్టర్ ను జోడించండి
     completion: internal
   - 
-    title: Reflection
+    title: విశ్లేషణ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
   - 
-    title: What next?
+    title: తర్వాత ఏంటి?
