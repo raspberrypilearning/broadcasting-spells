@@ -1,19 +1,19 @@
-## The grow spell
+## De groeispreuk
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a grow spell to return the **Fairy** sprite to normal size or to make a massive fairy!
+Je hebt ook een groeispreuk nodig om de **Fee** sprite weer normaal te maken of om een enorme fee te maken!
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
 </div>
 </div>
 
-**Tip:** In this step, you will add code to three different sprites. Make sure you select the correct sprite from the Sprite list below the Stage and click on the **Code** tab.
+**Tip:** In deze stap voeg je code toe aan drie verschillende sprites. Zorg ervoor dat je de juiste sprite selecteert in de Sprite-lijst onder het speelveld en klik op het tabblad **Code**.
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
+Voeg een script toe aan het **groei**-knop sprite om een `groei`{:class="block3events"} bericht te `verzenden`{:class="block3events"}:
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Fairy** sprite to grow:
+Voeg een script toe om de sprite **Fairy** te laten groeien:
 
 ![](images/fairy-icon.png)
 
@@ -37,33 +37,33 @@ change size by [10] // positive numbers increase the size
 
 --- /task ---
 
-You can reverse the 'shrink' sound to make a 'grow' sound!
+Je kunt het 'krimp'-geluid omkeren om een 'groei'-geluid te maken!
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
+<span style="color: #0faeb0">**Liedjes achterstevoren gespeeld quizzen**</span> zijn muziekquizzen met een twist. De nummers zijn omgekeerd en de deelnemers moeten het originele nummer raden - het is niet zo eenvoudig als het klinkt. 
 </p>
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
+Selecteer de **Wand** sprite en klik op het tabblad **Geluiden**.
 
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
+Klik met de rechtermuisknop (of tik en houd vast) op het **krimp** geluid en kies **dupliceren**.
 
 ![](images/wand-icon.png)
 
-![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
+![Het krimpgeluid met pop-upmenu met dupliceren.](images/duplicate-sound.png)
 
-Name the copy `grow`.
+Noem de kopie `groei`.
 
-Click on the **Reverse** icon to make the sound play backwards.
+Klik op het **Keer om** pictogram om het geluid achteruit af te spelen.
 
-![The grow sound with the reverse icon highlighted.](images/reverse-sound.png)
+![Het groeigeluid met het omkeer pictogram gemarkeerd.](images/reverse-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
+Voeg een script toe aan de **Wand**-sprite om het `groei`{:class="block3sound"}-geluid af te spelen wanneer het `groei`{:class="block3events"}-bericht wordt ontvangen:
 
 ![](images/wand-icon.png)
 
@@ -76,7 +76,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
+**Test:** Klik op de **krimp** en **groei** knoppen om de spreuken zo vaak uit te spreken als je wilt.
 
 --- /task ---
 
