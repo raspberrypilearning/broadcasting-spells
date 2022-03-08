@@ -1,8 +1,8 @@
-## The shrink spell
+## تعويذة التقليص
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+الآن ستجعل الجنّيّة تتقلّص عندما تنقر على زرّ التقليص.
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+انقر على الكائن ** shrink** في قائمة الكائن أسفل المنصّة.
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+أضِف المقطع البرمجي `عند نقر هذا الكائن`{:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+عندما تضغط على زرّ التقليص، فأنت تريد أن يتقلّص كائن **Fairy** (الجنّيّة).
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+كائن ** shrink ** يحتاج إلى `بثّ`{:class="block3events"} `رسالة`{:class="block3events"} حتّى يعرف كائن **Fairy** (الجنّيّة) أنّ تعويذة التقليص قد أُلقِيَت.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+أضف كتلة `بثّ`{:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+انقر على `الرسالة1`{:class="block3events"} واختر 'رسالة جديدة'. أعطِ اسم الرسالة الجديدة `تقليص`.
 
-![New message dialog with shrink entered.](images/new-message.png)
+![رسالة حوار جديدة مع إدخال التقليص.](images/new-message.png)
 
-Your code should look like this:
+يجب أن تبدو التعليمات البرمجية خاصتك بالشكل التالي:
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+والآن عندما تضغط على زرّ **تقليص shrink **، سيقوم برنامج Scratch بعمليّة `بثّ`{:class="block3events"} رسالة كائن `shrink`{:class="block3events"}، لكن لن يحدث شيء حتّى الآن.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+أضف المقطع البرمجيّ إلى كائن **Fairy** (الجنّيّة)، لتتقلّص عندما تتلقّى رسالة `تقليص`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**اختبار:** انقر على زرّ ** shrink ** ليتقلّص كائن **Fairy** (الجنّيّة). نفّذ الأمر عدّة مرّات كما تريد.
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**تصحيح:** إذا كان كائن **Fairy** (الجنّيّة) الخاصّ بك يزداد حجمًا بدلًا من تقلّصه، أضف علامة ناقص `-` قبل الرقم `10`، للحصول على قيمة سالبة (`10-`).
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+أضف المقطع البرمجيّ `عند نقر العلم الأخضر`{:class="block3events"}، لجعل **Fairy** (الجنّيّة) تعود إلى حجمها الطبيعيّ:
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+عندما تتمّ عمليّة `بثّ`{:class="block3events"} الرسائل، ستستقبلها كلّ الكائنات. عندما `يتلقّى`{:class="block3events"} كائن **Wand** (العصا) رسالة `تقليص`{:class="block3events"}، يجب أن `تشغّل صوتًا`{:class="block3sound"}.
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+انقر على كائن **Wand** (العصا)، ثمّ اذهب إلى قسم **الأصوات**.
 
-Add the **Slide Whistle** sound.
+قم بإضافة صوت **Slide Whistle**.
 
-Rename the sound to `shrink` so it is easy to find.
+غير اسم الصوت إلى `تقليص`، ليسهل عليك إيجاده.
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![قسم الأصوات والصوت الّذي أُعيدت تسميته إلى "تقليص"، من خصائص الأصوات.](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+أضف مقطعًا برمجيًّا لتشغيل الصوت:
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**اختبار:** انقر على العلم الأخضر لتشغيل مشروعك. انقر على زرّ **تقليص** للاستماع إلى الصوت ورؤية **Fairy** (الجنّيّة) تتقلّص.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+زرّ **تقليص** يقوم بعمليّة `بثّ`{:class="block3events"} رسالة `تقليص`{:class="block3events"}. كلّ من كائن **Fairy** (الجنّيّة) وكائن **Wand** (العصا) سيقومان بعمليّة `تلقّي`{:class="block3events"} الرسالة وسيستجيبان لها.
 
 --- save ---
