@@ -1,8 +1,8 @@
-## The shrink spell
+## ಕುಗ್ಗಿಸುವ ಮಂತ್ರ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+ಈಗ ನೀವು ಕುಗ್ಗಿಸುವ ಬಟನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ಕುಗ್ಗಿರುವ ಯಕ್ಷಿಣಿಯನ್ನು ಪಡೆಯುತ್ತೀರಿ.
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+Stage ಕೆಳಗಿನ Sprite ಲಿಸ್ಟ್‌ನಲ್ಲಿ **shrink** ಸ್ಪ್ರೈಟ್‌ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+`when this sprite clicked`{:class="block3events"}‌ ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ:
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+ನೀವು ಕುಗ್ಗಿಸುವ ಬಟನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ, ನಿಮಗೆ **Fairy** ಸ್ಪ್ರೈಟ್‌ ಕುಗ್ಗಬೇಕು.
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+**shrink** ಸ್ಪ್ರೈಟ್ ಒಂದು `message`{:class="block3events"}ನ್ನು `broadcast`{:class="block3events"} ಮಾಡಬೇಕು, ಅದರಿಂದ **Fairy** ಸ್ಪ್ರೈಟ್‌ಗೆ ಕುಗ್ಗಿಸುವ ಮಂತ್ರ ಬಿತ್ತರಿಸಲಾಗಿದೆ ಎಂದು ತಿಳಿಯುತ್ತದೆ.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+`broadcast`{:class="block3events"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ:
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+`message1`{:class="block3events"} ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು 'New message' ಆಯ್ದುಕೊಳ್ಳಿ. ಹೊಸ ಸಂದೇಶವನ್ನು `shrink` ಎಂದು ಹೆಸರಿಸಿ.
 
-![New message dialog with shrink entered.](images/new-message.png)
+![ಕುಗ್ಗುವಿಕೆ ಎಂಟರ್‌ ಮಾಡಿರುವ ಹೊಸ ಸಂದೇಶದ ಡೈಲಾಗ್.](images/new-message.png)
 
-Your code should look like this:
+ನಿಮ್ಮ ಕೋಡ್ ಈ ರೀತಿ ಇರಬೇಕು:
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+ಈಗ ನೀವು **shrink** ಬಟನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ, Scratch `shrink`{:class="block3events"}‌ ಸಂದೇಶವನ್ನು `broadcast`{:class="block3events"} ಮಾಡುತ್ತದೆ, ಆದರೆ ಇನ್ನೂ ಏನೂ ಆಗುವುದಿಲ್ಲ.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+**Fairy** ಸ್ಪ್ರೈಟ್‌ಗೆ ಅದು `shrink`{:class="block3events"} ಸಂದೇಶವನ್ನು ಸ್ವೀಕರಿಸಿದಾಗ ಕುಗ್ಗಲು ಕೋಡ್‌ ಸೇರಿಸಿ:
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**ಪರೀಕ್ಷೆ:** **Fairy** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಕುಗ್ಗಿಸಲು **shrink** ಬಟನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ನೀವು ಬಯಸುವಷ್ಟು ಸಮಯ ಇದನ್ನು ಮಾಡಿ.
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**ಡಿಬಗ್:** ನಿಮ್ಮ **Fairy** ಸ್ಪ್ರೈಟ್‌ ಕುಗ್ಗುವ ಬದಲು ಬೆಳೆದರೆ, ಋಣಾತ್ಮಕ ಸಂಖ್ಯೆ ಮಾಡಲು `10`ರ ಹಿಂದೆ ಋಣಾತ್ಮಕ ಚಿನ್ಹೆಯನ್ನು `-` ಸೇರಿಸಿ.
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+`when the green flag`{:class="block3events"}ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ **Fairy** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಸಾಮಾನ್ಯ ಗಾತ್ರಕ್ಕೆ ಹೊಂದಿಸಲು ಬರಹ ಸೇರಿಸಿ:
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+ಸಂದೇಶಗಳನ್ನು `broadcast`{:class="block3events"} ಮಾಡಿದಾಗ ಅವುಗಳನ್ನು ಎಲ್ಲಾ ಸ್ಪ್ರೈಟ್‌ಗಳೂ ಸ್ವೀಕರಿಸಬಹುದು. `shrink`{:class="block3events"} ಸಂದೇಶವನ್ನು **Wand** `receives`{:class="block3events"} ಮಾಡಿದಾಗ ಅದು `play a sound`{:class="block3sound"}.
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+**Wand** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು ನಂತರ **Sounds** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-Add the **Slide Whistle** sound.
+**Slide Whistle** ಧ್ವನಿಯನ್ನು ಸೇರಿಸಿ.
 
-Rename the sound to `shrink` so it is easy to find.
+ಸುಲಭವಾಗಿ ಪತ್ತೆ ಮಾಡಲು ಧ್ವನಿಯನ್ನು `shrink` ಎಂದು ಮರುನಾಮಕರಣ ಮಾಡಿ.
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![Sound ಗುಣಲಕ್ಷಣದಲ್ಲಿ ಶ್ರಿಂಕ್‌ ಎಂದು ಮರುನಾಮಕರಣ ಮಾಡಿರುವ ಶಿಳ್ಳೆ ಧ್ವನಿಯನ್ನು ಸೇರಿಸಿರುವ Sounds ಟ್ಯಾಬ್‌.](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+ಧ್ವನಿಯನ್ನು ನುಡಿಸಲು ಬರಹ ಸೇರಿಸಿ:
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**ಪರೀಕ್ಷೆ:** ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ರನ್‌ ಮಾಡಲು ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಧ್ವನಿಯನ್ನು ಕೇಳಿಸಿಕೊಳ್ಳಲು ಮತ್ತು **Fairy** ಕುಗ್ಗುವುದನ್ನು ನೋಡಲು **shrink** ಬಟನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+`shrink`{:class="block3events"} ಸಂದೇಶವನ್ನು **shrink** button `broadcast`{:class="block3events"} ಮಾಡುತ್ತದೆ. **Fairy** ಮತ್ತು **Wand** ಸ್ಪ್ರೈಟ್‌ ಎರಡೂ ಸಂದೇಶವನ್ನು `received`{:class="block3events"} ಮತ್ತು ಪ್ರತಿಕ್ರಿಯಿಸಿದವು.
 
 --- save ---
