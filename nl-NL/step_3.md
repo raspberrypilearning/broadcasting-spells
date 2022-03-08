@@ -1,8 +1,8 @@
-## The shrink spell
+## De krimpspreuk
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+Nu laat je de Fairy (fee) krimpen als je op de krimpknop klikt.
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+Klik op de sprite **krimp** in de Sprite lijst onder het werkgebied.
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+Voeg een `wanneer op deze sprite wordt geklikt`{:class="block3events"} blok toe:
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+Als je op de krimpknop klikt, wil je dat de sprite **Fairy** krimpt.
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+De **krimp** sprite moet een `signaal zenden`{:class="block3events"} met een `bericht`{:class="block3events"} zodat de sprite **Fairy** weet dat de krimpspreuk is uitgesproken.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+Voeg een `zend signaal`{:class="block3events"} blok toe:
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+Klik op `bericht1`{:class="block3events"} en kies 'Nieuw bericht'. Geef het nieuwe bericht de naam `krimp`.
 
-![New message dialog with shrink entered.](images/new-message.png)
+![Nieuw berichtdialoogvenster met krimp ingevoerd.](images/new-message.png)
 
-Your code should look like this:
+Je code zou er als volgt uit moeten zien:
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+Als je nu op de **krimp** knop klikt, `verzendt`{:class="block3events"} Scratch een `krimp`{:class="block3events"} bericht, maar er gebeurt nog niets.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+Voeg code toe aan de **Fairy** sprite om te verkleinen wanneer deze een `krimp`{:class="block3events"} bericht ontvangt:
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**Test:** Klik op de knop **krimp** om de sprite **Fairy** te verkleinen. Doe dit zo vaak als je wilt.
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**Debuggen:** Als je **Fairy** sprite groeit in plaats van krimpt, voeg dan een min `-` teken toe voor het getal `10` om een negatief getal `-10` te maken.
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+Voeg een script toe om de sprite **Fairy** in te stellen op normale grootte `wanneer op de groene vlag`{:class="block3events"} wordt geklikt:
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+Wanneer berichten worden`verzonden`{:class="block3events"}, kunnen ze door alle sprites worden ontvangen. Wanneer de **toverstaf** ``{:class="block3events"} het `krimp`{:class="block3events"}-bericht ontvangt, moet het `een geluid`{:class="block3sound"} afspelen.
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+Klik op de **Wand** sprite en vervolgens op het tabblad **Geluiden**.
 
-Add the **Slide Whistle** sound.
+Voeg het **Slide Whistle**-geluid toe.
 
-Rename the sound to `shrink` so it is easy to find.
+Hernoem het geluid naar `krimp` zodat het gemakkelijk te vinden is.
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![Het tabblad Geluiden met toegevoegd slide whistle geluid hernoemd naar krimp in de eigenschap Geluid.](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+Voeg een script toe om het geluid af te spelen:
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**Test:** Klik op de groene vlag om je project uit te voeren. Klik op de **krimp** knop om het geluid te horen en zie de **Fairy** krimpen.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+De **krimp** knop `zendt`{:class="block3events"} een `krimp`{:class="block3events"} bericht uit. Zowel de **Fairy** als de **Wand** sprite `ontvingen`{:class="block3events"} het bericht en reageerden.
 
 --- save ---
