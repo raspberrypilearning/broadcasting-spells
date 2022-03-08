@@ -1,39 +1,39 @@
-## Upgrade your project
+## قم بترقية او تطوير مشروعك
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+كيف ستوسع عالمك السحري؟ يمكنك:
++ إضافة المزيد من الشخصيات
++ إضافة تأثيرات صوتية ومرئية مختلفة إلى العصا السحرية.
++ أضف المزيد من التعاويذ - يمكنك جعل الشخصيات تختفي وتعاود الظهور باستخدام كتلة `اخف`{:class="block3looks"} و كتلة `اظهر`{:class="block3looks"}، طبّق تأثيرات بصرية لقلبهم رأسًا على عقب.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![مشروع يحتوي على أربعة كائنات وأزرار تعاويذ مضافة جديدة.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+لماذا لا تتبادل الشخصيات مع صديق؟ أولاً، استبدل رابط المشروع مع صديق لرؤية الكائنات التي صنعها كلٌّ منكما. لحفظ الكائنات الخاصة بهم، استخدم حقيبة ظهر Scratch الخاصة بك أو حمّل الكائنات في منطقة مشتركة. ثم ارجع إلى مشروعك وأضف الكائنات المحفوظة.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+title: قم بتحميل كائن
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+يمكنك حفظ الكائنات على جهاز الحاسوب الخاص بك عن طريق تنزيلها من مشروعك. انقر بزر الماوس الأيمن فوق كائن في قائمة الكائنات واختر تصدير.
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![القائمة المنبثقة في قائمة الكائنات.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+لتحميل كائن في مشروع، اختر خيار "تحميل كائن" من قائمة "اختيار كائن".
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![القائمة الموسعة اختيار كائن التي تعرض خيار تحميل كائن.](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+ابتكر المزيد من التعاويذ مع صديق وأضفها إلى شخصياتك. حدد التعاويذ التي تريد إنشاءها. تحقق أن كلَيكما يستخدم نفس الاسم تمامًا لرسائل البث.
 
 --- collapse ---
 ---
-title: Completed project
+title: مشروع مكتمل
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+يمكنك عرض [المشروع المكتمل هنا](https://scratch.mit.edu/projects/518413238/){:target="_ blank"}.
 
 --- /collapse ---
 
