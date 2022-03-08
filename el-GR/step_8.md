@@ -1,39 +1,39 @@
-## Upgrade your project
+## Αναβάθμιση του έργου σου
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+Πώς θα διευρύνεις τον μαγικό σου κόσμο; Θα μπορούσες να:
++ Πρόσθεσε περισσότερους χαρακτήρες
++ Πρόσθεσε διαφορετικό ήχο και οπτικά εφέ στο ραβδί.
++ Πρόσθεσε περισσότερα ξόρκια — θα μπορούσες να κάνεις τους χαρακτήρες να εξαφανίζονται και να επανεμφανίζονται με τα μπλοκ `εξαφανίσου`{:class="block3looks"} και `εμφανίσου`{:class="block3looks"}, να εφαρμόσεις οπτικά εφέ ή να τους γυρίσεις ανάποδα.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![Ένα έργο με τέσσερα αντικείμενα και πρόσθετα νέα κουμπιά ξορκιών με ορατά pixels.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+Γιατί να μην ανταλλάξεις χαρακτήρες με έναν φίλο; Πρώτα, αντάλλαξε το σύνδεσμο του έργου σου με έναν φίλο για να δείτε ο ένας τα αντικείμενα του άλλου. Για να αποθηκεύσεις τα αντικείμενά του, χρησιμοποίησε το σακίδιο πλάτης του Scratch ή κάνε download τα αντικείμενα σε μια κοινόχρηστη περιοχή. Στη συνέχεια, επέστρεψε στο έργο σου και πρόσθεσε τα αποθηκευμένα αντικείμενα.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+title: Κατέβασε ένα αντικείμενο
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+Μπορείς να αποθηκεύσεις αντικείμενα στον υπολογιστή σου κατεβάζοντάς τα από το έργο σου. Κάνε δεξί κλικ σε ένα αντικείμενο στη λίστα Αντικειμένων και επίλεξε εξαγωγή.
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![Το αναδυόμενο μενού στη λίστα αντικειμένων.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+Για να φορτώσεις ένα αντικείμενο σε ένα έργο, επίλεξε την επιλογή 'Μεταφόρτωση Αντικειμένου' από το μενού 'Επιλέξτε ένα Αντικείμενο'.
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![Το ανεπτυγμένο μενού Επιλέξτε ένα Αντικείμενο εμφανίζει την επιλογή Μεταφόρτωση Αντικειμένου.](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+Δημιούργησε περισσότερα ξόρκια με έναν φίλο και πρόσθεσέ τα στους χαρακτήρες σου. Αποφάσισε ποια ξόρκια θα δημιουργήσεις. Βεβαιώσου ότι χρησιμοποιούν και οι δύο ακριβώς το ίδιο όνομα για τα μηνύματα που εκπέμπεις.
 
 --- collapse ---
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
 
 --- /collapse ---
 
