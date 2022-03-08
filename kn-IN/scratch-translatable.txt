@@ -1,14 +1,14 @@
-change from 'random position'
+'random position' ದಿಂದ ಬದಲಾವಣೆ
 
-in front of the buttons
+ಬಟನ್‌ಗಳ ಮುಂದೆ
 
-shrink
+ಕುಗ್ಗಿಸು
 
-negative numbers decrease the size
+ಋಣಾತ್ಮಕ ಸಂಖ್ಯೆಗಳು ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತವೆ
 
 grow
 
-positive numbers increase the size
+ಧನಾತ್ಮಕ ಸಂಖ್ಯೆಗಳು ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ
 
 toad
 
