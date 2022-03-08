@@ -1,7 +1,7 @@
-change from 'random position'
+'यादृच्छिक स्थिति' से परिवर्तन
 
-in front of the buttons
+बटन के सामने
 
-negative numbers decrease the size
+ऋणात्मक संख्याएँ आकार को घटाती हैं
 
-positive numbers increase the size
+घनात्मक संख्याएँ आकार को बढ़ाती हैं
