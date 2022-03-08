@@ -1,10 +1,10 @@
-## Toad transformation
+## تحوّل الضفدع
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+حان الوقت الآن لتعويذة أخرى. هذه المرة ستقوم بإلقاء تعويذة تحول عن طريق بث رسالة `ضفدع`{:class="block3events"} التي تحول كائن **Fairy** (الجنّيّة) إلى ضفدع! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+ربما ستنطلق في مغامرة يكون فيها شكل الضفدع أكثر فائدة.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+أضف نصًا إلى كائن الزر **الضفدع** لبث رسالة "ضفدع":
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+حدد كائن **Fairy** (الجنّيّة) وانقر فوق علامة التبويب **المظاهر**.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+لتحويل الكائن **Fairy** (الجنّيّة) إلى ضفدع ، ستستخدم الاشكال **Fairy-a** و **Fairy-toad-a**.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![قائمة المظاهر تظهر كائن الجنية تحتوي على شكل آخر.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+انقر فوق علامة التبويب **المقاطع البرمجية** وأضف المقطع البرمجيّ `غيّر المظهر إلى`{:class="block3looks"}، في نهاية مجموعة المقاطع البرمجية `عند نقر العلم`{:class="block3events"} الموجودة لديك، بحيث تكون الجنّيّة في شكلها الإنسانيّ عند بداية تشغيل مشروعك:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+أضف مقطعًا برمجيًّا جديدًا إلى كائن **Fairy** (الجنّيّة)، ليتحول إلى ضفدع:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+أضف صوت **Croak** إلى كائن **Wand** (العصا).
 
-Rename the sound to `toad`:
+غيّر الصوت إلى `ضفدع`:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![قسم الأصوات، مع صوت Croak مضافًا في القائمة.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+أضف مقطعًا برمجيًّا إلى كائن **Wand** (العصا)، ليؤدّي صوت `ضفدع`{:class="block3sound"} عند إلقاء تعويذة الضفدع:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**اختبار:** اختبر إن كان بإمكانك تحويل **الجنية** إلى ضفدع، مع التأثير الصوتي، عندما تنقر على زر **الضفدع**. انقر على العلم الأخضر مجدّدًا، لتحويل كائن **الجنية** إلى بشري مرة أخرى.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![المنصّة تظهر الجنية في مظهر Fairy-toad-a.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+التعويذة المعاكسة لتعويذة 'الضفدع' هي تعويذة 'الشكل الأصلي'.
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+أضف مقطعًا برمجيًّا إلى كائن زر **الشكل الأصلي**، لتتم عملية `بث`{:class="block3events"} لرسالة 'الشكل الأصلي'{:class="block3events"}:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+أضف مقطعًا برمجيًّا جديدًا على كائن **Fairy** (الجنية)، من أجل الرجوع إلى `الشكل الأصلي`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+انقر على كائن **Wand** (العصا)، ثمّ انتقل إلى قسم **الأصوات**.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+نفذ عملية **مضاعفة** لصوت **الضفدع**، ثم أعطه اسم `الشكل الأصلي`.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+انقر على أيقونة **عكس**، لتعكس صوت **الشكل الأصلي**.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![قسم الأصوات، مع الصوت المعكوس "عكس الضفدع" في القائمة.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+أضف مقطعًا برمجيًّا إلى كائن **Wand** (العصا) ليؤدّي صوت `الشكل الأصليّ`{:class="block3sound"}:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**اختبار:** جرب تعويذتي **الضفدع** و**الشكل الأصلي**، ثم جرب **تقليص** و**تكبير** كائن **Fairy** (الجنية) عندما يكون محوّلًا إلى شكل الضفدع.
 
 --- /task ---
 
