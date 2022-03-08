@@ -1,8 +1,8 @@
-## Choose your wand
+## तुमची कांडी निवडा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and create your own computer-generated magic.
+या टप्प्यात, तुम्ही सीन तयार कराल, तुमची कांडी निवडा आणि तुमची स्वतःची कंप्युटर-निर्मीत जादू तयार करा.
   
 </div>
 <div>
@@ -11,12 +11,12 @@ In this step, you will set the scene, choose your wand and create your own compu
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
+<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> चा वास्तव जगात घडणार नाही असे विशेष परिणाम तयार करण्यासाठी वापर केला जाऊ शकतो. आधुनिक कल्पनारम्य मूवी किंवा ऍनिमेशन तयार करण्यामध्ये भरपूर कोड आणि कंप्युटर आर्टचा समावेश असतो.
 </p>
 
 --- task ---
 
-Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
+[स्पेल्स स्टार्टर प्रोजेक्ट ब्रॉडकास्ट करणे](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"} उघडा. Scratch दुसऱ्या ब्राऊजर टॅब मध्ये उघडेल.
 
 [[[working-offline]]]
 
@@ -24,29 +24,29 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 
 --- task ---
 
-You should see a fairy in a woodland.
+तुम्हाला जंगलात एक परी दिसायला हवी.
 
-![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
-
---- /task ---
-
-You need a wand to cast a spell.
-
---- task ---
-
-Click **Choose a Sprite** and type `wand` into the search box:
-
-![Choose a sprite icon.](images/choose-a-sprite.png)
-
-![Choice of Magic Wand and Wand.](images/wand-sprite-options.png)
-
-**Choose:** Add the wand you prefer to your project.
+![Fairy स्प्राईट आणि बटनसह सुरूवातीचे दृश्य दाखवणारा stage.](images/starter-project.png)
 
 --- /task ---
 
+तुम्हाला स्पेल कास्ट करण्यासाठी कांडीची आवश्यकता आहे.
+
 --- task ---
 
-Add code to make the **Wand** sprite follow the `mouse pointer`{:class="block3motion"} and stay in `front`{:class="block3looks"} of the buttons:
+**Choose a Sprite** वर क्लिक करा आणि सर्च बॉक्समध्ये `wand` टाईप करा:
+
+![स्प्राईट आयकॉन निवडा.](images/choose-a-sprite.png)
+
+![Magic Wand आणि Wand ची निवड.](images/wand-sprite-options.png)
+
+**निवडा:** तुमच्या आवडती कांडी तुमच्या प्रोजेक्टमध्ये जोडा.
+
+--- /task ---
+
+--- task ---
+
+**Wand** स्प्राईट तयार करण्यासाठी कोड जोडा `mouse pointer`{:class="block3motion"} फॉलो करा आणि बटनच्या `front`{:class="block3looks"} रहा:
 
 ![](images/wand-sprite-icon.png)
 
@@ -62,75 +62,75 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. The wand will follow your mouse pointer.
+**चाचणी:** तुमचा प्रोजेक्ट रन करण्यासाठी हिरव्या झेंड्यावर क्लिक करा. कांडी तुमच्या माऊस पॉइंटरला फॉलो करेल.
 
 --- /task ---
 
-Make the wand bigger and tilted, like you’re really using it.
+तुम्ही खरोखरच वापरत आहात याप्रमाणे कांडी मोठी आणि तिरपी करा.
 
 --- task ---
 
-Go to the Sprite pane and change the **Size** property to `200` to make the wand bigger:
+Sprite pane वर जा आणि कांडी मोठी करण्यासाठी **Size** प्रॉपर्टी `200` मध्ये बदला:
 
-![The Sprite pane with the Size property highlighted with value 200.](images/size-property.png)
-
---- /task ---
-
---- task ---
-
-Click on the **Costumes** tab to open the Wand costume in the Paint editor.
-
-Click on the **Select** (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume.
-
-![Wand costumes grouped.](images/the-select-tool.png)
-
-![Wand costumes grouped.](images/grouped-costumes.png)
-
-Then click on the **Group** icon to combine the wand parts.
-
-![Wand costumes grouped.](images/group-icon.png)
+![200 व्हॅल्यू हायलाईट केलेल्या Size प्रॉपर्टीसह Sprite pane.](images/size-property.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Rotate** tool on the wand to position the wand at an angle.
+Paint एडिटरमध्ये Wand कॉश्चुम उघडण्यासाठी **Costumes** टॅबवर क्लिक करा.
 
-![Wand costumes rotated.](images/rotated-wands.png)
+**Select** (ऍरो) टूलवर क्लिक करा आणि त्यानंतर कॉश्चुमचे सर्व भाग निवडण्यासाठी पूर्ण कांडी भोवती आयत काढा.
 
-**Tip:** If you can't see the **Rotate** tool, click the **Zoom out** (-) tool at the bottom of the Paint editor to zoom out.
+![ग्रुप केलेला Wand कॉश्चुम.](images/the-select-tool.png)
 
---- /task ---
+![ग्रुप केलेला Wand कॉश्चुम.](images/grouped-costumes.png)
 
-The **Wand** costume gets in the way of the mouse cursor when you try to click the buttons.
+त्यानंतर कांडीचे भाग एकत्र करण्यासाठी **Group** आयकॉनवर क्लिक करा.
 
---- task ---
-
-Move the wand so that its tip is just away from the crosshair in the centre.
-
-![Wand costumes correctly positioned.](images/positioned-wands.png)
+![ग्रुप केलेला Wand कॉश्चुम.](images/group-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and move the mouse around the Stage. The wand should follow.
+कांडीला कोनात पोजिशन करण्यासाठी **Rotate** टूल वापरा.
+
+![फिरवलेला Wand कॉश्चुम.](images/rotated-wands.png)
+
+**टीप:** तुम्हाला **Rotate** टूल दिसू शकला नाही, तर झूम आऊट करण्यासाठी Paint एडिटरच्या खालील **Zoom out** (-) टूलवर क्लिक करा.
+
+--- /task ---
+
+तुम्ही बटनवर क्लिक करण्याचा प्रयत्न करता तेव्हा **Wand** कॉश्चुम माऊस कर्सरच्या मार्गात येतो.
+
+--- task ---
+
+कांडी हलवा जेणेकरून तीचे टोक मध्यभागी असलेल्या क्रॉसहेअरच्या दूर असेल.
+
+![Wand कॉश्चुम योग्यपणे पोजिशन केला आहे.](images/positioned-wands.png)
 
 --- /task ---
 
 --- task ---
 
-If you are signed in to your Scratch account, click on the green Remix button. This will save a copy of the project to your Scratch account.
+**चाचणी:** हिरव्या झेंड्यावर क्लिक करा आणि Stage च्या भोवती माऊस फिरवा. कांडीने फॉलो करावे.
 
-![The Remix button.](images/remix-button.png)
+--- /task ---
 
-You can change the title of your project.
+--- task ---
 
-![The project title box.](images/project-name.png)
+तुम्ही तुमच्या Scratch अकाऊंटला साइन इन केल्यावर, हिरव्या Remix बटनवर क्लिक करा. यामुळे तुमच्या प्रोजेक्टची कॉपी तुमच्या Scratch अकाऊंटला सेव होईल.
 
-**Tip:** Give your projects helpful names so that you can easily find them when you have lots of projects.
+![Remix बटन.](images/remix-button.png)
 
-If you do not have a Scratch account, you can click on **File** then **Save to your computer** to save a copy of the project.
+तुम्ही तुमच्या प्रोजेक्टचे शीर्षक बदलवू शकता.
+
+![प्रोजेक्ट टायटल बॉक्स.](images/project-name.png)
+
+**टीप:** तुमच्या प्रोजेक्टला उपयुक्त नावे द्या जेणेकरून तुमच्याकडे भरपूर प्रोजेक्ट असल्यावर तुम्ही तो सहजतेने शोधू शकता.
+
+तुमच्याकडे Scratch अकाऊंट नसल्यास, तुम्ही प्रोजेक्टची कॉपी सेव करण्यासाठी **File** वर क्लिक करून त्यानंतर **Save to your computer** करू शकता.
 
 --- /task ---
 
