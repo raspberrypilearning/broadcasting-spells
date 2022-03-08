@@ -1,39 +1,39 @@
-## Add another character
+## एक और चरित्र जोड़ें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+मंत्रों का जवाब देने के लिए अपनी पसंद का स्प्राइट प्राप्त करें। आपको स्प्राइट के लिए एक मेंढक की पोशाकों का एक 'मैश-अप' बनाना होगा, और कोड जोड़ना होगा ताकि मंत्र संदेश प्रसारित होने पर पोशाक बदल जाए।
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![दूसरा मेंढक रूपांतरण दिखाने वाला Stage।](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+**Fairy** स्प्राइट को डुप्लिकेट करें।
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+**Fairy-a** और **Fairy-toad-a** पोशाक हटाएं। आपके पास केवल **toad** पोशाक रह जाएगी।
 
-Add a costume of your choice to the **new sprite**.
+**new sprite**में अपनी पसंद की पोशाक जोड़ें।
 
-We chose the **Batter**:
+हमनें **Batter** चुना है।
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+हो सकता है कि आप उस दिशा को बदलना चाहें जहां स्प्राइट इंगित कर रहा है।
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**सलाह:** यदि आपका स्प्राइट उल्टा हो जाता है तो आप Sprite properties पेन में या कोड ब्लॉक का उपयोग करके इसके `rotation-style`{:class="block3motion"} को `left-right`{:class="block3motion"} में बदल सकते हैं।
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+जब आप स्प्राइट को बड़ा या छोटा करते हैं, तो आप चाहते हैं कि पैर उसी जगह पर रहें।
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+पोशाक के चारों ओर एक आयत बनाने के लिए पहले **Select** (तीर) टूल का उपयोग करें और फिर इसे **Group** करें। फिर अपने चरित्र को क्रॉसहेयर के ऊपर खींचें।
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+**toad** पोशाक पर क्लिक करें।
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+अपने स्प्राइट से मेल खाने के लिए पोशाक का नाम बदलें, हमने **Batter-toad-a**इस्तेमाल किया।
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+यदि मेंढक की पोशाक मुख्य पोशाक के विपरीत दिशा की ओर है तो आप **Flip Horizontal** उपयोग कर सकते हैं।
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+अब आपको मेंढक को चरित्र की तरह दिखाने की जरूरत है। दो पोशाकों को इस तरह से मिलाना 'मैश-अप' कहलाता है।
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+आप एक छोटा सा विवरण जोड़ सकते हैं, जैसे रंग का छींटा, या Paint एडिटर में से धूप का चश्मा या टोपी कॉपी और पेस्ट कर सकते हैं।
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**सलाह:** आप अपने चरित्र स्प्राइट में कोई भी पोशाक जोड़ सकते हैं। **Select** (तीर) टूल का उपयोग करें और **Copy** या **Paste**पर क्लिक करें।
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**सलाह:** आप सभी वस्तुओं को एक पोशाक में समूहित कर सकते हैं। उन्हें चुनें ( **Select** टूल या <kbd> Ctrl-a</kbd> का उपयोग कर के) और फिर **Group**क्लिक करें।
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+हमारा Batter toad ऐसा दिखता है: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+अपने नए स्प्राइट के लिए **Code** टैब पर स्विच करें।
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+अपने नए स्प्राइट के लिए सही पोशाकों का उपयोग करने के लिए सभी `switch costume`{:class="block3looks"} को बदल दें
+
+आप स्प्राइट के शुरुआती `size`{:class="block3looks"} को भी बदलना चाह सकते हैं जब `when green flag clicked`{:class="block3events"}।
+
+--- /task ---
+
+--- task ---
+
+**टेस्ट:** स्पेल बटन पर क्लिक करें — दोनों चरित्रों को को मंत्रों के प्रसारण का जवाब देना चाहिए।
+
+**डीबग:** जाँचे की आपने अपने नये स्प्राइट के `switch costume`{:class="block3looks"} ब्लॉक्स में पोशाकें बदल दी हैं ।
 
 --- /task ---
 
