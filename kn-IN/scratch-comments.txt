@@ -1,7 +1,7 @@
-change from 'random position'
+'random position' ದಿಂದ ಬದಲಾವಣೆ
 
-in front of the buttons
+ಬಟನ್‌ಗಳ ಮುಂದೆ
 
-negative numbers decrease the size
+ಋಣಾತ್ಮಕ ಸಂಖ್ಯೆಗಳು ಗಾತ್ರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತವೆ
 
-positive numbers increase the size
+ಧನಾತ್ಮಕ ಸಂಖ್ಯೆಗಳು ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ
