@@ -1,19 +1,19 @@
-change from 'random position'
+'कोणत्याही पोजिशन' मधून बदला
 
-in front of the buttons
+बटनच्या समोर
 
-shrink
+श्रींक
 
-negative numbers decrease the size
+ऋण संख्या साईज कमी करतात
 
-grow
+वाढणे
 
-positive numbers increase the size
+धन संख्या साईज वाढवतात
 
-toad
+टोड
 
-untoad
+अनटोड
 
-invisible
+अदृश्य
 
-hide
+लपवा
