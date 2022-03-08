@@ -1,39 +1,39 @@
-## Add another character
+## మరొక కారెక్టర్ ను జోడించండి
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+స్పెల్స్ లకు ప్రతిస్పందించడానికి మీకు నచ్చిన sprite ను పొందండి. మీరు sprite కోసం toad costume 'mash-up'ని సృష్టించాలి మరియు స్పెల్ సందేశాలు ప్రసారం చేయబడినప్పుడు costume మారేలా కోడ్‌ను జోడించాలి.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![రెండవ టోడ్ రూపాంతరాన్ని చూపుతున్న Stage.](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+**Fairy** sprite ను నకలు చేయండి.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+**Fairy-a** మరియు **Fairy-toad-a** costume లను తొలగించండి. మీకు **toad** costume మిగిలి ఉంటుంది.
 
-Add a costume of your choice to the **new sprite**.
+** new sprite **కి మీకు నచ్చిన costume లను జోడించండి.
 
-We chose the **Batter**:
+మనము **Batter** ని ఎంచుకున్నాము:
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+మీరు sprite సూచించే దిశను మార్చాలనుకోవచ్చు.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**చిట్కా:** మీ sprite తలక్రిందులుగా ఉంటే, మీరు దాని `rotation-style`{:class="block3motion"}ని `left-right`{:class="block3motion"} కి Sprite ప్రాపర్టీస్ పేన్‌లో లేదా కోడ్‌ బ్లాక్ ని ఉపయోగించి మార్చవచ్చు.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+మీరు sprite పెరిగినప్పుడు లేదా కుదించబడినప్పుడు, పాదాలు ఒకే స్థలంలో ఉండాలని మీరు కోరుకుంటారు.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+ముందుగా **Select** (బాణం) సాధనాన్ని ఉపయోగించండి మరియు దానిని **Group** చేయండి. ఆపై మీ పాత్రను క్రాస్‌హైర్ పైకి లాగండి.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+**toad** costume పై క్లిక్ చేయండి.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+మీ sprite కి సరిపోయేలా costume పేరు మార్చండి, మనము **Batter-toad-a** ని ఉపయోగించాము.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+Toad costume, ప్రధాన costume కు వ్యతిరేక మార్గంలో ఉన్నట్లయితే మీరు **Flip Horizontal** ని ఉపయోగించ వచ్చు.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+ఇప్పుడు మీరు, టోడ్ ఒక కారెక్టర్ లాగా కనిపించేలా చేయాలి. ఇలా రెండు costumes కలపడాన్ని 'mash-up' అంటారు.
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+మీరు రంగుల స్ప్లాష్ వంటి చిన్న వివరాలను జోడించవచ్చు లేదా Paint editor లో సన్ గ్లాసెస్ లేదా టోపీని కాపీ చేసి పేస్ట్ చేయవచ్చు.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**చిట్కా:** మీరు మీ క్యారెక్టర్ sprite కి ఏదైనా costume లను జోడించవచ్చు. **Select** (బాణం) సాధనాన్ని ఉపయోగించండి ఆపై **Copy** లేదా **Paste**పై క్లిక్ చేయండి.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**చిట్కా:** మీరు costume లలో అన్ని వస్తువులను సమూహపరచవచ్చు. ( **Select** టూల్ లేదా <kbd> Ctrl-a</kbd>) ని ఎంచుకోండి ఆపై **Group** మీద క్లిక్ చేయండి.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+మన Batter toad ఇలా కనిపిస్తుంది: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+మీ కొత్త sprite కోసం **Code** ట్యాబ్‌కు మారండి.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+మీ కొత్త sprite కోసం సరైన costume లను ఉపయోగించడానికి `switch costume`{:class="block3looks"} బ్లాక్‌లన్నింటినీ మార్చండి.
+
+`when green flag clicked`{:class="block3events"} క్లిక్ చేసి, మీరు sprite యొక్క ప్రారంభ `size`{:class="block3looks"}ని కూడా మార్చాలనుకోవచ్చు.
+
+--- /task ---
+
+--- task ---
+
+**పరీక్ష:** స్పెల్ బటన్‌లపై క్లిక్ చేయండి — రెండు కారెక్టర్ లు స్పెల్ ప్రసారాలకు ప్రతిస్పందించాలి.
+
+**డీబగ్:** `switch costume`{:class="block3looks"} బ్లాక్‌లలో మీ కొత్త sprite లకు costume లను మార్చారని తనిఖీ చేయండి.
 
 --- /task ---
 
