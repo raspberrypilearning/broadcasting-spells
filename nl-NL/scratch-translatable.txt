@@ -1,19 +1,19 @@
-change from 'random position'
+wijzigen van 'willekeurige positie'
 
-in front of the buttons
+voor de knoppen
 
-shrink
+krimpen
 
-negative numbers decrease the size
+negatieve getallen verkleinen de grootte
 
-grow
+groeien
 
-positive numbers increase the size
+positieve getallen vergroten de grootte
 
-toad
+pad
 
-untoad
+normaal
 
-invisible
+onzichtbaar
 
-hide
+verdwijn
