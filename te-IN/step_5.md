@@ -1,10 +1,10 @@
-## Toad transformation
+## చిరుకప్ప రూపాంతరం
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+ఇప్పుడు మరో స్పెల్ కోసం సమయం వచ్చింది. ఈసారి మీరు **Fairy** spriteను చిరుకప్పగా మార్చే `toad`{:class="block3events"} సందేశాన్ని ప్రసారం చేయడం ద్వారా ట్రాన్స్ ఫర్మేషన్స్ స్పెల్స్ ప్రయోగించబోతున్నారు! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+బహుశా ఆమె ఒక టోడ్‌గా ఉండటం మరింత ఉపయోగకరంగా ఉంటుందని సాహసం చేస్తుండవచ్చు.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+'toad' సందేశాన్ని ప్రసారం చేయడానికి **toad** బటన్ sprite కు స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+**Fairy** sprite ని ఎంచుకుని, **Costumes** ట్యాబ్‌పై క్లిక్ చేయండి.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+మీరు **Fairy** sprite ను టోడ్‌గా మార్చడానికి **Fairy-a** మరియు **Fairy-toad-a** costume లను ఉపయోగిస్తారు.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![Fairy sprite ని చూపించే costume లిస్ట్‌లో రెండవ costume ఉంది.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+**Code** ట్యాబ్‌పై క్లిక్ చేసి, `switch costume`{:class="block3looks"} బ్లాక్‌ని, మీ ప్రస్తుత `when flag clicked` స్క్రిప్ట్ చివరకి జోడించండి {:class="block3events"} తద్వారా మీరు మీ ప్రాజెక్ట్‌ని అమలు చేసినప్పుడు Fairy మానవ రూపంలో ఉంటుంది:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+టోడ్‌గా మారడానికి **Fairy** sprite కి కొత్త స్క్రిప్ట్‌ని జోడించండి:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+**Wand** sprite కి **Croak** సౌండ్‌ని జోడించండి.
 
-Rename the sound to `toad`:
+ధ్వని పేరును `toad` అని మార్చండి:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![Croak సౌండ్‌తో కూడిన Sounds ట్యాబ్.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+Toad స్పెల్ ప్రయోగించబడినపుడు `toad`{:class="block3sound"} ధ్వనిని ప్లే చేయడానికి **Wand** sprite కు స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**పరీక్ష:** **toad** బటన్‌ను క్లిక్ చేసినప్పుడు సౌండ్ ఎఫెక్ట్‌తో **Fairy** టోడ్‌గా మారగలదని పరీక్షించండి. **Fairy** sprite ను తిరిగి మానవ రూపంలో మార్చడానికి ఆకుపచ్చ జెండాపై మళ్లీ క్లిక్ చేయండి.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![Fairy-toad-a costume లో Fairy ని చూపించే Stage.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+'toad' స్పెల్‌కి వ్యతిరేకం 'untoad' స్పెల్.
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+**untoad** బటన్ sprite కి untoad{:class="block3events"} సందేశాన్ని `broadcast`{:class="block3events"} చేయడానికి స్క్రిప్ట్ ని జోడించండి:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+`untoad`{:class="block3events"} చేయడానికి**Fairy** sprite కి కొత్త స్క్రిప్ట్‌ని జోడించండి:
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+**Wand** spriteని ఎంచుకుని, **Sounds** ట్యాబ్‌కు స్విఛ్ అవండి.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**toad** ధ్వనిని **duplicate** చేసి మరియు దాని పేరును `untoad` గా మార్చండి.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+**Reverse** చిహ్నంపై క్లిక్ చేయండి, తద్వారా **untoad** ధ్వని వెనుకకు ప్లే అవుతుంది.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![లిస్ట్‌లో రివర్స్‌ చేయబడిన untoad సౌండ్‌తో Sounds ట్యాబ్.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+`untoad`{:class="block3sound"} ధ్వనిని ప్లే చేయడానికి **Wand** sprite కు స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**పరీక్ష:** **toad** మరియు **untoad** స్పెల్‌లను ప్రయత్నించండి మరియు **Fairy** టోడ్ రూపంలో ఉన్నప్పుడు **shrink** ఇంకా **grow** లను కూడా ప్రయత్నించండి.
 
 --- /task ---
 
