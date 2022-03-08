@@ -1,10 +1,10 @@
-## What next?
+## Και τώρα;
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly) project. In this project, you will make a Dragonfly that eats insects.
+Εάν ακολουθείς το μονοπάτι[Περισσότερη Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Μεγάλωσε μία λιβελούλα](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly). Σε αυτό το έργο, θα φτιάξεις μία λιβελούλα που τρώει έντομα.
 
 --- print-only ---
 
-![Dragonfly project](images/dragonfly-project.png)
+![Έργο λιβελούλας](images/dragonfly-project.png)
 
 --- /print-only ---
 
