@@ -1,19 +1,19 @@
-change from 'random position'
+'random position' నుండి మార్పు
 
-in front of the buttons
+బటన్ల ముందు
 
-shrink
+కుంచించుకుపోతాయి
 
-negative numbers decrease the size
+ఋణ సంఖ్యలు పరిమాణాన్ని తగ్గిస్తాయి
 
-grow
+పెరుగుతాయి
 
-positive numbers increase the size
+ధన సంఖ్యలు పరిమాణాన్ని పెంచుతాయి
 
-toad
+చిరుకప్ప
 
-untoad
+అన్ టోడ్
 
-invisible
+అదృశ్యం
 
-hide
+దాగు
