@@ -1,39 +1,39 @@
-## Add another character
+## أضف شخصية أخرى
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+احصل على كائن من اختيارك للرد على التعويذات. سوف تحتاج إلى إنشاء زي الضفدع "مزج" للكائن ، وإضافة رمز حتى يتغير الزي عند بث الرسائل الإملائية.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+! [تُظهر المرحلة تحول الضفدع الثاني.] (images / another-character.png) {: width = "300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+حدد شخصية **** الكائن.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+احذف الزي **Fairy-a** و **Fairy-toad-a**. ستترك مع زي **الضفدع**.
 
-Add a costume of your choice to the **new sprite**.
+أضف زيًا من اختيارك إلى **كائن جديد**.
 
-We chose the **Batter**:
+اخترنا **الخليط**:
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+قد ترغب في تغيير الاتجاه الذي يشير إليه الكائن.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**نصيحة:** إذا انقلب الكائن الخاص بك رأسًا على عقب ، فيمكنك تغيير نمط الدوران `الخاص به`{: class = "block3motion"} إلى `left-right`{: class = "block3motion"} في جزء خصائص Sprite أو باستخدام رمز منع.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+عندما تنمو أو تتقلص كائنًا ما ، فأنت تريد أن تبقى القدمان في نفس المكان.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+استخدم أولاً أداة **Select** (السهم) لرسم مستطيل حول الزي ثم **Group**. ثم اسحب شخصيتك فوق علامة التقاطع.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+أنقر على مظهر **nano-b**.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+أعد تسمية الزي ليتناسب مع شبحك ، استخدمنا **Batter-toad-a**.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+إذا كان زي الضفدع يواجه الاتجاه المعاكس للزي الرئيسي ، يمكنك استخدام **عكس افقيا**.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+الآن أنت بحاجة إلى جعل الضفدع يبدو مثل الشخصية. الجمع بين اثنين من الأزياء بهذه الطريقة يسمى "المزج".
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+يمكنك إضافة تفاصيل صغيرة ، مثل بقعة من الألوان ، أو نسخ ولصق النظارات الشمسية أو قبعة في محرر الرسام.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**نصيحة:** يمكنك إضافة أي زي لشخصيتك. استخدم أداة **تحديد** (السهم) ثم انقر على **نسخ** أو **لصق**.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**نصيحة:** يمكنك تجميع كل الكائنات في زي ما. حددهم (باستخدام أداة **تحديد** أو <kbd> بالضغط على الازرار Ctrl-a</kbd> من لوحة المفاتيح) ثم انقر فوق **تجميع**.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+الضفدع Batter الخاص بنا يشبه: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+قم بالتبديل إلى علامة التبويب **المظاهر** للكائن الخاص بك.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+استبدل جميع الكتل البرمجية الخاصة بـ `غيّر المظهر`{:class="block3looks"} لتستخدم الزي الصحيح للكائن الجديد الخاص بك.
+
+قد ترغب أيضًا في تغيير حجم البداية ``{: class = "block3looks"} للعنصر `عند النقر على العلم الأخضر`{: class = "block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**اختبار:** انقر فوق أزرار التعاويذ - يجب أن يستجيب كلاهما لرسائل بث التعاويذ.
+
+**تصحيح:** تأكد من أنك قمت بتغيير الأزياء في كتل `غيّر المظهر`{:class="block3looks"} للكائن الجديد الخاص بك.
 
 --- /task ---
 
