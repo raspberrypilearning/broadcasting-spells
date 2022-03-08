@@ -1,10 +1,10 @@
-## What next?
+## Et ensuite ?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly) project. In this project, you will make a Dragonfly that eats insects.
+Si tu suis le parcours [Plus de Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), tu peux passer au projet [Faire grandir une libellule](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly). Dans ce projet, tu créeras une libellule qui mange des insectes.
 
 --- print-only ---
 
-![Dragonfly project](images/dragonfly-project.png)
+![Projet Libellule](images/dragonfly-project.png)
 
 --- /print-only ---
 
