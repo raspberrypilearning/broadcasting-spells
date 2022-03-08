@@ -1,10 +1,10 @@
-## Toad transformation
+## Transformation de crapaud
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+Il est temps maintenant pour un autre sortilège. Cette fois, tu vas lancer un sort de transformation en diffusant un message "crapaud"{:class="block3events"} qui transforme le sprite **Fée** en crapaud ! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+Peut-être qu'elle part à l'aventure où être un crapaud sera plus utile.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+Ajoute un script au sprite bouton **crapaud** pour envoyer à tous le message "crapaud" :
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+Sélectionne le sprite **Fée** et clique sur l'onglet **Costumes**.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+Pour transformer le sprite **Fée** en crapaud, tu utiliseras les costumes **fée-a** et **fée-crapaud-a**.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![La liste des costumes montrant le sprite fée a un deuxième costume.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+Clique sur l'onglet **Code** et ajoute un bloc `basculer sur le costume`{:class="block3looks"} à la fin de ton script `quand le drapeau vert est cliqué`{:class="block3events"} pour que la fée soit de forme humaine lorsque tu exécutes ton projet :
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+Ajoute un nouveau script au sprite **Fée** pour le transformer en crapaud :
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+Ajoute le son **Croak** au sprite **Baguette magique**.
 
-Rename the sound to `toad`:
+Renomme le son en `crapaud`:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![L'onglet Sons avec le son Croak répertorié.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+Ajoute un script au sprite **Baguette magique** pour jouer le son `crapaud`{:class="block3sound"} lorsque le sort crapaud est lancé :
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**Test :** Teste que tu peux transformer la **Fée** en crapaud, avec un effet sonore, lorsque tu cliques sur le bouton **crapaud**. Clique à nouveau sur le drapeau vert pour transformer le sprite **Fée** en humain.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![La scène montrant la fée en costume de fée-crapaud-a.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+Le contraire d'un sort « crapaud » est un sort « non-crapaud ».
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+Ajoute un script au sprite du bouton **non crapaud** pour `envoyer à tous`{:class="block3events"} le message "non crapaud"{:class="block3events"} :
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+Ajoute un nouveau script au sprite `non crapaud`{:class="block3events"} le sprite **Fée** :
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+Sélectionne le sprite **baguette magique** et passe à l'onglet **Sons**.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**Duplique** le son **crapaud** et le renomme en `non crapaud`.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+Clique sur l'icône **Inverser** pour que le son **non crapaud** soit lu à l'envers.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![Onglet Sons avec un son inversé dans la liste.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+Ajoute un script au sprite **baguette magique** pour jouer le son `non crapaud`{:class="block3sound"} :
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**Test:** Essaie les sorts **crapaud** et **non crapaud**, et essaie **rétrécir** et **grandir** lorsque la **Fée** est sous forme de crapaud.
 
 --- /task ---
 
