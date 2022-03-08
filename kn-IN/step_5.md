@@ -1,10 +1,10 @@
-## Toad transformation
+## ನೆಲಗಪ್ಪೆಯ ರೂಪಾಂತರ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+ಈಗ ಮತ್ತೊಂದು ಮಂತ್ರದ ಸಮಯ. ಈ ಬಾರಿ ನೀವು `toad`{:class="block3events"} ಸಂದೇಶವನ್ನು ಪ್ರಸಾರ ಮಾಡಿ **Fairy** ಸ್ಪ್ರೈಟ್‌ ನೆಲಗಪ್ಪೆಯಾಗಿ ಪರಿವರ್ತಿಸುವ ರೂಪಾಂತರ ಮಂತ್ರವನ್ನು ಬಿತ್ತರಿಸುತ್ತೀರಿ i! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+ಅವಳು ನೆಲಗಪ್ಪೆಯಾಗಿರುವುದೇ ಹೆಚ್ಚು ಅನುಕೂಲಕರ ಎನ್ನುವ ಸಾಹಸಕ್ಕೆ ಅವಳು ಕೈ ಹಾಕುತ್ತಿರಬಹುದು.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+'toad' ಸಂದೇಶವನ್ನು ಪ್ರಸಾರ ಮಾಡಲು **toad** ಬಟನ್‌ ಸ್ಪ್ರೈಟ್‌ಗೆ ಬರಹ ಸೇರಿಸಿ:
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+**Fairy** ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು **Costumes** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+**Fairy** ಸ್ಪ್ರೈಟ್‌ನ್ನು ನೆಲಗಪ್ಪೆಯಾಗಿ ರೂಪಾಂತರಿಸಲು ನೀವು **Fairy-a** ಮತ್ತು **Fairy-toad-a** ಉಡುಪುಗಳನ್ನು ಉಪಯೋಗಿಸುತ್ತೀರಿ.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![Fairy ಸ್ಪ್ರೈಟ್‌ ಎರಡನೆಯ ಉಡುಪು ಹೊಂದಿದೆ ಎಂದು ತೋರಿಸುವ Costumes ಲಿಸ್ಟ್.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+**Code** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು `switch costume to`{:class="block3looks"} ಬ್ಲಾಕ್‌ನ್ನು ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ನಿಮ್ಮ `when flag clicked`{:class="block3events"} ಬರಹಕ್ಕೆ ಕೊನೆಯಲ್ಲಿ ಸೇರಿಸಿ, ಇದರಿಂದ ನೀವು ಪ್ರಾಜೆಕ್ಟ್‌ ರನ್‌ ಮಾಡಿದಾಗ ಯಕ್ಷಿಣಿಯು ಮಾನವ ರೂಪದಲ್ಲಿರುತ್ತಾಳೆ:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+**Fairy** ಸ್ಪ್ರೈಟ್‌ ಗೆ ನೆಲಗಪ್ಪೆಯಾಗಿ ಪರಿವರ್ತನೆಯಾಗಲು ಹೊಸ ಬರಹವನ್ನು ಸೇರಿಸಿ:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+**Croak** ಧ್ವನಿಯನ್ನು **Wand** ಸ್ಪ್ರೈಟ್‌ಗೆ ಸೇರಿಸಿ.
 
-Rename the sound to `toad`:
+ಧ್ವನಿಯನ್ನು `toad` ಎಂದು ಮರುನಾಮಕರಣ ಮಾಡಿ:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![Croak ಧ್ವನಿಯು ಲಿಸ್ಟ್‌ ಆಗಿರುವ Sounds ಟ್ಯಾಬ್.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+ನೆಲಗಪ್ಪೆ ಮಂತ್ರವನ್ನು ಬಿತ್ತರಿಸಿದಾಗ `toad`{:class="block3sound"} ಧ್ವನಿಯನ್ನು ನುಡಿಸಲು **Wand** ಸ್ಪ್ರೈಟ್‌ಗೆ ಬರಹವನ್ನು ಸೇರಿಸಿ:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**ಪರೀಕ್ಷೆ:** ನೀವು **toad** ಬಟನ್‌ ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ **Fairy** ಯನ್ನು ಧ್ವನಿ ಪರಿಣಾಮದೊಂದಿಗೆ ನೆಲಗಪ್ಪೆಯಾಗಿ ಬದಲಾಯಿಸಬಹುದು ಎಂದು ಪರೀಕ್ಷಿಸಿ. **Fairy** ಸ್ಪ್ರೈಟ್‌ನ್ನು ಮಾನವಳಾಗಿ ಮರು ಪರಿವರ್ತನೆ ಮಾಡಲು ಮತ್ತೆ ಹಸಿರು ಬಾವುಟದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![ಯಕ್ಷಿಣಿಯನ್ನು Fairy-toad-a ಉಡುಪಿನಲ್ಲಿ ತೋರಿಸುತ್ತಿರುವ Stage.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+'toad' ಮಂತ್ರದ ವಿರುದ್ಧಾರ್ಥ 'untoad' ಮಂತ್ರ.
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+**untoad** ಬಟನ್‌ ಸ್ಪ್ರೈಟ್‌ಗೆ 'untoad'{:class="block3events"} ಸಂದೇಶವನ್ನು `broadcast`{:class="block3events"} ಮಾಡಲು ಬರಹವನ್ನು ಸೇರಿಸಿ:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+**Fairy** ಸ್ಪ್ರೈಟ್‌ಗೆ `untoad`{:class="block3events"} ಹೊಸ ಬರಹವನ್ನು ಸೇರಿಸಿ:
 
 ![](images/fairy-icon.png)
 
@@ -124,11 +124,11 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+**Wand** ಸ್ಪ್ರೈಟ್‌ ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು **Sounds** ಟ್ಯಾಬ್‌ ಗೆ ಬದಲಿಸಿ.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**toad** ಧ್ವನಿಯನ್ನು **Duplicate** ಮಾಡಿ ಮತ್ತು ಅದನ್ನು `untoad` ಎಂದು ಮರುನಾಮಕರಣ ಮಾಡಿ.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+**untoad** ಧ್ವನಿಯು ಹಿಮ್ಮುಖವಾಗಿ ನುಡಿಸಲು **Reverse** ಐಕಾನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 ![](images/wand-sprite-icon.png)
 
@@ -138,7 +138,7 @@ Click on the **Reverse** icon so that the **untoad** sound plays backwards.
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+`untoad`{:class="block3sound"} ಧ್ವನಿಯನ್ನು ನುಡಿಸಲು **Wand** ಸ್ಪ್ರೈಟ್‌ಗೆ ಬರಹವನ್ನು ಸೇರಿಸಿ:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**ಪರೀಕ್ಷೆ:** **Fairy** ನೆಲಗಪ್ಪೆಯ ರೂಪದಲ್ಲಿರುವಾಗ **toad** ಮತ್ತು **untoad** ಮಂತ್ರಗಳನ್ನು ಮತ್ತು **shrink** ಮತ್ತು **grow** ಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ.
 
 --- /task ---
 
