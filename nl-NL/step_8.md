@@ -1,39 +1,39 @@
-## Upgrade your project
+## Verbeter je project
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+Hoe ga je je magische wereld uitbreiden? Je zou:
++ Meer sprites kunnen toevoegen
++ Verschillende geluids- en visuele effecten toevoegen aan de toverstaf.
++ Meer spreuken toevoegen — je zou sprites kunnen laten verdwijnen en weer laten verschijnen met `verdwijn`{:class="block3looks"} en `verschijn`{:class="block3looks"}, visuele effecten toepassen of ze ondersteboven zetten.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![Een project met vier sprites en nieuwe pixeleer-spreukknoppen.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+Waarom ruil je geen sprites met een vriend? Wissel eerst projectlinks uit met een vriend om elkaars sprites te zien. Om hun sprites op te slaan, gebruik je je Scratch-rugzak of download je de sprites naar een gedeeld gebied. Ga dan terug naar je project en voeg de opgeslagen sprites toe.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+title: Download een sprite
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+Je kunt sprites op je computer opslaan door ze uit je project te downloaden. Klik met de rechtermuisknop op een sprite in de Sprite-lijst en kies exporteren.
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![Het pop-upmenu in de sprite-lijst.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+Om een sprite in een project te laden, kies je de optie 'Upload Sprite' in het menu 'Kies een Sprite'.
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![Het uitgebreide menu Kies een Sprite met de optie Upload Sprite.](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+Maak meer spreuken met een vriend en voeg ze toe aan je sprites. Bepaal welke spreuken je wilt maken. Zorg ervoor dat je allebei exact dezelfde naam gebruikt voor de berichten die je uitzendt.
 
 --- collapse ---
 ---
-title: Completed project
+title: Voltooid project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/518413238/){:target="_blank"} bekijken.
 
 --- /collapse ---
 
