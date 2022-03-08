@@ -1,10 +1,10 @@
-## What next?
+## ماذا بعد؟
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly) project. In this project, you will make a Dragonfly that eats insects.
+إذا كنت تتبع مسار [المزيد من Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch)، يمكنك الانتقال إلى مشروع [تكبير يعسوب](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly). في هذا المشروع، ستصنع يعسوبًا يأكل الحشرات.
 
 --- print-only ---
 
-![Dragonfly project](images/dragonfly-project.png)
+![مشروع اليعسوب](images/dragonfly-project.png)
 
 --- /print-only ---
 
