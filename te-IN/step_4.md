@@ -1,19 +1,19 @@
-## The grow spell
+## Grow స్పెల్
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a grow spell to return the **Fairy** sprite to normal size or to make a massive fairy!
+**Fairy** sprite ను సాధారణ పరిమాణానికి తిరిగి తీసుకురావడానికి లేదా భారీ fairy ని చేయడానికి మీకు Grow స్పెల్ కూడా అవసరం!
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
 </div>
 </div>
 
-**Tip:** In this step, you will add code to three different sprites. Make sure you select the correct sprite from the Sprite list below the Stage and click on the **Code** tab.
+**చిట్కా:** ఈ దశలో, మీరు మూడు వేర్వేరు sprite లకు కోడ్‌ని జోడిస్తారు. మీరు Stage దిగువన ఉన్న Sprite జాబితా నుండి సరైన spriteని ఎంచుకున్నారని నిర్ధారించుకోండి మరియు **Code** ట్యాబ్‌పై క్లిక్ చేయండి.
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
+**grow** బటన్ sprite కి `grow`{:class="block3events"} సందేశాన్ని `broadcast`{:class="block3events"} చేయడానికి కోడ్ ని జోడించండి:
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Fairy** sprite to grow:
+**Fairy** sprite సైజు పెరగడానికి స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/fairy-icon.png)
 
@@ -37,33 +37,33 @@ change size by [10] // positive numbers increase the size
 
 --- /task ---
 
-You can reverse the 'shrink' sound to make a 'grow' sound!
+మీరు 'grow' సౌండ్ చేయడానికి 'shrink' ధ్వనిని రివర్స్ చేయవచ్చు!
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
+<span style="color: #0faeb0">**Songs played backwards quizzes**</span> ట్విస్ట్‌తో కూడిన మ్యూజిక్ క్విజ్‌లు. ట్రాక్‌లు రివర్స్ చేయబడ్డాయి మరియు పోటీదారులు అసలు పాటను ఊహించవలసి ఉంటుంది — ఇది వినిపించినంత సులభం కాదు. 
 </p>
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
+**Wand** sprite ని ఎంచుకుని, **Sounds** ట్యాబ్‌పై క్లిక్ చేయండి.
 
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
+**shrink** సౌండ్‌ని రైట్-క్లిక్ (లేదా నొక్కి పట్టుకోండి) మరియు **duplicate** ను ఎంచుకోండి.
 
 ![](images/wand-icon.png)
 
-![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
+![పాప్‌అప్ మెనుతో shrink ధ్వని నకలుని చూపుతోంది.](images/duplicate-sound.png)
 
-Name the copy `grow`.
+కాపీ చేయబడిన దానికి `grow` అని పేరు పెట్టండి.
 
-Click on the **Reverse** icon to make the sound play backwards.
+ధ్వని వెనుకకు ప్లే చేయడానికి **Reverse** చిహ్నంపై క్లిక్ చేయండి.
 
-![The grow sound with the reverse icon highlighted.](images/reverse-sound.png)
+![రివర్స్ ఐకాన్‌తో grow సౌండ్ హైలైట్ చేయబడింది.](images/reverse-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
+`grow`{:class="block3events"} సందేశం అందుకొన్నప్పుడు `grow`{:class="block3sound"} ధ్వనిని ప్లే చేయడానికి **Wand** sprite కి స్క్రిప్ట్‌ను జోడించండి:
 
 ![](images/wand-icon.png)
 
@@ -76,7 +76,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
+**పరీక్ష:** మీకు నచ్చినన్ని సార్లు స్పెల్స్ వేయడానికి **shrink** మరియు **grow** స్పెల్ బటన్‌లపై క్లిక్ చేయండి.
 
 --- /task ---
 
