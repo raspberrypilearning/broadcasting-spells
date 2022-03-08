@@ -1,19 +1,19 @@
-change from 'random position'
+changer de "position aléatoire"
 
-in front of the buttons
+devant les boutons
 
-shrink
+rétrécir
 
-negative numbers decrease the size
+les nombres négatifs diminuent la taille
 
-grow
+grandir
 
-positive numbers increase the size
+les nombres positifs augmentent la taille
 
-toad
+crapaud
 
-untoad
+non crapaud
 
 invisible
 
-hide
+cacher
