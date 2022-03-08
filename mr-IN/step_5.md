@@ -1,10 +1,10 @@
-## Toad transformation
+## टोड परिवर्तन
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+आता ही दुसऱ्या स्पेलची वेळ आहे. `toad`{:class="block3events"} मेसेज ब्रॉडकास्ट करून परिवर्तन स्पेल कास्ट करण्याची ही वेळ आहे जो **Fairy** स्प्राईटला toad मध्ये वळवतो! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+कदाचित ती एक साहसी कार्य करत आहे जिथे एक toad बनणे अधिक उपयुक्त असेल.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+'toad' मेसेज ब्रॉडकास्ट करण्यासाठी **toad** बटन स्प्राईटला स्क्रिप्ट जोडा:
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+**Fairy** स्प्राईट निवडा आणि **Costumes** टॅबवर क्लिक करा.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+**Fairy** स्प्राईट टोडमध्ये परिवर्तन करण्यासाठी तुम्ही **Fairy-a** आणि **Fairy-toad-a** कॉश्चुम वापराल.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![Fairy स्प्राईट दाखवणाऱ्या Costumes लीस्टला दुसरा कॉश्चुम आहे.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+**Code** टॅबवर क्लिक करा आणि `switch costume to`{:class="block3looks"} ब्लॉक तुमच्या आधीच्या `when flag clicked`{:class="block3events"} स्क्रिप्टच्या शेवटी जोडा जेणेकरून जेव्हा तुम्ही तुमचा प्रोजेक्ट रन करता तेव्हा परी मानवी रूपात असेल:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+टोड मध्ये वळवण्यासाठी नवीन स्क्रिप्ट **Fairy** स्प्राईटला जोडा:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+**Croak** साऊंड **Wand** स्प्राईटला जोडा.
 
-Rename the sound to `toad`:
+`toad` असे रीनेम करा:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![लीस्ट केलेल्या Croak साऊंडसह Sounds टॅब.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+**Wand** स्प्राईटला toad स्पेल कास्ट केल्यावर स्क्रिप्ट जोडा `toad`{:class="block3sound"} साऊंड प्ले करण्यासाठी:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**चाचणी:** तुम्ही **Fairy** toad मध्ये साऊंड इफेक्टसह रूपांतरीत करू शकता का याची चाचणी करा, जेव्हा तुम्ही **toad** बटनवर क्लिक करता. **Fairy** स्प्राईट मानवामध्ये परत वळवण्यासाठी हिरव्या झेंड्यावर क्लिक करा.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![Fairy-toad-a कॉश्चुमध्ये परी दाखवणारा Stage.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+'toad' स्पेलचे विरूद्ध 'untoad' स्पेल आहे.
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+**untoad** बटन स्प्राईटला स्क्रिप्ट जोडा `broadcast`{:class="block3events"} 'untoad'{:class="block3events"} मेसेजसाठी:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+`untoad`{:class="block3events"} **Fairy** स्प्राईटसाठी नवीन स्क्रिप्ट जोडा:
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+**Wand** स्प्राईट निवडा आणि **Sounds** टॅबला बदला.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**Duplicate** करा **toad** साऊंड आणि त्याला `untoad` असे रीनेम करा.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+**Reverse** आयकॉनवर क्लिक करा जेणेकरून **untoad** साऊंड मागे प्ले करेल.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![लीस्टमधील उलट untoad साऊंडसह Sounds टॅब.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+**Wand** स्प्राईटला स्क्रिप्ट जोडा `untoad`{:class="block3sound"} साऊंड प्ले करण्यासाठी:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**चाचणी:** **toad** आणि **untoad** स्पेल्सचा प्रयत्न करा, आणि प्रयत्न करा **shrink** आणि **grow** जेव्हा **Fairy** toad रूपात असते.
 
 --- /task ---
 
