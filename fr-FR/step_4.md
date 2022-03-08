@@ -1,19 +1,19 @@
-## The grow spell
+## Le sort "grandir"
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a grow spell to return the **Fairy** sprite to normal size or to make a massive fairy!
+Tu as également besoin d'un sort d'agrandissement pour ramener le sprite **Fée** à sa taille normale ou pour créer une énorme fée !
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
 </div>
 </div>
 
-**Tip:** In this step, you will add code to three different sprites. Make sure you select the correct sprite from the Sprite list below the Stage and click on the **Code** tab.
+**Astuce :** Dans cette étape, tu vas ajouter du code à trois sprites différents. Assure-toi de sélectionner le bon sprite dans la liste Sprite sous la scène et clique sur l'onglet **Code**.
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
+Ajoute un script au sprite bouton **grandir** pour `envoyer à tous`{:class="block3events"} un message `grandir`{:class="block3events"}  :
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Fairy** sprite to grow:
+Ajoute un script pour faire grandir le sprite **Fée** :
 
 ![](images/fairy-icon.png)
 
@@ -37,33 +37,33 @@ change size by [10] // positive numbers increase the size
 
 --- /task ---
 
-You can reverse the 'shrink' sound to make a 'grow' sound!
+Tu peux inverser le son « rétrécir » pour faire un son « grandir » !
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
+<span style="color: #0faeb0">**Chansons jouées à l'envers des quiz**</span> sont des quiz musicaux avec une touche. Les pistes sont inversées et les candidats doivent deviner la chanson originale - ce n'est pas aussi facile qu'il y paraît. 
 </p>
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
+Sélectionne le sprite **Baguette magique** et clique sur l'onglet **Son**.
 
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
+Fais un clic droit (ou appuie et maintiens) le son **reduire** et choisis **dupliquer**.
 
 ![](images/wand-icon.png)
 
-![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
+![Le son de rétrécissement avec un menu contextuel affichant dupliquer.](images/duplicate-sound.png)
 
-Name the copy `grow`.
+Nomme la copie `grandir`.
 
-Click on the **Reverse** icon to make the sound play backwards.
+Clique sur l'icone **Inverser** pour faire jouer le son à l'envers.
 
-![The grow sound with the reverse icon highlighted.](images/reverse-sound.png)
+![Le son d'agrandissement avec l'icône inversée en surbrillance.](images/reverse-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
+Ajoute un script au sprite **Baguette magique** pour jouer le son `grandir`{:class="block3sound"} lorsque le message `grandir`{:class="block3events"} est reçu :
 
 ![](images/wand-icon.png)
 
@@ -76,7 +76,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
+**Test :** Clique sur les boutons de sorts **rétrécir** et **grandir** pour lancer les sorts autant de fois que tu le souhaites.
 
 --- /task ---
 
