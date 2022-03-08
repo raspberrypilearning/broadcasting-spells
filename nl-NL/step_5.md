@@ -1,10 +1,10 @@
-## Toad transformation
+## Pad transformatie
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+Nu is het tijd voor een andere spreuk. Deze keer ga je een transformatiespreuk uitspreken door een `pad`{:class="block3events"}-bericht uit te zenden dat de **Fee** sprite in een pad verandert! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+Misschien gaat ze op avontuur waar het nuttiger is om een pad te zijn.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+Voeg een script toe aan de **pad**-knop sprite om het 'pad'-bericht uit te zenden:
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+Selecteer de **pad** sprite en klik op het tabblad **Uiterlijken**.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+Om de **Fairy** sprite in een pad te veranderen, gebruik je **Fairy-a** en **Fairy-toad-a** uiterlijken.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![De lijst met uiterlijken laat zien dat de Fairy sprite een tweede kostuum heeft.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+Klik op het **Code**-tabblad en voeg een `verander uiterlijk naar`{:class="block3looks"}-blok toe aan het einde van je bestaande `wanneer op de vlag wordt geklikt`{:class="block3events"}-script zodat de Fee een normaal uiterlijk krijgt wanneer je jouw project uitvoert:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+Voeg een nieuw script toe aan de **Fairy** sprite om in een pad te veranderen:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+Voeg het **Croak** geluid toe aan de **Wand** sprite.
 
-Rename the sound to `toad`:
+Hernoem het geluid naar `pad`:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![Het tabblad Geluiden met het Croak geluid in de lijst.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+Voeg een script toe aan de **Wand** sprite om het `pad`{:class="block3sound"}-geluid af te spelen wanneer de pad spreuk wordt uitgezonden:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**Test:** Test dat je de **Fairy** in een pad kunt veranderen, met een geluidseffect, als je op de **pad**-knop klikt. Klik op de groene vlag om de **Fairy** sprite weer in een mens te veranderen.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![Het speelveld met de fee in Fairy-pad-a-uiterlijk.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+Het tegenovergestelde van een 'pad'-spreuk is een 'normaal'-spreuk.
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+Voeg een script toe aan de **normaal**-knop sprite om het 'normaal'{:class="block3events"} bericht `te verzenden`{:class="block3events"}:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+Voeg een nieuw script toe om de **Fairy** sprite weer `normaal`{:class="block3events"} te laten worden:
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+Selecteer de **Wand** sprite en ga naar het tabblad **Geluiden**.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**Dupliceer** het **pad** geluid en hernoem het naar `normaal`.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+Klik op het **Keer om** pictogram zodat het **pad** geluid achterstevoren wordt afgespeeld.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![Tabblad Geluiden met omgekeerd pad-geluid in de lijst.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+Voeg een script toe aan de **Wand** sprite om het `normaal`{:class="block3sound"} geluid af te spelen wanneer de normaal spreuk wordt uitgezonden:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**Test:** Probeer de **pad** en **normaal** spreuken en probeer **krimp** en **groei** wanneer de **Fee** de pad-vorm heeft.
 
 --- /task ---
 
