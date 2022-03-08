@@ -1,7 +1,7 @@
-change from 'random position'
+αλλαγή από "τυχαία θέση"
 
-in front of the buttons
+μπροστά από τα κουμπιά
 
-negative numbers decrease the size
+οι αρνητικοί αριθμοί μειώνουν το μέγεθος
 
-positive numbers increase the size
+οι θετικοί αριθμοί αυξάνουν το μέγεθος
