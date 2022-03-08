@@ -1,39 +1,39 @@
-## Add another character
+## दुसरे कॅरेक्टर जोडा
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+स्पेलला प्रतिसाद देण्यासाठी तुमच्या आवडीचा एक स्प्राइट मिळवा. तुम्ही स्प्राईटसाठी टोड कॉश्चुम मॅश-अप तयार करण्याची आणि कोड जोडण्याची आवश्यकता असेल जेणेकरून स्पेल मेसेज ब्रॉडकास्ट झाल्यावर कॉश्चुम बदलेल.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![दुसरे टोड परिवर्तन दाखवणारा Stage.](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+**Fairy** स्प्राईट डुप्लीकेट करा.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+**Fairy-a** आणि **Fairy-toad-a** कॉश्चुम डिलीट करा. तुमच्याकडे **toad** कॉश्चुम शिल्लक असेल.
 
-Add a costume of your choice to the **new sprite**.
+**नवीन स्प्राईट** ला तुमच्या आवडीचा कॉश्चुम जोडा.
 
-We chose the **Batter**:
+आपण **Batter** निवडलात:
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+स्प्राईट ज्या दिशेकडे निर्देश करत आहे ती तुम्हाला बदलायची असेल.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**टीप:** तुमचा स्प्राईट वरच्या भागात खाली जात असल्यास तुम्ही त्याची `rotation-style`{:class="block3motion"} हे Sprite properties pane मध्ये `left-right`{:class="block3motion"} बदलवू शकता किंवा कोड ब्लॉकचा वापर करू शकता.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+तुम्ही स्प्राईटला ग्रो किंवा श्रींक करता तेव्हा तुम्हाला त्याच ठिकाणी रहाण्यासाठी पाय हवे असतात.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+प्रथम कॉश्चुम भोवती आयत काढण्यासाठी **Select** (ऍरो) टूल वापरा त्यानंतर तो **Group** करा. त्यानंतर क्रॉसहेअरच्या वर तुमचे कॅरेक्टर ड्रॅग करा.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+**toad** कॉश्चुमवर क्लिक करा.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+तुमचा स्प्राईट जुळवण्यासाठी कॉश्चुम रीनेम करा, आपण **Batter-toad-a** वापरले.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+Toad कॉश्चुम मुख्य कॉश्चुमच्या विरूद्ध दिशेत असल्यास तुम्ही वापरू शकता **Flip Horizontal**.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+आता, तुम्हाला कॅरेक्टरसारखे दिसणारे टोड बनवायची आवश्यकता आहे. याप्रमाणे दोन कॉश्चुम एकत्र करण्याला 'मॅश-अप' म्हणतात.
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+तुम्ही काही तपशील जोडू शकता, जसेकी, रंगांचा शिडकावा, किंवा सनग्लासेस कॉपी आणि पेस्ट किंवा Paint एडिटर मध्ये हॅट.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**टीप:** तुम्ही कॅरेक्टर स्प्राईटला कोणताही कॉश्चुम जोडू शकता. **Select** (ऍरो) टूल वापरा त्यानंतर **Copy** किंवा **Paste** वर क्लिक करा.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**टीप:** तुम्ही कॉश्चुममधील सर्व वस्तू ग्रुप करू शकता. (**Select** टूल किंवा <kbd> Ctrl-a</kbd>सह) ते निवडा आणि त्यानंतर **Group** वर क्लिक करा.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+आमचा Batter toad यासारखा दिसतो: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+तुमच्या नवीन स्प्राईटसाठी **Code** टॅबला बदला.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+तुमच्या नवीन स्प्राईटसाठी योग्य कॉश्चुम वापरण्यासाठी `switch costume`{:class="block3looks"} सर्व ब्लॉक्स बदला.
+
+तुम्हाला कदाचीत स्प्राईटचा सुरूवात `size`{:class="block3looks"} बदलायचा असू शकतो `when green flag clicked`{:class="block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**चाचणी:** स्पेल बटनवर क्लिक करा - दोन्ही कॅरेक्टरने स्पेल ब्रॉडकास्टला प्रतिसाद द्यायला हवा.
+
+**डीबर:** तुमच्या नवीन स्प्राईटसाठी तुम्ही `switch costume`{:class="block3looks"} ब्लॉक्समधील कॉश्चुम बदलले का ते तपासा.
 
 --- /task ---
 
