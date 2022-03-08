@@ -1,39 +1,39 @@
-## Upgrade your project
+## మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+మీరు మీ మాయా ప్రపంచాన్ని ఎలా విస్తరిస్తారు? మీరు చేయగలిగినవి:
++ మరిన్ని కారెక్టర్లను జోడించండి
++ మంత్రదండంకి విభిన్న ధ్వని మరియు విజువల్ ఎఫెక్ట్‌లను జోడించండి.
++ మరిన్ని స్పెల్‌లను జోడించండి — మీరు `hide`{:class="block3looks"} మరియు `show`{:class="block3looks"} లతో కారెక్టర్లు కనిపించకుండా మరియు మళ్లీ కనిపించేలా చేయవచ్చు, విజువల్ ఎఫెక్ట్‌లను వర్తింపజేయవచ్చు లేదా వాటిని తలక్రిందులుగా మార్చవచ్చు.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![నాలుగు sprite లతో కూడిన ప్రాజెక్ట్ మరియు కొత్త pixelate స్పెల్ బటన్‌లు జోడించబడ్డాయి.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+స్నేహితుడితో కారెక్టర్లను ఎందుకు మార్చుకోకూడదు? ముందుగా, ఒకరి sprite లను చూడటానికి స్నేహితుడితో ప్రాజెక్ట్ లింక్‌లను మార్చుకోండి. వారి sprite లను సేవ్ చేయడానికి, మీ Scratch backpack ని ఉపయోగించండి లేదా షేర్ చేసిన ప్రాంతానికి sprite లను డౌన్‌లోడ్ చేయండి. ఆపై మీ ప్రాజెక్ట్‌కి తిరిగి వెళ్లి, సేవ్ చేసిన sprite లను జోడించండి.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+title: ఒక sprite ని డౌన్‌లోడ్ చేయండి
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+మీరు వాటిని మీ ప్రాజెక్ట్ నుండి డౌన్‌లోడ్ చేయడం ద్వారా మీ కంప్యూటర్‌లో sprite లను సేవ్ చేయవచ్చు. Sprite జాబితాలోని sprite పై రైట్-క్లిక్ చేసి, export ఎంచుకోండి.
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![Sprite జాబితాలో పాప్అప్ మెను.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+ప్రాజెక్ట్‌లోకి sprite ను లోడ్ చేయడానికి, 'Choose a Sprite' మెను నుండి 'Upload a Sprite' ఎంపికను ఎంచుకోండి.
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![విస్తరించిన Choose a Sprite మెను, Upload a Sprite ఎంపికను చూపుతుంది.](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+స్నేహితునితో మరిన్ని స్పెల్స్ సృష్టించండి మరియు వాటిని మీ కారెక్టర్లకు జోడించండి. ఏ స్పెల్స్ సృష్టించాలో నిర్ణయించండి. మీరు ప్రసారం చేసే సందేశాలకు మీరిద్దరూ ఒకే పేరును ఉపయోగిస్తున్నారని నిర్ధారించుకోండి.
 
 --- collapse ---
 ---
-title: Completed project
+title: పూర్తయిన ప్రాజెక్ట్
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+మీరు [పూర్తయిన ప్రాజెక్ట్‌ను ఇక్కడ](https://scratch.mit.edu/projects/518413238/){:target="_blank"} వీక్షించవచ్చు.
 
 --- /collapse ---
 
