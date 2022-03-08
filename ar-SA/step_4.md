@@ -1,19 +1,19 @@
-## The grow spell
+## تعويذة التكبير
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a grow spell to return the **Fairy** sprite to normal size or to make a massive fairy!
+أنت أيضًا بحاجة إلى تعويذة تكبير، لتعيد كائن **Fairy** (الجنّيّة) إلى حجمه الطبيعيّ، أو لتجلعها أضخم بكثير!
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
 </div>
 </div>
 
-**Tip:** In this step, you will add code to three different sprites. Make sure you select the correct sprite from the Sprite list below the Stage and click on the **Code** tab.
+**تلميح:** في هذه الخطوة ستضيف مقاطع برمجيّة لثلاثة كائنات. تأكّد من أنّك تختار الكائن الصحيح من قائمة الكائن أسفل المنصّة، واضغط على قسم المقاطع البرمجيّة.
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
+أضف مقطعًا برمجيًّا إلى زرّ كائن **تكبير**، لتتمّ عمليّة `بثّ`{:class="block3events"} رسالة `تكبير`{:class="block3events"}:
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Fairy** sprite to grow:
+أضف مقطعًا برمجيًّا لتجعل كائن **Fairy** (الجنّيّة) يكبر:
 
 ![](images/fairy-icon.png)
 
@@ -37,33 +37,33 @@ change size by [10] // positive numbers increase the size
 
 --- /task ---
 
-You can reverse the 'shrink' sound to make a 'grow' sound!
+يمكنك عكس صوت 'التقليص' لإصدار صوت 'التكبير'!
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
+<span style="color: #0faeb0">**اختبارات الأغاني المشَغَّلة عكسيًّا**</span> هي اختبارات موسيقيّة مطوَّرة. تُعكَس الأغنية، وعلى المتسابقين تخمين الأغنية الأصليّة - الأمر ليس سهلًا كما يبدو. 
 </p>
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
+اختر كائن **Wand** (العصا)، ثمّ انقر على قسم **الأصوات**.
 
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
+انقر على الزرّ الأيمن (أو على الزرّ الأيسر ضغطة مطوّلة) على صوت **تقليص**، ثمّ اختر **مضاعفة**.
 
 ![](images/wand-icon.png)
 
-![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
+![صوت التقليص، مع القائمة المنبثقة الّتي تظهر خيار "مضاعفة".](images/duplicate-sound.png)
 
-Name the copy `grow`.
+أعطِ النسخة الجديدة اسم `تكبير`.
 
-Click on the **Reverse** icon to make the sound play backwards.
+انقر على أيقونة **عكس** لتشغيل الصوت بشكل عكسي.
 
-![The grow sound with the reverse icon highlighted.](images/reverse-sound.png)
+![صوت التكبير، مع أيقونة العكس المؤشَّرة.](images/reverse-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
+أضف مقطعًا برمجيًّا إلى كائن **Wand** (العصا)، ليؤدّي صوت `تكبير`{:class="block3sound"} عندما يتلقّى رسالة `تكبير`{:class="block3events"}:
 
 ![](images/wand-icon.png)
 
@@ -76,7 +76,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
+**اختبار:** انقر على الأزرار السحريّة **تقليص** و**تكبير** لتلقي التعويذات السحريّة بالعدد الّذي تريد.
 
 --- /task ---
 
