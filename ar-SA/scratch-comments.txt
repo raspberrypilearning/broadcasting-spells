@@ -1,7 +1,7 @@
-change from 'random position'
+غيّرها من "موضع عشوائي"
 
-in front of the buttons
+أمام الأزرار
 
-negative numbers decrease the size
+الأرقام السالبة تقلل الحجم
 
-positive numbers increase the size
+الأرقام الموجبة تزيد من الحجم
