@@ -129,6 +129,6 @@ play sound [rétrécir v] until done
 
 --- /task ---
 
-Le bouton **rétrécir** `envoie à tous`{:class="block3events"} un message `rétrécir`{:class="block3events"}. Le sprite **Fée** et **Baguette magique**`ont tous les deux reçus`{:clac="block3events"} le message et ils ont répondu.
+Le bouton **rétrécir** `envoie à tous`{:class="block3events"} un message `rétrécir`{:class="block3events"}. Le sprite **Fée** et **Baguette magique** `ont tous les deux reçus`{:class="block3events"} le message et ils ont répondu.
 
 --- save ---
