@@ -1,0 +1,26 @@
+---
+title: "Zend spreuken"
+hero_image: images/banner.png
+description: Gebruik een toverstaf om spreuken te kiezen en spreukberichten uit te zenden om sprites in padden te veranderen en ze te laten groeien en verkleinen.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Inleiding
+  - title: Kies je toverstaf
+  - title: De krimpspreuk
+    completion: engaged
+  - title: De groeispreuk
+  - title: Pad transformatie
+  - title: Voeg nog een personage toe
+    completion: internal
+  - title: Reflectie
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?

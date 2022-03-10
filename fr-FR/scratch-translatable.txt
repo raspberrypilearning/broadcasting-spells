@@ -1,0 +1,19 @@
+changer de "position aléatoire"
+
+devant les boutons
+
+rétrécir
+
+les nombres négatifs diminuent la taille
+
+grandir
+
+les nombres positifs augmentent la taille
+
+crapaud
+
+non crapaud
+
+invisible
+
+masquer

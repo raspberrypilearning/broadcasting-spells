@@ -1,0 +1,7 @@
+wijzigen van 'willekeurige positie'
+
+voor de knoppen
+
+negatieve getallen verkleinen de grootte
+
+positieve getallen vergroten de grootte

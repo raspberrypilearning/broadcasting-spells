@@ -1,0 +1,7 @@
+changer de "position aléatoire"
+
+devant les boutons
+
+les nombres négatifs diminuent la taille
+
+les nombres positifs augmentent la taille
