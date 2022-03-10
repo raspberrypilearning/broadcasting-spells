@@ -1,28 +1,28 @@
 ---
-title: "Broadcasting spells"
+title: "मंत्रों का प्रसारण"
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: स्प्राइट्स को मेंढक में बदलने और उन्हें बढ़ने और सिकोड़ने के लिए मंत्र चुनने और जादू के मंत्रों को प्रसारित करने के लिए एक जादू की छड़ी का उपयोग करें।
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Choose your wand
+    title: अपनी छड़ी चुनें
   - 
-    title: The shrink spell
+    title: सिकुड़न मंत्र
     completion: engaged
   - 
-    title: The grow spell
+    title: बढ़ने का मंत्र
   - 
-    title: Toad transformation
+    title: मेंढक का रुपांतरण
   - 
-    title: Add another character
+    title: एक और चरित्र जोड़ें
     completion: internal
   - 
-    title: Reflection
+    title: सोचिए
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -30,6 +30,6 @@ steps:
       passing_score: 3
     completion: external
   - 
-    title: Upgrade your project
+    title: प्रोजेक्ट को अपग्रेड करें
   - 
-    title: What next?
+    title: आगे क्या?
