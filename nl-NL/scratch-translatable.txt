@@ -1,0 +1,19 @@
+wijzigen van 'willekeurige positie'
+
+voor de knoppen
+
+krimpen
+
+negatieve getallen verkleinen de grootte
+
+groeien
+
+positieve getallen vergroten de grootte
+
+pad
+
+normaal
+
+onzichtbaar
+
+verdwijn

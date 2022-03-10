@@ -1,0 +1,26 @@
+---
+title: "Lancer des sorts"
+hero_image: images/banner.png
+description: Utiliser une baguette magique pour choisir des sorts et diffuser des messages de sorts pour transformer les sprites en crapauds et les faire grandir et rétrécir.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Introduction
+  - title: Choisir ta baguette
+  - title: Le sort "rétrecir"
+    completion: engaged
+  - title: Le sort "grandir"
+  - title: Transformation de crapaud
+  - title: Ajouter un autre personnage
+    completion: internal
+  - title: Réflexion
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: Améliorer ton projet
+  - title: Et ensuite ?
