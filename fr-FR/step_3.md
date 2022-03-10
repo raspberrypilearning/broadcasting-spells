@@ -1,8 +1,8 @@
-## The shrink spell
+## Le sort "rétrecir"
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+Maintenant, tu vas pouvoir faire rétrecir la fée lorsque tu cliqueras sur le bouton rétrécir.
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+Clique sur le sprite **rétrécir** dans la liste des sprites qui se trouve en dessous de la scène.
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+Ajoute un bloc `quand ce sprite est cliqué`{:class="block3events"} :
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+Quand tu cliques sur le bouton rétrécir, le sprite **Fée** doit rétrécir.
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+Le **rétrécissement** du sprite doit `envoyer à tous`{:class="block3events"} un `message`{:class="block3events"} pour que le sprite **Fée** sache que le sort rétrécir a été lancé.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+Ajoute un bloc `envoyer à tous`{:class="block3events"} :
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+Clique sur `message1`{:class="block3events"} et choisis "Nouveau message". Nomme le nouveau message `rétrécir`.
 
-![New message dialog with shrink entered.](images/new-message.png)
+![Une nouvelle boîte de dialogue avec le message rétrécir est entrée.](images/new-message.png)
 
-Your code should look like this:
+Ton code devrait ressembler à ceci :
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+Maintenant, quand tu cliques sur le bouton **rétrécir** , Scratch `enverra à tous`{:class="block3events"} le message `rétrécir`{:class="block3events"}, mais rien ne se passera encore.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+Ajoute du code au sprite **Fée** pour le réduire lorsqu'il reçoit un message `rétrécir`{:class="block3events"} :
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**Test :** Clique sur le bouton **rétrécir** pour rétrécir le sprite **Fée**. Fais cela autant de fois que tu le souhaites.
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**Débogage :** Si ton sprite **Fée** grandit au lieu de rétrécir, ajoute un moins `-` avant le nombre `10` pour faire un nombre négatif `-10`.
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+Ajoute un script pour définir le sprite **Fée** à la taille normale `quand le drapeau vert`{:class="block3events"} est cliqué :
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+Lorsque les messages sont `envoyés à tous`{:class="block3events"} ils peuvent être reçus par tous les sprites. Lorsque la **Baguette magique** `reçoit`{:class="block3events"} le message `rétrécir`{:class="block3events"}, elle doit `jouer un son`{:class="block3sound"}.
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+Clique sur le sprite **Baguette magique** et ensuite sur l'onglet **Sons**.
 
-Add the **Slide Whistle** sound.
+Ajoute le son **Slide Whistle**.
 
-Rename the sound to `shrink` so it is easy to find.
+Renomme le son en `rétrécir` pour qu'il soit facile à trouver.
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![L'onglet Sons avec le son slide whistle ajouté et renommé en rétrécir dans la propriété Son.](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+Ajoute un script pour jouer le son :
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**Test :** Clique sur le drapeau vert pour tester ton projet. Clique sur le bouton **rétrécir** pour entendre le son et voir la **Fée** rétrécir.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+Le bouton **rétrécir** `envoie à tous`{:class="block3events"} un message `rétrécir`{:class="block3events"}. Le sprite **Fée** et **Baguette magique**`ont tous les deux reçus`{:clac="block3events"} le message et ils ont répondu.
 
 --- save ---
