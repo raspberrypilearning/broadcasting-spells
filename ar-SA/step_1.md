@@ -5,7 +5,7 @@
 سوف تقوم بمايلي:
 + إنشاء أزرار تقوم بعمليّة `بثّ`{:class="block3events"} الرسائل إلى باقي الكائنات.
 + إنشاء عدّة كائنات لتتفاعل مع نفس الرسائل الّتي `تستلمها`{:class="block3events"}.
-+ استعمال قائمة `الأصوات` لعكس الأصوات.
++ استعمال قائمة {:class="block3sound"}`الأصوات` لعكس الأصوات.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**بثّ**</span> و<span style="color: #0faeb0">**استلام**</span> الرسائل هو كنمط النداء والرد في الموسيقى.
