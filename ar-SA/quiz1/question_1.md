@@ -2,7 +2,7 @@
 
 أحسنت صنعًا ، لقد أنشأت تطبيقًا يعتمد على أفكار من القصص!
 
-لقد استخدمت `أحداث`{: class = "block3events"} ، `عنصر تحكم`{: class = "block3control"} ، `Motion`{: class = "block3motion"} ، `مظاهر`{: class = "block3looks"} و `كتل Sound`{: class = "block3sound"}!
+لقد استخدمت كتل `الأحداث`{:class="block3events"}، و`التحكّم`{:class="block3control"}، و`الحركة`{:class="block3motion"}، و`الهيئة`{:class="block3looks"}، و`الصوت`{:class="block3sound"}!
 
 الآن ، حان وقت التفكير - التفكير جزء مهم من التعلم ، لأنه يساعد في إنشاء روابط جديدة في عقلك.
 
@@ -18,7 +18,7 @@
 legend: السؤال 1 من 3
 ---
 
-لقد كتبت نصوصًا لـ `بث`{: class = "block3events"} رسالة عند النقر فوق الزر.
+لقد كتبت نصوصًا لـ `بث`{:class="block3events"} رسالة عند النقر فوق الزر.
 
 ![](images/button-icon.png)
 
@@ -66,7 +66,7 @@ hide
 
  --- feedback ---
 
-هذا صحيح. تحتاج الكتلة `عندما أتلقى`كتلة {: class = "block3events"} إلى استخدام نفس اسم الرسالة تمامًا مثل كتلة البث `{: class = "`"}.
+هذا صحيح. تحتاج الكتلة `عندما أتلقّى`{:class="block3events"} إلى استخدام نفس اسم الرسالة تمامًا، مثل كتلة `بث`{:class="block3events"}.
 
  --- /feedback ---
 
