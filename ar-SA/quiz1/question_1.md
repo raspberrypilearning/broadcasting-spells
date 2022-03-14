@@ -47,7 +47,7 @@ hide
 - ( )
 
 ```blocks3
-when I receive [hide v]
+when I receive [اخف v]
 hide
 ```
 
