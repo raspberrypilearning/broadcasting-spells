@@ -16,7 +16,7 @@ In deze stap maak je het speelveld, kies je je toverstaf en creëer je je eigen 
 
 --- task ---
 
-Open het [Zend spreuken start-project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
+Open het [Zend spreuken start-project](https://scratch.mit.edu/projects/660082625/editor){:target="_blank"}. Scratch wordt in een nieuw browsertabblad geopend.
 
 [[[working-offline]]]
 

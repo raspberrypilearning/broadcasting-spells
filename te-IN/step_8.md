@@ -33,7 +33,7 @@ title: ఒక sprite ని డౌన్‌లోడ్ చేయండి
 title: పూర్తయిన ప్రాజెక్ట్
 ---
 
-మీరు [పూర్తయిన ప్రాజెక్ట్‌ను ఇక్కడ](https://scratch.mit.edu/projects/518413238/){:target="_blank"} వీక్షించవచ్చు.
+మీరు [పూర్తయిన ప్రాజెక్ట్‌ను ఇక్కడ](https://scratch.mit.edu/projects/660080931/){:target="_blank"} వీక్షించవచ్చు.
 
 --- /collapse ---
 

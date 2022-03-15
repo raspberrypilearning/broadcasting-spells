@@ -24,7 +24,7 @@
 जादू की छड़ी का उपयोग बटनों पर क्लिक करने और मंत्रों को डालने के लिए करें। प्रत्येक मंत्र पात्रों के लिए क्या करता है?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660071394/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

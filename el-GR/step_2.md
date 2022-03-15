@@ -16,7 +16,7 @@
 
 --- task ---
 
-Άνοιξε το [αρχικό έργο Ξόρκια Μετάδοσης](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
+Άνοιξε το [αρχικό έργο Ξόρκια Μετάδοσης](https://scratch.mit.edu/projects/660081620/editor){:target="_blank"}. Το Scratch θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
 
 [[[working-offline]]]
 

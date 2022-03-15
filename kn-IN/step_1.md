@@ -24,7 +24,7 @@
 ಬಟನ್‌ಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಲು ಮತ್ತು ಮಂತ್ರಗಳನ್ನು ಬಿತ್ತರಿಸಲು ಮಾಂತ್ರಿಕ ದಂಡವನ್ನು ಉಪಯೋಗಿಸಿ. ಪ್ರತಿಯೊಂದು ಮಂತ್ರವು ಪಾತ್ರಗಳಿಗೆ ಏನು ಮಾಡುತ್ತದೆ?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660079360/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

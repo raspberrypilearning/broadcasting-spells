@@ -24,7 +24,7 @@ Sprite లను చిరుకప్పలుగా మార్చడాన�
 బటన్‌లపై క్లిక్ చేసి మంత్రాలు వేయడానికి మంత్రదండం ఉపయోగించండి. ప్రతి మంత్రం కారెక్టర్ లకు ఏమి చేస్తుంది?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660080931/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 
