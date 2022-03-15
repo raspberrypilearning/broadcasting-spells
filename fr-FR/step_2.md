@@ -16,7 +16,7 @@ Pendant cette étape, tu vas créer le décor. Choisis ta baguette magique et cr
 
 --- task ---
 
-Ouvre le [projet de démarrage Lancer des sorts](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
+Ouvre le [projet de démarrage Lancer des sorts](https://scratch.mit.edu/projects/660082237/editor){:target="_blank"}. Scratch s'ouvrira dans un autre onglet du navigateur.
 
 [[[working-offline]]]
 

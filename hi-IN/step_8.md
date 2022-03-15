@@ -33,7 +33,7 @@ title: एक स्प्राइट डाउनलोड करें
 title: पूरा किया हुआ प्रोजेक्ट।
 ---
 
-आप [ पूर्ण प्रोजेक्ट यहां ](https://scratch.mit.edu/projects/518413238/){:target="_blank"} से देख सकते हैं।
+आप [ पूर्ण प्रोजेक्ट यहां ](https://scratch.mit.edu/projects/660071394/){:target="_blank"} से देख सकते हैं।
 
 --- /collapse ---
 

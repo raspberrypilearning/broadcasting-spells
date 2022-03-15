@@ -16,7 +16,7 @@
 
 --- task ---
 
-افتح [مشروع البداية لبث تعاويذ سحرية](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
+افتح [مشروع البداية لبث تعاويذ سحرية](https://scratch.mit.edu/projects/660083015/editor){:target="_blank"}. سيتم فتح Scratch في علامة تبويب متصفح أخرى.
 
 [[[working-offline]]]
 
