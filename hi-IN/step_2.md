@@ -30,11 +30,11 @@
 
 --- /task ---
 
-You need a wand to cast a spell.
+जादू करने के लिए आपको एक छड़ी की आवश्यकता होगी।.
 
 --- task ---
 
-Click **Choose a Sprite** and type `wand` into the search box:
+**Choose a Sprite** पर क्लिक करें और खोज बॉक्स में `wand` टाइप करें:
 
 ![एक स्प्राइट आइकन चुनें।](images/choose-a-sprite.png)
 
