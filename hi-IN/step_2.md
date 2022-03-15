@@ -30,7 +30,7 @@
 
 --- /task ---
 
-You need a wand to cast a spell.
+जादू करने के लिए आपको एक छड़ी की आवश्यकता होगी।
 
 --- task ---
 
