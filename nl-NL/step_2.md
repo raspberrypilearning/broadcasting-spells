@@ -11,7 +11,7 @@ In deze stap maak je het speelveld, kies je je toverstaf en creëer je je eigen 
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> (computer-generereerd afbeeldingen) kan worden gebruikt om speciale effecten te creëren die in de echte wereld niet voorkomen. Bij het maken van een moderne fantasiefilm of animatie komt veel code en computerkunst kijken.
+<span style="color: #0faeb0">**Computer-generated magere (CGI)**</span> (computergegenereerde afbeeldingen) kan worden gebruikt om speciale effecten te creëren. Bij het maken van een moderne fantasiefilm of animatie komt veel code en computerkunst kijken.
 </p>
 
 --- task ---
@@ -106,7 +106,7 @@ Het **Wand**-uiterlijk zit de muiscursor in de weg wanneer je op de knoppen prob
 
 --- task ---
 
-Verplaats de toverstaf zodanig de punt net niet op het dradenkruis in het midden staat.
+Verplaats de toverstaf zo dat de punt net niet op het dradenrkuis in het midden staat.
 
 ![Toverstaf uiterlijken correct gepositioneerd.](images/positioned-wands.png)
 
