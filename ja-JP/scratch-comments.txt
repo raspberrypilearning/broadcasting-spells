@@ -1,7 +1,7 @@
-change from 'random position'
+「どこかの場所」から変更
 
-in front of the buttons
+ボタンの前面
 
-negative numbers decrease the size
+マイナスの数はサイズを小さくします
 
-positive numbers increase the size
+プラスの数はサイズを大きくします
