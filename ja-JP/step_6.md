@@ -1,39 +1,39 @@
-## Add another character
+## 別のキャラクターを追加する
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+呪文に反応する、あなたの選んだスプライトを手に入れてください。 スプライトのヒキガエルコスチュームの「マッシュアップ」を作成し、呪文メッセージが送られたときにコスチュームが変わるようにコードを追加する必要があります。
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![2番目のヒキガエルの変身を示すステージ。](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+**Fairy**スプライトを複製します。
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+**Fairy-a**と**Fairy-toad-a** のコスチュームを削除します。 **toad**コスチュームが残ります。
 
-Add a costume of your choice to the **new sprite**.
+**新しいスプライト**に選択したコスチュームを追加します。
 
-We chose the **Batter**:
+ここでは**Batter**を選択しました：
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+スプライトが指している方向を変更したい場合があります。
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**ヒント：** スプライトが上下逆になった場合は、スプライトのプロパティペインで、またはコードブロックを使って、その `回転方法`{:class="block3motion"}を `左右のみ`{:class="block3motion"}に変更します。
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+スプライトを拡げたり縮めたりしても、足は同じ場所に留めておきたいです。
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+最初に **選択**（矢印）ツールを使用してコスチュームの周りに長方形を描き、次に **グループ化**を使用します。 次に、キャラクターを十字線の上にドラッグします。
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+**toad** コスチュームをクリックします。
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+スプライトに合わせてコスチュームの名前を変更します。ここでは **Batter-toad-a**としました。
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,41 +51,41 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+ヒキガエルのコスチュームがメインのコスチュームと反対の方向を向いている場合は、 **左右反転**を使用します。
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+次に、ヒキガエルを元のキャラクターのように見せなければなりません。 このように2つのコスチュームを組み合わせることは、「マッシュアップ」と呼ばれています。
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+ペイントエディタで、一部の色などの細かいディテールを追加したり、サングラスや帽子をコピーして貼り付けたりします。
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**ヒント：**キャラクターのスプライトに任意のコスチュームを追加できます。 **選択**（矢印）ツールを使用して、 **コピー** または **貼り付け**をクリックします。
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**ヒント：** コスチューム内のすべてのオブジェクトをグループ化できます。 それらを選択し（ **選択** ツールまたは <kbd>Ctrl-a </kbd>を使用）、**グループ化**をクリックします。
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+私たちのバッターヒキガエルは次のようになります： ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+新しいスプライトの**コード**タブに切り替えます。
+
+`コスチュームを(・・・v)にする`{:class="block3looks"}ブロックをすべて変更して、新しいスプライトに正しいコスチュームを使用します。
+
+`緑の旗が押されたとき`{:class="block3events"}、スプライトの最初の `大きさ`{:class="block3looks"}を変更することもできます。
+
+--- /task ---
+
+--- task ---
+
+**テスト：** 呪文ボタンをクリックします—両方のキャラクターが呪文発信に応答する必要があります。
 
 **Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
 
