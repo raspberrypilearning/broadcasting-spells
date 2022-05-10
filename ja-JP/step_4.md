@@ -1,19 +1,19 @@
-## The grow spell
+## 拡がる呪文
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a grow spell to return the **Fairy** sprite to normal size or to make a massive fairy!
+**Fairy**スプライトを通常のサイズに戻したり、もっと大きくするのに、拡がる呪文も必要です。
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
 </div>
 </div>
 
-**Tip:** In this step, you will add code to three different sprites. Make sure you select the correct sprite from the Sprite list below the Stage and click on the **Code** tab.
+**ヒント：** このステップでは、3つの異なるスプライトにコードを追加します。 ステージの下のスプライトリストから正しいスプライトを選択していることを確認し、**コード**タブをクリックしてください。
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
+**拡がる**ボタンスプライトにスクリプトを追加して`拡がる`{:class="block3events"}メッセージを `送る`{:class="block3events"} ようにします。
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Fairy** sprite to grow:
+**Fairy** スプライトを大きくするスクリプトを追加します。
 
 ![](images/fairy-icon.png)
 
@@ -37,33 +37,33 @@ change size by [10] // positive numbers increase the size
 
 --- /task ---
 
-You can reverse the 'shrink' sound to make a 'grow' sound!
+「縮む」音を逆にして「拡がる」音を出すことができます！
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
+<span style="color: #0faeb0">**逆方向に再生される曲のクイズ**</span> は、ひねりを加えた音楽クイズです。 トラックが逆になり、回答者は元の曲を推測する必要があります—それは思ったほど簡単ではありません。 
 </p>
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
+**Wand** スプライトを選択し、**音**タブをクリックします。
 
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
+**縮む**音を右クリック（またはタップアンドホールド）して、 **複製**を選択します。
 
 ![](images/wand-icon.png)
 
-![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
+![複製のポップアップメニューを表示している縮む音。](images/duplicate-sound.png)
 
-Name the copy `grow`.
+コピーに `拡がる`という名前をつけます。
 
-Click on the **Reverse** icon to make the sound play backwards.
+**逆向き** アイコンをクリックして、サウンドを逆方向に再生します。
 
-![The grow sound with the reverse icon highlighted.](images/reverse-sound.png)
+![逆向きアイコンが強調表示された拡がる音。](images/reverse-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
+**Wand** スプライトにスクリプトを追加して、 `拡がる`{:class="block3events"}メッセージを受信したときに、 `拡がる`{:class="block3sound"}音を再生します。
 
 ![](images/wand-icon.png)
 
@@ -76,7 +76,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
+**テスト：** **縮む** と **拡がる** の呪文ボタンをクリックして、好きなだけ呪文を唱えます。
 
 --- /task ---
 
