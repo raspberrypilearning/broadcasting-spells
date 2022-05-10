@@ -1,24 +1,24 @@
-## Reflection
+## ふりかえり
 
-Well done, you have created an app based on ideas from stories!
+よくできました。ストーリーのアイデアに基づいてアプリを作成しました。
 
-You have used `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Sound`{:class="block3sound"} blocks!
+`イベント`{:class="block3events"}、 `制御`{:class="block3control"}、 `動き`{:class="block3motion"}、 `見た目`{:class="block3looks"}および `音`{:class="block3sound"}ブロックを使用しました！
 
-Now it's time to reflect — reflecting is an important part of learning, because it helps make new connections in your brain.
+次はふりかえりの時間です。ふりかえりを行うことで、脳に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
 
-Answer the three questions below to reflect on what you've learned.
+以下の3つの質問に答えて、学んだことをふりかえってみましょう。
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+各質問の後で、送信を押します。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
 
-Have fun!
+楽しんで!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: 質問1/3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+ボタンがクリックされたときにメッセージを`を送る`{:class="block3events"}するスクリプトを作成しました。
 
 ![](images/button-icon.png)
 
@@ -27,7 +27,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+ボタンがクリックされたときにスプライトを非表示にするスクリプトはどれですか？
 
 --- choices ---
 
@@ -40,7 +40,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ いいえ、これはScratchのデフォルトのメッセージですが、コードによって送信されるメッセージではありません。
 
  --- /feedback ---
 
@@ -53,7 +53,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ いいえ、受信する必要のあるメッセージは「hide」とは呼ばれません。
 
  --- /feedback ---
 
@@ -66,7 +66,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+それは正解です。 `を受け取ったとき`{:class="block3events"}ブロックは、`送る`{:class="block3events"}ブロックとまったく同じメッセージ名を使用する必要があります。
 
  --- /feedback ---
 
@@ -79,7 +79,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ 完全ではありません。 Scratchでは、メッセージ名が一致するように、スペルが本当に正確である必要があります。 注意深く確認してください。
 
  --- /feedback ---
 
