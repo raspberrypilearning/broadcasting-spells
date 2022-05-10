@@ -1,14 +1,14 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: 質問3/3
 ---
 
-You renamed the **Slide Whistle** sound to create a **shrink** sound:
+**Slide Whistle** 音の名前を変更して、 **縮む**音を作成しました。
 
 ![](images/just-shrink.png)
 
-You duplicated the **shrink** sound and reversed it to make a **grow** sound. Which answer shows the correct grow sound?
+**縮む**音を複製し、それを逆にして **拡がる** 音を作成しました。 正しい拡がる音を表す答えはどれですか？
 
 
 --- choices ---
@@ -19,7 +19,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- No, this project has a copy of the **shrink** sound, but the soundwave is the same. The soundwave hasn't been reversed to create a grow sound.
+ いいえ、このプロジェクトには **縮む**音の複製がありますが、音波は同じです。 音波は、拡がる音を作成するために反転されていません。
 
  --- /feedback ---
 
@@ -29,7 +29,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- Yes, you can see that the sound has been reversed by the shape of the soundwave.
+ はい、音波の形によって音が反転していることがわかります。
 
  --- /feedback ---
 
