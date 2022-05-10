@@ -1,10 +1,10 @@
-## Toad transformation
+## ヒキガエルに変身
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+今度は別の呪文の時間です。 今回は、** Fairy **スプライトをヒキガエルに変える `ヒキガエル` {:class="block3events "}メッセージを送って変身呪文を唱えます。 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+たぶん、彼女はヒキガエルであることがより役立つ冒険に出かけているでしょう。
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+**ヒキガエル** ボタンスプライトにスクリプトを追加して、「ヒキガエル」メッセージを送信します。
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+**Fairy** スプライトを選択し、 **コスチューム** タブをクリックします。
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+**Fairy** スプライトをヒキガエルに変換するには、 **Fairy-a** と **Fairy-tode-a** のコスチュームを使用します。
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![Fairyスプライトに2番目のコスチュームがあることを示すコスチュームのリスト。](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+**コード** タブをクリックし、`フラグが押されたとき{:class="block3events"}`のスクリプトの最後に `コスチュームを(・・・v)にする`{:class="block3looks"}ブロックを追加して、プロジェクトを実行するときに妖精が人間のような姿になるようにします。
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+**Fairy** スプライトにヒキガエルに変身させる新しいスクリプトを追加します。
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+**Croak**音を **Wand**スプライトに追加します。
 
-Rename the sound to `toad`:
+音の名前を `ヒキガエル`に変更します:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![Croakがリストされた音タブ。](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+**Wand** スプライトにスクリプトを追加して、ヒキガエルの呪文が唱えられたときに `ヒキガエル`{:class="block3sound"}音を再生します。
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**テスト：** **ヒキガエル** ボタンをクリックすると、 **Fairy** が効果音付きでヒキガエルに変身することをテストします。 緑の旗をもう一度クリックして、 **Fairy** スプライトを人間に戻します。
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![FairyがFairy-toad-aコスチュームで表示されたステージ。](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+「ヒキガエル」呪文の反対は「ヒキガエルじゃない」呪文です。
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+**ヒキガエルじゃない** ボタンスプライトにスクリプトを追加して 'ヒキガエルじゃない' {:class="block3events"}メッセージを `送る`{:class="block3events"}ようにします：
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+**Fairy**スプライトを`ヒキガエルじゃない`{:class="block3events"}ようにする 新しいスクリプトを追加します。
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+**Wand** スプライトを選択し、**音**タブをクリックします。
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**ヒキガエル**音を**複製** し、名前を `ヒキガエルじゃない`に変更する。
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+**逆向き**アイコンをクリックして、**ヒキガエルじゃない**音が逆方向に再生されるようにします。
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![リスト内に逆向きのヒキガエルじゃない音のある音タブ。](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+**Wand** スプライトに `ヒキガエルじゃない`{:class="block3sound"}音を再生するスクリプトを 追加します。
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**テスト：** **ヒキガエル** と **ヒキガエルじゃない** の呪文を試し、 **Fairy** がヒキガエルの形になったら **縮む**と**拡がる**を試します。
 
 --- /task ---
 
