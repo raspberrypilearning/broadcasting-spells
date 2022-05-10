@@ -1,8 +1,8 @@
-## The shrink spell
+## 縮む呪文
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+次は、縮小ボタンをクリックしたときにFairyが縮むようにしましょう。
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+ステージの下のスプライトリストで **縮む** スプライトをクリックします。
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+`このスプライトが押されたとき`{:class="block3events"}ブロックを追加します。
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+縮むボタンをクリックすると、 **Fairy** スプライトが縮むようにしたいです。
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+**縮む** スプライトは `メッセージ`{:class="block3events"} を `送る`{:class="block3events"}必要があります。これにより、 **Fairy** スプライトは縮む呪文が唱えられたことを認識します。
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+`[メッセージv]を送る`{:class="block3events"}ブロックを追加します：
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+`メッセージ1`{:class="block3events"}をクリックし、「新しいメッセージ」を選択します。 新しいメッセージに `縮む`という名前をつけます。
 
-![New message dialog with shrink entered.](images/new-message.png)
+![縮むと入力された新しいメッセージダイアログ。](images/new-message.png)
 
-Your code should look like this:
+コードは以下のようになります：
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+これで、 **縮む** ボタンをクリックすると、Scratchは `縮む`{:class="block3events"}メッセージを`送る`{:class = "block3events"} のですが、まだ何も起こりません。
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+**Fairy** スプライトにコードを追加して、 `縮む`{:class = "block3events"}メッセージを受信したときに縮むようにします。
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**テスト：** **縮む** ボタンをクリックして、 **** スプライトを縮ませます。 これを何度でも実行してください。
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**デバッグ：** **Fairy** スプライトが縮まないで拡がる場合は、数値 `10`の前にマイナス`-` を付けて、負の数値`-10` にしてください。
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+`緑の旗`{:class="block3events"}がクリックされたとき、 **Fairy** スプライトを通常のサイズ に設定するスクリプトを追加します。
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+メッセージが `送られる`{:class="block3events"}と、すべてのスプライトで受け取ることができます。 **Wand** が `縮む`{:class="block3events"}メッセージを`受け取る`{:class="block3events"}と、`音を鳴らす`{:class="block3sound"}ようにします。
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+**Wand** スプライトをクリックしてから、 **音** タブをクリックします。
 
-Add the **Slide Whistle** sound.
+**Slide Whisle** の音を追加します。
 
-Rename the sound to `shrink` so it is easy to find.
+音の名前を `縮む` に変更して、見つけやすくします。
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![スライドホイッスル音が追加され、音 プロパティで名前を縮むに変更された音タブ。](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+音を再生するスクリプトを追加します。
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**テスト：** 緑色の旗をクリックして、プロジェクトを実行します。 **縮む** ボタンをクリックすると音が聞こえ、 **Fairy** が縮みます。
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+**縮む** ボタンが`縮む`{:class="block3events"}メッセージを`送り`{:class = "block3events"}ます。 **Fairy** と **Wand** スプライト の両方が、メッセージを`受信`{:class = "block3events"}し、応答しました。
 
 --- save ---
