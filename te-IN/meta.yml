@@ -1,26 +1,30 @@
 ---
-title: "బ్రాడ్ కాష్టింగ్ స్పెల్స్"
+title: బ్రాడ్ కాష్టింగ్ స్పెల్స్
 hero_image: images/banner.png
-description: Sprite లను చిరుకప్పలుగా మార్చడానికి మరియు వాటిని పెంచడానికి మరియు కుదించడానికి మాజిక్ ను ఎంచుకోవడానికి మరియు స్పెల్ సందేశాలను ప్రసారం చేయడానికి మంత్రదండం ఉపయోగించండి.
+description: Sprite లను చిరుకప్పలుగా మార్చడానికి మరియు వాటిని పెంచడానికి మరియు కుదించడానికి
+  మాజిక్ ను ఎంచుకోవడానికి మరియు స్పెల్ సందేశాలను ప్రసారం చేయడానికి మంత్రదండం ఉపయోగించండి.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: పరిచయం
-  - title: మీ మంత్రదండం ఎంచుకోండి
-  - title: Shrink స్పెల్
-    completion: engaged
-  - title: Grow స్పెల్
-  - title: చిరుకప్ప రూపాంతరం
-  - title: మరొక కారెక్టర్ ను జోడించండి
-    completion: internal
-  - title: విశ్లేషణ
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
-  - title: తర్వాత ఏంటి?
+- title: పరిచయం
+- title: మీ మంత్రదండం ఎంచుకోండి
+- title: Shrink స్పెల్
+  completion:
+  - engaged
+- title: Grow స్పెల్
+- title: చిరుకప్ప రూపాంతరం
+- title: మరొక కారెక్టర్ ను జోడించండి
+  completion:
+  - internal
+- title: విశ్లేషణ
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: మీ ప్రాజెక్ట్‌ను అప్‌గ్రేడ్ చేయండి
+- title: తర్వాత ఏంటి?

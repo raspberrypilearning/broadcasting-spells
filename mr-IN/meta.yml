@@ -1,26 +1,30 @@
 ---
-title: "ब्रॉडकास्टींग स्पेल्स"
+title: ब्रॉडकास्टींग स्पेल्स
 hero_image: images/banner.png
-description: स्प्राईट्सला टोड्स आणि वाढवा मध्ये बदलण्यासाठी आणि त्यांना श्रींक करण्यासाठी स्पेल्स आणि ब्रॉडकास्ट स्पेल साठी जादूची कांडी वापरा.
+description: स्प्राईट्सला टोड्स आणि वाढवा मध्ये बदलण्यासाठी आणि त्यांना श्रींक करण्यासाठी
+  स्पेल्स आणि ब्रॉडकास्ट स्पेल साठी जादूची कांडी वापरा.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: परिचय
-  - title: तुमची कांडी निवडा
-  - title: स्पेल श्रींक करा
-    completion: engaged
-  - title: वाढवा स्पेल
-  - title: टोड परिवर्तन
-  - title: दुसरे कॅरेक्टर जोडा
-    completion: internal
-  - title: परावर्तन
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: तुमचा प्रोजेक्ट अपग्रेड करा
-  - title: पुढे काय?
+- title: परिचय
+- title: तुमची कांडी निवडा
+- title: स्पेल श्रींक करा
+  completion:
+  - engaged
+- title: वाढवा स्पेल
+- title: टोड परिवर्तन
+- title: दुसरे कॅरेक्टर जोडा
+  completion:
+  - internal
+- title: परावर्तन
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: तुमचा प्रोजेक्ट अपग्रेड करा
+- title: पुढे काय?
