@@ -1,26 +1,30 @@
 ---
-title: "मंत्रों का प्रसारण"
+title: मंत्रों का प्रसारण
 hero_image: images/banner.png
-description: स्प्राइट्स को मेंढक में बदलने और उन्हें बढ़ने और सिकोड़ने के लिए मंत्र चुनने और जादू के मंत्रों को प्रसारित करने के लिए एक जादू की छड़ी का उपयोग करें।
+description: स्प्राइट्स को मेंढक में बदलने और उन्हें बढ़ने और सिकोड़ने के लिए मंत्र
+  चुनने और जादू के मंत्रों को प्रसारित करने के लिए एक जादू की छड़ी का उपयोग करें।
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
-  - title: परिचय
-  - title: अपनी छड़ी चुनें
-  - title: सिकुड़न मंत्र
-    completion: engaged
-  - title: बढ़ने का मंत्र
-  - title: मेंढक का रुपांतरण
-  - title: एक और चरित्र जोड़ें
-    completion: internal
-  - title: सोचिए
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: प्रोजेक्ट को अपग्रेड करें
-  - title: आगे क्या?
+- title: परिचय
+- title: अपनी छड़ी चुनें
+- title: सिकुड़न मंत्र
+  completion:
+  - engaged
+- title: बढ़ने का मंत्र
+- title: मेंढक का रुपांतरण
+- title: एक और चरित्र जोड़ें
+  completion:
+  - internal
+- title: सोचिए
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: प्रोजेक्ट को अपग्रेड करें
+- title: आगे क्या?
