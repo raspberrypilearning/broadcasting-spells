@@ -87,7 +87,7 @@
 
 **テスト：** 呪文ボタンをクリックします—両方のキャラクターが呪文発信に応答する必要があります。
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+**デバッグ：** 新しいスプライトの `コスチュームを(・・・v)にする`{:class="block3looks"}ブロックのコスチュームを変更したことを確認します。
 
 --- /task ---
 
