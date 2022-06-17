@@ -1,0 +1,29 @@
+---
+title: 呪文の送信
+hero_image: images/banner.png
+description: 魔法の杖を使って呪文を選び、呪文メッセージを送信して、スプライトをヒキガエルに変えて、それらを大きくしたり小さくします。
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-03-26'
+steps:
+  - title: はじめに
+  - title: あなたの杖を選ぼう
+  - title: 縮む呪文
+    completion:
+      - engaged
+  - title: 拡がる呪文
+  - title: ヒキガエルに変身
+  - title: 別のキャラクターを追加する
+    completion:
+      - internal
+  - title: ふりかえり
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: プロジェクトをアップグレードする
+  - title: 次は何をしますか？
