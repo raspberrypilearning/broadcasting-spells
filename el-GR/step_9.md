@@ -1,6 +1,6 @@
 ## Και τώρα;
 
-Εάν ακολουθείς το μονοπάτι[Περισσότερη Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Μεγάλωσε μία λιβελούλα](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly). Σε αυτό το έργο, θα φτιάξεις μία λιβελούλα που τρώει έντομα.
+Εάν ακολουθείς το μονοπάτι [Περισσότερη Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), μπορείς να προχωρήσεις στο έργο [Μεγάλωσε μία λιβελούλα](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly). Σε αυτό το έργο, θα φτιάξεις μία λιβελούλα που τρώει έντομα.
 
 --- print-only ---
 
