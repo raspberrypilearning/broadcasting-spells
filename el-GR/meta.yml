@@ -1,11 +1,11 @@
 ---
-title: "Ξόρκια Μετάδοσης"
+title: Ξόρκια Μετάδοσης
 hero_image: images/banner.png
 description: Χρησιμοποίησε ένα μαγικό ραβδί για να επιλέξεις ξόρκια και να μεταδώσεις μηνύματα με ξόρκια για να μετατρέψεις τα αντικείμενα σε βατράχους και να τα μεγαλώσεις και να τα συρρικνώσεις.
 version: 4
 listed: true
 copyedit: false
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: Εισαγωγή
@@ -13,22 +13,25 @@ steps:
     title: Διάλεξε το ραβδί σου
   - 
     title: Το ξόρκι συρρίκνωσης
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Το ξόρκι αύξησης
   - 
     title: Μεταμόρφωση σε βάτραχο
   - 
     title: Προσθήκη νέου χαρακτήρα
-    completion: internal
+    completion:
+      - internal
   - 
     title: Αναστοχασμός
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Αναβάθμιση του έργου σου
   - 
