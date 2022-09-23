@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make an app where you use a magic wand to turn sprites into toads, and grow and shrink them.
 
@@ -17,9 +17,11 @@ You will:
 </p>
 
 --- no-print ---
---- task ---
 
-### Try it
+### Play ▶️
+
+--- task ---
+ 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Use the magic wand to click on the buttons and cast spells. What does each spell do to the characters?
