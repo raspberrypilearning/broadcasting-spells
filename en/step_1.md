@@ -39,3 +39,5 @@ Use the magic wand to click on the buttons and cast spells. What does each spell
 ![Completed project](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_spells.png)
