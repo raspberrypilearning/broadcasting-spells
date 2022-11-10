@@ -1,16 +1,10 @@
-## تفكير
+## Quick quiz
 
-أحسنت صنعًا ، لقد أنشأت تطبيقًا يعتمد على أفكار من القصص!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-لقد استخدمت كتل `الأحداث`{:class="block3events"}، و`التحكّم`{:class="block3control"}، و`الحركة`{:class="block3motion"}، و`الهيئة`{:class="block3looks"}، و`الصوت`{:class="block3sound"}!
+When you have answered each question, click on **Check my answer**.
 
-الآن ، حان وقت التفكير - التفكير جزء مهم من التعلم ، لأنه يساعد في إنشاء روابط جديدة في عقلك.
-
-أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
-
-بعد كل سؤال ، اضغط على إرسال. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
-
-إستمتع!
+Have fun!
 
 --- question ---
 
@@ -18,7 +12,7 @@
 legend: السؤال 1 من 3
 ---
 
-لقد كتبت نصوصًا لـ `بث`{:class="block3events"} رسالة عند النقر فوق الزر.
+You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
 
 ![](images/button-icon.png)
 
@@ -27,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-ما هو البرنامج النصي الذي يخفي كائنًا عند النقر فوق الزر؟
+Which script would hide a sprite when the button is clicked?
 
 --- choices ---
 
@@ -40,7 +34,7 @@ hide
 
  --- feedback ---
 
- لا ، هذه هي الرسالة الافتراضية في Scratch ، لكنها ليست الرسالة التي يرسلها الرمز.
+ No, this is the default message in Scratch, but it is not the message being sent by the code.
 
  --- /feedback ---
 
@@ -53,7 +47,7 @@ hide
 
  --- feedback ---
 
- لا ، الرسالة التي تريد تلقيها لا تسمى "إخفاء".
+ No, the message that you need to receive is not called 'hide'.
 
  --- /feedback ---
 
@@ -66,7 +60,7 @@ hide
 
  --- feedback ---
 
-هذا صحيح. تحتاج الكتلة `عندما أتلقّى`{:class="block3events"} إلى استخدام نفس اسم الرسالة تمامًا، مثل كتلة `بث`{:class="block3events"}.
+Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
 
  --- /feedback ---
 
@@ -79,7 +73,7 @@ hide
 
  --- feedback ---
 
- ليس تماما. يحتاج Scratch إلى أن يكون تهجئتك دقيقًا حقًا حتى تتطابق أسماء الرسائل. تحقق بعناية.
+ Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
 
  --- /feedback ---
 
