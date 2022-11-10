@@ -1,16 +1,10 @@
-## Reflectie
+## Quick quiz
 
-Goed gedaan, je hebt een app gemaakt op basis van ideeën uit verhalen!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Je hebt `Gebeurtenissen`{:class="block3events"}, `Besturen`{:class="block3control"}, `Beweging`{:class="block3motion"}, `Uiterlijken`{:class="block3looks"} gebruikt, en `Geluid`{:class="block3sound"} blokken gebruikt!
+When you have answered each question, click on **Check my answer**.
 
-Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
-
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op Controleer mijn antwoord. Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
-
-Veel plezier!
+Have fun!
 
 --- question ---
 
@@ -18,7 +12,7 @@ Veel plezier!
 legend: Vraag 1 van 3
 ---
 
-Je hebt scripts geschreven om met `zend signaal` {:class="block3events"} een bericht uit te zenden wanneer er op een knop wordt geklikt.
+You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
 
 ![](images/button-icon.png)
 
@@ -27,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Welk script zou een sprite verbergen wanneer op de knop wordt geklikt?
+Which script would hide a sprite when the button is clicked?
 
 --- choices ---
 
@@ -40,7 +34,7 @@ hide
 
  --- feedback ---
 
- Nee, dit is het standaardbericht in Scratch, maar het is niet het bericht dat door de code wordt verzonden.
+ No, this is the default message in Scratch, but it is not the message being sent by the code.
 
  --- /feedback ---
 
@@ -53,7 +47,7 @@ hide
 
  --- feedback ---
 
- Nee, het bericht dat je moet ontvangen heet niet 'verdwijn'.
+ No, the message that you need to receive is not called 'hide'.
 
  --- /feedback ---
 
@@ -66,7 +60,7 @@ hide
 
  --- feedback ---
 
-Ja dat is goed. Het `wanneer ik signaal ontvang`{:class="block3events"}-blok, moet exact dezelfde berichtnaam gebruiken als het `zend signaal`{:class="block3events"}-blok.
+Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
 
  --- /feedback ---
 
@@ -79,7 +73,7 @@ hide
 
  --- feedback ---
 
- Niet helemaal. In Scratch moet jouw spelling zeer nauwkeurig zijn, zodat de berichtnamen overeenkomen. Controleer zorgvuldig.
+ Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
 
  --- /feedback ---
 
