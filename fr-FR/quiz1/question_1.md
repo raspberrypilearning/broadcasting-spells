@@ -1,16 +1,10 @@
-## Réflexion
+## Quick quiz
 
-Bravo, tu as créé une application basée sur des idées qui proviennent d'histoires !
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Tu as utilisé `Événements`{:class="block3events"}, `Contrôle`{:class="block3control"}, `Mouvement`{:class="block3motion"}, `Apparence`{:class="block3looks"} , et des blocs `Son`{:class="block3sound"} !
+When you have answered each question, click on **Check my answer**.
 
-Maintenant, il est temps de réfléchir - la réflexion est une partie importante de l'apprentissage, car elle aide à établir de nouvelles connexions dans ton cerveau.
-
-Réponds aux trois questions ci-dessous pour réfléchir sur ce que tu as appris.
-
-Après chaque question, appuie sur Soumettre. Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
-
-Amuse-toi bien  !
+Have fun!
 
 --- question ---
 
@@ -18,7 +12,7 @@ Amuse-toi bien  !
 legend : Question 1 sur 3
 ---
 
-Tu as écrit des scripts pour `envoyer à tous`{:class="block3events"} un message lorsqu'un bouton est cliqué.
+You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
 
 ![](images/button-icon.png)
 
@@ -27,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Quel script cacherait un sprite lorsque le bouton est cliqué ?
+Which script would hide a sprite when the button is clicked?
 
 --- choices ---
 
@@ -40,7 +34,7 @@ hide
 
  --- feedback ---
 
- Non, c'est le message par défaut dans Scratch, mais ce n'est pas le message envoyé par le code.
+ No, this is the default message in Scratch, but it is not the message being sent by the code.
 
  --- /feedback ---
 
@@ -53,7 +47,7 @@ hide
 
  --- feedback ---
 
- Non, le message que tu dois recevoir ne s'appelle pas "masquer".
+ No, the message that you need to receive is not called 'hide'.
 
  --- /feedback ---
 
@@ -66,7 +60,7 @@ hide
 
  --- feedback ---
 
-Oui c'est correct. Le bloc `quand je reçois`{:class="block3events"} doit utiliser exactement le même nom de message que le bloc `envoyer à tous`{:class="block3events"}.
+Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
 
  --- /feedback ---
 
@@ -79,7 +73,7 @@ hide
 
  --- feedback ---
 
- Pas tout à fait. Scratch a besoin que ton orthographe soit vraiment précise pour que les noms des messages correspondent. Vérifie attentivement.
+ Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
 
  --- /feedback ---
 
