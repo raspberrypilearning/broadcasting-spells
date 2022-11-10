@@ -5,10 +5,10 @@ description: ಮಂತ್ರಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲು �
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: ಪರಿಚಯ
+    title: You will make
   - 
     title: ನಿಮ್ಮ ಮಾಂತ್ರಿಕ ದಂಡವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: ಪುನರ್ಮನನ
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
