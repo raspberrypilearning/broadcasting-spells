@@ -1,4 +1,4 @@
-## ಪರಿಚಯ
+## You will make
 
 ಸ್ಪ್ರೈಟ್‌ಗಳನ್ನು ಟೋಡ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಲು ಮತ್ತು ಅವುಗಳನ್ನು ಬೆಳೆಸಲು ಮತ್ತು ಕುಗ್ಗಿಸಲು ನೀವು ಮ್ಯಾಜಿಕ್ ದಂಡವನ್ನು ಬಳಸುವ ಆಫ್‌ ಮಾಡಿ.
 
@@ -8,17 +8,20 @@
 + ಧ್ವನಿಯನ್ನು ವಿರುದ್ಧವಾಗಿಸಲು `Sound`{:class="block3sound"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನು ಉಪಯೋಗಿಸಿ
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-ಸಂದೇಶದ <span style="color: #0faeb0">**ಪ್ರಸಾರ**</span> and <span style="color: #0faeb0">**ಸ್ವೀಕೃತಿ**</span> ಗಳು ಸಂಗೀತದಲ್ಲಿ ಕರೆ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆಯ ಮಾದರಿ.
+<span style="color: #0faeb0">**Broadcasting**</span> and <span style="color: #0faeb0">**receiving**</span> messages is like a **call and response** pattern in music.
 <br>
 <br>
-  "<span style="color: #0faeb0">P3T3 P3T3</span> ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ, ಘನಾದ ಒಂದು ಸಾಂಪ್ರದಾಯಿಕ ಹಾಡು. ಇದನ್ನು ಒಬ್ಬ ಕರೆ ಕೊಡುವ ಮುಖ್ಯಸ್ಥ ಮತ್ತು ಕರೆಯು ಕೇಳಿದಾಗ ಪ್ರಮುಖ ಪದಗುಚ್ಛವನ್ನು ಪುನರಾವರ್ತಿಸುವ ಮೂಲಕ ಪ್ರತಿಕ್ರಿಯಿಸುವ ತಂಡದಿಂದ ಪ್ರಸ್ತುತಪಡಿಸಲಾಗುತ್ತದೆ." - <span style="color: #0faeb0">Kwame Bakoji-Hume, African Activities CIC</span>
+  "<span style="color: #0faeb0">P3T3 P3T3</span> ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ, ಘನಾದ ಒಂದು ಸಾಂಪ್ರದಾಯಿಕ ಹಾಡು. It is performed by one lead person who **calls** and a group that **respond** by repeating a key phrase when they hear the call." - <span style="color: #0faeb0">Kwame Bakoji-Hume, African Activities CIC</span>
 
 <audio controls><source src="images/Pete-Pete.mp3" type="audio/wav"></audio>  
 </p>
 
---- no-print --- --- task ---
+--- no-print ---
 
-### ಇದನ್ನು ಪ್ರಯತ್ನಿಸಿ
+### Play ▶️
+
+--- task ---
+
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 ಬಟನ್‌ಗಳ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಲು ಮತ್ತು ಮಂತ್ರಗಳನ್ನು ಬಿತ್ತರಿಸಲು ಮಾಂತ್ರಿಕ ದಂಡವನ್ನು ಉಪಯೋಗಿಸಿ. ಪ್ರತಿಯೊಂದು ಮಂತ್ರವು ಪಾತ್ರಗಳಿಗೆ ಏನು ಮಾಡುತ್ತದೆ?
@@ -32,6 +35,8 @@
 
 --- print-only ---
 
-![ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್](images/showcase_static.png)
+![Completed project](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_spells.png)
