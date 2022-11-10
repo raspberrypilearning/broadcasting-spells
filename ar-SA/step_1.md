@@ -1,4 +1,4 @@
-## المقدمة
+## You will make
 
 قم بإنشاء برنامج حيث تستخدم به عصا سحرية لتحويل الكائنات الحية إلى ضفادع تكبر وتتقلص.
 
@@ -8,17 +8,20 @@
 + استعمال قائمة `الأصوات` لعكس الأصوات.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**بثّ**</span> و<span style="color: #0faeb0">**استلام**</span> الرسائل هو كنمط النداء والرد في الموسيقى.
+<span style="color: #0faeb0">**Broadcasting**</span> and <span style="color: #0faeb0">**receiving**</span> messages is like a **call and response** pattern in music.
 <br>
 <br>
- "<span style="color: #0faeb0">P3T3 P3T3</span> هي أغنية تقليديّة من غانا، غرب إفريقيا. يتمّ إجراؤها بواسطة شخص قائد واحد ينادي، وعلى الجانب الآخر مجموعة أخرى تستجيب له بالردّ بكلمات رئيسيّة، عندما يسمعون النداء." - <span style="color: #0faeb0">Kwame Bakoji-Hume, African Activities CIC</span>
+ "<span style="color: #0faeb0">P3T3 P3T3</span> هي أغنية تقليديّة من غانا، غرب إفريقيا. It is performed by one lead person who **calls** and a group that **respond** by repeating a key phrase when they hear the call." - <span style="color: #0faeb0">Kwame Bakoji-Hume, African Activities CIC</span>
 
 <audio controls><source src="images/Pete-Pete.mp3" type="audio/wav"></audio>  
 </p>
 
---- no-print --- --- task ---
+--- no-print ---
 
-### جربها
+### Play ▶️
+
+--- task ---
+
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 استعمل العصا السحريّة للنقر على الأزرار وإلقاء التعويذات. ما الّذي تقوم به كلّ تعويذة على الشخصيّات؟
@@ -32,6 +35,8 @@
 
 --- print-only ---
 
-![مشروع مكتمل](images/showcase_static.png)
+![Completed project](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_spells.png)
