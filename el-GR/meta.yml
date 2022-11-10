@@ -5,10 +5,10 @@ description: Χρησιμοποίησε ένα μαγικό ραβδί για ν
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Εισαγωγή
+    title: You will make
   - 
     title: Διάλεξε το ραβδί σου
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Αναστοχασμός
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
