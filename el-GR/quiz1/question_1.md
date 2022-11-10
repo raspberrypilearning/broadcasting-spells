@@ -1,16 +1,10 @@
-## Αναστοχασμός
+## Quick quiz
 
-Μπράβο, δημιούργησες μια εφαρμογή βασισμένη σε ιδέες από ιστορίες!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Έχεις χρησιμοποιήσει τα μπλοκ `Συμβάντα`{:class="block3events"}, `Έλεγχος`{:class="block3control"}, `Κίνηση`{:class="block3motion"}, `Όψεις`{:class="block3looks"}, και `Ήχος`{:class="block3sound"}!
+When you have answered each question, click on **Check my answer**.
 
-Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
-
-Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
-
-Μετά από κάθε ερώτηση, πάτησε Υποβολή. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
-
-Καλή διασκέδαση!
+Have fun!
 
 --- question ---
 
@@ -18,7 +12,7 @@
 legend: Ερώτηση 1 από 3
 ---
 
-Έγραψες scripts για να `μεταδώσεις`{class="block3events"} ένα μήνυμα όταν κάνεις κλικ σε ένα κουμπί.
+You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
 
 ![](images/button-icon.png)
 
@@ -27,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Ποιο script θα έκρυβε ένα αντικείμενο όταν πατηθεί το κουμπί;
+Which script would hide a sprite when the button is clicked?
 
 --- choices ---
 
@@ -40,7 +34,7 @@ hide
 
  --- feedback ---
 
- Όχι, αυτό είναι το προεπιλεγμένο μήνυμα στο Scratch, αλλά δεν είναι το μήνυμα που μεταδίδεται από τον κώδικα.
+ No, this is the default message in Scratch, but it is not the message being sent by the code.
 
  --- /feedback ---
 
@@ -53,7 +47,7 @@ hide
 
  --- feedback ---
 
- Όχι, το μήνυμα που πρέπει να λάβεις δεν ονομάζεται "εξαφανίσου".
+ No, the message that you need to receive is not called 'hide'.
 
  --- /feedback ---
 
@@ -66,7 +60,7 @@ hide
 
  --- feedback ---
 
-Ναι, αυτό είναι σωστό. Το μπλοκ `όταν λάβω`{:class="block3events"} πρέπει να χρησιμοποιεί ακριβώς το ίδιο όνομα μηνύματος με το μπλοκ `μετάδωσε`{:class="block3events"}.
+Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
 
  --- /feedback ---
 
@@ -79,7 +73,7 @@ hide
 
  --- feedback ---
 
- Περίπου. Το Scratch χρειάζεται η ορθογραφία σου να είναι ακριβής, ώστε τα ονόματα των μηνυμάτων να ταιριάζουν. Έλεγξε προσεκτικά.
+ Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
 
  --- /feedback ---
 
