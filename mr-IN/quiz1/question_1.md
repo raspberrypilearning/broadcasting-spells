@@ -1,16 +1,10 @@
-## परावर्तन
+## Quick quiz
 
-छान, तुम्ही गोष्टींमधील कल्पनांवर आधारित ऍप तयार केले आहे!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-तुम्ही `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, आणि `Sound`{:class="block3sound"} ब्लॉक्स वापरलेत!
+When you have answered each question, click on **Check my answer**.
 
-आता, चिंतन करण्याची वेळ आहे - चिंतन हा अभ्यासाचा महत्वाचा भाग आहे, कारण त्यामुळे तुमच्या मेंदूला नवीन माहिती मिळण्यास मदत होते.
-
-तुम्ही काय शिकलात याचे चिंतन करण्यासाठी खालील तीन प्रश्नांची उत्तरे द्या.
-
-प्रत्येक प्रश्नानंतर submit दाबा. तुम्हाला योग्य उत्तराचे मार्गदर्शन केले जाईल. तुम्हाला हवे तेवढ्या वेळा तुम्ही ही कृती करू शकता.
-
-मजा करा!
+Have fun!
 
 --- question ---
 
@@ -18,7 +12,7 @@
 legend: प्रश्न 3 पैकी 1
 ---
 
-तुम्ही बटन क्लिक केल्यावर `broadcast`{:class="block3events"} मेसेजला स्क्रीप्ट लिहील्या.
+You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
 
 ![](images/button-icon.png)
 
@@ -27,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-बटन क्लिक केल्यावर कोणती स्क्रिप्ट स्प्राईट लपवेल?
+Which script would hide a sprite when the button is clicked?
 
 --- choices ---
 
@@ -40,7 +34,7 @@ hide
 
  --- feedback ---
 
- नाही, हा Scratch मधील डिफॉल्ट मेसेज आहे, परंतु तो कोडने पाठवलेला मेसेज नाही.
+ No, this is the default message in Scratch, but it is not the message being sent by the code.
 
  --- /feedback ---
 
@@ -53,7 +47,7 @@ hide
 
  --- feedback ---
 
- नाही, तुम्हाला प्राप्त व्हावा असे वाटणारा मेसेजला 'लपलेला' असे म्हणत नाही.
+ No, the message that you need to receive is not called 'hide'.
 
  --- /feedback ---
 
@@ -66,7 +60,7 @@ hide
 
  --- feedback ---
 
-होय, ते बरोबर आहे. `when I receive`{:class="block3events"} ब्लॉकने `broadcast`{:class="block3events"} ब्लॉक प्रमाणेच तंतोतंत मेसेज नेम वापरणे आवश्यक आहे.
+Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
 
  --- /feedback ---
 
@@ -79,7 +73,7 @@ hide
 
  --- feedback ---
 
- अगदीच नाही. Scratch साठी तुमचे स्पेलिंग खरोखर अचूक असणे आवश्यक आहे जेणेकरून मेसेज नेम जुळतील. काळजीपूर्वक तपासा.
+ Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
 
  --- /feedback ---
 
