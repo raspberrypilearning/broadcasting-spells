@@ -5,10 +5,10 @@ description: Utiliser une baguette magique pour choisir des sorts et diffuser de
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
     title: Choisir ta baguette
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Réflexion
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
