@@ -1,16 +1,10 @@
-## విశ్లేషణ
+## Quick quiz
 
-బాగా చేసారు, మీరు కథనాలలోని ఆలోచనల ఆధారంగా యాప్‌ని సృష్టించారు!
+Answer the three questions. There are hints to guide you to the correct answer.
 
-మీరు `Events`{:class="block3events"}, `Control`{:class="block3control"}, `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}ని ఉపయోగించారు, మరియు `Sound`{:class="block3sound"} బ్లాక్‌లు కూడా!
+When you have answered each question, click on **Check my answer**.
 
-ఇప్పుడు, విశ్లేషించే సమయం వచ్చింది — విశ్లేషించడం అనేది నేర్చుకోవడంలో ముఖ్యమైన భాగం, ఎందుకంటే ఇది మీ మెదడులో కొత్త కనెక్షన్‌లను ఏర్పరచడంలో సహాయపడుతుంది.
-
-మీరు నేర్చుకున్న వాటిని పరిశీలించడానికి దిగువ మూడు ప్రశ్నలకు సమాధానం ఇవ్వండి.
-
-ప్రతి ప్రశ్న తర్వాత, సబ్మిట్ నొక్కండి. మీరు సరైన సమాధానం వైపు మార్గనిర్దేశం చేయబడతారు. మీరు ఈ చర్యను మీకు కావలసినన్ని సార్లు చేయవచ్చు.
-
-ఆస్వాదించండి!
+Have fun!
 
 --- question ---
 
@@ -18,7 +12,7 @@
 legend: 3లో 1వ ప్రశ్న
 ---
 
-బటన్‌ను క్లిక్ చేసినప్పుడు ఇచ్సే సందేశాన్ని `broadcast`{:class="block3events"} చేయడానికి మీరు స్క్రిప్ట్‌లను వ్రాసారు.
+You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
 
 ![](images/button-icon.png)
 
@@ -27,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-బటన్‌ను క్లిక్ చేసినప్పుడు ఏ స్క్రిప్ట్ sprite ను దాచిపెడుతుంది?
+Which script would hide a sprite when the button is clicked?
 
 --- choices ---
 
@@ -40,7 +34,7 @@ hide
 
  --- feedback ---
 
- లేదు, ఇది Scratch లో డిఫాల్ట్ సందేశం, కానీ ఇది కోడ్ ద్వారా పంపబడే సందేశం కాదు.
+ No, this is the default message in Scratch, but it is not the message being sent by the code.
 
  --- /feedback ---
 
@@ -53,7 +47,7 @@ hide
 
  --- feedback ---
 
- లేదు, మీరు అందుకోవాల్సిన సందేశం 'hide' అనబడదు.
+ No, the message that you need to receive is not called 'hide'.
 
  --- /feedback ---
 
@@ -66,7 +60,7 @@ hide
 
  --- feedback ---
 
-అవును, అది సరైనది. `when I receive`{:class="block3events"} బ్లాక్‌కి ఖచ్చితంగా `broadcast`{:class="block3events"} బ్లాక్ వలె అదే సందేశం పేరును ఉపయోగించాలి.
+Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
 
  --- /feedback ---
 
@@ -79,7 +73,7 @@ hide
 
  --- feedback ---
 
- అంతగా కరెక్ట్ కాదు. Scratch కి మీ స్పెల్లింగ్ నిజంగా ఖచ్చితమైనదిగా ఉండాలి కాబట్టి సందేశం పేర్లు సరిపోలాలి. జాగ్రత్తగా తనిఖీ చేయండి.
+ Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
 
  --- /feedback ---
 
