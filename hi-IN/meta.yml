@@ -5,10 +5,10 @@ description: स्प्राइट्स को मेंढक में ब
 version: 4
 listed: true
 copyedit: false
-last_tested: '2021-03-26'
+last_tested: "2021-03-26"
 steps:
   - 
-    title: परिचय
+    title: You will make
   - 
     title: अपनी छड़ी चुनें
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: सोचिए
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
