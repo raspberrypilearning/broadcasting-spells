@@ -25,7 +25,7 @@ Fe ddewison ni **Batter**:
 
 Efallai yr hoffet ti newid y cyfeiriad mae'r corlun yn pwyntio iddo.
 
-**Tip:** Os ydy dy gorlun yn mynd wyneb i waered galli di newid ei `rotation-style`{:class="block3motion"} i `left-right`{:class="block3motion"} yn y cwarel Sprite properties neu drwy ddefnydio bloc o god.
+**Awgrym:** Os ydy dy gorlun yn mynd wyneb i waered galli di newid ei `steil cylchdroi`{:class="block3motion"} i `chwith-dde`{:class="block3motion"} yn y cwarel Sprite properties neu drwy ddefnydio bloc o god.
 
 --- /task ---
 
