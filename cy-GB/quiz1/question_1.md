@@ -2,7 +2,7 @@
 
 Ateba'r tri chwestiwn. Mae awgrymiadau ar gael i dy arwain at yr ateb cywir.
 
-Ar ôl i ti ateb pob cwestiwn, clicia ar **Gwirio fy ateb**.
+Ar ôl i ti ateb pob cwestiwn, clicia ar **Gwiriwch fy ateb**.
 
 Mwynha!
 
@@ -32,11 +32,11 @@ when I receive [message1 v]
 hide
 ```
 
- --- adborth ---
+ --- feedback ---
 
  Na, dyma'r neges ddiofyn yn Scratch, ond nid dyma'r neges sy'n cael ei hanfon gan y cod.
 
- --- /adborth ---
+ --- /feedback ---
 
 - ( )
 
