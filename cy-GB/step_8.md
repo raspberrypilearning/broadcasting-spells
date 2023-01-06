@@ -33,7 +33,7 @@ Galli di greu rhagor o swynion gyda ffrind a'u hychwanegu at dy gymeriadau. Pend
 title: Prosiect gorffenedig
 ---
 
-Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/777389432/){:target="_blank"}.
 
 --- /collapse ---
 

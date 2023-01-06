@@ -27,7 +27,7 @@ Mae <span style="color: #0faeb0">**Darlledu**</span> a <span style="color: #0fae
 Defnyddia'r ffon hud i glicio ar y botymau a defnyddio swynion. Beth mae pob swyn yn ei wneud i'r cymeriadau?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/777389432/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 

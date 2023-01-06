@@ -16,7 +16,7 @@ Mae modd defnyddio <span style="color: #0faeb0">**delweddau wedi'u cynhyrchu â 
 
 --- task ---
 
-Agora'r [prosiect cychwynnol darlledu swynion](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
+Agora'r [prosiect cychwynnol darlledu swynion](https://scratch.mit.edu/projects/777384089/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
 [[[working-offline]]]
 
