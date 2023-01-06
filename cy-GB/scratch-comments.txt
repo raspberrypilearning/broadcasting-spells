@@ -1,0 +1,7 @@
+newid o 'safle ar hap'
+
+o flaen y botymau
+
+mae rhifau negyddol yn lleihau'r maint
+
+mae rhifau positif yn cynyddu'r maint
