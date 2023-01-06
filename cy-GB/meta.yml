@@ -1,0 +1,29 @@
+---
+title: Darlledu swynion
+hero_image: images/banner.png
+description: Defnyddia ffon hud i ddewis swynion a darlledu negeseuon swyn i droi corluniaid yn llyffantod a'u tyfu a'u crebachu.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Byddi di'n creu
+  - title: Dewisa dy ffon hud
+  - title: Y swyn crebachu
+    completion:
+      - engaged
+  - title: Y swyn tyfu
+  - title: Trawsnewid llyfant
+  - title: Ychwanegu cymeriad arall
+    completion:
+      - internal
+  - title: Cwis cyflym
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Uwchraddio dy brosiect
+  - title: Beth nesaf?
