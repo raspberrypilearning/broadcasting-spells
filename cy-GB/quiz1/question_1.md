@@ -1,18 +1,18 @@
-## Quick quiz
+## Cwis cyflym
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Ateba'r tri chwestiwn. Mae awgrymiadau ar gael i dy arwain at yr ateb cywir.
 
-When you have answered each question, click on **Check my answer**.
+Ar ôl i ti ateb pob cwestiwn, clicia ar **Gwirio fy ateb**.
 
-Have fun!
+Mwynha!
 
---- question ---
+--- cwestiwn ---
 
 ---
-legend: Question 1 of 3
+legend: Cwestiwn 1 o 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+Rwyt ti wedi ysgrifennu sgriptiau i `ddarlledu`{:class="block3events"} neges pan gaiff botwm ei glicio.
 
 ![](images/button-icon.png)
 
@@ -21,9 +21,9 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+Pa sgript fyddai'n cuddio corlun pan gaiff y botwm ei glicio?
 
---- choices ---
+--- dewisiadau ---
 
 - ( )
 
@@ -32,11 +32,11 @@ when I receive [message1 v]
 hide
 ```
 
- --- feedback ---
+ --- adborth ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ Na, dyma'r neges ddiofyn yn Scratch, ond nid dyma'r neges sy'n cael ei hanfon gan y cod.
 
- --- /feedback ---
+ --- /adborth ---
 
 - ( )
 
@@ -47,7 +47,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ Na, nid 'cuddio' yw enw'r neges mae angen i ti ei chael.
 
  --- /feedback ---
 
@@ -60,7 +60,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+Cywir. Mae angen i'r bloc `pan rwy'n derbyn`{:class="block3events"} ddefnyddio'r un neges yn union â'r bloc `darlledu`{:class="block3events"} block.
 
  --- /feedback ---
 
@@ -73,10 +73,10 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ Ddim cweit. Mae Scratch angen i dy sillafu fod yn gywir iawn fel bod enwau'r negeseuon yn cyfateb. Gwiria yn ofalus.
 
  --- /feedback ---
 
---- /choices ---
+--- /dewisiadau ---
 
---- /question ---
+--- /cwestiwn ---
