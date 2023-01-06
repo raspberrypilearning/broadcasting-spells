@@ -1,7 +1,7 @@
-change from 'random position'
+newid o 'safle ar hap'
 
-in front of the buttons
+o flaen y botymau
 
-negative numbers decrease the size
+mae rhifau negyddol yn lleihau'r maint
 
-positive numbers increase the size
+mae rhifau positif yn cynyddu'r maint
