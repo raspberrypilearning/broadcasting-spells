@@ -1,19 +1,19 @@
-## The grow spell
+## Y swyn tyfu
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a grow spell to return the **Fairy** sprite to normal size or to make a massive fairy!
+Mae angen swyn tyfu arnat ti hefyd i ddychwelyd y corlun **Fairy** i faint arferol neu i wneud tylwyth teg enfawr!
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
 </div>
 </div>
 
-**Tip:** In this step, you will add code to three different sprites. Make sure you select the correct sprite from the Sprite list below the Stage and click on the **Code** tab.
+**Awgrym:** Yn y cam hwn, byddi di'n ychwanegu cod at dri chorlun gwahanol. Gwna'n siŵr dy fod ti'n dewis y corlun cywir o'r rhestr Corluniau o dan y Llwyfan a chlicio ar y tab **Cod**.
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
+Ychwanega sgript at gorlun y botwm **tyfu** er mwyn `darlledu`{:class="block3events"} neges `tyfu`{:class="block3events"}:
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Fairy** sprite to grow:
+Ychwanega sgript i wneud i'r corlun **Fairy** dyfu:
 
 ![](images/fairy-icon.png)
 
@@ -37,33 +37,33 @@ change size by [10] // positive numbers increase the size
 
 --- /task ---
 
-You can reverse the 'shrink' sound to make a 'grow' sound!
+Galli di wrthdroi'r sain 'crebachu' i greu sain 'tyfu'!
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
+Mae <span style="color: #0faeb0">**Cwisiau caneuon wedi'u chwarae am yn ôl**</span> yn gwisiau cerddoriaeth gyda gwahaniaeth pwysig. Mae'r traciau'n cael eu gwrthdroi, ac mae'n rhaid i gystadleuwyr ddyfalu'r gân wreiddiol - ddim mor hawdd ag y mae'n swnio. 
 </p>
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
+Dewisa'r corlun **Wand** a chlicia'r tab **Seiniau**.
 
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
+De-glicia (neu daro a dal) y sain **crebachu** a dewis **dyblygu**.
 
 ![](images/wand-icon.png)
 
-![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
+![Y sain crebachu gyda dewislen naid yn dangos y ddyblygeb.](images/duplicate-sound.png)
 
-Name the copy `grow`.
+Enwa'r copi newydd yn `tyfu`.
 
-Click on the **Reverse** icon to make the sound play backwards.
+Clicia ar **Gwrthdroi** i wneud i'r sain chwarae am yn ôl.
 
-![The grow sound with the reverse icon highlighted.](images/reverse-sound.png)
+![Y sain crebachu gyda'r eicon gwrthdroi wedi'i hamlygu.](images/reverse-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
+Ychwanega sgript at y corlun **Wand** i chwarae'r sain `tyfu`{:class="block3sound"} pan gaiff y neges `tyfu`{:class="block3events"} ei derbyn:
 
 ![](images/wand-icon.png)
 
@@ -76,7 +76,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
+**Prawf:** Clicia ar y botymau swyn **crebachu** a **tyfu** i fwrw'r swynion gymaint o weithiau ag wyt ti'n dymuno.
 
 --- /task ---
 
