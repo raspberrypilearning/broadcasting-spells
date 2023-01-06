@@ -1,39 +1,39 @@
-## Add another character
+## Ychwanegu cymeriad arall
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+Cael corlun o dy ddewis i ymateb i'r swynion. Bydd angen i ti greu gwisg llyffant 'stwnsh' ar gyfer y corlun, ac ychwanegu cod fel bod y wisg yn newid pan fydd negeseuon y swynion yn cael eu darlledu.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![Y Stage yn dangos ail drawsffurfiad llyffant.](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+Dyblyga'r corlun **Fairy**.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+Dilea'r gwisgoedd **Fairy-a** a **Fairy-toad-a**. Bydd gen ti wisg **toad** ar ôl.
 
-Add a costume of your choice to the **new sprite**.
+Ychwanega wisg o dy ddewis at y **corlun newydd**.
 
-We chose the **Batter**:
+Fe ddewison ni **Batter**:
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+Efallai yr hoffet ti newid y cyfeiriad mae'r corlun yn pwyntio iddo.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**Tip:** Os ydy dy gorlun yn mynd wyneb i waered galli di newid ei `rotation-style`{:class="block3motion"} i `left-right`{:class="block3motion"} yn y cwarel Sprite properties neu drwy ddefnydio bloc o god.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+Pan fyddi di'n tyfu neu'n crebachu corlun, mae angen i'r traed aros yn yr un lle.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+Yn gyntaf, defnyddia'r offeryn **Dewis** (saeth) i dynnu petryal o amgylch y wisg ac yna ei **Grwpio**. Wedyn llusga dy gymeriad uwchben y targed.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+Clicia'r wisg **toad**.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+Ail-enwa'r wisg i gyd-fynd â dy gorlun, fe wnaethon ni ddefnyddio **Batter-toad-a**.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+Os ydy gwisg y llyffant yn wynebu i ffwrdd i'r brif wisg galli di ddefnyddio **Troi'n Llorweddol**.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+Nawr mae angen i ti wneud i'r llyffant edrych fel y cymeriad. Gelwir cyfuno dwy wisg fel hyn yn 'stwnsh'.
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+Fe allet ti ychwanegu manylyn bach, fel sblash o liw, neu gopïo a gludo sbectol haul neu het yn y golygydd Paint.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**Awgrym:** Galli di ychwanegu unrhyw wisg at gorlun dy gymeriad. Defnyddia'r offeryn **Dewis** (saeth) neu glicio ar **Copïo ** neu **Gludo**.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**Awgrym:** Mae'n bosib grwpio pob gwrthrych sydd mewn gwisg. Dewisa nhw (gyda'r offeryn **Dewis** neu <kbd> Ctrl-a</kbd>) ac yna clicia ar **Grŵp**.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+Mae ein llyffant Batter yn edrych fel hyn: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+Newidia i'r tab **Cod** ar gyfer dy gorlun newydd.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+Newidia pob un o'r blociau `newid gwisg`{:class="block3looks"} i ddefnyddio'r gwisgoedd cywir ar gyfer dy gorlun newydd.
+
+Efallai byddi di hefyd am newid `maint`{:class="block3looks"} cychwynnol y corlun `pan fydd y fflag werdd wedi'i chlicio`{:class="block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**Prawf:** Clicia ar fotymau'r swynion — dylai'r ddau gymeriad ymateb i ddarllediadau'r swynion.
+
+**Dad-fygio:** Gwna'n siŵr dy fod wedi newid y gwisgoedd yn y blociau `newid gwisg`{:class="block3looks"} ar gyfer dy gorlun newydd.
 
 --- /task ---
 
