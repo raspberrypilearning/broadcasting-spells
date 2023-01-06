@@ -1,10 +1,10 @@
-## What next?
+## Beth nesaf?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly) project. In this project, you will make a Dragonfly that eats insects.
+Os wyt ti'n dilyn y llwybr [Mwy o Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), gallet ti symud ymlaen i'r prosiect [Tyfu gwas y neidr](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly). Yn y prosiect yma, byddi di'n creu Gwas y Neidr sy'n bwyta pryfed.
 
 --- print-only ---
 
-![Dragonfly project](images/dragonfly-project.png)
+![Prosiect Gwas y Neidr](images/dragonfly-project.png)
 
 --- /print-only ---
 
