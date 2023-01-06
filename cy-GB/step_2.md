@@ -1,8 +1,8 @@
-## Choose your wand
+## Dewisa dy ffon hud
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and create your own computer-generated magic.
+Yn y cam yma, byddi di'n gosod yr olygfa, yn dewis dy ffon hun ac yn creu dy hud a lledrith cyfrifiadurol dy hun.
   
 </div>
 <div>
@@ -11,12 +11,12 @@ In this step, you will set the scene, choose your wand and create your own compu
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
+Mae modd defnyddio <span style="color: #0faeb0">**delweddau wedi'u cynhyrchu â chyfrifiadur (CGI)**</span> i greu effeithiau arbennig sydd ddim yn digwydd yn y byd go iawn. Mae creu ffilm ffantasi neu animeiddiad modern yn golygu llawer o god a chelf gyfrifiadurol.
 </p>
 
 --- task ---
 
-Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
+Agora'r [prosiect cychwynnol darlledu swynion](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Bydd Scratch yn agor mewn tab arall ar y porwr.
 
 [[[working-offline]]]
 
@@ -24,29 +24,29 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 
 --- task ---
 
-You should see a fairy in a woodland.
+Dylet ti weld tylwythen deg mewn coedwig.
 
-![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
-
---- /task ---
-
-You need a wand to cast a spell.
-
---- task ---
-
-Click **Choose a Sprite** and type `wand` into the search box:
-
-![Choose a sprite icon.](images/choose-a-sprite.png)
-
-![Choice of Magic Wand and Wand.](images/wand-sprite-options.png)
-
-**Choose:** Add the wand you prefer to your project.
+![Y llwyfan yn dangos yr olygfa gychwynnol gyda chorlun tylwythen deg a botymau.](images/starter-project.png)
 
 --- /task ---
 
+Mae angen ffon hud arnat ti i fwrw swyn.
+
 --- task ---
 
-Add code to make the **Wand** sprite follow the `mouse pointer`{:class="block3motion"} and stay in `front`{:class="block3looks"} of the buttons:
+Clicia ar **Dewiswch Gorlun** a theipio `wand` yn y blwch chwilio:
+
+![Yr eicon Dewiswch Gorlun.](images/choose-a-sprite.png)
+
+![Dewis o Magic Wand a Wand.](images/wand-sprite-options.png)
+
+**Dewis:** Ychwanega'r ffon hud sydd orau gen ti i dy brosiect.
+
+--- /task ---
+
+--- task ---
+
+Ychwanega god i wneud i'r corlun **Wand** ddilyn y `pwyntydd llygoden`{:class="block3motion"} ac aros `o flaen`{:class="block3looks"} y botymau:
 
 ![](images/wand-sprite-icon.png)
 
@@ -62,75 +62,75 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. The wand will follow your mouse pointer.
+**Prawf:** Clicia ar y faner werdd i redeg dy brosiect. Bydd y ffon hud yn dilyn pwyntydd dy lygoden.
 
 --- /task ---
 
-Make the wand bigger and tilted, like you’re really using it.
+Gwna'r ffon hud yn fwy a'i rhoi ar ogwydd, fel pe baet ti'n ei defnyddio go iawn.
 
 --- task ---
 
-Go to the Sprite pane and change the **Size** property to `200` to make the wand bigger:
+Cer i'r cwarel Sprite a newid y briodwedd **Maint** i `200` er mwyn gwneud y ffon hud yn fwy:
 
-![The Sprite pane with the Size property highlighted with value 200.](images/size-property.png)
-
---- /task ---
-
---- task ---
-
-Click on the **Costumes** tab to open the Wand costume in the Paint editor.
-
-Click on the **Select** (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume.
-
-![Wand costumes grouped.](images/the-select-tool.png)
-
-![Wand costumes grouped.](images/grouped-costumes.png)
-
-Then click on the **Group** icon to combine the wand parts.
-
-![Wand costumes grouped.](images/group-icon.png)
+![Y cwarel Sprite gyda'r briodwedd Size wedi'i amlygu gyda gwerth o 200.](images/size-property.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Rotate** tool on the wand to position the wand at an angle.
+Clicia ar y tab **Gwisgoedd** i agor y wisg Wand yn y Golygydd paent.
 
-![Wand costumes rotated.](images/rotated-wands.png)
+Clicia'r offeryn **Dewis** (Saeth) ac yna tynna betryal o gwmpas y ffon hud gyfan er mwyn dewis pob rhan o'r wisg.
 
-**Tip:** If you can't see the **Rotate** tool, click the **Zoom out** (-) tool at the bottom of the Paint editor to zoom out.
+![Gwisgoedd ffon hud wedi'u grwpio.](images/the-select-tool.png)
 
---- /task ---
+![Gwisgoedd ffon hud wedi'u grwpio.](images/grouped-costumes.png)
 
-The **Wand** costume gets in the way of the mouse cursor when you try to click the buttons.
+Wedyn clicia ar yr eicon **Grŵp** i gyfuno rhannau'r ffon hud.
 
---- task ---
-
-Move the wand so that its tip is just away from the crosshair in the centre.
-
-![Wand costumes correctly positioned.](images/positioned-wands.png)
+![Gwisgoedd ffon hud wedi'u grwpio.](images/group-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and move the mouse around the Stage. The wand should follow.
+Defnyddia'r offeryn **Cylchdroi** ar y ffon hud i'w gosod ar ongl.
+
+![Gwisgoedd ffon hud wedi'u cylchdroi.](images/rotated-wands.png)
+
+**Awgrym:** Os nad wyt ti'n gweld yr offeryn **Cylchdroi**, clicia'r offeryn **Pellhau** (-) ar waelod y golygydd Paent i bellhau.
+
+--- /task ---
+
+Mae'r wisg **Wand** yn mynd yn ffordd pwyntydd y llygoden pan fyddi di'n ceisio clicio ar y botymau.
+
+--- task ---
+
+Symuda'r ffon hud fel bod ei blaen ychydig i ffwrdd o'r targed yn y canol.
+
+![Gwisgoedd ffon hud wedi'u lleoli'n gywir.](images/positioned-wands.png)
 
 --- /task ---
 
 --- task ---
 
-If you are signed in to your Scratch account, click on the green Remix button. This will save a copy of the project to your Scratch account.
+**Prawf:** Clicia'r faner werdd a symud y llygoden o amgylch y Llwyfan. Dylai'r ffon hud ddilyn.
 
-![The Remix button.](images/remix-button.png)
+--- /task ---
 
-You can change the title of your project.
+--- task ---
 
-![The project title box.](images/project-name.png)
+Os wyt ti wedi mewngofnodi i dy gyfrif Scratch, clicia'r botwm Remix gwyrdd. Bydd hyn yn cadw copi o'r prosiect i dy gyfrif Scratch.
 
-**Tip:** Give your projects helpful names so that you can easily find them when you have lots of projects.
+![Y botwm Ailgymysgu.](images/remix-button.png)
 
-If you do not have a Scratch account, you can click on **File** then **Save to your computer** to save a copy of the project.
+Galli di newid teitl dy brosiect.
+
+![Blwch enw'r prosiect.](images/project-name.png)
+
+**Awgrym:** Rho enwau defnyddiol i dy brosiectau fel bod modd dod o hyd iddyn nhw'n hawdd pan fydd gen ti lawer o brosiectau.
+
+Os nad oes gen ti gyfrif Scratch, galli di glicio ar **Ffeil** ac yna **Cadw i'ch cyfrifiadur** i gadw copi o'r prosiect.
 
 --- /task ---
 
