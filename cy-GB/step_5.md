@@ -1,10 +1,10 @@
-## Toad transformation
+## Trawsnewid llyfant
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+Nawr mae'n amser bwrw swyn arall. Y tro hwn rwyt ti'n mynd i fwrw swyn trawsnewid drwy ddarlledu neges `toad`{:class="block3events"} sy'n troi'r corlun **Fairy** yn llyffant! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+Falle ei bod hi'n mynd ar antur lle bydd bod yn llyffant yn fwy defnyddiol.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+Ychwanega sgript at gorlun y botwm **toad** i ddarlledu'r neges 'toad':
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+Dewisa'r corlun **Fairy** a chlicio'r tab **Gwisgoedd**.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+I drawsffurfio'r corlun **Fairy** yn llyffant byddi di'n defnyddio'r gwisgoedd **Fairy-a** a **Fairy-toad-a**.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![Mae gan y rhestr o Wisgoedd sy'n dangos y corlun Fairy ail wisg.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+Clicia'r tab **Code** ac ychwanegu bloc `newid gwisg i`{:class="block3looks"} at ddiwedd dy sgript `pan fydd y faner werdd wedi'i chlicio`{:class="block3events"} fel fod y Fairy yn ei ffurf dynol pan fyddi di'n rhedeg dy brosiect:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+Ychwanega sgript newydd i'r corlun **Fairy** i'w droi yn llyffant:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+Ychwanega'r sain **Croak** at y corlun **Wand**.
 
-Rename the sound to `toad`:
+Ail-enwa'r sain i `toad`:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![Y tab Sounds gyda'r sain Croak wedi'i rhestru.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+Ychwanega sgript at y corlun **Wand** sy'n chwarae'r sain `toad`{:class="block3sound"} pan gaiff y swyn llyffant ei bwrw:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**Prawf:** Gwna'n siŵr dy fod yn gallu troi'r corlun **Fairy** yn llyffant, gydag effaith sain, pan fyddi di'n clicio'r botwm **toad**. Clicia ar y faner werdd eto i droi corlun **Fairy** yn ôl yn berson.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![Y Llwyfan yn dangos y corlun Fairy yn y wisg Fairy-toad-a.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+Y gwrthwyneb i'r swyn 'toad' yw'r swyn 'untoad'.
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+Ychwanega sgript i gorlun y botwm **untoad** i `ddarlledu`{:class="block3events"} y neges 'untoad'{:class="block3events"}:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+Ychwanega sgript newydd i `untoad`{:class="block3events"} y corlun **Fairy**:
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+Dewisa'r corlun **Wand** a newid i'r tab **Seiniau**.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**Dyblyga'r** sain **toad** a newid ei henw i `untoad`.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+Clicia'r eicon **Gwrthdroi** fel bod y sain **untoad** yn chwarae am yn ôl.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![Y tab Sounds gyda'r sain untoad wedi'i gwrthdroi yn y rhestr.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+Ychwanega sgript at y corlun **Wand** i chwarae'r sain `untoad`{:class="block3sound"}:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**Prawf:** Rho gynnig ar fwrw'r swynau **toad** ac **untoad**, a rho gynnig ar **crebachu** a **thyfu** pan fydd y **Fairy** ar ffurf llyffant.
 
 --- /task ---
 
