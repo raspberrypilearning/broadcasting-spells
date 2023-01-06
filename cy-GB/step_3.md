@@ -1,8 +1,8 @@
-## The shrink spell
+## Y swyn crebachu
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+Nawr rwyt ti'n mynd i wneud i'r Dylwythen Deg grebachu pan fyddi di'n clicio'r botwm crebachu.
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+Clicia'r corlun **shrink** yn y rhestr Corluniau sydd dan y Llwyfan.
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+Ychwanega floc `pan gaiff y ciplun yma ei glicio`{:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+Mae angen i'r corlun **Fairy** grebachu pan fyddi di'n clicio'r botwm crebachu.
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+Mae angen i'r corlun **shrink** `ddarlledu`{:class="block3events"} `neges`{:class="block3events"} fel bod y corlun **Fairy** yn gwybod bod swyn crebachu wedi cael ei ddefnyddio.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+Ychwanega floc `darlledu`{:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+Clicia `neges1`{:class="block3events"} a dewis 'Neges newydd'. Rho'r enw `crebachu` i'r neges newydd.
 
-![New message dialog with shrink entered.](images/new-message.png)
+![Deialog neges newydd gyda'r gorchymyn crebachu wedi'i fewnbynnu.](images/new-message.png)
 
-Your code should look like this:
+Dylai dy god edrych fel hyn:
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+Nawr pan fyddi di'n clicio'r botwm **shrink**, bydd Scratch yn `darlledu`{:class="block3events"} y neges `crebachu`{:class="block3events"}, ond fydd dim byd yn digwydd eto.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+Ychwanega god at y corlun **Fairy** i wneud iddo grebachu pan fydd yn cael neges `crebachu`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**Prawf:** Clicia'r botwm **crebachu** i grebachu'r corlun **Fairy**. Gwna hyn gymaint o weithiau ag wyt ti eisiau.
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**Dad-fygio:** Os ydy dy gorlun **Fairy** yn tyfu yn lle crebachu, ychwanega arwydd minws `-` cyn y rhif `10` i'w droi yn rhif negyddol `-10`.
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+Ychwanega sgript i osod y corlun **Fairy** i faint arferol `pan fydd y faner werdd`{:class="block3events"} wedi'i chlicio:
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+Pan fydd negeseuon yn cael eu `darlledu`{:class="block3events"} gall pob corlun eu derbyn. Pan fydd y corlun **Wand** yn `derbyn`{:class="block3events"} y neges `crebachu`{:class="block3events"} dylai `chwarae sain`{:class="block3sound"}.
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+Clicia'r corlun **Wand** ac wedyn y tab **Seiniau**.
 
-Add the **Slide Whistle** sound.
+Ychwanega'r sain **Slide Whistle**.
 
-Rename the sound to `shrink` so it is easy to find.
+Ail-enwa'r sain i `crebachu` fel ei bod yn hawdd dod o hyd iddi.
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![Y tab Seiniau gyda sain chwiban newydd wedi'i ailenwi i crebachu yn y briodwedd Sain.](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+Ychwanega sgript i chwarae'r sain:
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**Prawf:** Clicia ar y faner werdd i redeg dy brosiect. Clicia'r botwm **crebachu** i glywed y sain ac i weld y corlun **Fairy** yn crebachu.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+Mae'r botwm **crebachu** yn `darlledu`{:class="block3events"} neges `crebachu`{:class="block3events"}. Fe wnaeth y corluniau **Fairy** a **Wand** `dderbyn`{:class="block3events"} y neges ac ymateb iddi.
 
 --- save ---
