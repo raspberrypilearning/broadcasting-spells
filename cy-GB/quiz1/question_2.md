@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+legend: Cwestiwn 2 o 3
 ---
 
-In your project, clicking on a button broadcast a message. Which sprite or sprites would change size when the grow button is clicked?
+Yn dy brosiect di, roedd clicio ar fotwm yn darlledu neges. Pa gorlun neu gorluniau fyddai'n newid maint ar ôl i'r botwm tyfu gael ei glicio?
 
 ![](images/grow-icon.png)
 
@@ -30,27 +30,27 @@ change size by [10]
 
 --- choices ---
 
-- ( ) Whichever sprite receives the message first
+- ( ) Pa bynnag gorlun sy'n derbyn y neges gyntaf
 
  --- feedback ---
 
- No, messages are seen by all sprites. More than one sprite can respond to the same message.
+ Na, mae negeseuon yn cael eu gweld gan bob corlun. Gall mwy nag un corlun ymateb i'r un neges.
 
  --- /feedback ---
 
-- (x) Both the Ripley and Robot sprites
+- (x) Corluniau Ripley a Robot
 
  --- feedback ---
 
- Yes, when a message is `broadcast`{:class="block3events"}, all sprites that have a `when I receive`{:class="block3events"} block will react to the message.
+ Cywir, pan gaiff neges ei `darlledu`{:class="block3events"}, bydd pob corlun sydd â bloc `pan rwy'n derbyn`{:class="block3events"} yn ymateb i'r neges.
 
  --- /feedback ---
 
-- ( ) Neither of the sprites
+- ( ) Y naill na'r llall o'r corluniaid
 
  --- feedback ---
 
- Have another look. The code does correctly `broadcast`{:class="block3events"} a message.
+ Cymer olwg arall. Mae'r cod yn `darlledu`{:class="block3events"} neges.
 
  --- /feedback ---
 
