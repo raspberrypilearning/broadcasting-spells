@@ -1,38 +1,38 @@
 ---
-title: Broadcasting spells
+title: Darlledu swynion
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: Defnyddia ffon hud i ddewis swynion a darlledu negeseuon swyn i droi corluniaid yn llyffantod a'u tyfu a'u crebachu.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Byddi di'n creu
   - 
-    title: Choose your wand
+    title: Dewisa dy ffon hud
   - 
-    title: The shrink spell
+    title: Y swyn crebachu
     completion:
-      - engaged
+      - wedi'i weithredu
   - 
-    title: The grow spell
+    title: Y swyn tyfu
   - 
-    title: Toad transformation
+    title: Trawsnewid llyfant
   - 
-    title: Add another character
+    title: Ychwanegu cymeriad arall
     completion:
-      - internal
+      - mewnol
   - 
-    title: Quick quiz
+    title: Cwis cyflym
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - external
+      - internal
   - 
-    title: Upgrade your project
+    title: Uwchraddio dy brosiect
   - 
-    title: What next?
+    title: Beth nesaf?
