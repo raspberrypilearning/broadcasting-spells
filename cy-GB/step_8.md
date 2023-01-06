@@ -1,39 +1,39 @@
-## Upgrade your project
+## Uwchraddio dy brosiect
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+Sut wnei di ehangu dy fud hudol? Gallet ti:
++ Ychwanegu rhagor o gymeriadau
++ Ychwanegu gwahanol effeithiau sain a gweledol i'r ffon hud.
++ Ychwanegu rhagor o swynion — fe allet ti wneud i gymeriadau ddiflannu ac ailymddangos gyda `cuddio`{:class="block3looks"} a `dangos`{:class="block3looks"}, defnyddio effeithiau gweledol neu eu troi wyneb i waered.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![Prosiect gyda phedwar corlun a botymau swynion picseleiddio newydd.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+Beth am gyfnewid cymeriadau â ffrind? Yn gyntaf, cyfnewidia dolenni dy brosiectau gyda ffrind i weld eich corluniau eich gilydd. I gadw corluniau dy ffrind, defnyddia dy Scratch backpack neu lawrlwytho'r corluniau i fan sy'n cael ei rannu. Yna cer yn ôl at dy brosiect ac ychwanegu'r corluniau sydd wedi'u cadw.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+title: Llwytho corlun i lawr
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+Galli di gadw corluniau i dy gyfrifiadur drwy eu llwytho i lawr o dy brosiect. De-glicia ar gorlun yn y rhestr Corluniau a dewis allforio.
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![Y ddewislen naid yn y rhestr sprite.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+I lwytho corlun i mewn i brosiect, dewisa'r opsiwn 'Llwytho Corlun i Fyny' o'r ddewislen 'Dewiswch Gorlun'.
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![Y ddewislen Choose a Sprite estynedig yn dangos opsiwn Upload a Sprite.](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+Galli di greu rhagor o swynion gyda ffrind a'u hychwanegu at dy gymeriadau. Penderfyna pa swynion i'w creu. Gwna'n siŵr fod y ddau ohonoch yn defnyddio'r un enw yn union ar gyfer y negeseuon rydych chi'n eu darlledu.
 
 --- collapse ---
 ---
-title: Completed project
+teitl: Prosiect gorffenedig
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+Galli di weld y [prosiect wedi'i gwblhau yma](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
 
 --- /collapse ---
 
