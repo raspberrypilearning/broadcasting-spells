@@ -1,14 +1,14 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+legend: Cwestiwn 3 o 3
 ---
 
-You renamed the **Slide Whistle** sound to create a **shrink** sound:
+Fe wnes di ailenwi'r sain **Slide Whistle** i greu sain **crebachu**:
 
 ![](images/just-shrink.png)
 
-You duplicated the **shrink** sound and reversed it to make a **grow** sound. Which answer shows the correct grow sound?
+Mi wnes di ddyblygu'r sain **crebachu** a'i gwrthdroi i greu sain **tyfu**. Pa ateb sy'n dangos y sain tyfu cywir?
 
 
 --- choices ---
@@ -19,7 +19,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- No, this project has a copy of the **shrink** sound, but the soundwave is the same. The soundwave hasn't been reversed to create a grow sound.
+ Na, mae gan y prosiect yma gopi o'r sain **crebachu**, ond mae'r don sain yr un peth. Dydy'r don sain ddim wedi cael ei gwrthdroi i greu sain tyfu.
 
  --- /feedback ---
 
@@ -29,7 +29,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- Yes, you can see that the sound has been reversed by the shape of the soundwave.
+ Cywir, galli di weld bod siâp y don sain wedi gwrthdroi'r sain.
 
  --- /feedback ---
 
