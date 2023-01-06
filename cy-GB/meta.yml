@@ -14,7 +14,7 @@ steps:
   - 
     title: Y swyn crebachu
     completion:
-      - wedi'i weithredu
+      - engaged
   - 
     title: Y swyn tyfu
   - 
@@ -22,7 +22,7 @@ steps:
   - 
     title: Ychwanegu cymeriad arall
     completion:
-      - mewnol
+      - internal
   - 
     title: Cwis cyflym
     knowledge_quiz:
@@ -31,7 +31,7 @@ steps:
       questions: 3
       passing_score: 3
     completion:
-      - internal
+      - external
   - 
     title: Uwchraddio dy brosiect
   - 
