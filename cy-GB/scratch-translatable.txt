@@ -1,19 +1,19 @@
-change from 'random position'
+newid o 'safle ar hap'
 
-in front of the buttons
+o flaen y botymau
 
-shrink
+crebachu
 
-negative numbers decrease the size
+mae rhifau negyddol yn lleihau'r maint
 
-grow
+tyfu
 
-positive numbers increase the size
+mae rhifau positif yn cynyddu'r maint
 
-toad
+llyffant
 
-untoad
+dad-lyffantio
 
-invisible
+anweledig
 
-hide
+cuddio
