@@ -1,39 +1,39 @@
-## Upgrade your project
+## Mejora tu proyecto
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+¿Cómo expandirás tu mundo mágico? Tú podrías:
++ Añadir más personajes
++ Agrega diferentes efectos visuales y de sonido a la varita.
++ Agregue más hechizos: puede hacer que los personajes desaparezcan y reaparezcan con `ocultar`{:class="block3looks"} y `mostrar`{:class="block3looks"}, aplicar efectos visuales o darles la vuelta.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![Un proyecto con cuatro sprites y nuevos botones de hechizo pixelados añadidos.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+¿Por qué no intercambiar personajes con un amigo? Primero, intercambie los enlaces de los proyectos con un amigo para ver los sprites de los demás. Para guardar sus sprites, use su Scratch backpack o descargue los sprites en un área compartida. Luego regresa a tu proyecto y agrega los sprites guardados.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+title: Descargar un sprite
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+Puede guardar sprites en su computadora descargándolos de su proyecto. Haga clic derecho en un sprite en la lista de Sprite y seleccione export.
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![El menú emergente en la lista de sprite.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+Para cargar un sprite en un proyecto, elija la opción ''Upload a Sprite' en el menú 'Choose a Sprite'.
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![El menú ampliado Choose a Sprite que muestra la opción Upload a Sprite.](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+Crea más hechizos con un amigo y añádelos a tus personajes. Decide qué hechizos crear. Asegúrese de que ambos usen exactamente el mismo nombre para los mensajes que transmiten.
 
 --- collapse ---
 ---
-title: Completed project
+title: Proyecto terminado
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+Puedes ver el [proyecto terminado aquí](https://scratch.mit.edu/projects/518413238/){:target ="_blank"}.
 
 --- /collapse ---
 
