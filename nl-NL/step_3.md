@@ -93,7 +93,7 @@ set size to [100] %
 
 --- /task ---
 
-Wanneer berichten worden`verzonden`{:class="block3events"}, kunnen ze door alle sprites worden ontvangen. Wanneer de **toverstaf** ``{:class="block3events"} het`krimp`{:class="block3events"}-bericht ontvangt, moet het`een geluid`{:class="block3sound"} afspelen.
+Wanneer berichten worden`verzonden`{:class="block3events"}, kunnen ze door alle sprites worden ontvangen. Wanneer de **toverstaf** het `krimp`{:class="block3events"}-bericht `ontvangt`{:class="block3events"}, moet het `een geluid afspelen`{:class="block3sound"}.
 
 --- task ---
 

@@ -33,7 +33,7 @@ Maak meer spreuken met een vriend en voeg ze toe aan je sprites. Bepaal welke sp
 title: Voltooid project
 ---
 
-Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/518413238/){:target="_blank"} bekijken.
+Je kunt het [voltooide project hier](https://scratch.mit.edu/projects/660082625/){:target="_blank"} bekijken.
 
 --- /collapse ---
 

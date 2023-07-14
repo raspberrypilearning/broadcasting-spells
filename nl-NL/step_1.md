@@ -17,19 +17,18 @@ Je gaat:
 </p>
 
 --- no-print ---
---- task ---
+
 
 ### Afspelen ▶️
 
---- /task ---
---- /no-print ---
+--- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Gebruik de toverstaf om op de knoppen te klikken en spreuken uit te spreken. Wat doet elke spreuk met de personages?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/518413238/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660082625/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 
