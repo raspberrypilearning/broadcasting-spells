@@ -2,10 +2,10 @@
 --- question ---
 
 ---
-legend: Question 2 of 3
+leyenda: Pregunta 2 de 3
 ---
 
-In your project, clicking on a button broadcast a message. Which sprite or sprites would change size when the grow button is clicked?
+In your project, clicking on a button broadcasts a message. ¿Qué sprite o sprites cambiarían de tamaño al hacer clic en el botón de crecimiento?
 
 ![](images/grow-icon.png)
 
@@ -30,27 +30,27 @@ change size by [10]
 
 --- choices ---
 
-- ( ) Whichever sprite receives the message first
+- ( ) Cualquier sprite que reciba el mensaje primero
 
  --- feedback ---
 
- No, messages are seen by all sprites. More than one sprite can respond to the same message.
+ No, todos los sprites ven los mensajes. Más de un sprite puede responder al mismo mensaje.
 
  --- /feedback ---
 
-- (x) Both the Ripley and Robot sprites
+- (x) Ambos, los sprites de Ripley y del Robot
 
  --- feedback ---
 
- Yes, when a message is `broadcast`{:class="block3events"}, all sprites that have a `when I receive`{:class="block3events"} block will react to the message.
+ Sí, cuando un mensaje es `transmite`{:class="block3events"}, todos los sprites que tienen un bloque `cuando recibo`{:class="block3events"} reaccionarán al mensaje.
 
  --- /feedback ---
 
-- ( ) Neither of the sprites
+- ( ) Ninguno de los sprites
 
  --- feedback ---
 
- Have another look. The code does correctly `broadcast`{:class="block3events"} a message.
+ Echa otro vistazo. El código `transmite`{:class="block3events"} correctamente un mensaje.
 
  --- /feedback ---
 
