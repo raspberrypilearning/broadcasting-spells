@@ -1,8 +1,8 @@
-## Choose your wand
+## Elige tu varita
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and create your own computer-generated magic.
+En este paso, prepararás la escena, elegirás tu varita y crearás tu propia magia generada por computadora.
   
 </div>
 <div>
@@ -11,12 +11,12 @@ In this step, you will set the scene, choose your wand and create your own compu
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
+<span style="color: #0faeb0">**Imágenes generadas por computadora (CGI)**</span> pueden ser usadas para crear efectos especiales que no ocurren en el mundo real. Hacer una película o animación de fantasía moderna implica mucho código y arte computarizado.
 </p>
 
 --- task ---
 
-Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
+Abre el [Proyecto de Iniciación emision de hechizos](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch se abrirá en otra pestaña del navegador.
 
 [[[working-offline]]]
 
@@ -24,29 +24,29 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 
 --- task ---
 
-You should see a fairy in a woodland.
+Deberías ver un hada en un bosque.
 
-![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
-
---- /task ---
-
-You need a wand to cast a spell.
-
---- task ---
-
-Click **Choose a Sprite** and type `wand` into the search box:
-
-![Choose a sprite icon.](images/choose-a-sprite.png)
-
-![Choice of Magic Wand and Wand.](images/wand-sprite-options.png)
-
-**Choose:** Add the wand you prefer to your project.
+![El escenario mostrando la escena inicial con sprite de hadas y botones.](images/starter-project.png)
 
 --- /task ---
 
+Necesitas una varita para emitir un hechizo.
+
 --- task ---
 
-Add code to make the **Wand** sprite follow the `mouse pointer`{:class="block3motion"} and stay in `front`{:class="block3looks"} of the buttons:
+Haga clic en **Elija un Sprite** y escriba `varita mágica` en el cuadro de búsqueda:
+
+![Elije un icono de duende.](images/choose-a-sprite.png)
+
+![Opciones de Varitas y Varitas Magicas.](images/wand-sprite-options.png)
+
+**Elija:** Agregue la varita que prefiera para su proyecto.
+
+--- /task ---
+
+--- task ---
+
+Agregue código para hacer que el sprite **Varita** siga el `puntero del mouse`{:class="block3motion"} y permanezca en `frente`{:class="block3looks"} de los botones:
 
 ![](images/wand-sprite-icon.png)
 
@@ -62,75 +62,75 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. The wand will follow your mouse pointer.
+**Prueba:** Haz clic en la bandera verde para ejecutar tu proyecto. La varita seguirá el puntero del mouse.
 
 --- /task ---
 
-Make the wand bigger and tilted, like you’re really using it.
+Haz la varita más grande e inclinada, como si realmente la estuvieras usando.
 
 --- task ---
 
-Go to the Sprite pane and change the **Size** property to `200` to make the wand bigger:
+Ve al panel del Duende y cambia la propiedad **Tamaño** a `200` para agrandar la varita:
 
-![The Sprite pane with the Size property highlighted with value 200.](images/size-property.png)
-
---- /task ---
-
---- task ---
-
-Click on the **Costumes** tab to open the Wand costume in the Paint editor.
-
-Click on the **Select** (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume.
-
-![Wand costumes grouped.](images/the-select-tool.png)
-
-![Wand costumes grouped.](images/grouped-costumes.png)
-
-Then click on the **Group** icon to combine the wand parts.
-
-![Wand costumes grouped.](images/group-icon.png)
+![El panel Duende con la propiedad de Tamaño resaltada con el valor 200.](images/size-property.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Rotate** tool on the wand to position the wand at an angle.
+Haga clic en la pestaña **Disfraces** para abrir el disfraz de varita mágica en el editor de pintura.
 
-![Wand costumes rotated.](images/rotated-wands.png)
+Haga clic en la herramienta **Seleccionar** (Flecha) y luego dibuja un rectángulo alrededor de toda la varita para seleccionar todas las partes del disfraz.
 
-**Tip:** If you can't see the **Rotate** tool, click the **Zoom out** (-) tool at the bottom of the Paint editor to zoom out.
+![Disfraces de varita agrupados.](images/the-select-tool.png)
 
---- /task ---
+![Disfraces de varita agrupados.](images/grouped-costumes.png)
 
-The **Wand** costume gets in the way of the mouse cursor when you try to click the buttons.
+Luego haz clic en el icono **Grupo** para combinar las partes de la varita.
 
---- task ---
-
-Move the wand so that its tip is just away from the crosshair in the centre.
-
-![Wand costumes correctly positioned.](images/positioned-wands.png)
+![Disfraces de varita agrupados.](images/group-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and move the mouse around the Stage. The wand should follow.
+Usa la herramienta **Rotar** en la varita para colocar la varita en ángulo.
+
+![Disfraces de varita rotados.](images/rotated-wands.png)
+
+**Sugerencia:** Si no puedes ver la herramienta **Rotar** , haz clic en la herramienta **Alejar** (-) en la parte inferior del editor de Pintura para alejar.
+
+--- /task ---
+
+El disfraz **Varita** se interpone en el camino del cursor del mouse cuando intentas hacer clic en los botones.
+
+--- task ---
+
+Mueva la varita para que su punta quede alejada de la cruz en el centro.
+
+![Disfraces de varitas colocados correctamente.](images/positioned-wands.png)
 
 --- /task ---
 
 --- task ---
 
-If you are signed in to your Scratch account, click on the green Remix button. This will save a copy of the project to your Scratch account.
+**Prueba:** Presiona la bandera verde y mueve el mouse al rededor del escenario. La varita deberia seguir al cursor.
 
-![The Remix button.](images/remix-button.png)
+--- /task ---
 
-You can change the title of your project.
+--- task ---
 
-![The project title box.](images/project-name.png)
+Si ha iniciado sesión en su cuenta de Scratch, haga clic en el botón verde Remix. Esto guardará una copia del proyecto en su cuenta de Scratch.
 
-**Tip:** Give your projects helpful names so that you can easily find them when you have lots of projects.
+![Botón Remix.](images/remix-button.png)
 
-If you do not have a Scratch account, you can click on **File** then **Save to your computer** to save a copy of the project.
+Puedes cambiar el titulo de tu proyecto.
+
+![El cuadro de título del proyecto.](images/project-name.png)
+
+**Sugerencia:** Asigne nombres útiles a sus proyectos para que pueda encontrarlos fácilmente cuando tenga muchos proyectos.
+
+Si no tiene una cuenta de Scratch, puede hacer clic en **Archivo** y luego en **Guardar en su computadora** para guardar una copia del proyecto.
 
 --- /task ---
 
