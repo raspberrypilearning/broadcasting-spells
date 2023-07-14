@@ -1,8 +1,8 @@
-## The shrink spell
+## El hechizo para encoger
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+Ahora harás que el hada se encoja cuando hagas click en el botón de encoger.
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+Haga clic en el sprite **encoger** en la lista de Sprites debajo del escenario.
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+Agrega un `cuando se haga click en este sprite`{:class="block3events"} bloque:
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+Cuando haces clic en el botón de encoger, quieres que el sprite **Hada** se encoja.
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+El sprite **encoger** necesita `transmitir`{:class="block3events"} un `mensaje`{:class="block3events"} para que el sprite **Encantado** sepa que se ha emitido el hechizo encogedor.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+Agrega un bloque `broadcast`{:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+Haz click en `mensaje1`{:class="block3events"} y selecciona 'Nuevo mensaje'. Nombre el nuevo mensaje `encoger`.
 
-![New message dialog with shrink entered.](images/new-message.png)
+![Diálogo de mensaje nuevo con reducción ingresada.](images/new-message.png)
 
-Your code should look like this:
+Tu código debería parecerse a esto:
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+Ahora, cuando haga clic en el botón **encoger** , Scratch `transmitirá`{:class="block3events"} el mensaje `encoger`{:class="block3events"}, pero no pasara nada aun.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+Agregue código al sprite**Encantado** para que se reduzca cuando reciba un mensaje de `encoger`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**Prueba:** Haz click en el botón **encoger** para reducir al sprite **Encantado**. Haz esto tantas veces como quieras.
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**Depuración:** Si tu sprite **Encantado** crece en lugar de encogerse, agrega un menos `-` antes del número `10` para convertirlo en un número negativo `-10`.
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+Agregue un guion para establecer al sprite **Encantado** a tamaño normal `cuando se hace click en la bandera verde`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+Cuando los mensajes son `transmitidos`{:class="block3events"}, pueden ser recibidos por todos los sprites. Cuando la **Varita** `recibe`{:class="block3events"} el mensaje de `encogerse`{:class="block3events"} debe `reproducir un sonido`{:class="block3sound"}.
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+Haz click en la **Varita** del sprite y luego en la pestaña **Sonidos**.
 
-Add the **Slide Whistle** sound.
+Agregue el sonido **Silvido**.
 
-Rename the sound to `shrink` so it is easy to find.
+Cambie el nombre del sonido a `encoger` para que sea fácil de encontrar.
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![La pestaña de Sonidos con el sonido del silbido fue renombrado como encoger en la propiedad de Sonido.](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+Agregue un guion para reproducir el sonido:
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**Prueba:** Haz click en la bandera verde para ejecutar tu proyecto. Haz click en el botón **encoger** para escuchar el sonido y ver como se encoge el **Hada**.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+El boton **encoger** `transmite`{:class="block3events"} un mensaje `encoger`{:clase="block3events"}. Tanto el **Hada** como la **Varita** `recibieron`{:class="block3events"} el mensaje y respondieron.
 
 --- save ---
