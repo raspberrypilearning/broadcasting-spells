@@ -5,7 +5,7 @@
 legend: Vraag 2 van 3
 ---
 
-In your project, clicking on a button broadcasts a message. Welke sprite of sprites zouden van grootte veranderen als op de groei-knop wordt geklikt?
+In jouw project, klik je op een knop om een bericht te verzenden. Welke sprite of sprites zouden van grootte veranderen als op de groei-knop wordt geklikt?
 
 ![](images/grow-icon.png)
 
