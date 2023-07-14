@@ -1,18 +1,18 @@
-## Quick quiz
+## Examen Rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Contesta las tres preguntas. Hay pistas que te guiaran a la respuesta correcta.
 
-When you have answered each question, click on **Check my answer**.
+Cuando hayas respondido cada pregunta, haz click en **Verificar mi respuesta**.
 
-Have fun!
+¡Que te diviertas!
 
---- question ---
+--- pregunta ---
 
 ---
-legend: Question 1 of 3
+leyenda: Pregunta 1 de 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+Tu escribiste codigo para `transmitir`{:class="block3events"} un mensaje cuando se hace clic en un botón.
 
 ![](images/button-icon.png)
 
@@ -21,9 +21,9 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+¿Cual secuencia de comandos ocultaría un sprite cuando se hace clic en el botón?
 
---- choices ---
+--- opciones ---
 
 - ( )
 
@@ -32,11 +32,11 @@ when I receive [message1 v]
 hide
 ```
 
- --- feedback ---
+ --- retroalimentación ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ No, este es el mensaje predeterminado en Scratch, pero no es el mensaje que envía el código.
 
- --- /feedback ---
+ --- /retroalimentación ---
 
 - ( )
 
@@ -47,7 +47,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ No, el mensaje que necesitas recibir no se llama 'hide'.
 
  --- /feedback ---
 
@@ -60,7 +60,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+Sí, eso es correcto. El bloque `cuando recibo` {:class="block3events"} necesita usar exactamente el mismo nombre de mensaje que el bloque `transmitir`{:class="block3events"}.
 
  --- /feedback ---
 
@@ -73,10 +73,10 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ No exactamente. Scratch necesita que tu ortografía sea realmente precisa para que los nombres de los mensajes coincidan. Verifique con cuidado.
 
  --- /feedback ---
 
---- /choices ---
+--- /opciones ---
 
---- /question ---
+--- /pregunta ---
