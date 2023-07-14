@@ -5,7 +5,7 @@
 legend: 質問2/3
 ---
 
-プロジェクトでは、ボタンをクリックするとメッセージが発信されます。 拡がるボタンがクリックされたときにサイズが変わるスプライトはどれですか？
+In your project, clicking on a button broadcasts a message. 拡がるボタンがクリックされたときにサイズが変わるスプライトはどれですか？
 
 ![](images/grow-icon.png)
 
