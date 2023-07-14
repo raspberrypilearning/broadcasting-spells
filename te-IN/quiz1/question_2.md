@@ -5,7 +5,7 @@
 legend: 3లో 2వ ప్రశ్న
 ---
 
-మీ ప్రాజెక్ట్‌లో, బటన్‌పై క్లిక్ చేయడం ద్వారా సందేశాన్ని ప్రసారం చేయండి. Grow బటన్‌ను క్లిక్ చేసినప్పుడు ఏ sprite లేదా spriteలు పరిమాణాన్ని మారుస్తాయి?
+In your project, clicking on a button broadcasts a message. Grow బటన్‌ను క్లిక్ చేసినప్పుడు ఏ sprite లేదా spriteలు పరిమాణాన్ని మారుస్తాయి?
 
 ![](images/grow-icon.png)
 
