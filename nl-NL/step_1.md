@@ -28,7 +28,7 @@ Je gaat:
 Gebruik de toverstaf om op de knoppen te klikken en spreuken uit te spreken. Wat doet elke spreuk met de personages?
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/660082625/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/657522973/?autostart=false" frameborder="0"></iframe>
 </div>
 </div>
 
