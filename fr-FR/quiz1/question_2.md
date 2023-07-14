@@ -5,7 +5,7 @@
 legend : Question 2 sur 3
 ---
 
-Dans ton projet, cliquer sur un bouton envoyer à tous un message. Quel sprite ou sprites changeraient de taille lorsque le bouton d'agrandissement est cliqué ?
+In your project, clicking on a button broadcasts a message. Quel sprite ou sprites changeraient de taille lorsque le bouton d'agrandissement est cliqué ?
 
 ![](images/grow-icon.png)
 
