@@ -1,39 +1,39 @@
-## Add another character
+## Agregar otro personaje
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+Consigue un sprite de tu elección para responder a los hechizos. Necesitarás crear una 'combinación' de disfraz de sapo para el sprite y agregar código para que el disfraz cambie cuando se transmitan los mensajes de hechizo.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![El escenario que muestra una segunda transformación de sapo.](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+Duplica el sprite **Hada**.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+Elimina los disfraces **Fairy-a** y **Fairy-toad-a**. Te quedarás con un disfraz de **sapo**.
 
-Add a costume of your choice to the **new sprite**.
+Agrega un disfraz de tu elección al **nuevo sprite**.
 
-We chose the **Batter**:
+Elegimos el **bateador**:
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+Es posible que desee cambiar la dirección hacia la que apunta el sprite.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**Sugerencia:** Si tu sprite se pone al revés, puedes cambiar su `estilo de rotación`{:class="block3motion"} a `de izquierda a derecha`{:class="block3motion"} en el panel de propiedades de Sprite o usando código.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+Cuando creces o encoges un sprite, quieres que los pies permanezcan en el mismo lugar.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+Primero use la herramienta **Seleccionar** (flecha) para dibujar un rectángulo alrededor del disfraz y luego **Agrupar**. Luego arrastra a tu personaje por encima de la cruz.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+Haz clic en el disfraz **sapo**.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+Cambia el nombre del disfraz para que coincida con tu sprite, usamos **Batter-toad-a**.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+Si el disfraz de sapo está orientado en dirección opuesta al disfraz principal, puedes usar **Giro Horizontal**.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+Ahora necesitas hacer que el sapo se parezca al personaje. La combinación de dos disfraces de esta manera se llama 'mash-up'.
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+Puede agregar un pequeño detalle, como un toque de color, o copiar y pegar gafas de sol o un sombrero en el editor de pinturas.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**Consejo:** Puedes agregar cualquier disfraz a tu objeto de personaje. Use la herramienta **Seleccionar** (flecha) y luego haga clic en **Copiar** o **Pegar**.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**Consejo:** Puedes agrupar todos los objetos en un disfraz. Selecciónelos (con la herramienta **Seleccionar** o <kbd> Ctrl-a</kbd>) y luego haga clic en **Grupo**.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+Nuestro sapo bateador se parece a: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+Cambia a la pestaña **Código** para tu nuevo sprite.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+Cambia todos los bloques `cambiar disfraz`{:class="block3looks"} para usar los disfraces correctos para tu nuevo sprite.
+
+También es posible que desee cambiar el `tamaño inicial `{:class="block3looks"} del sprite `cuando se hizo clic en la bandera verde`{:class="block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**Prueba:** Haga clic en los botones de hechizo: ambos personajes deben responder a los hechizos transmitidos.
+
+**Depuración:** Comprueba que hayas cambiado los disfraces en los bloques `cambia el disfraz`{:class="block3looks"} para tu nuevo sprite.
 
 --- /task ---
 
