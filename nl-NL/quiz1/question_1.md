@@ -1,10 +1,10 @@
-## Quick quiz
+## Snelle quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Beantwoord de drie vragen. Je wordt naar het juiste antwoord geleid.
 
-When you have answered each question, click on **Check my answer**.
+Klik na het beantwoorden van elke vraag op **Controleer mijn antwoord**.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
@@ -12,7 +12,7 @@ Have fun!
 legend: Vraag 1 van 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+Je hebt scripts geschreven om met `zend signaal`{:class="block3events"} een bericht uit te zenden wanneer er op een knop wordt geklikt.
 
 ![](images/button-icon.png)
 
@@ -21,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+Welk script zou een sprite verbergen wanneer op de knop wordt geklikt?
 
 --- choices ---
 
@@ -34,7 +34,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ Nee, dit is het standaardbericht in Scratch, maar het is niet het bericht dat door de code wordt verzonden.
 
  --- /feedback ---
 
@@ -47,7 +47,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ Nee, het bericht dat je moet ontvangen heet niet 'verdwijn'.
 
  --- /feedback ---
 
@@ -60,7 +60,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+Ja dat is goed. Het `wanneer ik signaal ontvang`{:class="block3events"}-blok, moet exact dezelfde berichtnaam gebruiken als het `zend signaal`{:class="block3events"}-blok.
 
  --- /feedback ---
 
@@ -73,7 +73,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ Niet helemaal. In Scratch moet jouw spelling zeer nauwkeurig zijn, zodat de berichtnamen overeenkomen. Controleer zorgvuldig.
 
  --- /feedback ---
 
