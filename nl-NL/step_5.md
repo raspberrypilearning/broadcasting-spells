@@ -19,7 +19,7 @@ Voeg een script toe aan de **pad**-knop sprite om het 'pad'-bericht uit te zende
 
 ```blocks3 
 when this sprite clicked
-broadcast [pad v]
+broadcast [toad v]
 ```
 
 --- /task ---
@@ -55,7 +55,7 @@ Voeg een nieuw script toe aan de **Fairy** sprite om in een pad te veranderen:
 ![](images/fairy-icon.png)
 
 ```blocks3  
-when I receive [pad v]
+when I receive [toad v]
 switch costume to [Fairy-toad-a v]
 ```
 
@@ -80,8 +80,8 @@ Voeg een script toe aan de **Wand** sprite om het `pad`{:class="block3sound"}-ge
 ![](images/wand-sprite-icon.png)
 
 ```blocks3  
-when I receive [pad v]
-play sound [pad v] until done
+when I receive [toad v]
+play sound [toad v] until done
 ```
 
 --- /task ---
@@ -104,7 +104,7 @@ Voeg een script toe aan de **normaal**-knop sprite om het 'normaal'{:class="bloc
 
 ```blocks3 
 when this sprite clicked
-broadcast [normaal v]
+broadcast [untoad v]
 ```
 
 --- /task ---
@@ -116,7 +116,7 @@ Voeg een nieuw script toe om de **Fairy** sprite weer `normaal`{:class="block3ev
 ![](images/fairy-icon.png)
 
 ```blocks3  
-when I receive [normaal v]
+when I receive [untoad v]
 switch costume to [Fairy-a v]
 ```
 
@@ -143,8 +143,8 @@ Voeg een script toe aan de **Wand** sprite om het `normaal`{:class="block3sound"
 ![](images/wand-sprite-icon.png)
 
 ```blocks3  
-when I receive [normaal v]
-play sound [normaal v] until done
+when I receive [untoad v]
+play sound [untoad v] until done
 ```
 
 --- /task ---
