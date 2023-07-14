@@ -2,13 +2,15 @@
 title: Lancer des sorts
 hero_image: images/banner.png
 description: Utiliser une baguette magique pour choisir des sorts et diffuser des messages de sorts pour transformer les sprites en crapauds et les faire grandir et rétrécir.
+meta_title: Scratch coding projects for kids and teens | Magic spells
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app and use a magic wand to turn sprites into toads.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Ce que tu vas faire
   - 
     title: Choisir ta baguette
   - 
@@ -18,13 +20,13 @@ steps:
   - 
     title: Le sort "grandir"
   - 
-    title: Transformation de crapaud
+    title: Transformation en crapaud
   - 
     title: Ajouter un autre personnage
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
