@@ -23,7 +23,7 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+Als je op de krimpknop klikt, wil je dat de sprite **Fairy** krimpt.
 
 De **krimp** sprite moet een `signaal zenden`{:class="block3events"} met een `bericht`{:class="block3events"} zodat de sprite **Fairy** weet dat de krimpspreuk is uitgesproken.
 
