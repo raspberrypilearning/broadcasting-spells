@@ -47,7 +47,7 @@ Tu peux inverser le son « rétrécir » pour faire un son « grandir » !
 
 Sélectionne le sprite **Baguette magique** et clique sur l'onglet **Son**.
 
-Fais un clic droit (ou appuie et maintiens) le son **reduire** et choisis **dupliquer**.
+Fais un clic droit (ou appuie et maintiens) le son **retrecir** et choisis **dupliquer**.
 
 ![](images/wand-icon.png)
 
