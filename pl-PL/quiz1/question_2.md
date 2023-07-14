@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-In your project, clicking on a button broadcast a message. Which sprite or sprites would change size when the grow button is clicked?
+In your project, clicking on a button broadcasts a message. Which sprite or sprites would change size when the grow button is clicked?
 
 ![](images/grow-icon.png)
 
