@@ -1,30 +1,32 @@
 ---
-title: Broadcasting spells
+title: Emitiendo hechizos
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
+description: Usa una varita mágica para elegir los hechizos y emitir mensajes de hechizos para convertir a los duendes en sapos y hacerlos crecer y decrecer.
+meta_title: Scratch coding projects for kids and teens | Magic spells
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app and use a magic wand to turn sprites into toads.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Lo que harás
   - 
-    title: Choose your wand
+    title: Elige tu varita
   - 
-    title: The shrink spell
+    title: El hechizo para encoger
     completion:
       - engaged
   - 
-    title: The grow spell
+    title: El hechizo para crecer
   - 
-    title: Toad transformation
+    title: Transformación a sapo
   - 
-    title: Add another character
+    title: Agregar otro personaje
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Prueba Rapida
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Mejora tu proyecto
   - 
-    title: What next?
+    title: '¿Qué sigue?'
