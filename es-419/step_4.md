@@ -1,19 +1,19 @@
-## The grow spell
+## El hechizo de crecimiento
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a grow spell to return the **Fairy** sprite to normal size or to make a massive fairy!
+¡También necesitas un hechizo de crecimiento para devolver el sprite **Hada** a su tamaño normal o para hacer un hada enorme!
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
 </div>
 </div>
 
-**Tip:** In this step, you will add code to three different sprites. Make sure you select the correct sprite from the Sprite list below the Stage and click on the **Code** tab.
+**Sugerencia:** En este paso, agregará código a tres sprites diferentes. Asegúrese de seleccionar el sprite correcto de la lista de Sprite debajo del escenario y haga clic en la pestaña **Código**.
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
+Agregue un script al sprite del botón **crecer** para `transmitir`{:class="block3events"} un mensaje `crecer`{:class="block3events"}:
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Fairy** sprite to grow:
+Agrega un script para hacer crecer el sprite **Fairy**:
 
 ![](images/fairy-icon.png)
 
@@ -37,33 +37,33 @@ change size by [10] // positive numbers increase the size
 
 --- /task ---
 
-You can reverse the 'shrink' sound to make a 'grow' sound!
+¡Puede invertir el sonido de 'reducir' para hacer un sonido de 'crecer'!
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
+<span style="color: #0faeb0">**Cuestionarios de canciones tocadas al revés**</span> son cuestionarios de música con un giro. Las pistas están invertidas y los concursantes tienen que adivinar la canción original; no es tan fácil como parece. 
 </p>
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
+Haz click en el sprite de la **Varita** y luego en la pestaña **Sonidos**.
 
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
+Haga clic con el botón derecho (o toque y mantenga presionado) el sonido **reducir** y elija **duplicar**.
 
 ![](images/wand-icon.png)
 
-![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
+![El sonido de reducción con el menú emergente que muestra duplicado.](images/duplicate-sound.png)
 
-Name the copy `grow`.
+Nombra la copia `crecer`.
 
-Click on the **Reverse** icon to make the sound play backwards.
+Haga clic en el icono **Invertir** para que el sonido se reproduzca al revés.
 
-![The grow sound with the reverse icon highlighted.](images/reverse-sound.png)
+![El sonido de crecimiento con el ícono de retroceso resaltado.](images/reverse-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
+Agregue un script al sprite **Varita** para reproducir el sonido `crecer`{:class="block3sound"} cuando se recibe el mensaje `crecer`{:class="block3events"}:
 
 ![](images/wand-icon.png)
 
@@ -76,7 +76,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
+**Prueba:** Haz clic en los botones de hechizo **reducir** y **crecer** para lanzar los hechizos tantas veces como quieras.
 
 --- /task ---
 
