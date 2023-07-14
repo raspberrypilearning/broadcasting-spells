@@ -5,7 +5,7 @@
 legend: Cwestiwn 2 o 3
 ---
 
-Yn dy brosiect di, roedd clicio ar fotwm yn darlledu neges. Pa gorlun neu gorluniau fyddai'n newid maint ar ôl i'r botwm tyfu gael ei glicio?
+In your project, clicking on a button broadcasts a message. Pa gorlun neu gorluniau fyddai'n newid maint ar ôl i'r botwm tyfu gael ei glicio?
 
 ![](images/grow-icon.png)
 
