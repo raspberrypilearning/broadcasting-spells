@@ -1,4 +1,4 @@
-## Inleiding
+## Wat ga je maken
 
 Maak een app waarin je een toverstaf gebruikt om sprites in padden te veranderen en ze te laten groeien en verkleinen.
 
@@ -17,9 +17,12 @@ Je gaat:
 </p>
 
 --- no-print ---
+
+
+### Afspelen ▶️
+
 --- task ---
 
-### Probeer het uit
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Gebruik de toverstaf om op de knoppen te klikken en spreuken uit te spreken. Wat doet elke spreuk met de personages?
@@ -37,3 +40,5 @@ Gebruik de toverstaf om op de knoppen te klikken en spreuken uit te spreken. Wat
 ![Voltooid project](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_spells.png)

@@ -52,7 +52,7 @@ Je code zou er als volgt uit moeten zien:
 
 ```blocks3
 when this sprite clicked
-broadcast (krimpen v)
+broadcast (shrink v)
 ```
 
 --- /task ---
@@ -66,8 +66,8 @@ Voeg code toe aan de **Fairy** sprite om te verkleinen wanneer deze een `krimp`{
 ![](images/fairy-icon.png)
 
 ```blocks3
-when I receive [krimpen v]
-change size by [-10] // negatieve getallen verkleinen de grootte
+when I receive [shrink v]
+change size by [-10] // negative numbers decrease the size
 ```
 
 --- /task ---
@@ -93,7 +93,7 @@ set size to [100] %
 
 --- /task ---
 
-Wanneer berichten worden`verzonden`{:class="block3events"}, kunnen ze door alle sprites worden ontvangen. Wanneer de **toverstaf** ``{:class="block3events"} het`krimp`{:class="block3events"}-bericht ontvangt, moet het`een geluid`{:class="block3sound"} afspelen.
+Wanneer berichten worden`verzonden`{:class="block3events"}, kunnen ze door alle sprites worden ontvangen. Wanneer de **toverstaf** het `krimp`{:class="block3events"}-bericht `ontvangt`{:class="block3events"}, moet het `een geluid afspelen`{:class="block3sound"}.
 
 --- task ---
 
@@ -116,8 +116,8 @@ Voeg een script toe om het geluid af te spelen:
 ![](images/wand-sprite-icon.png)
 
 ```blocks3
-when I receive [krimpen v]
-play sound [krimpen v] until done
+when I receive [shrink v]
+play sound [shrink v] until done
 
 ```
 

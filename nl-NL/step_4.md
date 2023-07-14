@@ -19,7 +19,7 @@ Voeg een script toe aan het **groei**-knop sprite om een `groei`{:class="block3e
 
 ```blocks3
 when this sprite clicked
-broadcast (groeien v)
+broadcast (grow v)
 ```
 
 --- /task ---
@@ -31,8 +31,8 @@ Voeg een script toe om de sprite **Fairy** te laten groeien:
 ![](images/fairy-icon.png)
 
 ```blocks3
-when I receive [groeien v]
-change size by [10] // positieve getallen vergroten de grootte
+when I receive [grow v]
+change size by [10] // positive numbers increase the size
 ```
 
 --- /task ---
@@ -68,8 +68,8 @@ Voeg een script toe aan de **Wand**-sprite om het `groei`{:class="block3sound"}-
 ![](images/wand-icon.png)
 
 ```blocks3
-when I receive [groeien v]
-play sound [groeien v] until done
+when I receive [grow v]
+play sound [grow v] until done
 ```
 
 --- /task ---

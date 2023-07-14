@@ -11,20 +11,20 @@ In jouw project, klik je op een knop om een bericht te verzenden. Welke sprite o
 
 ```blocks3
 when this sprite clicked
-broadcast (groeien v)
+broadcast (grow v)
 ```
 
 ![](images/Ripley-icon.png)
 
 ```blocks3
-when I receive [groeien v]
+when I receive [grow v]
 change size by [10]
 ```
 
 ![](images/Robot-icon.png)
 
 ```blocks3
-when I receive [groeien v]
+when I receive [grow v]
 change size by [10]
 ```
 
