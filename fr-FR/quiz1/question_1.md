@@ -1,10 +1,10 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions ci-dessous pour réfléchir sur ce que tu as appris. Tu seras guidé vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien  !
 
 --- question ---
 
@@ -12,7 +12,7 @@ Have fun!
 legend : Question 1 sur 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+Tu as écrit des scripts pour `envoyer à tous`{:class="block3events"} un message lorsqu'un bouton est cliqué.
 
 ![](images/button-icon.png)
 
@@ -21,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+Quel script cacherait un sprite lorsque le bouton est cliqué ?
 
 --- choices ---
 
@@ -34,7 +34,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ Non, c'est le message par défaut dans Scratch, mais ce n'est pas le message envoyé par le code.
 
  --- /feedback ---
 
@@ -47,7 +47,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ Non, le message que tu dois recevoir ne s'appelle pas "masquer".
 
  --- /feedback ---
 
@@ -60,7 +60,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+Oui c'est correct. Le bloc `quand je reçois`{:class="block3events"} doit utiliser exactement le même nom de message que le bloc `envoyer à tous`{:class="block3events"}.
 
  --- /feedback ---
 
@@ -73,7 +73,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ Pas tout à fait. Scratch a besoin que ton orthographe soit vraiment précise pour que les noms des messages correspondent. Vérifie attentivement.
 
  --- /feedback ---
 
