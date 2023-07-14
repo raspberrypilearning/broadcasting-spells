@@ -1,7 +1,7 @@
-change from 'random position'
+cambiar de 'posición aleatoria'
 
-in front of the buttons
+delante de los botones
 
-negative numbers decrease the size
+los números negativos disminuyen el tamaño
 
-positive numbers increase the size
+los números positivos aumentan el tamaño
