@@ -1,14 +1,14 @@
 --- question ---
 
 ---
-legend: Question 3 of 3
+leyenda: Pregunta 3 de 3
 ---
 
-You renamed the **Slide Whistle** sound to create a **shrink** sound:
+Cambiaste el nombre del sonido **silvido** para crear un sonido **encoger**:
 
 ![](images/just-shrink.png)
 
-You duplicated the **shrink** sound and reversed it to make a **grow** sound. Which answer shows the correct grow sound?
+Duplicaste el sonido **encoge** y lo reverzas para hacer un sonido **crecer**. ¿Qué respuesta muestra el crecimiento de sonido correcto?
 
 
 --- choices ---
@@ -19,7 +19,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- No, this project has a copy of the **shrink** sound, but the soundwave is the same. The soundwave hasn't been reversed to create a grow sound.
+ No, este proyecto tiene una copia del sonido **encoger**, pero la onda de sonido es la misma. La onda de sonido no se ha invertido para crear un sonido creciente.
 
  --- /feedback ---
 
@@ -29,7 +29,7 @@ You duplicated the **shrink** sound and reversed it to make a **grow** sound. Wh
 
  --- feedback ---
 
- Yes, you can see that the sound has been reversed by the shape of the soundwave.
+ Sí, puedes ver que el sonido ha sido invertido por la forma de la onda sonora.
 
  --- /feedback ---
 
