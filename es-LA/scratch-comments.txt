@@ -1,0 +1,7 @@
+cambiar de 'posición aleatoria'
+
+delante de los botones
+
+los números negativos disminuyen el tamaño
+
+los números positivos aumentan el tamaño

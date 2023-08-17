@@ -1,0 +1,31 @@
+---
+title: Emitiendo hechizos
+hero_image: images/banner.png
+description: Usa una varita mágica para elegir los hechizos y emitir mensajes de hechizos para convertir a los duendes en sapos y hacerlos crecer y decrecer.
+meta_title: Scratch coding projects for kids and teens | Magic spells
+meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app and use a magic wand to turn sprites into toads.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Lo que harás
+  - title: Elige tu varita
+  - title: El hechizo para encoger
+    completion:
+      - engaged
+  - title: El hechizo para crecer
+  - title: Transformación a sapo
+  - title: Agregar otro personaje
+    completion:
+      - internal
+  - title: Prueba Rapida
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Mejora tu proyecto
+  - title: '¿Qué sigue?'

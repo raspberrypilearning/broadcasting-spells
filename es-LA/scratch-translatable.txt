@@ -1,0 +1,19 @@
+cambiar de 'posición aleatoria'
+
+delante de los botones
+
+encoger
+
+los números negativos disminuyen el tamaño
+
+crecer
+
+los números positivos aumentan el tamaño
+
+sapo
+
+convertir en persona
+
+invisible
+
+ocultar
