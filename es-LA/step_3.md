@@ -61,7 +61,7 @@ Ahora, cuando haga clic en el botón **encoger** , Scratch `transmitirá`{:class
 
 --- task ---
 
-Agregue código al sprite**Encantado** para que se reduzca cuando reciba un mensaje de `encoger`{:class="block3events"}:
+Agregue código al sprite **Encantado** para que se reduzca cuando reciba un mensaje de `encoger`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
