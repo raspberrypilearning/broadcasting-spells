@@ -5,7 +5,7 @@
 leyenda: Pregunta 2 de 3
 ---
 
-In your project, clicking on a button broadcasts a message. ¿Qué sprite o sprites cambiarían de tamaño al hacer clic en el botón de crecimiento?
+En tu proyecto, hacer clic en un botón transmitira un mensaje. ¿Qué sprite o sprites cambiarían de tamaño al hacer clic en el botón de crecimiento?
 
 ![](images/grow-icon.png)
 
