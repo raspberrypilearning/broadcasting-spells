@@ -54,7 +54,7 @@ hide
 - (x)
 
 ```blocks3
-when I receive [invisible v]
+when I receive [невидимість v]
 hide
 ```
 
@@ -67,7 +67,7 @@ Yes, that's correct. The `when I receive`{:class="block3events"} block needs to 
 - ( )
 
 ```blocks3
-when I receive [invisable v]
+when I receive [невидиміст v]
 hide
 ```
 
