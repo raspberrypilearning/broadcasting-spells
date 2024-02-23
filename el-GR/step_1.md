@@ -37,3 +37,5 @@
 ![Ολοκληρωμένο έργο](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_spells.png)
