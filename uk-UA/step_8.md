@@ -1,39 +1,39 @@
-## Upgrade your project
+## Вдоскональ свій проєкт
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+Як ти розшириш свій чарівний світ? Ти можеш:
++ додати більше персонажів;
++ додати різні звуки та візуальні ефекти до чарівної палички;
++ додати більше заклинань, — ти можеш зробити так, щоб персонажі зникли та зʼявилися знову за допомогою блоків `сховати`{:class="block3looks"} й `показати`{:class="block3looks"}, застосувати візуальні ефекти або перевернути їх догори дриґом.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![Проєкт із чотирма спрайтами та новими кнопками заклинань для перетворення спрайтів у пікселі.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+Чому б не обмінятися персонажами з другом? Спершу обміняйся з другом посиланнями на проєкт, щоб побачити спрайти одне одного. Щоб зберегти ці спрайти, використовуй свій Сховок або завантаж спрайти у місце зі спільним доступом. Потім повернись до свого проєкту та додай збережені спрайти.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+title: Завантаж спрайт
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+Ти можеш зберегти спрайти на свій компʼютер, завантаживши їх зі свого проєкту. Клацни правою кнопкою миші по спрайту у списку спрайтів та вибери «експорт».
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![Спливне меню в списку спрайтів.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+Щоб додати спрайт у проєкт, вибери «Вивантажити спрайт» у меню «Обрати спрайт».
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![Відкрите меню «Обрати спрайт», де видно опцію «Вивантажити спрайт».](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+Створюйте більше заклинань з другом і додавайте їх до своїх персонажів. Вирішіть, які заклинання створити. Переконайтеся, що ви обоє використовуєте однакові назви для повідомлень, якими оповіщуєте.
 
 --- collapse ---
 ---
-title: Completed project
+title: Завершений проєкт
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+Ти можеш переглянути [завершений проєкт тут](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
 
 --- /collapse ---
 
