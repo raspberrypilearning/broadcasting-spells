@@ -1,8 +1,8 @@
-## The shrink spell
+## Заклинання зменшення
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+Тепер ти зробиш так, щоб фея зменшувалась, коли ти натискаєш кнопку «Зменшити».
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+Клацни на спрайт **Зменшити** у списку Спрайтів під Сценою.
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+Додай блок `коли спрайт натиснуто`{:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+Ти хочеш, щоб спрайт **Fairy** (Фея) зменшувався, коли ти натискаєш на кнопку «Зменшити».
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+Спрайт **Зменшити** повинен `оповістити`{:class="block3events"} за допомогою `повідомлення`{:class="block3events"}, щоб спрайт **Fairy** дізнався про те, що було накладено заклинання зменшення.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+Додай блок `оповістити`{:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+Натисни на `повідомлення1`{:class="block3events"} і вибери «Нове повідомлення». Дай новому повідомленню назву `Зменшити`.
 
-![New message dialog with shrink entered.](images/new-message.png)
+![Діалогове вікно нового повідомлення з введеним словом «Зменшити».](images/new-message.png)
 
-Your code should look like this:
+Твій код повинен виглядати так:
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+Тепер, коли ти натискаєш кнопку **Зменшити**, Скретч `оповістить`{:class="block3events"} за допомогою повідомлення `Зменшити`{:class="block3events"}, але поки нічого не відбудеться.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+Додай код до спрайту **Fairy**, щоб він зменшувався, коли отримає повідомлення `Зменшити`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**Тест:** натисни на кнопку **Зменшити**, щоб зменшити спрайт **Fairy**. Роби це скільки завгодно разів.
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**Усунення помилок:** якщо твій спрайт **Fairy** росте замість того, щоб зменшуватися, додай знак мінуса `-` перед числом `10`, щоб утворилося відʼємне число `-10`.
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+Додай скрипт, щоб повертати спрайт **Fairy** до нормального розміру, `коли натиснуто зелений прапорець`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+Коли повідомлення передаються за допомогою `оповіщення`{:class="block3events"}, їх можуть отримувати всі спрайти. Коли спрайт чарівної палички **Wand** `отримує`{:class="block3events"} повідомлення `Зменшити`{:class="block3events"}, він має `відтворити звук`{:class="block3sound"}.
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+Натисни на спрайт **Wand**, а потім на вкладку **Звуки**.
 
-Add the **Slide Whistle** sound.
+Додай звук **Slide Whistle**.
 
-Rename the sound to `shrink` so it is easy to find.
+Зміни назву звуку на `Зменшити`, щоб його було легко знайти.
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![Вкладка «Звуки» з доданим звуком Slide Whistle, перейменованим на «Зменшити» у властивості «Звук».](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+Додай скрипт для відтворення звуку:
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**Тест:** клацни на зелений прапорець, щоб запустити свій проєкт. Натисни на кнопку **Зменшити**, щоб почути звук і побачити, як зменшується **Fairy**.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+Кнопка **Зменшити** `оповіщує`{:class="block3events"} за допомогою повідомлення `Зменшити`{:class="block3events"}. Спрайти **Fairy** і **Wand** `отримують`{:class="block3events"} повідомлення й відповідають.
 
 --- save ---
