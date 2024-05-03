@@ -1,18 +1,18 @@
-## Quick quiz
+## Швидкий тест
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Дай відповідь на три запитання. Підказки допоможуть знайти правильну відповідь.
 
-When you have answered each question, click on **Check my answer**.
+Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Have fun!
+Розважайся!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+Ти написав(-ла) скрипти, щоб передати повідомлення за допомогою `оповіщення`{:class="block3events"} при натисканні кнопки.
 
 ![](images/button-icon.png)
 
@@ -21,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+Який скрипт сховає спрайт при натисканні кнопки?
 
 --- choices ---
 
@@ -34,7 +34,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ Ні, це повідомлення за замовчуванням у Скретчі. Це не повідомлення, що передається кодом.
 
  --- /feedback ---
 
@@ -47,7 +47,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ Ні, потрібне повідомлення називається не «сховати».
 
  --- /feedback ---
 
@@ -60,7 +60,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+Так, правильно. Блок `коли я отримую`{:class="block3events"} повинен використовувати таку ж саму назву повідомлення, як і блок `оповістити`{:class="block3events"}.
 
  --- /feedback ---
 
@@ -73,7 +73,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ Не зовсім так. У Скретчі важливо, щоб назви повідомлень збігались. Перевір правопис слова ще раз.
 
  --- /feedback ---
 
