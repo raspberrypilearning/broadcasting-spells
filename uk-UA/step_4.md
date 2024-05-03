@@ -1,19 +1,19 @@
-## The grow spell
+## Заклинання збільшення
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You also need a grow spell to return the **Fairy** sprite to normal size or to make a massive fairy!
+Тобі також потрібне заклинання збільшення, щоб повернути спрайт **Fairy** до нормального розміру або ж щоб створити величезну фею!
 </div>
 <div>
 ![](images/growing-spell.png){:width="300px"}
 </div>
 </div>
 
-**Tip:** In this step, you will add code to three different sprites. Make sure you select the correct sprite from the Sprite list below the Stage and click on the **Code** tab.
+**Порада:** у цій частині ти додаватимеш код до трьох різних спрайтів. Переконайся, що ти вибрав/-ла правильний спрайт зі списку спрайтів під Сценою, і натисни на вкладку **Код**.
 
 --- task ---
 
-Add a script to the **grow** button sprite to `broadcast`{:class="block3events"} a `grow`{:class="block3events"} message:
+Додай скрипт до спрайту кнопки **Збільшити**, щоб `оповістити`{:class="block3events"} за допомогою повідомлення `Збільшити`{:class="block3events"}:
 
 ![](images/grow-icon.png)
 
@@ -26,7 +26,7 @@ broadcast (grow v)
 
 --- task ---
 
-Add a script to get the **Fairy** sprite to grow:
+Додай скрипт до спрайту **Fairy**, щоб він збільшувався:
 
 ![](images/fairy-icon.png)
 
@@ -37,33 +37,33 @@ change size by [10] // positive numbers increase the size
 
 --- /task ---
 
-You can reverse the 'shrink' sound to make a 'grow' sound!
+Ти можеш відтворити звук «Зменшення» у зворотному порядку, щоб отримати звук «Збільшення»!
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
+<span style="color: #0faeb0">**Вікторини з піснями, які відтворюються задом наперед**</span> — музичні вікторини з несподіваним поворотом. Усі пісні відтворюються задом наперед, а учасники мають вгадати початкову пісню — і це не так просто, як здається. 
 </p>
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
+Вибери спрайт **Wand** і натисни на вкладку **Звуки**.
 
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
+Клацни правою кнопкою миші (або натисни й утримуй) звук **Зменшити** та вибери **дублювати**.
 
 ![](images/wand-icon.png)
 
-![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
+![Звук «Зменшити» зі спливаючим меню, що показує дублювання.](images/duplicate-sound.png)
 
-Name the copy `grow`.
+Назви копію `Збільшити`.
 
-Click on the **Reverse** icon to make the sound play backwards.
+Клацни на іконку **Обернути**, щоб звук відтворювався у зворотному напрямку.
 
-![The grow sound with the reverse icon highlighted.](images/reverse-sound.png)
+![Звук «Збільшити» із підсвіченою іконкою «Обернути».](images/reverse-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
+Додай скрипт до спрайту **Wand**, щоб звук `Збільшити`{:class="block3sound"} відтворювався, коли отримується повідомлення `Збільшити`{:class="block3events"}:
 
 ![](images/wand-icon.png)
 
@@ -76,7 +76,7 @@ play sound [grow v] until done
 
 --- task ---
 
-**Test:** Click on the **shrink** and **grow** spell buttons to cast the spells as many times as you like.
+**Тест:** натискай на кнопки з заклинаннями **Зменшити** і **Збільшити** скільки завгодно разів.
 
 --- /task ---
 
