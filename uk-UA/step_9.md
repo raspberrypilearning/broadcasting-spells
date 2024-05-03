@@ -1,10 +1,10 @@
-## What next?
+## Що далі?
 
-If you are following the [More Scratch](https://projects.raspberrypi.org/en/raspberrypi/more-scratch) path, you can move on to the [Grow a dragonfly](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly) project. In this project, you will make a Dragonfly that eats insects.
+Якщо ти йдеш напрямом [Більше Скретчу](https://projects.raspberrypi.org/en/raspberrypi/more-scratch), можеш перейти до проєкту [Вирости бабку](https://projects.raspberrypi.org/en/projects/grow-a-dragonfly). У цьому проєкті ти створиш Бабку, що їсть комах.
 
 --- print-only ---
 
-![Dragonfly project](images/dragonfly-project.png)
+![Проєкт з бабкою.](images/dragonfly-project.png)
 
 --- /print-only ---
 
