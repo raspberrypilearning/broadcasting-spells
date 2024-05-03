@@ -1,19 +1,19 @@
-change from 'random position'
+зміни з «випадкової позиції»
 
-in front of the buttons
+перед кнопками
 
-shrink
+Зменшити
 
-negative numbers decrease the size
+відʼємні числа зменшують розмір
 
-grow
+Збільшити
 
-positive numbers increase the size
+додатні числа збільшують розмір
 
-toad
+Жаба
 
-untoad
+Не жаба
 
-invisible
+Невидимість
 
-hide
+Сховати
