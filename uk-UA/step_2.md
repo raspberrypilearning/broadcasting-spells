@@ -1,8 +1,8 @@
-## Choose your wand
+## Вибери свою чарівну паличку
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will set the scene, choose your wand and create your own computer-generated magic.
+У цій частині ти підготуєш сцену, вибереш чарівну паличку і створиш власну компʼютерну магію.
   
 </div>
 <div>
@@ -11,12 +11,12 @@ In this step, you will set the scene, choose your wand and create your own compu
 </div>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Computer-generated imagery (CGI)**</span> can be used to create special effects that don't happen in the real world. Making a modern fantasy movie or animation involves lots of code and computer art.
+<span style="color: #0faeb0">**Компʼютерна графіка**</span> використовується для створення спеціальних ефектів, які не існують у реальному світі. Під час створення сучасного фентезійного фільму або мультфільму використовується багато програмування та компʼютерної графіки.
 </p>
 
 --- task ---
 
-Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Scratch will open in another browser tab.
+Відкрий [стартовий проєкт «Чарівні оповіщення»](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. Скретч відкриється у новій вкладці браузера.
 
 [[[working-offline]]]
 
@@ -24,29 +24,29 @@ Open the [Broadcasting spells starter project](https://scratch.mit.edu/projects/
 
 --- task ---
 
-You should see a fairy in a woodland.
+Ти маєш побачити фею серед лісу.
 
-![The stage showing the starting scene with fairy sprite and buttons.](images/starter-project.png)
-
---- /task ---
-
-You need a wand to cast a spell.
-
---- task ---
-
-Click **Choose a Sprite** and type `wand` into the search box:
-
-![Choose a sprite icon.](images/choose-a-sprite.png)
-
-![Choice of Magic Wand and Wand.](images/wand-sprite-options.png)
-
-**Choose:** Add the wand you prefer to your project.
+![Початкова сцена, на якій видно спрайт феї та кнопки.](images/starter-project.png)
 
 --- /task ---
 
+Щоб накласти заклинання, тобі потрібна чарівна паличка.
+
 --- task ---
 
-Add code to make the **Wand** sprite follow the `mouse pointer`{:class="block3motion"} and stay in `front`{:class="block3looks"} of the buttons:
+Клацни на **Обрати спрайт** та введи у полі пошуку `wand` («чарівна паличка» англійською):
+
+![Іконка 'Обрати спрайт'.](images/choose-a-sprite.png)
+
+![Вибір чарівної палички: спрайти Magic Wand і Wand.](images/wand-sprite-options.png)
+
+**Вибери:** додай до проєкту чарівну паличку, яка тобі сподобалась.
+
+--- /task ---
+
+--- task ---
+
+Додай код, щоб спрайт **Wand** слідував за `вказівником`{:class="block3motion"} миші та залишався на `передньому`{:class="block3looks"} плані перед кнопками:
 
 ![](images/wand-sprite-icon.png)
 
@@ -62,75 +62,75 @@ end
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. The wand will follow your mouse pointer.
+**Тест:** клацни на зелений прапорець, щоб запустити свій проєкт. Чарівна паличка буде слідувати за вказівником миші.
 
 --- /task ---
 
-Make the wand bigger and tilted, like you’re really using it.
+Збільш і нахили паличку, ніби ти справді нею користуєшся.
 
 --- task ---
 
-Go to the Sprite pane and change the **Size** property to `200` to make the wand bigger:
+Перейди до панелі спрайтів і зміни властивість **Розміру** до `200`, щоби збільшити чарівну паличку:
 
-![The Sprite pane with the Size property highlighted with value 200.](images/size-property.png)
-
---- /task ---
-
---- task ---
-
-Click on the **Costumes** tab to open the Wand costume in the Paint editor.
-
-Click on the **Select** (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume.
-
-![Wand costumes grouped.](images/the-select-tool.png)
-
-![Wand costumes grouped.](images/grouped-costumes.png)
-
-Then click on the **Group** icon to combine the wand parts.
-
-![Wand costumes grouped.](images/group-icon.png)
+![Панель «Спрайт» із властивістю «Розмір», з виділеним значенням 200.](images/size-property.png)
 
 --- /task ---
 
 --- task ---
 
-Use the **Rotate** tool on the wand to position the wand at an angle.
+Клацни на вкладку **Образи**, щоб відкрити образ палички Wand у редакторі малювання.
 
-![Wand costumes rotated.](images/rotated-wands.png)
+Вибери інструмент **Обрати** (стрілочка) і накресли прямокутник навколо всієї палички, щоб вибрати всі елементи образу.
 
-**Tip:** If you can't see the **Rotate** tool, click the **Zoom out** (-) tool at the bottom of the Paint editor to zoom out.
+![Згруповані образи палички.](images/the-select-tool.png)
 
---- /task ---
+![Згруповані образи палички.](images/grouped-costumes.png)
 
-The **Wand** costume gets in the way of the mouse cursor when you try to click the buttons.
+Потім клацни на іконку **Групувати**, щоб обʼєднати частини палички.
 
---- task ---
-
-Move the wand so that its tip is just away from the crosshair in the centre.
-
-![Wand costumes correctly positioned.](images/positioned-wands.png)
+![Згруповані образи палички.](images/group-icon.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click the green flag and move the mouse around the Stage. The wand should follow.
+Використовуй інструмент **Поворот** на паличці, щоб нахилити її під кутом.
+
+![Поворот образів палички.](images/rotated-wands.png)
+
+**Порада:** якщо ти не бачиш інструмент **Поворот**, натисни на інструмент **Зменшити** (-) в нижній частині редактора малювання, щоб зменшити розмір поля.
+
+--- /task ---
+
+Образ **Wand** заважає вказівникові миші, коли ти намагаєшся натиснути на кнопки.
+
+--- task ---
+
+Перемісти паличку таким чином, щоб її кінчик знаходився трохи далі від прицілу в центрі.
+
+![Правильне положення образів палички.](images/positioned-wands.png)
 
 --- /task ---
 
 --- task ---
 
-If you are signed in to your Scratch account, click on the green Remix button. This will save a copy of the project to your Scratch account.
+**Тест:** натисни на зелений прапорець та переміщуй мишу по Сцені. Чарівна паличка повинна слідувати за нею.
 
-![The Remix button.](images/remix-button.png)
+--- /task ---
 
-You can change the title of your project.
+--- task ---
 
-![The project title box.](images/project-name.png)
+Якщо ти увійшов до свого облікового запису Скретчу, натисни на зелену кнопку Ремікс. Це збереже копію проєкту у твоєму обліковому записі Скретчу.
 
-**Tip:** Give your projects helpful names so that you can easily find them when you have lots of projects.
+![Кнопка ремікс.](images/remix-button.png)
 
-If you do not have a Scratch account, you can click on **File** then **Save to your computer** to save a copy of the project.
+Ти можеш змінити назву свого проєкту.
+
+![Поле назви проєкту.](images/project-name.png)
+
+**Порада:** давай проєктам зрозумілі назви, щоб їх можна було легко знайти, коли у тебе буде багато проєктів.
+
+Якщо у тебе немає облікового запису в Скретчі, ти можеш натиснути на **Файл**, а потім **Вивантажити на ваш компʼютер**, щоб зберегти копію проєкту.
 
 --- /task ---
 
