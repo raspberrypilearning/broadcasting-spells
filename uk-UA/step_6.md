@@ -1,39 +1,39 @@
-## Add another character
+## Додай ще одного персонажа
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+Додай ще один спрайт на вибір, який відповідатиме на твої заклинання. Тобі потрібно буде створити варіант жабʼячого образу для спрайту й додати код, щоб образ змінювався з передачею повідомлення про заклинання.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![Сцена, що показує друге перетворення на жабу.](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+Скопіюй спрайт **Fairy**.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+Видали образи **Фея-а** і **Фея-жаба-а**. У тебе залишиться лише образ **жаби**.
 
-Add a costume of your choice to the **new sprite**.
+Додай до **нового спрайту** будь-який образ.
 
-We chose the **Batter**:
+Ми вибрали **Batter** («Бейсболістка»):
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+Тобі може знадобитися змінити напрямок, куди дивиться спрайт.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**Порада:** якщо твій спрайт перевернувся, можна змінити його `стиль обертання`{:class="block3motion"} на `зліва-направо`{:class="block3motion"} у панелі властивостей спрайтів або за допомогою блока коду.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+Коли ти збільшуєш або зменшуєш спрайт, бажано, щоб його ноги залишалися на тому самому місці.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+Спочатку вибери інструмент **Обрати** (стрілочка), щоб накреслити прямокутник навколо образу, а потім натисни **Групувати**. Потім перетягни свого персонажа, щоб він став над прицілом.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+Клацни на образ **Жаба**.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+Перейменуй образ, щоб назва відповідала спрайту. Ми використали назву **Бейсболістка-жаба-а**.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+Якщо образ жаби дивиться в протилежну сторону від основного образу, ти можеш натиснути на **Право-ліво**.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+Тепер тобі потрібно зробити так, щоб жаба виглядала схожою на персонажа. Поєднання двох образів таким способом називається «мешап».
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+Ти можеш додати невелику деталь, як-от кольорову пляму, або скопіювати і вставити окуляри чи капелюх у редакторі малювання.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**Порада:** ти можеш додати будь-який образ до спрайту персонажа. Вибери інструмент **Обрати** (стрілочка), потім натисни на **Копія** або **Вставити**.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**Порада:** ти можеш згрупувати всі елементи образу. Вибери їх (за допомогою інструменту **Обрати** або <kbd> Ctrl-a</kbd>) і натисни **Групувати**.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+Наша Бейсболістка-жаба виглядає так: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+Перейди до вкладки **Код** для твого нового спрайта.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+Зміни всі блоки `змінити образ на`{:class="block3looks"}, щоб вони використовували правильні образи для твого спрайту.
+
+Ти також можеш змінити початковий `розмір`{:class="block3looks"} спрайту `коли зелений прапорець натиснуто`{:class="block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**Тест:** натисни на кнопки заклинань — обидва персонажі повинні реагувати на оповіщення.
+
+**Усунення помилок:** перевір, чи ти змінив/-ла образи у блоці `змінити образ на`{:class="block3looks"} для твого нового спрайту.
 
 --- /task ---
 
