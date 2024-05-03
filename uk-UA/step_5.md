@@ -1,10 +1,10 @@
-## Toad transformation
+## Перетворення на жабу
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+Настав час для ще одного заклинання. Цього разу ти застосуєш заклинання трансформації, передавши повідомлення `Жаба`{:class="block3events"}, яке перетворить спрайт **Fairy** на жабу! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+Можливо, вона готується до пригоди, де корисніше бути жабою.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+Додай скрипт до спрайту кнопки **Жаба**, щоб передати повідомлення «Жаба»:
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+Вибери спрайт **Fairy** та натисни на вкладку **Образи**.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+Щоб перетворити спрайт **Fairy** на жабу, ти використаєш образи **Фея-а** і **Фея-жаба-а**.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![Список образів, де видно, що спрайт Fairy має другий образ.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+Натисни на вкладку **Код** і додай блок `змінити образ на`{:class="block3looks"} в кінець вже наявного скрипта `коли зелений прапорець натиснуто`{:class="block3events"}, щоб коли ти запускатимеш проєкт, фея була в людській формі:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+Додай новий скрипт до спрайту **Fairy**, щоб перетворити її на жабу:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+Додай звук **Croak** («квакання» англійською) до спрайту **Wand**.
 
-Rename the sound to `toad`:
+Перейменуй звук на `Жаба`:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![Вкладка «Звуки» зі звуком Croak («квакання»).](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+Додай скрипт до спрайту **Wand**, який дозволить відтворювати звук `Жаба`{:class="block3sound"}, коли ти накладаєш заклинання перетворення на жабу:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+**Тест:** перевір, чи вдається тобі перетворити спрайт **Fairy** на жабу зі звуковим ефектом, коли ти натискаєш на кнопку **Жаба**. Натисни на зелений прапорець, щоби перетворити спрайт **Fairy** назад на людину.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![Сцена з Fairy в образі Фея-жаба-а.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+Протилежним заклинанням до «Жаби» є заклинання «Не жаба».
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+Додай скрипт до спрайту кнопки **Не жаба**, щоб `оповістити`{:class="block3events"} за допомогою повідомлення 'Не жаба'{:class="block3events"}:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+Додай новий скрипт щоб перетворити спрайт **Fairy** на `Не жабу`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+Вибери спрайт **Wand** і перейди до вкладки **Звуки**.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+Скопіюй звук **Жаба**, натиснувши **Дублювати** та зміни його назву на `Не жаба`.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+Клацни на іконку **Обернути**, щоб звук **Не жаба** відтворювався задом наперед.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![Вкладка «Звуки» з оберненим звуком «Не жаба» в списку.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+Додай скрипт до спрайту **Wand**, який дозволить відтворювати звук `Не жаба`{:class="block3sound"}:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+**Тест:** випробуй заклинання **Жаба** і **Не жаба**, а також спробуй **Зменшити** й **Збільшити** спрайт **Fairy**, коли вона перебуває у формі жаби.
 
 --- /task ---
 
