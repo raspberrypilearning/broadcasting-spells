@@ -1,32 +1,32 @@
 ---
-title: Broadcasting spells
+title: Чарівні оповіщення
 hero_image: images/banner.png
-description: Use a magic wand to choose spells and broadcast spell messages to turn sprites into toads and grow and shrink them.
-meta_title: Scratch coding projects for kids and teens | Magic spells
-meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app and use a magic wand to turn sprites into toads.
+description: Вибирай заклинання за допомогою чарівної палички та передавай повідомлення про заклинання, щоб перетворювати спрайти на жаб і змінювати їхній розмір.
+meta_title: Проєкти з кодування у Скретчі для дітей і підлітків | Чарівні заклинання
+meta_description: Вивчай Скретч за допомогою проєктів Raspberry Pi Foundation для дітей і підлітків. Створи застосунок у Скретчі та перетворюй спрайти на жаб за допомогою чарівної палички.
 version: 4
 listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Що ти зробиш
   - 
-    title: Choose your wand
+    title: Вибери свою чарівну паличку
   - 
-    title: The shrink spell
+    title: Заклинання зменшення
     completion:
       - engaged
   - 
-    title: The grow spell
+    title: Заклинання збільшення
   - 
-    title: Toad transformation
+    title: Перетворення на жабу
   - 
-    title: Add another character
+    title: Додай ще одного персонажа
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -35,6 +35,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Вдоскональ свій проєкт
   - 
-    title: What next?
+    title: Що далі?
