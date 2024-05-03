@@ -1,7 +1,7 @@
-change from 'random position'
+зміни з «випадкової позиції»
 
-in front of the buttons
+перед кнопками
 
-negative numbers decrease the size
+відʼємні числа зменшують розмір
 
-positive numbers increase the size
+додатні числа збільшують розмір
