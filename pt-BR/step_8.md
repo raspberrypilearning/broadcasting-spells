@@ -1,39 +1,39 @@
-## Upgrade your project
+## Melhore o seu projeto
 
-How will you expand your magical world? You could:
-+ Add more characters
-+ Add different sound and visual effects to the wand.
-+ Add more spells — you could make characters disappear and reappear with `hide`{:class="block3looks"} and `show`{:class="block3looks"}, apply visual effects or turn them upside down.
+Como você expandirá seu mundo mágico? Você poderia:
++ Adicionar mais personagens
++ Adicionar diferentes efeitos sonoros e visuais à varinha.
++ Adicionar mais feitiços — você poderia fazer os personagens desaparecerem e reaparecerem com `esconda`{:class="block3looks"} e `mostre`{:class="block3looks"}, aplicar efeitos visuais ou virá-los de cabeça para baixo.
 
-![A project with four sprites and added new pixelate spell buttons.](images/upgrade-step.png)
+![Um projeto com quatro atores e novos botões para o feitiço de pixelar adicionados.](images/upgrade-step.png)
 
-Why not swap characters with a friend? First, swap project links with a friend to see each other's sprites. To save their sprites, use your Scratch backpack or download the sprites to a shared area. Then go back to your project and add the saved sprites.
+Por que não trocar personagens com um amigo? Primeiro, troque os links do projeto com um amigo para ver os atores um do outro. Para salvar seus atores, use sua mochila do Scratch ou baixe os atores em uma área compartilhada. Em seguida, volte ao seu projeto e adicione os atores salvos.
 
 [[[scratch-backpack]]]
 
 --- collapse ---
 ---
-title: Download a sprite
+título: Baixe um ator
 ---
 
-You can save sprites to your computer by downloading them from your project. Right-click on a sprite in the Sprite list and choose export.
+Você pode salvar atores em seu computador baixando-os de seu projeto. Clique com o botão direito em um ator na lista de Atores e escolha exportar.
 
-![The popup menu in the sprite list.](images/export-sprite.png)
+![O menu pop-up na lista de Atores.](images/export-sprite.png)
 
-To load a sprite into a project, choose the 'Upload a Sprite' option from the 'Choose a Sprite' menu.
+Para carregar um ator em um projeto, escolha a opção ‘Enviar Ator’ no menu ‘Selecione um Ator’.
 
-![The expanded Choose a Sprite menu showing Upload a Sprite option.](images/upload-sprite.png)
+![O menu expandido Selecione um Ator mostrando a opção Enviar Ator.](images/upload-sprite.png)
 
 --- /collapse ---
 
-Create more spells with a friend and add them to your characters. Decide on which spells to create. Make sure you both use exactly the same name for the messages you broadcast.
+Crie mais feitiços com um amigo e adicione-os aos seus personagens. Decida quais feitiços criar. Certifique-se de que ambos usem exatamente o mesmo nome para as mensagens transmitidas.
 
 --- collapse ---
 ---
-title: Completed project
+title: Projeto concluído
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+Você pode ver o [projeto concluído aqui](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
 
 --- /collapse ---
 
