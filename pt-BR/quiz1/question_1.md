@@ -1,18 +1,18 @@
-## Quick quiz
+## Teste rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Responda às três perguntas. Existem dicas para guiá-lo para a resposta correta.
 
-When you have answered each question, click on **Check my answer**.
+Após responder cada pergunta, clique em **Verificar minha resposta**.
 
-Have fun!
+Divirta-se!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legenda: Pergunta 1 de 3
 ---
 
-You wrote scripts to `broadcast`{:class="block3events"} a message when a button is clicked.
+Você escreveu scripts para `transmitir`{:class="block3events"} uma mensagem quando um botão é clicado.
 
 ![](images/button-icon.png)
 
@@ -21,7 +21,7 @@ when this sprite clicked
 broadcast (invisible v)
 ```
 
-Which script would hide a sprite when the button is clicked?
+Qual script ocultaria um ator quando o botão fosse clicado?
 
 --- choices ---
 
@@ -34,7 +34,7 @@ hide
 
  --- feedback ---
 
- No, this is the default message in Scratch, but it is not the message being sent by the code.
+ Não, esta é a mensagem padrão do Scratch, mas não é a mensagem que está sendo enviada pelo código.
 
  --- /feedback ---
 
@@ -47,7 +47,7 @@ hide
 
  --- feedback ---
 
- No, the message that you need to receive is not called 'hide'.
+ Não, a mensagem que você precisa receber não se chama 'esconder'.
 
  --- /feedback ---
 
@@ -60,7 +60,7 @@ hide
 
  --- feedback ---
 
-Yes, that's correct. The `when I receive`{:class="block3events"} block needs to use exactly the same message name as the `broadcast`{:class="block3events"} block.
+Sim, está correto. O bloco `quando eu receber`{:class="block3events"} precisa usar o mesmo nome da mensagem que o bloco `transmita`{:class="block3events"}.
 
  --- /feedback ---
 
@@ -73,7 +73,7 @@ hide
 
  --- feedback ---
 
- Not quite. Scratch needs your spelling to be really accurate so the message names match. Check carefully.
+ Não exatamente. O Scratch precisa que sua ortografia seja realmente precisa para que os nomes das mensagens correspondam. Verifique com atenção.
 
  --- /feedback ---
 
