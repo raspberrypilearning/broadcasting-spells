@@ -1,8 +1,8 @@
-## The shrink spell
+## O feitiço de encolhimento
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will get the Fairy to shrink when you click on the shrink button.
+Agora você fará com que a Fada encolha ao clicar no botão encolher.
 </div>
 <div>
 ![](images/shrinking-fairy.png){:width="300px"}
@@ -11,9 +11,9 @@ Now you will get the Fairy to shrink when you click on the shrink button.
 
 --- task ---
 
-Click on the **shrink** sprite in the Sprite list below the Stage.
+Clique no ator **encolher** na lista de Atores abaixo do palco.
 
-Add a `when this sprite clicked`{:class="block3events"} block:
+Adicione o bloco `quando este ator for clicado` {:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -23,13 +23,13 @@ when this sprite clicked
 
 --- /task ---
 
-When you click on the shrink button, you want the **Fairy** sprite to shrink.
+Ao clicar no botão encolher, você quer que a atriz **Fada** encolha.
 
-The **shrink** sprite needs to `broadcast`{:class="block3events"} a `message`{:class="block3events"} so that the **Fairy** sprite knows that the shrink spell has been cast.
+O ator **encolher** precisa `transmitir`{:class="block3events"} uma `mensagem`{:class="block3events"} para que a atriz **Fada** saiba que o feitiço de encolher foi lançado.
 
 --- task ---
 
-Add a `broadcast`{:class="block3events"} block:
+Adicione um bloco `transmita`{:class="block3events"}:
 
 ![](images/shrink-icon.png)
 
@@ -42,11 +42,11 @@ when this sprite clicked
 
 --- task ---
 
-Click on `message1`{:class="block3events"} and choose 'New message'. Name the new message `shrink`.
+Clique em `mensagem 1`{:class="block3events"} e escolha 'Nova mensagem'. Nomeie a nova mensagem `encolher`.
 
-![New message dialog with shrink entered.](images/new-message.png)
+![Nova caixa de diálogo com o texto encolher.](images/new-message.png)
 
-Your code should look like this:
+Seu código deve ficar assim:
 
 ![](images/shrink-icon.png)
 
@@ -57,11 +57,11 @@ broadcast (shrink v)
 
 --- /task ---
 
-Now when you click on the **shrink** button, Scratch will `broadcast`{:class="block3events"} the `shrink`{:class="block3events"} message, but nothing will happen yet.
+Agora, quando você clicar no botão **encolher**, o Scratch irá `transmitir`{:class="block3events"} a mensagem `encolher`{:class="block3events"}, mas nada acontecerá ainda.
 
 --- task ---
 
-Add code to the **Fairy** sprite to shrink when it recieves a `shrink`{:class="block3events"} message:
+Adicione na atriz **Fada** o código para encolher quando receber uma mensagem `encolher`{:class="block3events"}:
 
 ![](images/fairy-icon.png)
 
@@ -74,15 +74,15 @@ change size by [-10] // negative numbers decrease the size
 
 --- task ---
 
-**Test:** Click on the **shrink** button to shrink the **Fairy** sprite. Do this as many times as you like.
+**Teste:** Clique no botão **encolher** para diminuir a atriz **Fada**. Faça isso quantas vezes quiser.
 
-**Debug:** If your **Fairy** sprite grows instead of shrinks, add a minus `-` before the number `10` to make a negative number `-10`.
+**Depurar:** Se a sua atriz **Fada** crescer em vez de encolher, adicione um menos `-` antes do número `10` para formar um número negativo `-10`.
 
 --- /task ---
 
 --- task ---
 
-Add a script to set the **Fairy** sprite to normal size `when the green flag`{:class="block3events"} is clicked:
+Adicione um script para voltar a atriz **Fada** para o tamanho normal `quando a bandeira verde`{:class="block3events"} for clicada:
 
 ![](images/fairy-icon.png)
 
@@ -93,25 +93,25 @@ set size to [100] %
 
 --- /task ---
 
-When messages are `broadcast`{:class="block3events"} they can be received by all sprites. When the **Wand** `receives`{:class="block3events"} the `shrink`{:class="block3events"} message it should `play a sound`{:class="block3sound"}.
+Quando as mensagens são `transmitidas`{:class="block3events"} elas podem ser recebidas por todos os atores. Quando a **Varinha ** `receber`{:class="block3events"} a mensagem `encolher`{:class="block3events"} ela deve `tocar um som`{:class="block3sound"}.
 
 --- task ---
 
-Click on the **Wand** sprite and then the **Sounds** tab.
+Clique no ator **Varinha** e depois na aba **Sons**.
 
-Add the **Slide Whistle** sound.
+Adicione o som **Slide Whistle**.
 
-Rename the sound to `shrink` so it is easy to find.
+Renomeie o som para `encolher` assim será mais fácil de encontrá-lo.
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
+![A guia Sons com o som slide whistle que foi renomeado para encolher na propriedade do Som.](images/slide-whistle.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to play the sound:
+Adicione um script para tocar o som:
 
 ![](images/wand-sprite-icon.png)
 
@@ -125,10 +125,10 @@ play sound [shrink v] until done
 
 --- task ---
 
-**Test:** Click on the green flag to run your project. Click on the **shrink** button to hear the sound and see the **Fairy** shrink.
+**Teste:** Clique na bandeira verde para executar seu projeto. Clique no botão **encolher** para ouvir o som e ver a **Fada** encolher.
 
 --- /task ---
 
-The **shrink** button `broadcast`{:class="block3events"} a `shrink`{:class="block3events"} message. Both the **Fairy** and the **Wand** sprite `received`{:class="block3events"} the message and responded.
+O botão **encolher** `transmite`{:class="block3events"} uma mensagem `encolher`{:class="block3events"}. Tanto a **Fada** quanto a **Varinha** `receberam`{:class="block3events"} a mensagem e responderam.
 
 --- save ---
