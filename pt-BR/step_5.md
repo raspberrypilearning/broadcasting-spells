@@ -1,10 +1,10 @@
-## Toad transformation
+## Transformar em sapo
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now it's time for another spell. This time you're going to cast a transformation spell by broadcasting a `toad`{:class="block3events"} message that turns the **Fairy** sprite into a toad! 
+Agora é hora para outro feitiço. Desta vez você lançará um feitiço de transformação transmitindo uma mensagem `sapo`{:class="block3events"} que transforma a atriz **Fada** em um sapo! 
 
-Maybe she's going on an adventure where being a toad will be more useful.
+Talvez ela esteja embarcando em uma aventura onde ser sapo será mais útil.
 </div>
 <div>
 ![](images/toad-transformation.png){:width="300px"}
@@ -13,7 +13,7 @@ Maybe she's going on an adventure where being a toad will be more useful.
 
 --- task ---
 
-Add a script to the **toad** button sprite to broadcast the 'toad' message:
+Adicione um script ao botão **sapo** para transmitir a mensagem 'sapo':
 
 ![](images/toad-icon.png)
 
@@ -26,17 +26,17 @@ broadcast [toad v]
 
 --- task ---
 
-Select the **Fairy** sprite and click on the **Costumes** tab.
+Selecione a atriz **Fada** e clique na aba **Fantasias**.
 
-To transform the **Fairy** sprite into a toad you will use **Fairy-a** and **Fairy-toad-a** costumes.
+Para transformar a atriz **Fada** em um sapo você usará as fantasias **Fairy-a** e **Fairy-toad-a**.
 
-![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
+![A lista de fantasias que mostram que a atriz Fada possui uma segunda fantasia.](images/toad-costume-added.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:
+Clique na guia **Código** e adicione o bloco `mude para a fantasia`{:class="block3looks"} ao final do seu script `quando a bandeira verde for clicada`{:class="block3events"} para que a Fada fique humana quando você executar seu projeto:
 
 ![](images/fairy-icon.png)
 
@@ -50,7 +50,7 @@ set size to [100] %
 
 --- task ---
 
-Add a new script to the **Fairy** sprite to turn into a toad:
+Adicione um novo script a atriz **Fada** para transformá-la em um sapo:
 
 ![](images/fairy-icon.png)
 
@@ -63,19 +63,19 @@ switch costume to [Fairy-toad-a v]
 
 --- task ---
 
-Add the **Croak** sound to the **Wand** sprite.
+Adicione o som **Croak** ao ator **Varinha**.
 
-Rename the sound to `toad`:
+Renomeie o som para `sapo`:
 
 ![](images/wand-sprite-icon.png)
 
-![The Sounds tab with Croak sound listed.](images/croak-sound-added.png)
+![A guia Sons com o som Croak listado.](images/croak-sound-added.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `toad`{:class="block3sound"} sound when the toad spell is cast:
+Adicione um script ao ator **Varinha** para tocar o som `sapo`{:class="block3sound"} quando o feitiço for lançado:
 
 ![](images/wand-sprite-icon.png)
 
@@ -88,17 +88,17 @@ play sound [toad v] until done
 
 --- task ---
 
-**Test:** Test that you can turn the **Fairy** into a toad, with a sound effect, when you click the **toad** button. Click on the green flag again to turn the **Fairy** sprite back into a human.
+Teste **:** Teste se você consegue transformar a **Fada** em um sapo, com o efeito sonoro, ao clicar no botão **sapo**. Clique na bandeira verde novamente para transformar a atriz **Fada** novamente em humana.
 
-![The Stage showing the Fairy in Fairy-toad-a costume.](images/toad-transformation.png)
+![O palco mostrando a Fada com a fantasia Fairy-toad-a.](images/toad-transformation.png)
 
 --- /task ---
 
-The opposite of a 'toad' spell is an 'untoad' spell.
+O oposto de um feitiço 'sapo' é um feitiço 'desfazer sapo'.
 
 --- task ---
 
-Add a script to the **untoad** button sprite to `broadcast`{:class="block3events"} the 'untoad'{:class="block3events"} message:
+Adicione um script ao ator do botão **desfazer sapo** para `transmitir`{:class="block3events"} a mensagem 'desfazer sapo'{:class="block3events"}:
 
 ![](images/untoad-icon.png)
 
@@ -111,7 +111,7 @@ broadcast [untoad v]
 
 --- task ---
 
-Add a new script to `untoad`{:class="block3events"} the **Fairy** sprite:
+Adicione um novo script para `desfazer a transformação de sapo`{:class="block3events"} da atriz **Fada**:
 
 ![](images/fairy-icon.png)
 
@@ -124,21 +124,21 @@ switch costume to [Fairy-a v]
 
 --- task ---
 
-Select the **Wand** sprite and switch to the **Sounds** tab.
+Selecione o ator **Varinha** e troque para a aba **Sons**.
 
-**Duplicate** the **toad** sound and rename it to `untoad`.
+**Duplique** o som **sapo** e renomeie-o para `desfazer sapo`.
 
-Click on the **Reverse** icon so that the **untoad** sound plays backwards.
+Clique no ícone **Inverter** para que o som **desfazer sapo** seja reproduzido ao contrário.
 
 ![](images/wand-sprite-icon.png)
 
-![Sounds tab with reversed untoad sound in the list.](images/untoad-sound.png)
+![Guia Sons com o som desfazer sapo invertido na lista.](images/untoad-sound.png)
 
 --- /task ---
 
 --- task ---
 
-Add a script to the **Wand** sprite to play the `untoad`{:class="block3sound"} sound:
+Adicione um script ao ator **Varinha** para reproduzir o som `desfazer sapo`{:class="block3sound"}:
 
 ![](images/wand-sprite-icon.png)
 
@@ -151,7 +151,7 @@ play sound [untoad v] until done
 
 --- task ---
 
-**Test:** Try the **toad** and **untoad** spells, and try **shrink** and **grow** when the **Fairy** is in toad form.
+Teste **:** Experimente os feitiços **sapo** e **desfazer sapo**, e tente **encolher** e **crescer** quando a **Fada** estiver na forma de sapo.
 
 --- /task ---
 
