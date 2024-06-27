@@ -1,39 +1,39 @@
-## Add another character
+## Adicione outro personagem
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Get a sprite of your choice to respond to the spells. You will need to create a toad costume 'mash-up' for the sprite, and add code so the costume changes when the spell messages are broadcast.
+Escolha um ator de sua preferência para responder aos feitiços. Você terá que criar uma 'mistura' para a fantasia de sapo do ator e adicionar código para que a fantasia mude quando as mensagens de feitiço forem transmitidas.
 </div>
 <div>
-![The Stage showing a second toad transformation.](images/another-character.png){:width="300px"}
+![O palco mostrando a segunda transformação de sapo.](images/another-character.png){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Duplicate the **Fairy** sprite.
+Duplique a atriz **Fada**.
 
 ![](images/duplicate-fairy.png)
 
-Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+Apague as fantasias **Fairy-a** e **Fairy-toad-a**. Só restará a fantasia de **sapo**.
 
-Add a costume of your choice to the **new sprite**.
+Adicione uma fantasia de sua escolha ao **novo ator**.
 
-We chose the **Batter**:
+Escolhemos o **Batter**:
 
 ![](images/batter-on-stage.png)
 
-You might want to change the direction the sprite is pointing in.
+Você pode querer mudar a direção para a qual o ator está apontando.
 
-**Tip:** If your sprite goes upside down you can change its `rotation-style`{:class="block3motion"} to `left-right`{:class="block3motion"} in the Sprite properties pane or using a code block.
+**Dica:** Se o seu ator ficar de cabeça para baixo, você pode alterar seu `estilo de rotação`{:class="block3motion"} para `esquerda-direita`{:class="block3motion"} no painel de propriedades do Ator ou utilizando um bloco de código.
 
 --- /task ---
 
-When you grow or shrink a sprite, you want the feet to stay in the same place.
+Ao crescer ou encolher um ator, você deseja que os pés permaneçam no mesmo lugar.
 
 --- task ---
 
-First use the **Select** (arrow) tool to draw a rectangle around the costume and then **Group** it. Then drag your character above the crosshair.
+Primeiro use a ferramenta **Selecionar** (seta) para desenhar um retângulo ao redor da fantasia e depois **Agrupar**. Em seguida, arraste seu personagem acima da mira.
 
 ![](images/character2-crosshair.png)
 
@@ -41,9 +41,9 @@ First use the **Select** (arrow) tool to draw a rectangle around the costume and
 
 --- task ---
 
-Click on the **toad** costume.
+Clique na fantasia de **sapo**.
 
-Rename the costume to match your sprite, we used **Batter-toad-a**.
+Renomeie a fantasia para combinar com seu ator, usamos **Batter-toad-a**.
 
 ![](images/batter-toad-a-added.png)
 
@@ -51,43 +51,43 @@ Rename the costume to match your sprite, we used **Batter-toad-a**.
 
 --- task ---
 
-If the toad costume is facing the opposite way to the main costume you can use **Flip Horizontal**.
+Se a fantasia de sapo estiver voltada para o lado oposto da fantasia principal, você pode usar **Espelhar Horizontal**.
 
 ![](images/flip-horizontal.png)
 
 --- /task ---
 
-Now you need to make the toad look like the character. Combining two costumes in this way is called a 'mash-up'.
+Agora você precisa fazer o sapo se parecer com o personagem. Combinar duas fantasias desta forma é chamado 'mash-up'.
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+Você pode adicionar um detalhe, como um toque de cor, ou copiar e colar óculos de sol ou um chapéu no editor Paint.
 
-**Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
+**Dica:** Você pode adicionar qualquer fantasia ao seu ator. Use a ferramenta **Selecionar** (seta) e clique em **Copiar** ou **Colar**.
 
 ![](images/editing-options.png)
 
-**Tip:** You can group all the objects in a costume. Select them (with the **Select** tool or <kbd> Ctrl-a</kbd>) and then click **Group**.
+**Dica:** Você pode agrupar todos os objetos em uma fantasia. Selecione-os (com a ferramenta **Selecionar** ou <kbd> Ctrl-a</kbd>) e clique em **Agrupar**.
 
-Our Batter toad looks like: ![](images/batter-toad.png)
-
---- /task ---
-
---- task ---
-
-Switch to the **Code** tab for your new sprite.
-
-Change all of the `switch costume`{:class="block3looks"} blocks to use the correct costumes for your new sprite.
-
-You might also want to change the start `size`{:class="block3looks"} of the sprite `when green flag clicked`{:class="block3events"}.
+A aparência do nosso sapo batedor: ![](images/batter-toad.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click on the spell buttons — both characters should respond to the spell broadcasts.
+Mude para a guia **Código** para seu novo ator.
 
-**Debug:** Check that you have changed the costumes in the `switch costume`{:class="block3looks"} blocks for your new sprite.
+Altere todos os blocos `mude para a fantasia`{:class="block3looks"} para usar as fantasias corretas para seu novo ator.
+
+Você também pode querer alterar o `tamanho`{:class="block3looks"} inicial do ator `quando a bandeira verde for clicada`{:class="block3events"}.
+
+--- /task ---
+
+--- task ---
+
+**Teste:** Clique nos botões de feitiço — ambos os personagens devem responder às transmissões de feitiço.
+
+**Depurar:** Verifique se você mudou as fantasias nos blocos `mude para a fantasia`{:class="block3looks"} para seu novo ator.
 
 --- /task ---
 
