@@ -1,0 +1,31 @@
+---
+title: Transmitindo feitiços
+hero_image: images/banner.png
+description: Use a varinha mágica para escolher feitiços e lançar mensagens mágicas para transformar sprites em sapos, aumentar ou diminuí-los.
+meta_title: Projetos de codificação Scratch para crianças e adolescentes | Feitiços mágicos
+meta_description: Aprenda Scratch com os projetos de codificação da Raspberry Pi Foundation para crianças e adolescentes. Faça um aplicativo Scratch e use uma varinha mágica para transformar atores em sapos.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Você vai fazer
+  - title: Escolha sua varinha
+  - title: O feitiço de encolher
+    completion:
+      - engaged
+  - title: O feitiço de crescer
+  - title: Transformar em sapo
+  - title: Adicione outro personagem
+    completion:
+      - internal
+  - title: Perguntas rápidas
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Melhore o seu projeto
+  - title: E agora?
