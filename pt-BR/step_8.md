@@ -13,7 +13,7 @@ Por que não trocar personagens com um amigo? Primeiro, troque os links do proje
 
 --- collapse ---
 ---
-título: Baixe um ator
+title: Baixe um ator
 ---
 
 Você pode salvar atores em seu computador baixando-os de seu projeto. Clique com o botão direito em um ator na lista de Atores e escolha exportar.
@@ -33,7 +33,7 @@ Crie mais feitiços com um amigo e adicione-os aos seus personagens. Decida quai
 title: Projeto concluído
 ---
 
-Você pode ver o [projeto concluído aqui](https://scratch.mit.edu/projects/518413238/){:target="_blank"}.
+Você pode ver o [projeto concluído aqui](https://scratch.mit.edu/projects/1043074509/){:target="_blank"}.
 
 --- /collapse ---
 

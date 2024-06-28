@@ -16,7 +16,7 @@ Nesta etapa, você definirá o cenário, escolherá sua varinha e criará sua pr
 
 --- task ---
 
-Abra o [Transmitindo feitiços projeto inicial](https://scratch.mit.edu/projects/518441891/editor){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
+Abra o [Transmitindo feitiços projeto inicial](https://scratch.mit.edu/projects/1043072781/editor){:target="_blank"}. O Scratch será aberto em outra aba do navegador.
 
 [[[working-offline]]]
 
