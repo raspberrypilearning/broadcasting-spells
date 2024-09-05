@@ -1,0 +1,40 @@
+---
+title: Messaggi incantati
+hero_image: images/banner.png
+description: Usa una bacchetta magica per scegliere gli incantesimi e trasmettere messaggi di incantesimi per trasformare gli sprite in rospi e farli crescere e rimpicciolire.
+meta_title: Progetti di coding in Scratch per bambini e adolescenti | Incantesimi magici
+meta_description: Impara Scratch con i progetti di programmazione della Raspberry Pi Foundation per bambini e adolescenti. Crea un'app Scratch e usa una bacchetta magica per trasformare gli sprite in rospi.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - 
+    title: Quello che farai
+  - 
+    title: Scegli la tua bacchetta
+  - 
+    title: L'incantesimo di rimpicciolimento
+    completion:
+      - engaged
+  - 
+    title: L'incantesimo della crescita
+  - 
+    title: Trasformazione in rospo
+  - 
+    title: Aggiungi un altro personaggio
+    completion:
+      - internal
+  - 
+    title: Quiz veloce
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - 
+    title: Migliora il tuo progetto
+  - 
+    title: E adesso?
