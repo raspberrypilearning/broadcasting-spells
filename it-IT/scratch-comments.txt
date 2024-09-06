@@ -1,0 +1,7 @@
+cambia da 'posizione casuale'
+
+davanti ai pulsanti
+
+i numeri negativi diminuiscono la dimensione
+
+i numeri positivi aumentano le dimensioni

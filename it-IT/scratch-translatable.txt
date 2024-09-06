@@ -1,0 +1,19 @@
+cambia da 'posizione casuale'
+
+davanti ai pulsanti
+
+riduci
+
+i numeri negativi diminuiscono la dimensione
+
+cresci
+
+i numeri positivi aumentano le dimensioni
+
+rospo
+
+non rospo
+
+invisibile
+
+nascondi
