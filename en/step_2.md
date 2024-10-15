@@ -80,13 +80,21 @@ Go to the Sprite pane and change the **Size** property to `200` to make the wand
 
 Click on the **Costumes** tab to open the Wand costume in the Paint editor.
 
+--- /task ---
+
+--- task ---
+
 Click on the **Select** (Arrow) tool and then draw a rectangle around the whole wand to select all of the parts of the costume. 
 
 ![Wand costumes grouped.](images/the-select-tool.png)
 
 ![Wand costumes grouped.](images/grouped-costumes.png)
 
-Then click on the **Group** icon to combine the wand parts.
+--- /task ---
+
+--- task ---
+
+Click on the **Group** icon to combine the wand parts.
 
 ![Wand costumes grouped.](images/group-icon.png)
 

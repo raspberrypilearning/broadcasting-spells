@@ -15,7 +15,13 @@ Duplicate the **Fairy** sprite.
 
 ![](images/duplicate-fairy.png)
 
+--- /task ---
+
+--- task ---
+
 Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **toad** costume.
+
+--- /task ---
 
 Add a costume of your choice to the **new sprite**. 
 
