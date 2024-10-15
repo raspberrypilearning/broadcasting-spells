@@ -5,14 +5,20 @@
 legend: Question 2 of 3
 ---
 
-In your project, clicking on a button broadcasts a message. Which sprite or sprites would change size when the grow button is clicked?
+A project uses this grow button.
 
 ![](images/grow-icon.png)
+
+This code is used on the grow button:
 
 ```blocks3
 when this sprite clicked
 broadcast (grow v)
 ``` 
+
+Two other sprites are also used in the project.
+
+They are shown here with their code below each one:
 
 ![](images/Ripley-icon.png)
 
@@ -27,6 +33,8 @@ change size by [10]
 when I receive [grow v]
 change size by [10]
 ``` 
+
+Which would change size when the grow button is clicked?
 
 --- choices ---
 

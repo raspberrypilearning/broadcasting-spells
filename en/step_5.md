@@ -35,8 +35,6 @@ To transform the **Fairy** sprite into a toad you will use the **Fairy-a** and *
 
 ![The list of Costumes showing the Fairy sprite has a second costume.](images/toad-costume-added.png)
 
---- /task ---
-
 --- task ---
 
 Click on the **Code** tab and add a `switch costume to`{:class="block3looks"} block to the end of your existing `when flag clicked`{:class="block3events"} script so the Fairy is in human form when you run your project:

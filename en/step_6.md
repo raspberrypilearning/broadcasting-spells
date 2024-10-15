@@ -23,6 +23,8 @@ Delete the **Fairy-a** and **Fairy-toad-a** costumes. You will be left with a **
 
 --- /task ---
 
+--- task ---
+
 Add a costume of your choice to the **new sprite**. 
 
 We chose the **Batter**:
@@ -67,7 +69,7 @@ Now you need to make the toad look like the character. Combining two costumes in
 
 --- task ---
 
-You could add a small detail, like a splash of colour, or copy and paste sunglasses or a hat in the Paint editor.
+You can use the Paint editor to add a small detail, like a splash of colour, or a hat!
 
 **Tip:** You can add any costume to your character sprite. Use the **Select** (arrow) tool then click on **Copy** or **Paste**.
 

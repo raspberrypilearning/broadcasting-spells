@@ -1,6 +1,8 @@
-# broadcasting-spells
+# Broadcasting spells
 
-![broadcasting-spells](banner.png)
+![Broadcasting spells](en/images/banner.png)
+
+Make an app where you use a magic wand to turn sprites into toads, and grow and shrink them.
 
 Find the project online at [projects.raspberrypi.org/en/projects/broadcasting-spells](https://projects.raspberrypi.org/en/projects/broadcasting-spells)
 
@@ -11,4 +13,4 @@ For project materials and solutions, see [en/resources](https://github.com/raspb
 See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Licence
- See [LICENCE.md](LICENCE.md)
+See [LICENCE.md](LICENCE.md)

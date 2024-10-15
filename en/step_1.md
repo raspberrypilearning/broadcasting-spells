@@ -1,15 +1,8 @@
-## You will make
+## What you will make
 
 Make an app where you use a magic wand to turn sprites into toads, and grow and shrink them.
 
-You will:
-+ Create buttons that `broadcast`{:class="block3events"} messages to other sprites
-+ Get multiple sprites to respond when they `receive`{:class="block3events"} the same message
-+ Use the `Sound`{:class="block3sound"} blocks menu to reverse sounds
-
 --- no-print ---
-
-### Play ▶️
 
 --- task ---
  

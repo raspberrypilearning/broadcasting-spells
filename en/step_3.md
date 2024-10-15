@@ -61,15 +61,15 @@ Now when you click on the **shrink** button, Scratch will `broadcast`{:class="bl
 
 --- task ---
 
-Click on the shrink sprite in the Sprite list below the Stage.
+Click on the **Fairy** sprite in the Sprite list below the Stage.
+
+![](images/fairy-icon.png)
 
 --- /task ---
 
 --- task ---
 
 Add code to the **Fairy** sprite to shrink when it receives a `shrink`{:class="block3events"} message:
-
-![](images/fairy-icon.png)
 
 ```blocks3
 when I receive [shrink v]
@@ -120,6 +120,8 @@ Add the **Slide Whistle** sound and rename it to `shrink`.
 ![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
 
 --- /task ---
+
+--- task ---
 
 Add a script to play the sound:
 
