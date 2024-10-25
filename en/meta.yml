@@ -11,7 +11,7 @@ listed: true
 copyedit: false
 last_tested: "2021-03-26"
 steps:
-  - title: You will make
+  - title: What you will make
   - title: Choose your wand
   - title: The shrink spell
     completion:
