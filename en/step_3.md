@@ -115,6 +115,12 @@ Click the **Sounds** tab.
 
 --- task ---
 
+Delete the Magic Spell sound.
+
+--- /task ---
+
+--- task ---
+
 Add the **Slide Whistle** sound and rename it to `shrink`.
 
 ![The Sounds tab with added slide whistle sound renamed to shrink in the Sound property.](images/slide-whistle.png)
