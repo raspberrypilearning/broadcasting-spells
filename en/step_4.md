@@ -39,21 +39,27 @@ change size by [10] // positive numbers increase the size
 
 You can reverse the 'shrink' sound to make a 'grow' sound!
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Songs played backwards quizzes**</span> are music quizzes with a twist. The tracks are reversed, and contestants have to guess the original song — it is not as easy as it sounds. 
-</p>
+--- task ---
+
+Select the **Wand** sprite.
+
+![](images/wand-icon.png)
+
+Click on the **Sounds** tab.
+
+--- /task ---
 
 --- task ---
 
-Select the **Wand** sprite and click on the **Sounds** tab.
-
-Right-click (or tap and hold) the **shrink** sound and choose **duplicate**. 
-
-![](images/wand-icon.png)
+Right-click (or tap and hold) the **shrink** sound and choose **duplicate**.
 
 ![The shrink sound with popup menu showing duplicate.](images/duplicate-sound.png)
 
 Name the copy `grow`.
+
+--- /task ---
+
+--- task ---
 
 Click on the **Reverse** icon to make the sound play backwards.
 
@@ -64,8 +70,6 @@ Click on the **Reverse** icon to make the sound play backwards.
 --- task ---
 
 Add a script to the **Wand** sprite to play the `grow`{:class="block3sound"} sound when the `grow`{:class="block3events"} message is received:
-
-![](images/wand-icon.png)
 
 ```blocks3
 when I receive [grow v]

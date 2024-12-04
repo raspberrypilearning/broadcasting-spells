@@ -4,7 +4,7 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 
 --- print-only ---
 
-![Dragonfly project](images/dragonfly-project.png)
+![Dragonfly project](/en/images/dragonfly-project.png)
 
 --- /print-only ---
 
@@ -15,4 +15,3 @@ If you are following the [More Scratch](https://projects.raspberrypi.org/en/rasp
 </div>
 
 --- /no-print ---
-
