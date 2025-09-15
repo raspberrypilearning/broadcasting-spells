@@ -4,6 +4,7 @@ hero_image: images/banner.png
 description:
   Use a magic wand to choose spells and broadcast spell messages to turn
   sprites into toads and grow and shrink them.
+pdf: resources/rpfi-broadcasting-spells.pdf
 meta_title: Scratch coding projects for kids and teens | Magic spells
 meta_description: Learn Scratch with the Raspberry Pi Foundation's coding projects for kids and teens. Make a Scratch app and use a magic wand to turn sprites into toads.
 version: 4
